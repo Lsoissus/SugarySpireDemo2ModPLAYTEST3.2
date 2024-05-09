@@ -9,8 +9,6 @@ function scr_collide_destructibles()
 				DestroyedBy = other.id;
 				event_user(0);
 			}
-			if (state == states.mach2)
-				machpunchAnim = true;
 		}
 		if (place_meeting(x + sign(hsp), y, obj_destructibles))
 		{
@@ -19,8 +17,6 @@ function scr_collide_destructibles()
 				DestroyedBy = other.id;
 				event_user(0);
 			}
-			if (state == states.mach2)
-				machpunchAnim = true;
 		}
 		if (place_meeting(x + xscale, y, obj_destructibles))
 		{
@@ -29,8 +25,6 @@ function scr_collide_destructibles()
 				DestroyedBy = other.id;
 				event_user(0);
 			}
-			if (state == states.mach2)
-				machpunchAnim = true;
 		}
 	}
 	if ((state == states.knightpep || state == states.machtumble || state == states.superslam || state == states.puddle || state == states.hookshot) && vsp >= 0)
@@ -99,12 +93,6 @@ function scr_collide_destructibles()
 			{
 				with (obj_player)
 				{
-					if (place_meeting(x, y + vsp + 2, obj_bigdestructibles) && state != states.puddle && freefallsmash <= 10)
-					{
-						state = states.freefallland;
-						sprite_index = spr_player_bodyslamland;
-						image_index = 0;
-					}
 				}
 				DestroyedBy = other.id;
 				event_user(0);
@@ -147,15 +135,6 @@ function scr_collide_destructibles()
 		{
 			if (place_meeting(x - obj_player.hsp, y, obj_player))
 			{
-				with (obj_player)
-				{
-					hsp = -xscale * 4;
-					vsp = -4;
-					mach2 = 0;
-					image_index = 0;
-					sprite_index = choose(spr_player_blockbreak1, spr_player_blockbreak2, spr_player_blockbreak3, spr_player_blockbreak4, spr_player_blockbreak5, spr_player_blockbreak6, spr_player_blockbreak7);
-					state = states.tackle;
-				}
 				DestroyedBy = other.id;
 				event_user(0);
 			}
