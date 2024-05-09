@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 2,
   "conversionMode": 0,
-  "duration": 255.941,
+  "duration": 200.04572,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "mu_escape.ogg",
+  "soundFile": "mu_escape.mp3",
   "type": 1,
   "volume": 1.0,
 }

@@ -2,9 +2,9 @@ if (playerid.state != states.mach3 && playerid.state != states.hookshot && playe
 	vanish = true;
 if (vanish)
 {
-	if (gonealpha > 0)
-		gonealpha -= 0.15;
-	else if (gonealpha <= 0)
+	if (image_alpha > 0)
+		image_alpha -= 0.15;
+	else if (image_alpha <= 0)
 		instance_destroy();
 }
 visible = playerid.visible;

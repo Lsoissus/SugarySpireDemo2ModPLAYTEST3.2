@@ -12,7 +12,7 @@ function scr_player_crouchslide()
 		movespeed += 4.5
 		state = states.mach2;
 		vsp = -9
-		sprite_index = spr_mach2jump
+		sprite_index = spr_player_longjump
 	}
 	if (key_attack2 && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16))
 	{

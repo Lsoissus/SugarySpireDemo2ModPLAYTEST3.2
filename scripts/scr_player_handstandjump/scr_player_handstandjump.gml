@@ -55,7 +55,7 @@ function scr_player_handstandjump()
 			if (key_jump && grounded)
 			{
 				movespeed += 2.35
-				sprite_index = spr_mach2jump;
+				sprite_index = spr_player_longjump;
 				instance_create(x, y, obj_jumpdust);
 				state = states.mach2;
 				vsp = -9;
