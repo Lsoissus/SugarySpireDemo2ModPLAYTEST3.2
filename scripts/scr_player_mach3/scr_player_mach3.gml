@@ -72,6 +72,8 @@ function scr_player_mach3()
 				image_index = 0;
 				mach2 = 0;
 			}
+			if (sprite_index == spr_player_superjump_cancel && grounded)
+				sprite_index = spr_player_mach4
 			if ((move != 0 && xscale != move && grounded) && Dashpad_buffer <= 0)
 			{
 				scr_sound(sound_maximumspeedstop);

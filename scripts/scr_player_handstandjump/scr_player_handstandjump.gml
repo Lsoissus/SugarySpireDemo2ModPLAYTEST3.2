@@ -10,8 +10,8 @@ function scr_player_handstandjump()
 			grav = 0;
 			momemtum = true;
 			dir = xscale;
-			if (image_index < 2)
-				movespeed = 12;
+			if movespeed <= 12
+			movespeed = 12
 			if (image_index > 7)
 				movespeed -= 1;
 			if (move != xscale && move != 0)
@@ -54,7 +54,7 @@ function scr_player_handstandjump()
 			}
 			if (key_jump && grounded)
 			{
-				movespeed = 10;
+				movespeed += 2.35
 				sprite_index = spr_mach2jump;
 				instance_create(x, y, obj_jumpdust);
 				state = states.mach2;
@@ -85,8 +85,6 @@ function scr_player_handstandjump()
 	}
 	if (key_attack && floor(image_index) == (image_number - 1) && sprite_index != spr_player_bump)
 	{
-		movespeed = 10;
-		mach2 = 20;
 		state = states.mach2;
 		sprite_index = spr_mach;
 	}

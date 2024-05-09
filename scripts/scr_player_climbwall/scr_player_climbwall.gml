@@ -5,7 +5,7 @@ function scr_player_climbwall()
 	suplexmove = false;
 	vsp = -wallspeed;
 	if (wallspeed > 0)
-		wallspeed -= 0.25;
+		wallspeed += 0.05;
 	crouchslideAnim = true;
 	sprite_index = spr_climbwall;
 	if (wallspeed <= 0 || !key_attack)
@@ -45,26 +45,11 @@ function scr_player_climbwall()
 	}
 	if (key_jump && key_attack)
 	{
-		if (mach2 >= 100)
-		{
-			mach2 = 100;
 			instance_create(x, y, obj_jumpdust);
 			vsp = -9;
 			sprite_index = spr_player_mach4;
 			state = states.mach3;
-			if (global.starrmode)
-				state = states.mach2;
 			xscale *= -1;
-		}
-		else
-		{
-			sprite_index = spr_player_mach2jump;
-			mach2 = 35;
-			instance_create(x, y, obj_jumpdust);
-			vsp = -9;
-			state = states.mach2;
-			xscale *= -1;
-		}
 	}
 	image_speed = 0.6;
 	if (!instance_exists(obj_cloudeffect))

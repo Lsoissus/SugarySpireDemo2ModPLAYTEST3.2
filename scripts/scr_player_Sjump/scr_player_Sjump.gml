@@ -56,18 +56,18 @@ function scr_player_Sjump()
 	image_speed = 0.5;
 	if (key_attack2 && !grounded && vsp < -10 && character == "P")
 	{
-		if (move != 0)
-			xscale = move;
-		movespeed = 12;
-		machhitAnim = false;
-		state = states.mach3;
-		flash = true;
-		vsp = -5;
-		image_index = 0;
-		sprite_index = spr_player_dashpad;
-		with (instance_create(x, y, obj_jumpdust))
-			image_xscale = other.xscale;
+        sprite_index = spr_player_superjump_cancelprep
+        vsp = 0
+        scr_sound(sound_superjumpcancel)
 	}
+	if sprite_index == spr_player_superjump_cancelprep
+		vsp = 0
+	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_superjump_cancelprep)
+    {
+        movespeed = 14
+        state = states.mach3
+        sprite_index = spr_player_superjump_cancel
+    }
 	if (key_slap2 && !grounded && vsp < -10 && character == "N")
 	{
 		flash = true;
