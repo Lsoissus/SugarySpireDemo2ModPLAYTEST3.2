@@ -77,13 +77,23 @@ if (!global.panic)
 			audio_sound_set_track_position(global.music, fadeoff * audio_sound_length(global.music));
 		}
 	}
-	if (string_letters(roomname) == "molasses" || string_letters(roomname) == "molassesb" || string_letters(roomname) == "molassesc" || string_letters(roomname) == "molassesd")
+	if (string_letters(roomname) == "molasses")
 	{
 		if (!audio_is_playing(mu_swamp))
 		{
 			audio_stop_all_music();
 			scr_music(mu_swamp);
 			pausedmusic = mu_swamp;
+			audio_sound_set_track_position(global.music, fadeoff * audio_sound_length(global.music));
+		}
+	}
+	if (string_letters(roomname) == "molassesB")
+	{
+		if (!audio_is_playing(mu_swampB))
+		{
+			audio_stop_all_music();
+			scr_music(mu_swampB);
+			pausedmusic = mu_swampB;
 			audio_sound_set_track_position(global.music, fadeoff * audio_sound_length(global.music));
 		}
 	}
