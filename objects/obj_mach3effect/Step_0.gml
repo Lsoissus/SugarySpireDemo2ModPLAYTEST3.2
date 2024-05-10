@@ -1,4 +1,4 @@
-visible = playerid.visible
+visible = obj_player.visible
 if (color == 1)
     realcol = make_color_rgb(232, 80, 152)
 else if (color == 2)

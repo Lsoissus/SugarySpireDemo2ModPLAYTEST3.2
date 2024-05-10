@@ -37,12 +37,6 @@ if (DestroyedBy.object_index == obj_player)
 						instance_create(x + 32, y + 32, obj_debris);
 				}
 			}
-			hsp = -xscale * 4;
-			vsp = -4;
-			mach2 = 0;
-			image_index = 0;
-			sprite_index = choose(spr_player_blockbreak1, spr_player_blockbreak2, spr_player_blockbreak3, spr_player_blockbreak4, spr_player_blockbreak5, spr_player_blockbreak6, spr_player_blockbreak7);
-			state = states.tackle;
 		}
 	}
 	else

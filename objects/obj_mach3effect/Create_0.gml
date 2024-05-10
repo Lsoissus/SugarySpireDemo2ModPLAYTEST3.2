@@ -1,4 +1,3 @@
-scr_pal_swap_init_system(0)
 playerid = 87
 image_speed = 0
 image_alpha = 0.85

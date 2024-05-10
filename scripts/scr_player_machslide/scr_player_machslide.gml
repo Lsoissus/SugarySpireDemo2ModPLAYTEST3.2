@@ -26,7 +26,11 @@ function scr_player_machslide()
 		state = states.normal;
 		movespeed = 4;
 	}
-	if (floor(image_index) == (image_number - 1) && sprite_index == spr_machslideboost && mach2 != 0)
+	if (floor(image_index) == (image_number - 1) && sprite_index == spr_machslideboost && mach2 != 0 && !grounded)
+		sprite_index = spr_player_machturnfall
+	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_machslideboost3 && mach2 != 0 && !grounded)
+		sprite_index = spr_player_mach3turnfall
+	if (floor(image_index) = (image_number - 1) && sprite_index == spr_machslideboost && mach2 != 0 && grounded)
 	{
 		movespeed = 10;
 		momemtum = true;
@@ -35,7 +39,27 @@ function scr_player_machslide()
 		xscale *= -1;
 		instance_create(x, y, obj_jumpdust);
 	}
-	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_machslideboost3 && mach2 != 0)
+	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_machturnfall && mach2 != 0 && grounded)
+	{
+		movespeed = 10;
+		momemtum = true;
+		state = states.mach2;
+		image_index = 0;
+		xscale *= -1;
+		instance_create(x, y, obj_jumpdust);
+	}
+		if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_mach3turnfall && mach2 != 0 && grounded)
+	{
+		movespeed = 12;
+		sprite_index = spr_player_mach4;
+		scr_sound(sound_dash2);
+		momemtum = true;
+		state = states.mach3;
+		image_index = 0;
+		xscale *= -1;
+		instance_create(x, y, obj_jumpdust);
+	}
+	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_machslideboost3 && mach2 != 0 && grounded)
 	{
 		movespeed = 12;
 		sprite_index = spr_player_mach4;
