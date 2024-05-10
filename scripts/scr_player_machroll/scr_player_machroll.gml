@@ -13,7 +13,7 @@ function scr_player_machroll()
 		sprite_index = spr_player_machroll;
 	if (((!key_down && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16)) || !grounded) && character == "P")
 	{
-		sprite_index = spr_player_mach4;
+		sprite_index = spr_player_mach3;
 		state = states.mach3;
 	}
 	if (scr_solid(x + 1, y) && xscale == 1 && !place_meeting(x + sign(hsp), y, obj_slope) && !place_meeting(x + sign(hsp), y, obj_destructibles))

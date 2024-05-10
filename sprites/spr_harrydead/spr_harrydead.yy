@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_harrydead",
   "bbox_bottom": 223,
-  "bbox_left": 40,
-  "bbox_right": 197,
+  "bbox_left": 31,
+  "bbox_right": 178,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"73434a43-f293-46f2-b5cd-7299e006909e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e33f76e7-668d-4b1c-9af8-4065efc1bd40",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 224,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"83ff96c4-274e-4643-bf86-fc3f1e33c456","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3980595f-5178-48bd-a5a2-06f6793411ec","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"73434a43-f293-46f2-b5cd-7299e006909e","path":"sprites/spr_harrydead/spr_harrydead.yy",},},},"Disabled":false,"id":"1b7bd6ae-fdf7-428b-ae1c-62fa280443bb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e33f76e7-668d-4b1c-9af8-4065efc1bd40","path":"sprites/spr_harrydead/spr_harrydead.yy",},},},"Disabled":false,"id":"8ae1b2f9-f6a0-40a0-8383-2d82499c5f5b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -42,9 +42,9 @@ function scr_player_mach3()
 				vsp = -9;
 			}
 			if (sprite_index == spr_player_mach3jump && floor(image_index) == (image_number - 1))
-				sprite_index = spr_player_mach4;
+				sprite_index = spr_player_mach3;
 			if (floor(image_index) == (image_number - 1) && (sprite_index == spr_player_rollgetup || sprite_index == spr_player_dashpad))
-				sprite_index = spr_player_mach4;
+				sprite_index = spr_player_mach3;
 			if ((movespeed > 20 && sprite_index != spr_player_crazyrun) && sprite_index != spr_player_dive && sprite_index != spr_player_rollgetup)
 			{
 				flash = true;
@@ -73,7 +73,7 @@ function scr_player_mach3()
 				mach2 = 0;
 			}
 			if (sprite_index == spr_player_superjump_cancel && grounded)
-				sprite_index = spr_player_mach4
+				sprite_index = spr_player_mach3
 			if ((move != 0 && xscale != move && grounded) && Dashpad_buffer <= 0)
 			{
 				scr_sound(sound_maximumspeedstop);
@@ -95,11 +95,11 @@ function scr_player_mach3()
 				state = states.machroll;
 			}
 			if (sprite_index == spr_player_dive && grounded)
-				sprite_index = spr_player_mach4;
+				sprite_index = spr_player_mach3;
 			if (!key_down && sprite_index == spr_player_dive && !grounded)
 			{
 				vsp = 15;
-				sprite_index = spr_player_mach4;
+				sprite_index = spr_player_mach3;
 			}
 			if (((!grounded && !place_meeting(x + hsp, y, obj_metalblock)) && scr_solid(x + hsp, y, true) && !place_meeting(x + hsp, y, obj_destructibles) && !scr_slope_ext(x + sign(hsp), y)) || (grounded && (scr_solid(x + sign(hsp), y - 2, true) && !scr_slope_ext(x + sign(hsp), y - 1)) && (!place_meeting(x + hsp, y, obj_metalblock) && !place_meeting(x + hsp, y, obj_destructibles)) && scr_slope()))
 			{
@@ -155,7 +155,7 @@ function scr_player_mach3()
 				instance_create(x, y, obj_chargeeffect);
 			if (!instance_exists(obj_superdashcloud) && grounded)
 				instance_create(x, y, obj_superdashcloud);
-			if (sprite_index == spr_player_mach4)
+			if (sprite_index == spr_player_mach3)
 				image_speed = 0.4;
 			if (sprite_index == spr_player_crazyrun)
 				image_speed = 0.55;
