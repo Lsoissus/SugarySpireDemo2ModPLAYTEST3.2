@@ -73,7 +73,7 @@ function scr_player_mach3()
 				mach2 = 0;
 			}
 			if (sprite_index == spr_player_superjump_cancel && grounded)
-				sprite_index = spr_player_mach3
+				sprite_index = spr_player_mach4
 			if ((move != 0 && xscale != move && grounded) && Dashpad_buffer <= 0)
 			{
 				scr_sound(sound_maximumspeedstop);
@@ -95,7 +95,7 @@ function scr_player_mach3()
 				state = states.machroll;
 			}
 			if (sprite_index == spr_player_dive && grounded)
-				sprite_index = spr_player_mach3;
+				sprite_index = spr_player_mach4;
 			if (!key_down && sprite_index == spr_player_dive && !grounded)
 			{
 				vsp = 15;
