@@ -26,7 +26,7 @@ function scr_characterspr()
 		spr_keyget = spr_player_keyget;
 		spr_crouchslip = spr_player_machslide;
 		spr_mach1 = spr_player_mach1;
-		spr_mach = spr_player_mach2;
+		spr_mach = spr_player_mach;
 		spr_secondjump1 = spr_player_secondjump1;
 		spr_secondjump2 = spr_player_secondjump2;
 		spr_machslidestart = spr_player_machslidestart;
@@ -202,7 +202,7 @@ function scr_characterspr()
 		spr_keyget = spr_player_keyget;
 		spr_crouchslip = spr_player_machslide;
 		spr_mach1 = spr_player_mach1;
-		spr_mach = spr_player_mach2;
+		spr_mach = spr_player_mach;
 		spr_secondjump1 = spr_player_secondjump1;
 		spr_secondjump2 = spr_player_secondjump2;
 		spr_machslidestart = spr_player_machslidestart;

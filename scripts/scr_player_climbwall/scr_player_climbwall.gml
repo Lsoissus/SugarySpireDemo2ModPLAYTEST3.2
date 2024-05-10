@@ -24,7 +24,7 @@ function scr_player_climbwall()
 		else if (mach2 >= 100)
 		{
 			state = states.mach3;
-			sprite_index = spr_player_mach3;
+			sprite_index = spr_player_mach4;
 		}
 		else
 		{
@@ -49,7 +49,7 @@ function scr_player_climbwall()
 	{
 			instance_create(x, y, obj_jumpdust);
 			vsp = -9;
-			sprite_index = spr_player_mach3;
+			sprite_index = spr_player_mach4;
 			state = states.mach3;
 			xscale *= -1;
 	}
