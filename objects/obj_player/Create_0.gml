@@ -1,5 +1,6 @@
 scr_initinput();
 scr_getinput();
+wallrunBuffer = 0
 Sjumpcan_doublejump = true;
 firetrailbuffer = 0;
 playComboVariable = -4;

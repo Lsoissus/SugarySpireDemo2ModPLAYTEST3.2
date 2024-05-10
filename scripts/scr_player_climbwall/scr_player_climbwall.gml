@@ -8,7 +8,9 @@ function scr_player_climbwall()
 		wallspeed += 0.05;
 	crouchslideAnim = true;
 	sprite_index = spr_climbwall;
-	if (wallspeed <= 0 || !key_attack)
+	if wallrunBuffer >= 0
+		wallrunBuffer -= 0.1
+	if (wallspeed <= 0 || !key_attack && wallrunBuffer == 0)
 	{
 		state = states.jump;
 		sprite_index = spr_fall;

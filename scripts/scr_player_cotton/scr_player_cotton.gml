@@ -35,7 +35,7 @@ function scr_player_cotton()
 		instance_create(x, y, obj_highjumpcloud2);
 		scr_sound(sfx_cottonjump);
 	}
-	if (key_slap2 && sprite_index != spr_cotton_attack && groundedcot)
+	if (key_slap2 && sprite_index != spr_cotton_attack)
 	{
 		flash = true;
 		image_index = 0;
@@ -91,6 +91,19 @@ function scr_player_cotton()
 		sprite_index = spr_cotton_land;
 		instance_create(x, y, obj_landcloud);
 		scr_sound(sound_land);
+	}
+	if (sprite_index == spr_cotton_attack && key_jump)
+	{
+		vsp = -15;
+		grav = 0.1;
+		image_index = 0;
+		sprite_index = spr_cotton_jump;
+		with (instance_create(x, y, obj_highjumpcloud2))
+		{
+			image_xscale = other.xscale;
+			sprite_index = spr_cottonpoof;
+		}
+		scr_sound(sfx_cottondoublejump);
 	}
 	if (sprite_index == spr_cotton_fall && key_jump)
 	{

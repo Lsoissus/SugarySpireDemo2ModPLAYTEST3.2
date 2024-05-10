@@ -12,6 +12,8 @@ function scr_player_handstandjump()
 			dir = xscale;
 			if movespeed <= 12
 			movespeed = 12
+			if (sprite_index == spr_player_suplexdash && !instance_exists(obj_crazyrunothereffect))
+				instance_create(x, y, obj_crazyrunothereffect);
 			if (image_index > 7)
 				movespeed -= 1;
 			if (move != xscale && move != 0)
@@ -49,7 +51,7 @@ function scr_player_handstandjump()
 					image_index = 1;
 					state = states.freefallprep;
 					sprite_index = spr_player_bodyslamstart;
-					vsp = -5;
+					vsp = -15;
 				}
 			}
 			if (key_jump && grounded)
@@ -62,7 +64,7 @@ function scr_player_handstandjump()
 				if (audio_is_playing(sound_suplex1))
 					audio_stop_sound(sound_suplex1);
 			}
-			if ((scr_solid(x + xscale, y) && !scr_slope_ext(x + xscale, y)) && !place_meeting(x + xscale, y, obj_destructibles))
+			if ((scr_solid(x + xscale, y) && !scr_slope_ext(x + xscale, y)) && !place_meeting(x + xscale, y, obj_destructibles) && grounded)
 			{
 				grav = 0.5;
 				movespeed = 0;
@@ -77,6 +79,13 @@ function scr_player_handstandjump()
 				if (audio_is_playing(sound_suplex1))
 					audio_stop_sound(sound_suplex1);
 				scr_sound(sound_bump);
+			}
+			if ((scr_solid(x + xscale, y) && !scr_slope_ext(x + xscale, y)) && !place_meeting(x + xscale, y, obj_destructibles) && !grounded)
+			{
+				wallrunBuffer = 1
+				wallspeed = movespeed
+				state = states.climbwall;
+				instance_create(x + (10 * xscale), y + 10, obj_bumpeffect);
 			}
 			image_speed = 0.3;
 			if (!instance_exists(obj_slidecloud) && grounded && movespeed > 5)
