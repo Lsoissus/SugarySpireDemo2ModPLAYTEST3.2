@@ -30,6 +30,7 @@
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"bg_tole_tole","order":1774,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},
     {"name":"obj_dummycart","order":1,"path":"objects/obj_dummycart/obj_dummycart.yy",},
     {"name":"obj_doorS","order":2,"path":"objects/obj_doorS/obj_doorS.yy",},
     {"name":"obj_fire_aftereffect","order":3,"path":"objects/obj_fire_aftereffect/obj_fire_aftereffect.yy",},
@@ -1449,6 +1450,7 @@
     {"name":"spr_siren_idle","order":1409,"path":"sprites/spr_siren_idle/spr_siren_idle.yy",},
     {"name":"spr_player_canebounce","order":1410,"path":"sprites/spr_player_canebounce/spr_player_canebounce.yy",},
     {"name":"bg_entrywayescapemoon","order":1411,"path":"sprites/bg_entrywayescapemoon/bg_entrywayescapemoon.yy",},
+    {"name":"rm_what","order":10,"path":"rooms/rm_what/rm_what.yy",},
     {"name":"bg_palswap","order":1412,"path":"sprites/bg_palswap/bg_palswap.yy",},
     {"name":"spr_timesup","order":1413,"path":"sprites/spr_timesup/spr_timesup.yy",},
     {"name":"spr_player_hurtroll","order":1414,"path":"sprites/spr_player_hurtroll/spr_player_hurtroll.yy",},

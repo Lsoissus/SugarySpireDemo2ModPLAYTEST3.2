@@ -62,6 +62,7 @@
   },
   "resources": [
     {"id":{"name":"obj_talisman","path":"objects/obj_talisman/obj_talisman.yy",},},
+    {"id":{"name":"bg_tole_tole","path":"sprites/bg_tole_tole/bg_tole_tole.yy",},},
     {"id":{"name":"obj_dummycart","path":"objects/obj_dummycart/obj_dummycart.yy",},},
     {"id":{"name":"obj_doorS","path":"objects/obj_doorS/obj_doorS.yy",},},
     {"id":{"name":"obj_fire_aftereffect","path":"objects/obj_fire_aftereffect/obj_fire_aftereffect.yy",},},
@@ -1491,6 +1492,7 @@
     {"id":{"name":"spr_siren_idle","path":"sprites/spr_siren_idle/spr_siren_idle.yy",},},
     {"id":{"name":"spr_player_canebounce","path":"sprites/spr_player_canebounce/spr_player_canebounce.yy",},},
     {"id":{"name":"bg_entrywayescapemoon","path":"sprites/bg_entrywayescapemoon/bg_entrywayescapemoon.yy",},},
+    {"id":{"name":"rm_what","path":"rooms/rm_what/rm_what.yy",},},
     {"id":{"name":"bg_palswap","path":"sprites/bg_palswap/bg_palswap.yy",},},
     {"id":{"name":"spr_timesup","path":"sprites/spr_timesup/spr_timesup.yy",},},
     {"id":{"name":"spr_player_hurtroll","path":"sprites/spr_player_hurtroll/spr_player_hurtroll.yy",},},
@@ -1998,6 +2000,7 @@
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"roomId":{"name":"room_gmliveblank","path":"rooms/room_gmliveblank/room_gmliveblank.yy",},},
     {"roomId":{"name":"rm_blank","path":"rooms/rm_blank/rm_blank.yy",},},
+    {"roomId":{"name":"rm_what","path":"rooms/rm_what/rm_what.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
