@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.700952,
+  "duration": 0.757551,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "sfx_taunt5",
+  "soundFile": "sfx_taunt5.wav",
   "type": 0,
-  "volume": 0.55,
+  "volume": 1.0,
 }
