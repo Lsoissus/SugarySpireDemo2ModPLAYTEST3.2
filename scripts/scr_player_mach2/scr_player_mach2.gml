@@ -82,7 +82,7 @@ function scr_player_mach2()
 				machhitAnim = false;
 				state = states.mach3;
 				flash = true;
-				sprite_index = spr_player_mach4;
+				sprite_index = spr_player_mach3;
 				instance_create(x, y, obj_jumpdust);
 				if (movespeed < 12)
 					movespeed = 12;
