@@ -43,7 +43,7 @@ else if (_score >= global.brank)
 else if (_score >= global.crank)
     rank_ix = 1
 rank_scale = approach(rank_scale, 1, 0.2)
-draw_sprite_ext(spr_ranks_hud, rank_ix, 190, 29, rank_scale, rank_scale, 0, c_white, 1)
+draw_sprite_ext(spr_ranks_hud, rank_ix, 190, 29 + obj_stylebar.hudbounce, rank_scale, rank_scale, 0, c_white, 1)
 var spr_w = sprite_get_width(spr_ranks_hudfill)
 var spr_h = sprite_get_height(spr_ranks_hudfill)
 var spr_xo = sprite_get_xoffset(spr_ranks_hudfill)
