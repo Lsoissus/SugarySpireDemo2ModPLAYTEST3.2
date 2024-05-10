@@ -6,4 +6,4 @@ randomize()
 color = choose(1, 2)
 realcol = 0
 vanish = 0
-spr_palette = playerid.spr_pal
+spr_palette = playerid.spr_palette
