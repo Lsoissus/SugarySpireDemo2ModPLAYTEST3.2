@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 2,
   "conversionMode": 0,
-  "duration": 220.464,
+  "duration": 144.04185,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "mu_lap2.mp3",
+  "soundFile": "mu_lap2.ogg",
   "type": 1,
   "volume": 1.0,
 }
