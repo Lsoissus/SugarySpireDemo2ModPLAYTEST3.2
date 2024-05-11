@@ -20,13 +20,25 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 	draw_set_color(c_white);
 	var _string = string(global.collect);
 	var _string_length = string_length(_string);
-	for (var i = 0; i < _string_length; i++)
+	if old_collect != global.collect
 	{
-		var _xx = 140 + (-(string_width(_string) / 2) + ((string_width(_string) / _string_length) * i));
-		var _yyoffset = ((i % 2) == 0) ? -4 : 0;
-		var candlepal_index = irandom_range(0,5)
-	pal_swap_set(spr_fontcollect_pal, candlepal_index, 0);
-		draw_text(_xx + shakeX, 29 + obj_stylebar.hudbounce + _yyoffset + DrawY + shakeY, string_char_at(_string, i + 1));
+		// cycle through array and change the colors
+	    for (var i = 0; i < _string_length; i++)
+	        color_array[i] = irandom_range(0,pal_width);
+		// update the old_collect var so it only runs when global.collect changes
+	    old_collect = global.collect
+	}
+	for (var l = 0; l < _string_length; l++)
+	{
+		// funny math that im too tired to understand rn
+		var _xx = 150 + -(string_width(_string) / 2) + ((string_width(_string) / _string_length) * l);
+		var _yyoffset = (l % 2) == 0 ? -4 : 0;
+		// palette one character
+		pal = color_array[l]
+		pal_swap_set(spr_fontcollect_pal, pal, 0);
+		// draw one character
+		draw_text((_xx + shakeX), ((((29 + obj_stylebar.hudbounce) + _yyoffset) + DrawY) + shakeY), string_char_at(_string, (l + 1)))
+		pal_swap_reset();
 	}
 }
 draw_set_font(global.font);
