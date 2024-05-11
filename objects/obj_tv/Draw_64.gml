@@ -1,5 +1,6 @@
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen)
 {
+	draw_sprite(tvbgsprite, 0, 832, 74 + DrawY)
 	if (tvsprite == spr_pizzytvcotton)
 		draw_sprite_ext(spr_tvpropeller, -1, 832, 74 + DrawY, 1, 1, 1, c_white, 1);
 	pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, 0);

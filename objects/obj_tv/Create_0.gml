@@ -93,3 +93,4 @@ function scr_combotext(_combo = global.combo)
 	}
 	return sprite;
 }
+tvbgsprite = undefined
