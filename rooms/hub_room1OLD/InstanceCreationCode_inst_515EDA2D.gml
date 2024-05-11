@@ -1,3 +1,3 @@
-targetRoom = tutorial_1
+targetRoom = tutorial_1_OLD
 targetDoor = "A"
 visible = false

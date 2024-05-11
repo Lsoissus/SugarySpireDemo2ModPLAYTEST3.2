@@ -10,45 +10,45 @@ function scr_roomnames(_room = room)
             room_name = "Welcome To Sugary Spire!";
             break;
         case outer_room1:
-            room_name = "Welcome To Sugary Spire!";
+            room_name = "Scooterin";
             break;
         case outer_room2:
-            room_name = "Welcome To Sugary Spire!";
+            room_name = "The spire.";
             break;
         case scootercutsceneidk:
-            room_name = "Welcome To Sugary Spire!";
+            room_name = "The spire.. sideways!";
             break;
         case hub_room1:
             room_name = "Enjoy Your Stay";
             break;
-        case tutorial_1:
+        case tutorial_1_OLD:
             room_name = "The Parlor";
             break;
-        case tutorial_2:
+        case tutorial_2_OLD:
             room_name = "Points For Tricks";
             break;
-        case tutorial_3:
+        case tutorial_3_OLD:
             room_name = "Mascot Murdering";
             break;
-        case tutorial_4:
+        case tutorial_4_OLD:
             room_name = "Grounded";
             break;
-        case tutorial_5:
+        case tutorial_5_OLD:
             room_name = "Down And Down Again";
             break;
-        case tutorial_6:
+        case tutorial_6_OLD:
             room_name = "Running Around The Walls";
             break;
-        case tutorial_7:
+        case tutorial_7_OLD:
             room_name = "Small Step For Candykind";
             break;
-        case tutorial_8:
+        case tutorial_8_OLD:
             room_name = "Jumping Superbly";
             break;
-        case tutorial_9:
+        case tutorial_9_OLD:
             room_name = "Jawbreaking Revelations";
             break;
-        case tutorial_10:
+        case tutorial_10_OLD:
             room_name = "Sugar Rush";
             break;
         case entrywaysecret_1:
@@ -61,7 +61,7 @@ function scr_roomnames(_room = room)
             room_name = "Fine China";
             break;
         case entryway_1:
-            room_name = "Welcome to Sugary Spire";
+            room_name = "Entryspireway";
             break;
         case entryway_2:
             room_name = "Hard Hat Required";

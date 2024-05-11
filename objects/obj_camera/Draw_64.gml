@@ -24,6 +24,8 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 	{
 		var _xx = 140 + (-(string_width(_string) / 2) + ((string_width(_string) / _string_length) * i));
 		var _yyoffset = ((i % 2) == 0) ? -4 : 0;
+		var candlepal_index = irandom_range(0,5)
+	pal_swap_set(spr_fontcollect_pal, candlepal_index, 0);
 		draw_text(_xx + shakeX, 29 + obj_stylebar.hudbounce + _yyoffset + DrawY + shakeY, string_char_at(_string, i + 1));
 	}
 }
