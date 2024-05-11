@@ -51,7 +51,7 @@ function scr_player_handstandjump()
 					image_index = 1;
 					state = states.freefallprep;
 					sprite_index = spr_player_bodyslamstart;
-					vsp = -15;
+					vsp = -18;
 				}
 			}
 			if (key_jump && grounded)
