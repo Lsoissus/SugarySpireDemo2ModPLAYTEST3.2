@@ -171,6 +171,7 @@
     {"id":{"name":"obj_erasefile","path":"objects/obj_erasefile/obj_erasefile.yy",},},
     {"id":{"name":"obj_minigameball","path":"objects/obj_minigameball/obj_minigameball.yy",},},
     {"id":{"name":"obj_optionsOLD","path":"objects/obj_optionsOLD/obj_optionsOLD.yy",},},
+    {"id":{"name":"spr_slopeplatform","path":"sprites/spr_slopeplatform/spr_slopeplatform.yy",},},
     {"id":{"name":"obj_geyservertical","path":"objects/obj_geyservertical/obj_geyservertical.yy",},},
     {"id":{"name":"obj_collecteffect","path":"objects/obj_collecteffect/obj_collecteffect.yy",},},
     {"id":{"name":"obj_trainSlowDownTrigger","path":"objects/obj_trainSlowDownTrigger/obj_trainSlowDownTrigger.yy",},},

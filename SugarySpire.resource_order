@@ -137,6 +137,7 @@
     {"name":"obj_erasefile","order":96,"path":"objects/obj_erasefile/obj_erasefile.yy",},
     {"name":"obj_minigameball","order":97,"path":"objects/obj_minigameball/obj_minigameball.yy",},
     {"name":"obj_optionsOLD","order":99,"path":"objects/obj_optionsOLD/obj_optionsOLD.yy",},
+    {"name":"spr_slopeplatform","order":1780,"path":"sprites/spr_slopeplatform/spr_slopeplatform.yy",},
     {"name":"obj_geyservertical","order":100,"path":"objects/obj_geyservertical/obj_geyservertical.yy",},
     {"name":"obj_collecteffect","order":101,"path":"objects/obj_collecteffect/obj_collecteffect.yy",},
     {"name":"obj_trainSlowDownTrigger","order":102,"path":"objects/obj_trainSlowDownTrigger/obj_trainSlowDownTrigger.yy",},
