@@ -25,11 +25,11 @@
     {"name":"Sequences","order":10,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":5,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
+    {"name":"CollectHUDS","order":1778,"path":"folders/Sprites/CollectHUDS.yy",},
     {"name":"Tilesets","order":927,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"TVbgs","order":1776,"path":"folders/Sprites/TVbgs.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"CollectHUDS","order":1778,"path":"folders/Sprites/CollectHUDS.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":1774,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},
