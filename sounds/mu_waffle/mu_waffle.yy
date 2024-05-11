@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 2,
   "conversionMode": 0,
-  "duration": 223.16476,
+  "duration": 220.464,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "mu_waffle.ogg",
+  "soundFile": "mu_waffle.mp3",
   "type": 1,
   "volume": 1.0,
 }
