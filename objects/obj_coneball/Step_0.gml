@@ -1,7 +1,7 @@
 if (!attacking)
 {
 	alpha = 1;
-	sprite_index = spr_coneball;
+	sprite_index = spr_coneballold;
 	direction = point_direction(x, y, obj_player.x, obj_player.y);
 	if (x > obj_player.x)
 		image_xscale = 1;
@@ -54,7 +54,7 @@ atktimer--;
 if (sprite_index == spr_coneballspike && mask_index != spr_coneballspike)
 	mask_index = spr_coneballspike;
 else if (mask_index == spr_coneballspike && sprite_index != spr_coneballspike)
-	mask_index = spr_coneball;
+	mask_index = spr_coneballold;
 if (!global.panic)
 	instance_destroy();
 if (atktimer < 0 && !attacking)

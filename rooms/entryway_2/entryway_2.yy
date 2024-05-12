@@ -54,6 +54,7 @@
     {"name":"inst_4E0125A5","path":"rooms/entryway_2/entryway_2.yy",},
     {"name":"inst_2562CFA0","path":"rooms/entryway_2/entryway_2.yy",},
     {"name":"inst_25A0DD14","path":"rooms/entryway_2/entryway_2.yy",},
+    {"name":"inst_41CDEBA8","path":"rooms/entryway_2/entryway_2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -119,6 +120,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_25A0DD14","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_confectibox","path":"objects/obj_confectibox/obj_confectibox.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_confectibox","path":"objects/obj_confectibox/obj_confectibox.yy",},"propertyId":{"name":"BoxContent","path":"objects/obj_confectibox/obj_confectibox.yy",},"value":"obj_confectimallow",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2656.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41CDEBA8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":1824.0,"y":320.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1Dec","depth":132,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":17,"SerialiseWidth":118,"TileCompressedData":[
 -1468,-2147483648,4,1,2,157,158,-8,-2147483648,7,152,153,155,156,108,109,110,-21,-2147483648,2,105,106,-74,-2147483648,6,301,302,33,34,189,190,-8,-2147483648,31,184,185,187,188,140,141,142,154,155,156,154,155,156,154,155,156,154,155,156,154,155,156,154,155,156,154,155,156,137,138,317,-73,-2147483648,4,333,334,65,0,-14,-2147483648,26,172,173,174,186,187,188,186,187,188,186,187,188,186,187,188,186,187,188,186,187,188,186,187,188,169,170,-76,-2147483648,3,97,0,0,-181,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_entryway1alt","path":"tilesets/ts_entryway1alt/ts_entryway1alt.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
