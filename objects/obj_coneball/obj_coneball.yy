@@ -31,12 +31,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_coneball",
-    "path": "sprites/spr_coneball/spr_coneball.yy",
+    "name": "spr_coneballold",
+    "path": "sprites/spr_coneballold/spr_coneballold.yy",
   },
   "spriteMaskId": {
-    "name": "spr_coneball",
-    "path": "sprites/spr_coneball/spr_coneball.yy",
+    "name": "spr_coneballold",
+    "path": "sprites/spr_coneballold/spr_coneballold.yy",
   },
   "visible": true,
 }
