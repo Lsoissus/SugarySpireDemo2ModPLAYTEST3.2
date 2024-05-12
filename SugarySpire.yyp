@@ -1723,6 +1723,7 @@
     {"id":{"name":"font_console","path":"fonts/font_console/font_console.yy",},},
     {"id":{"name":"spr_sprayfall","path":"sprites/spr_sprayfall/spr_sprayfall.yy",},},
     {"id":{"name":"spr_tutorialsign","path":"sprites/spr_tutorialsign/spr_tutorialsign.yy",},},
+    {"id":{"name":"ref7","path":"sprites/ref7/ref7.yy",},},
     {"id":{"name":"secret_sprite","path":"sprites/secret_sprite/secret_sprite.yy",},},
     {"id":{"name":"spr_traindeath","path":"sprites/spr_traindeath/spr_traindeath.yy",},},
     {"id":{"name":"bg_molassestempleclouds","path":"sprites/bg_molassestempleclouds/bg_molassestempleclouds.yy",},},
