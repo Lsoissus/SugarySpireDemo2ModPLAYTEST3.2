@@ -1,1 +1,1 @@
-targetRoom = tutorial_1_OLD
+targetRoom = tutorial_10_OLD
