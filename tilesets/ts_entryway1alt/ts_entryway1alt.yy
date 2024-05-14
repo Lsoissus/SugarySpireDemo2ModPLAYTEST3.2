@@ -15,10 +15,7 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "spriteId": {
-    "name": "ts_entrywayalt1_sprite",
-    "path": "sprites/ts_entrywayalt1_sprite/ts_entrywayalt1_sprite.yy",
-  },
+  "spriteId": null,
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",
