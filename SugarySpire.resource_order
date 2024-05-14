@@ -14,6 +14,7 @@
     {"name":"Paths","order":3,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":9,"path":"folders/Rooms.yy",},
     {"name":"Hub","order":15,"path":"folders/Rooms/Hub.yy",},
+    {"name":"World1","order":6,"path":"folders/Rooms/Hub/World1.yy",},
     {"name":"Levels","order":13,"path":"folders/Rooms/Levels.yy",},
     {"name":"Cottontown","order":3,"path":"folders/Rooms/Levels/Cottontown.yy",},
     {"name":"Mines","order":2,"path":"folders/Rooms/Levels/Mines.yy",},
@@ -34,7 +35,6 @@
     {"name":"TVbgs","order":828,"path":"folders/Sprites/TVbgs.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"World1","order":6,"path":"folders/Rooms/Hub/World1.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":1774,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},
