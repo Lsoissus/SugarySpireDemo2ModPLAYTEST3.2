@@ -28,6 +28,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Hub","folderPath":"folders/Rooms/Hub.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Outer","folderPath":"folders/Rooms/Hub/Outer.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"World1","folderPath":"folders/Rooms/Hub/World1.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Levels","folderPath":"folders/Rooms/Levels.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cottontown","folderPath":"folders/Rooms/Levels/Cottontown.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entryway","folderPath":"folders/Rooms/Levels/Entryway.yy",},
@@ -57,7 +58,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"World1","folderPath":"folders/Rooms/Hub/World1.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"gc.dll","CopyToMask":0,"filePath":"datafiles/GMLive",},
