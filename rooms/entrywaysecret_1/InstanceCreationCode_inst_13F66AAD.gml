@@ -1,2 +1,2 @@
-targetRoom = entryway_7
+targetRoom = entryway_1
 visible = false
