@@ -214,6 +214,7 @@
     {"id":{"name":"obj_user","path":"objects/obj_user/obj_user.yy",},},
     {"id":{"name":"obj_Options_Audio","path":"objects/obj_Options_Audio/obj_Options_Audio.yy",},},
     {"id":{"name":"obj_cardboardgummy","path":"objects/obj_cardboardgummy/obj_cardboardgummy.yy",},},
+    {"id":{"name":"entryway_6b","path":"rooms/entryway_6b/entryway_6b.yy",},},
     {"id":{"name":"obj_trainSpeedUpTrigger","path":"objects/obj_trainSpeedUpTrigger/obj_trainSpeedUpTrigger.yy",},},
     {"id":{"name":"obj_creditsdoor","path":"objects/obj_creditsdoor/obj_creditsdoor.yy",},},
     {"id":{"name":"obj_molassesGround","path":"objects/obj_molassesGround/obj_molassesGround.yy",},},
@@ -2082,6 +2083,7 @@
     {"roomId":{"name":"entryway_6a","path":"rooms/entryway_6a/entryway_6a.yy",},},
     {"roomId":{"name":"hub_roomtutorialhall","path":"rooms/hub_roomtutorialhall/hub_roomtutorialhall.yy",},},
     {"roomId":{"name":"hub_roomstart","path":"rooms/hub_roomstart/hub_roomstart.yy",},},
+    {"roomId":{"name":"entryway_6b","path":"rooms/entryway_6b/entryway_6b.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
