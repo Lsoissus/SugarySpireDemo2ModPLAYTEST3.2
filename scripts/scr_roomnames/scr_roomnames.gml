@@ -18,7 +18,7 @@ function scr_roomnames(_room = room)
         case scootercutsceneidk:
             room_name = "The spire.. sideways!";
             break;
-        case hub_roomstart:
+        case hub_room2:
             room_name = "Good Morning!";
 			 break;
 		case hub_roomtutorialhall:
