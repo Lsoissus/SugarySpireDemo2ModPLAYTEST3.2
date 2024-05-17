@@ -1331,6 +1331,7 @@
     {"id":{"name":"spr_rankE","path":"sprites/spr_rankE/spr_rankE.yy",},},
     {"id":{"name":"spr_pizzanotv","path":"sprites/spr_pizzanotv/spr_pizzanotv.yy",},},
     {"id":{"name":"spr_bigdebris2","path":"sprites/spr_bigdebris2/spr_bigdebris2.yy",},},
+    {"id":{"name":"obj_coneballold","path":"objects/obj_coneballold/obj_coneballold.yy",},},
     {"id":{"name":"cl3","path":"sprites/cl3/cl3.yy",},},
     {"id":{"name":"spr_steamy_gate","path":"sprites/spr_steamy_gate/spr_steamy_gate.yy",},},
     {"id":{"name":"spr_tvbg_steamy_panic","path":"sprites/spr_tvbg_steamy_panic/spr_tvbg_steamy_panic.yy",},},

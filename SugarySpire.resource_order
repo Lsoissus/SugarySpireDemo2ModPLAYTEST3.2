@@ -1265,6 +1265,7 @@
     {"name":"spr_rankE","order":298,"path":"sprites/spr_rankE/spr_rankE.yy",},
     {"name":"spr_pizzanotv","order":299,"path":"sprites/spr_pizzanotv/spr_pizzanotv.yy",},
     {"name":"spr_bigdebris2","order":300,"path":"sprites/spr_bigdebris2/spr_bigdebris2.yy",},
+    {"name":"obj_coneballold","order":318,"path":"objects/obj_coneballold/obj_coneballold.yy",},
     {"name":"cl3","order":301,"path":"sprites/cl3/cl3.yy",},
     {"name":"spr_steamy_gate","order":3,"path":"sprites/spr_steamy_gate/spr_steamy_gate.yy",},
     {"name":"spr_tvbg_steamy_panic","order":5,"path":"sprites/spr_tvbg_steamy_panic/spr_tvbg_steamy_panic.yy",},
