@@ -109,7 +109,7 @@
   ],
   "parent": {
     "name": "Entryway",
-    "path": "folders/Rooms/Levels/Entryway.yy",
+    "path": "folders/Rooms/Levels/World 1/Entryway.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

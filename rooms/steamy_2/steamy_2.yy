@@ -302,7 +302,7 @@
   ],
   "parent": {
     "name": "Cottontown",
-    "path": "folders/Rooms/Levels/Cottontown.yy",
+    "path": "folders/Rooms/Levels/World 1/Cottontown.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
