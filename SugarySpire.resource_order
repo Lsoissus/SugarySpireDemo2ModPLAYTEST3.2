@@ -987,6 +987,7 @@
     {"name":"spr_player_fireass","order":81,"path":"sprites/spr_player_fireass/spr_player_fireass.yy",},
     {"name":"spr_player_ladderdown","order":82,"path":"sprites/spr_player_ladderdown/spr_player_ladderdown.yy",},
     {"name":"spr_player_grab","order":83,"path":"sprites/spr_player_grab/spr_player_grab.yy",},
+    {"name":"dragonslair_3","order":2,"path":"rooms/dragonslair_3/dragonslair_3.yy",},
     {"name":"spr_player_secondjump2","order":84,"path":"sprites/spr_player_secondjump2/spr_player_secondjump2.yy",},
     {"name":"spr_player_canehit","order":85,"path":"sprites/spr_player_canehit/spr_player_canehit.yy",},
     {"name":"spr_player_crouchstart","order":86,"path":"sprites/spr_player_crouchstart/spr_player_crouchstart.yy",},

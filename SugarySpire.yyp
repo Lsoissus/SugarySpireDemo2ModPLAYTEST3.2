@@ -1051,6 +1051,7 @@
     {"id":{"name":"spr_player_fireass","path":"sprites/spr_player_fireass/spr_player_fireass.yy",},},
     {"id":{"name":"spr_player_ladderdown","path":"sprites/spr_player_ladderdown/spr_player_ladderdown.yy",},},
     {"id":{"name":"spr_player_grab","path":"sprites/spr_player_grab/spr_player_grab.yy",},},
+    {"id":{"name":"dragonslair_3","path":"rooms/dragonslair_3/dragonslair_3.yy",},},
     {"id":{"name":"spr_player_secondjump2","path":"sprites/spr_player_secondjump2/spr_player_secondjump2.yy",},},
     {"id":{"name":"spr_player_canehit","path":"sprites/spr_player_canehit/spr_player_canehit.yy",},},
     {"id":{"name":"spr_player_crouchstart","path":"sprites/spr_player_crouchstart/spr_player_crouchstart.yy",},},
@@ -2105,6 +2106,7 @@
     {"roomId":{"name":"Room115","path":"rooms/Room115/Room115.yy",},},
     {"roomId":{"name":"dragonslair_1","path":"rooms/dragonslair_1/dragonslair_1.yy",},},
     {"roomId":{"name":"dragonslair_2","path":"rooms/dragonslair_2/dragonslair_2.yy",},},
+    {"roomId":{"name":"dragonslair_3","path":"rooms/dragonslair_3/dragonslair_3.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
