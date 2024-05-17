@@ -1,2 +1,2 @@
-targetRoom = hub_room2
+targetRoom = hub_roomstart
 targetDoor = "B"

@@ -14,6 +14,7 @@
     {"name":"Paths","order":3,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":9,"path":"folders/Rooms.yy",},
     {"name":"Hub","order":4,"path":"folders/Rooms/Hub.yy",},
+    {"name":"World 2","order":4,"path":"folders/Rooms/Hub/World 2.yy",},
     {"name":"World1","order":3,"path":"folders/Rooms/Hub/World1.yy",},
     {"name":"Levels","order":2,"path":"folders/Rooms/Levels.yy",},
     {"name":"Cottontown","order":3,"path":"folders/Rooms/Levels/Cottontown.yy",},
@@ -35,7 +36,6 @@
     {"name":"TVbgs","order":828,"path":"folders/Sprites/TVbgs.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"World 2","order":4,"path":"folders/Rooms/Hub/World 2.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":1774,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},
@@ -1487,6 +1487,7 @@
     {"name":"spr_cottonmaker","order":490,"path":"sprites/spr_cottonmaker/spr_cottonmaker.yy",},
     {"name":"spr_grabbiehand_release","order":491,"path":"sprites/spr_grabbiehand_release/spr_grabbiehand_release.yy",},
     {"name":"spr_harryalive","order":492,"path":"sprites/spr_harryalive/spr_harryalive.yy",},
+    {"name":"bg_hubw1","order":1486,"path":"sprites/bg_hubw1/bg_hubw1.yy",},
     {"name":"spr_gumbob_walk","order":493,"path":"sprites/spr_gumbob_walk/spr_gumbob_walk.yy",},
     {"name":"spr_pizzano_pogo_land","order":494,"path":"sprites/spr_pizzano_pogo_land/spr_pizzano_pogo_land.yy",},
     {"name":"spr_candle_lit","order":495,"path":"sprites/spr_candle_lit/spr_candle_lit.yy",},

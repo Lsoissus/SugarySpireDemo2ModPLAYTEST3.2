@@ -28,6 +28,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Hub","folderPath":"folders/Rooms/Hub.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Outer","folderPath":"folders/Rooms/Hub/Outer.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"World 2","folderPath":"folders/Rooms/Hub/World 2.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"World1","folderPath":"folders/Rooms/Hub/World1.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Levels","folderPath":"folders/Rooms/Levels.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cottontown","folderPath":"folders/Rooms/Levels/Cottontown.yy",},
@@ -58,7 +59,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"World 2","folderPath":"folders/Rooms/Hub/World 2.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"gc.dll","CopyToMask":0,"filePath":"datafiles/GMLive",},
@@ -1554,6 +1554,7 @@
     {"id":{"name":"spr_cottonmaker","path":"sprites/spr_cottonmaker/spr_cottonmaker.yy",},},
     {"id":{"name":"spr_grabbiehand_release","path":"sprites/spr_grabbiehand_release/spr_grabbiehand_release.yy",},},
     {"id":{"name":"spr_harryalive","path":"sprites/spr_harryalive/spr_harryalive.yy",},},
+    {"id":{"name":"bg_hubw1","path":"sprites/bg_hubw1/bg_hubw1.yy",},},
     {"id":{"name":"spr_gumbob_walk","path":"sprites/spr_gumbob_walk/spr_gumbob_walk.yy",},},
     {"id":{"name":"spr_pizzano_pogo_land","path":"sprites/spr_pizzano_pogo_land/spr_pizzano_pogo_land.yy",},},
     {"id":{"name":"spr_candle_lit","path":"sprites/spr_candle_lit/spr_candle_lit.yy",},},
