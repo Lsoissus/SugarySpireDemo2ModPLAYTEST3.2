@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "molassesB_6b",
-  "creationCodeFile": null,
+  "creationCodeFile": "rooms/molassesB_6b/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
@@ -234,7 +234,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8419E28F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_giantcollect","path":"objects/obj_giantcollect/obj_giantcollect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4656.0,"y":192.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_09DD60F7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":20.0,"scaleY":2.0,"x":3136.0,"y":672.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_9E80DE6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_door","path":"objects/par_door/par_door.yy",},"propertyId":{"name":"targetRoom","path":"objects/par_door/par_door.yy",},"value":"molasses_6c",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_door","path":"objects/par_door/par_door.yy",},"propertyId":{"name":"targetRoom","path":"objects/par_door/par_door.yy",},"value":"molassesB_6c",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3392.0,"y":832.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12334CE7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_keydoor","path":"objects/obj_keydoor/obj_keydoor.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_door","path":"objects/par_door/par_door.yy",},"propertyId":{"name":"targetRoom","path":"objects/par_door/par_door.yy",},"value":"molasses_6d",},
@@ -326,7 +326,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_cameraRegion","path":"objects/obj_cameraRegion/obj_cameraRegion.yy",},"propertyId":{"name":"ClampBottom","path":"objects/obj_cameraRegion/obj_cameraRegion.yy",},"value":"false",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_cameraRegion","path":"objects/obj_cameraRegion/obj_cameraRegion.yy",},"propertyId":{"name":"ClampLeft","path":"objects/obj_cameraRegion/obj_cameraRegion.yy",},"value":"false",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_cameraRegion","path":"objects/obj_cameraRegion/obj_cameraRegion.yy",},"propertyId":{"name":"ClampTop","path":"objects/obj_cameraRegion/obj_cameraRegion.yy",},"value":"false",},
-          ],"rotation":0.0,"scaleX":2.7131636,"scaleY":2.8711498,"x":2445.0,"y":-160.0,},
+          ],"rotation":0.0,"scaleX":2.7131636,"scaleY":2.8711498,"x":2444.0,"y":-96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_783FC411","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cameraRegion","path":"objects/obj_cameraRegion/obj_cameraRegion.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_cameraRegion","path":"objects/obj_cameraRegion/obj_cameraRegion.yy",},"propertyId":{"name":"zoom","path":"objects/obj_cameraRegion/obj_cameraRegion.yy",},"value":"1.5",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_cameraRegion","path":"objects/obj_cameraRegion/obj_cameraRegion.yy",},"propertyId":{"name":"ClampRight","path":"objects/obj_cameraRegion/obj_cameraRegion.yy",},"value":"false",},
