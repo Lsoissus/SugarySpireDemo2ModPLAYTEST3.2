@@ -1195,6 +1195,7 @@
     {"name":"spr_timetrialdoor","order":239,"path":"sprites/spr_timetrialdoor/spr_timetrialdoor.yy",},
     {"name":"GMLive_thread","order":4,"path":"scripts/GMLive_thread/GMLive_thread.yy",},
     {"name":"spr_eventtrigger","order":240,"path":"sprites/spr_eventtrigger/spr_eventtrigger.yy",},
+    {"name":"molasses_6d","order":21,"path":"rooms/molasses_6d/molasses_6d.yy",},
     {"name":"spr_tvbg_mlass","order":7,"path":"sprites/spr_tvbg_mlass/spr_tvbg_mlass.yy",},
     {"name":"spr_coneballraintrans","order":241,"path":"sprites/spr_coneballraintrans/spr_coneballraintrans.yy",},
     {"name":"spr_cottonplatform","order":242,"path":"sprites/spr_cottonplatform/spr_cottonplatform.yy",},

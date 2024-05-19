@@ -456,7 +456,7 @@
   ],
   "parent": {
     "name": "Molasses Swamp",
-    "path": "folders/Rooms/Levels/Molasses Swamp.yy",
+    "path": "folders/Rooms/Levels/World2/Molasses Swamp.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
