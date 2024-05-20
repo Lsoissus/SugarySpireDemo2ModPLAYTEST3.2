@@ -38,6 +38,9 @@
     "name": "spr_pizzabox",
     "path": "sprites/spr_pizzabox/spr_pizzabox.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_pizzabox",
+    "path": "sprites/spr_pizzabox/spr_pizzabox.yy",
+  },
   "visible": true,
 }
