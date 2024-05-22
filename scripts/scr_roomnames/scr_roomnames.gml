@@ -27,36 +27,6 @@ function scr_roomnames(_room = room)
 		case hub_room1:
             room_name = "Enjoy Your Stay";
             break;
-        case tutorial_1:
-            room_name = "The Parlor";
-            break;
-        case tutorial_2:
-            room_name = "Points For Tricks";
-            break;
-        case tutorial_3:
-            room_name = "Mascot Murdering";
-            break;
-        case tutorial_4:
-            room_name = "Grounded";
-            break;
-        case tutorial_5:
-            room_name = "Down And Down Again";
-            break;
-        case tutorial_6:
-            room_name = "Running Around The Walls";
-            break;
-        case tutorial_7:
-            room_name = "Small Step For Candykind";
-            break;
-        case tutorial_8:
-            room_name = "Jumping Superbly";
-            break;
-        case tutorial_9:
-            room_name = "Jawbreaking Revelations";
-            break;
-        case tutorial_10:
-            room_name = "Sugar Rush";
-            break;
         case entrywaysecret_1:
             room_name = "Gumslime Paradise";
             break;
