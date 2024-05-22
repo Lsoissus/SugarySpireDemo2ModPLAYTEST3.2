@@ -337,6 +337,7 @@
     {"name":"obj_bigdestructibles","order":271,"path":"objects/obj_bigdestructibles/obj_bigdestructibles.yy",},
     {"name":"hub_roomtutorialhall","order":5,"path":"rooms/hub_roomtutorialhall/hub_roomtutorialhall.yy",},
     {"name":"obj_destroyable3","order":272,"path":"objects/obj_destroyable3/obj_destroyable3.yy",},
+    {"name":"spr_fontcollect_pal","order":1775,"path":"sprites/spr_fontcollect_pal/spr_fontcollect_pal.yy",},
     {"name":"obj_geyserdestroydebris","order":273,"path":"objects/obj_geyserdestroydebris/obj_geyserdestroydebris.yy",},
     {"name":"obj_oneway","order":274,"path":"objects/obj_oneway/obj_oneway.yy",},
     {"name":"obj_destroyable2_big","order":275,"path":"objects/obj_destroyable2_big/obj_destroyable2_big.yy",},

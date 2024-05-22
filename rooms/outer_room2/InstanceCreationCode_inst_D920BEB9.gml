@@ -1,1 +1,1 @@
-targetRoom = tutorial_1
+targetRoom = entryway_1
