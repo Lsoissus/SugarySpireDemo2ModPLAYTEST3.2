@@ -1,15 +1,20 @@
 function scr_confecti_normal()
 {
-	image_alpha = obj_player.image_alpha;
-	if (sprite_index != spr_appear)
-	{
-		if (obj_player.hsp != 0)
-			sprite_index = spr_run;
-		else if (!global.panic)
-			sprite_index = spr_idle;
-		else
-			sprite_index = spr_panic;
-	}
+    image_alpha = obj_player.image_alpha;
+    if (sprite_index != spr_appear)
+    {
+        if (obj_player.hsp != 0)
+		{
+			if global.panic
+				sprite_index = spr_panicrun;
+			else
+				sprite_index = spr_run;
+		}
+        else if (!global.panic)
+            sprite_index = spr_idle;
+        else
+            sprite_index = spr_panic;
+    }
 	var dist2 = 0;
 	if (obj_player.grounded)
 		dist2 = -32 * image_xscale;
