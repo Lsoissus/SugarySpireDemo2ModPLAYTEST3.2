@@ -1,7 +1,7 @@
 scr_tvsprites();
 if (room == steamy_1)
 {
-	global.srank = 110000;
+	global.srank = 10000;
 	global.arank = global.srank - (global.srank / 4);
 	global.brank = global.srank - ((global.srank / 4) * 2);
 	global.crank = global.srank - ((global.srank / 4) * 3);
@@ -15,7 +15,7 @@ if (room == entryway_1)
 }
 if (room == molasses_1)
 {
-	global.srank = 18000;
+	global.srank = 19000;
 	global.arank = global.srank - (global.srank / 4);
 	global.brank = global.srank - ((global.srank / 4) * 2);
 	global.crank = global.srank - ((global.srank / 4) * 3);
