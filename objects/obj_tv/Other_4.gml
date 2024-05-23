@@ -3,7 +3,11 @@ var _roomname = room_get_name(room);
 // forgive me for writing this coding gods
 if string_starts_with(_roomname, "steamy")
 {
-	tvbgsprite = global.panic ? spr_tvbg_placeholder_panic : spr_tvbg_placeholder;
+	tvbgsprite = global.panic ? spr_tvbg_steamy_panic : spr_tvbg_steamy;
+}
+else if string_starts_with(_roomname, "hub")
+{
+	tvbgsprite = global.panic ? spr_tvbg_hub : spr_tvbg_hub;
 }
 else if string_starts_with(_roomname, "entryway")
 {
@@ -11,11 +15,11 @@ else if string_starts_with(_roomname, "entryway")
 }
 else if string_starts_with(_roomname, "mines")
 {
-	tvbgsprite = global.panic ? spr_tvbg_placeholder_panic : spr_tvbg_placeholder;
+	tvbgsprite = global.panic ? spr_tvbg_mines_panic : spr_tvbg_mines;
 }
 else if string_starts_with(_roomname, "molasses")
 {
-	tvbgsprite = global.panic ? spr_tvbg_placeholder_panic : spr_tvbg_placeholder;
+	tvbgsprite = global.panic ? spr_tvbg_mlass_panic : spr_tvbg_mlass;
 }
 else
 { // if the room isnt a level

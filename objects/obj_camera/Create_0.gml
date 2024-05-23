@@ -1,6 +1,6 @@
 pal = undefined;
 old_collect = 0;
-pal_width = sprite_get_width(spr_fontcollect);
+pal_width = sprite_get_width(spr_fontcollect_pal);
 color_array[0] = irandom_range(0,pal_width);
 color_array[1] = irandom_range(0,pal_width);
 color_array[2] = irandom_range(0,pal_width);
@@ -22,7 +22,7 @@ panicshake = 0;
 panicshakeacc = 0;
 rank_scale = 1
 DrawY = 0
-candlepal = spr_fontcollect
+candlepal = spr_fontcollect_pal
 image_speed = 0.35;
 alarm[1] = 60;
 alarm[2] = 3;
