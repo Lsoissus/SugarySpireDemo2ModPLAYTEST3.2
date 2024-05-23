@@ -77,6 +77,7 @@ function toggle_collision_function()
         global.showcollisionarray[i++] = obj_cameraRegion;
         global.showcollisionarray[i++] = obj_slope;
         global.showcollisionarray[i++] = obj_platform;
+		global.showcollisionarray[i++] = obj_slopePlatform;
         global.showcollisionarray[i++] = obj_cottonplatform;
         global.showcollisionarray[i++] = obj_traingo;
         global.showcollisionarray[i++] = obj_traindestroy;
