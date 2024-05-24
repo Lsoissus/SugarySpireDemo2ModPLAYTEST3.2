@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 2,
   "conversionMode": 0,
-  "duration": 172.434,
+  "duration": 176.6342,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "mu_pizzanothemetune.mp3",
+  "soundFile": "mu_pizzanothemetune.ogg",
   "type": 0,
   "volume": 1.0,
 }

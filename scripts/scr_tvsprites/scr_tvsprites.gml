@@ -23,5 +23,7 @@ function scr_tvsprites()
 		tvchange1 = spr_pizzanotv2;
 		tvchange2 = spr_pizzanotv2;
 		cottontvspr = spr_pizzytvcotton;
+		machtvspr = spr_pizzanotvmach;
+		maxspeedtvspr = spr_pizzanotvmachmax;
 	}
 }
