@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_pizzytv_escape4",
-  "bbox_bottom": 219,
+  "bbox_bottom": 208,
   "bbox_left": 48,
   "bbox_right": 237,
   "bbox_top": 43,

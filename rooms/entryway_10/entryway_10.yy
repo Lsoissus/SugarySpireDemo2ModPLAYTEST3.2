@@ -87,6 +87,7 @@
     {"name":"inst_03F28BA2","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_88B6091A","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_0D697792","path":"rooms/entryway_10/entryway_10.yy",},
+    {"name":"inst_3CD53AC1","path":"rooms/entryway_10/entryway_10.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -182,6 +183,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_0D697792","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_babybear","path":"objects/obj_babybear/obj_babybear.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_baddie","path":"objects/obj_baddie/obj_baddie.yy",},"propertyId":{"name":"panicEscape","path":"objects/obj_baddie/obj_baddie.yy",},"value":"true",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2432.0,"y":352.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3CD53AC1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rudycollect","path":"objects/obj_rudycollect/obj_rudycollect.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":3822.0,"y":242.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_4","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":21,"SerialiseWidth":127,"TileCompressedData":[
 -745,0,2,48,49,-125,0,2,80,81,-125,0,2,176,177,-125,0,2,208,209,-1539,0,],"TileDataFormat":1,},"tilesetId":{"name":"ts_entryway2","path":"tilesets/ts_entryway2/ts_entryway2.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},

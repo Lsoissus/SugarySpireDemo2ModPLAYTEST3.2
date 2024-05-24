@@ -48,5 +48,14 @@ function scr_confecti_init()
 			spr_taunt = spr_candy_taunt;
 			global.candyfollow = true;
 			break;
+		case obj_rudy:
+			spr_idle = spr_rudy_idle;
+			spr_run = spr_rudy_walk;
+			spr_panic = spr_rudy_panic;
+			spr_panicrun = spr_rudy_panicWalk;
+			spr_appear = spr_rudy_appear;
+			spr_taunt = spr_rudy_taunt;
+			global.janitor = true;
+			break;
 	}
 }
