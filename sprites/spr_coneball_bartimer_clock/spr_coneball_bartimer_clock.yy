@@ -84,8 +84,8 @@
   "swatchColours": null,
   "swfPrecision": 0.5,
   "textureGroupId": {
-    "name": "__YY__1_filter_distort_smoothnoise_YYG_AUTO_GEN_TEX_GROUP_NAME_0",
-    "path": "texturegroups/__YY__1_filter_distort_smoothnoise_YYG_AUTO_GEN_TEX_GROUP_NAME_0",
+    "name": "Default",
+    "path": "texturegroups/Default",
   },
   "type": 0,
   "VTile": false,

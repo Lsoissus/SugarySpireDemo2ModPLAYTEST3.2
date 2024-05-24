@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "ts_entryway1alt",
+  "name": "ts_entryway3",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 0,
@@ -15,7 +15,10 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "spriteId": null,
+  "spriteId": {
+    "name": "ts_entryway3_sprite",
+    "path": "sprites/ts_entryway3_sprite/ts_entryway3_sprite.yy",
+  },
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",
