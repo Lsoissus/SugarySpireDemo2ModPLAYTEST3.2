@@ -86,7 +86,6 @@
     {"name":"inst_1993B24B","path":"rooms/entryway_5/entryway_5.yy",},
     {"name":"inst_45812CD0","path":"rooms/entryway_5/entryway_5.yy",},
     {"name":"inst_25DAF5ED","path":"rooms/entryway_5/entryway_5.yy",},
-    {"name":"inst_6F922BD1","path":"rooms/entryway_5/entryway_5.yy",},
     {"name":"inst_3771A6BA","path":"rooms/entryway_5/entryway_5.yy",},
     {"name":"inst_38571875","path":"rooms/entryway_5/entryway_5.yy",},
     {"name":"inst_13C31DBB","path":"rooms/entryway_5/entryway_5.yy",},
@@ -187,7 +186,6 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_confectibox","path":"objects/obj_confectibox/obj_confectibox.yy",},"propertyId":{"name":"BoxContent","path":"objects/obj_confectibox/obj_confectibox.yy",},"value":"231",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3904.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_25DAF5ED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bigcollect","path":"objects/obj_bigcollect/obj_bigcollect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":384.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F922BD1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretdestroyable","path":"objects/obj_secretdestroyable/obj_secretdestroyable.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1376.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3771A6BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretdestroyable_metal","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_secretdestroyable_metal","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"propertyId":{"name":"layer_tile","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"value":"\"Tiles_Secret\"",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":416.0,},
