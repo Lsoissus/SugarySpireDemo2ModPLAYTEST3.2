@@ -1,1 +1,0 @@
-targetRoom = entrywaysecret_3
