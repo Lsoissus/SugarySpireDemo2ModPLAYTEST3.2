@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "bg_entryway2_buildings2",
+  "name": "bg_entryway2_skyold",
   "bbox_bottom": 599,
-  "bbox_left": 13,
-  "bbox_right": 827,
-  "bbox_top": 230,
+  "bbox_left": 0,
+  "bbox_right": 1099,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cfda8311-ded0-4e28-8cf6-0277f1bfafdc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fb17bd7d-1576-4510-a3c5-baa8a02d5afd",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 600,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6ca73365-6eac-4b93-b662-3995c2529d70","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9e1227dc-8b23-49bc-ba6c-edeeeb87646f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "bg_entryway2_buildings2",
+    "name": "bg_entryway2_skyold",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cfda8311-ded0-4e28-8cf6-0277f1bfafdc","path":"sprites/bg_entryway2_buildings2/bg_entryway2_buildings2.yy",},},},"Disabled":false,"id":"a6d3ce5b-97ce-460a-a4de-430d4b6c50d6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fb17bd7d-1576-4510-a3c5-baa8a02d5afd","path":"sprites/bg_entryway2_skyold/bg_entryway2_skyold.yy",},},},"Disabled":false,"id":"8ba7214e-f9cc-4bf1-80c5-f13b765324fe","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1000,
+  "width": 1100,
 }

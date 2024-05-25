@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "bg_entryway2_buildings",
   "bbox_bottom": 599,
-  "bbox_left": 0,
-  "bbox_right": 1099,
-  "bbox_top": 173,
+  "bbox_left": 27,
+  "bbox_right": 938,
+  "bbox_top": 210,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b2da8cd7-9ab2-4d3a-8fe1-16095d73a4df",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8846a82f-fe86-487e-8fb4-5bc778b41b84",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 600,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bd27dff4-9112-4eb6-92c0-cda1e99b4135","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"59f44d0d-bca0-473d-b9ad-aa3fc2e2b107","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b2da8cd7-9ab2-4d3a-8fe1-16095d73a4df","path":"sprites/bg_entryway2_buildings/bg_entryway2_buildings.yy",},},},"Disabled":false,"id":"94535e3e-bb30-424c-bca3-18d0635cc724","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8846a82f-fe86-487e-8fb4-5bc778b41b84","path":"sprites/bg_entryway2_buildings/bg_entryway2_buildings.yy",},},},"Disabled":false,"id":"8a05aa7a-5370-4c9f-9546-dca0fd8252a4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1100,
+  "width": 1000,
 }
