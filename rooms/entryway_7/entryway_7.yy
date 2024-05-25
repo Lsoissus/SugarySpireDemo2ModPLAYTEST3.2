@@ -9,6 +9,9 @@
   "instanceCreationOrder": [
     {"name":"inst_515E4C2B","path":"rooms/entryway_7/entryway_7.yy",},
     {"name":"inst_68BC5DF3","path":"rooms/entryway_7/entryway_7.yy",},
+    {"name":"inst_38A3A30","path":"rooms/entryway_7/entryway_7.yy",},
+    {"name":"inst_1F926744","path":"rooms/entryway_7/entryway_7.yy",},
+    {"name":"inst_4FF14017","path":"rooms/entryway_7/entryway_7.yy",},
     {"name":"inst_CAAD0C1B","path":"rooms/entryway_7/entryway_7.yy",},
     {"name":"inst_4F607A83","path":"rooms/entryway_7/entryway_7.yy",},
     {"name":"inst_D314F80B","path":"rooms/entryway_7/entryway_7.yy",},
@@ -123,9 +126,6 @@
     {"name":"inst_7F85BB67","path":"rooms/entryway_7/entryway_7.yy",},
     {"name":"inst_38B645C9","path":"rooms/entryway_7/entryway_7.yy",},
     {"name":"inst_6075B507","path":"rooms/entryway_7/entryway_7.yy",},
-    {"name":"inst_38A3A30","path":"rooms/entryway_7/entryway_7.yy",},
-    {"name":"inst_1F926744","path":"rooms/entryway_7/entryway_7.yy",},
-    {"name":"inst_4FF14017","path":"rooms/entryway_7/entryway_7.yy",},
   ],
   "isDnd": false,
   "layers": [
