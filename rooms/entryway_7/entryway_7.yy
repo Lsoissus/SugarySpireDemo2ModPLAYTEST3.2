@@ -126,6 +126,7 @@
     {"name":"inst_7F85BB67","path":"rooms/entryway_7/entryway_7.yy",},
     {"name":"inst_38B645C9","path":"rooms/entryway_7/entryway_7.yy",},
     {"name":"inst_6075B507","path":"rooms/entryway_7/entryway_7.yy",},
+    {"name":"inst_3E369391","path":"rooms/entryway_7/entryway_7.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -272,6 +273,9 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_baddie","path":"objects/obj_baddie/obj_baddie.yy",},"propertyId":{"name":"panicEscape","path":"objects/obj_baddie/obj_baddie.yy",},"value":"true",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1792.0,"y":736.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6075B507","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_slopePlatform","path":"objects/obj_slopePlatform/obj_slopePlatform.yy",},"properties":[],"rotation":0.0,"scaleX":-3.0,"scaleY":2.0,"x":3520.0,"y":768.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E369391","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_confectibox","path":"objects/obj_confectibox/obj_confectibox.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_confectibox","path":"objects/obj_confectibox/obj_confectibox.yy",},"propertyId":{"name":"BoxContent","path":"objects/obj_confectibox/obj_confectibox.yy",},"value":"obj_confecticrack",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4992.0,"y":864.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_gold","depth":111,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":44,"SerialiseWidth":207,"TileCompressedData":[
 -2946,-2147483648,2,770,771,-2066,-2147483648,-2,0,-420,-2147483648,-2,0,-205,-2147483648,-2,0,-205,-2147483648,-2,0,-21,-2147483648,3,903,904,905,-186,-2147483648,2,812,813,-16,-2147483648,3,935,936,937,-186,-2147483648,2,844,845,-205,-2147483648,2,876,877,-3,-2147483648,2,810,811,-205,-2147483648,2,842,843,-413,-2147483648,1,906,-15,-2147483648,2,808,809,-189,-2147483648,2,938,939,-14,-2147483648,2,840,841,-189,-2147483648,2,970,971,-14,-2147483648,2,872,873,-189,-2147483648,2,1002,1003,-1382,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_entryway1","path":"tilesets/ts_entryway1/ts_entryway1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
