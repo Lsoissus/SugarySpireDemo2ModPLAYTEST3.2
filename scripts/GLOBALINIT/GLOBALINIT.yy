@@ -1,13 +1,11 @@
 {
-  "$GMScript":"",
-  "%Name":"GLOBALINIT",
-  "isCompatibility":false,
-  "isDnD":false,
-  "name":"GLOBALINIT",
-  "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "GLOBALINIT",
+  "isCompatibility": false,
+  "isDnD": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
-  "resourceType":"GMScript",
-  "resourceVersion":"2.0",
 }

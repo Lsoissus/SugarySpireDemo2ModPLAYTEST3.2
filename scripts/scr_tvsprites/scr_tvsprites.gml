@@ -15,8 +15,6 @@ function scr_tvsprites()
 		machtvspr = spr_pizzytvmach;
 		orbtvspr = spr_pizzytv_croaked;
 		maxspeedtvspr = spr_pizzytvmachmax;
-		topspeedtvspr = spr_pizzytvcrazyrun;
-		escapetvidle = spr_pizzytvescape
 	}
 	if (obj_player.character == "N")
 	{

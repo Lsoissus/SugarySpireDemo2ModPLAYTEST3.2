@@ -9,20 +9,11 @@ function scr_player_crouchslide()
 	mask_index = spr_crouchmask;
 	if key_jump2
 	{
+		movespeed += 4.5
 		state = states.mach2;
 		vsp = -9
 		sprite_index = spr_player_longjump
 	}
-
-				if (!key_down && grounded)
-				{
-					alarm[0] = 240;
-					scr_sound(sound_break);
-					sprite_index = spr_machslidestart;
-					state = states.machslide;
-					image_index = 0;
-					mach2 = 0;
-				}
 	if (key_attack2 && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16))
 	{
 		switch (character)
@@ -65,12 +56,6 @@ function scr_player_crouchslide()
 		machhitAnim = false;
 		instance_create(x + (xscale * 10), y + (xscale * 10), obj_bumpeffect);
 	}
-			if (key_down && !place_meeting(x, y, obj_dashpad) && !grounded && sprite_index != spr_player_dive)
-			{
-				flash = false;
-				state = states.machroll;
-				vsp = 15;
-			}
 	var _xscale = xscale;
 	if (!instance_exists(obj_slidecloud) && grounded && movespeed > 5)
 		instance_create(x, y, obj_slidecloud);

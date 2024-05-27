@@ -51,16 +51,16 @@ function scr_player_handstandjump()
 					image_index = 1;
 					state = states.freefallprep;
 					sprite_index = spr_player_bodyslamstart;
-					vsp = -11;
+					vsp = -18;
 				}
 			}
 			if (key_jump && grounded)
 			{
+				movespeed += 2.35
 				sprite_index = spr_player_longjump;
 				instance_create(x, y, obj_jumpdust);
 				state = states.mach2;
-				mach2 = 1
-				vsp = -11;
+				vsp = -9;
 				if (audio_is_playing(sound_suplex1))
 					audio_stop_sound(sound_suplex1);
 			}

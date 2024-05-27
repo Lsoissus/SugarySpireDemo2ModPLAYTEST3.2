@@ -15,14 +15,14 @@ function scr_player_cotton()
 	hsp = move * movespeed;
 	if (move != 0)
 	{
-		if (movespeed < 8)
+		if (movespeed < 6)
 			movespeed += 0.5;
-		else if (floor(movespeed) >= 8)
-			movespeed = 8;
+		else if (floor(movespeed) >= 6)
+			movespeed = 6;
 	}
 	else
 		movespeed = 0;
-	if (movespeed > 8)
+	if (movespeed > 6)
 		movespeed -= 0.1;
 	if (vsp > 5)
 		vsp = 5;
@@ -125,24 +125,6 @@ function scr_player_cotton()
 		vsp = 9;
 		state = states.cottondrill;
 		sprite_index = spr_cotton_drill;
-		image_index = 0;
-		scr_sound(sound_suplex1);
-		flash = true;
-		drill = false;
-		with (instance_create(x, y, obj_afterimageoutward))
-			hspeed = 7;
-		with (instance_create(x, y, obj_afterimageoutward))
-			hspeed = -7;
-		with (instance_create(x, y, obj_afterimageoutward))
-			vspeed = 7;
-		with (instance_create(x, y, obj_afterimageoutward))
-			vspeed = -7;
-	}
-	if (key_up2 && !grounded && drill && sprite_index != spr_cotton_slam && sprite_index != spr_cotton_slam2 && sprite_index != spr_cotton_slam3)
-	{
-		vsp = -18;
-		state = states.cottondrill;
-		sprite_index = spr_cotton_drillup;
 		image_index = 0;
 		scr_sound(sound_suplex1);
 		flash = true;

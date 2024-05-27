@@ -1,4 +1,3 @@
-
 scr_hatScript();
 scr_playerreset();
 obj_player.targetDoor = "A";

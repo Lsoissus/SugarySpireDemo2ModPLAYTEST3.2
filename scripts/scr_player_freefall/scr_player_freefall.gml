@@ -42,7 +42,7 @@ function scr_player_freefall()
 		sprite_index = spr_caneslam;
 	if ((grounded && !input_buffer_jump < 8) && !place_meeting(x, y + 1, obj_destructibles))
 	{
-		if (scr_slope() && !place_meeting(x, y, obj_dashpad) && key_down)
+		if (scr_slope() && !place_meeting(x, y, obj_dashpad) && key_down && freefallsmash > 10)
 		{
 			flash = false;
 			state = states.machroll;
