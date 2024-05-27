@@ -54,7 +54,7 @@ function scr_player_Sjump()
 		movespeed = 0;
 	}
 	image_speed = 0.5;
-	if (key_attack2 && !grounded && vsp < -10 && character == "P")
+	if ((key_attack2 || key_slap) && !grounded && vsp < -10 && character == "P")
 	{
         sprite_index = spr_player_superjump_cancelprep
         vsp = 0

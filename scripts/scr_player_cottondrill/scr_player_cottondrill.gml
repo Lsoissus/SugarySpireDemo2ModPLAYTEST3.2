@@ -10,7 +10,10 @@ function scr_player_cottondrill()
 	if (move != 0)
 		xscale = move;
 	hsp = 0;
-	sprite_index = spr_cotton_drill;
+	if sprite_index = spr_cotton_drill
+	sprite_index = spr_cotton_drill
+	else
+	sprite_index = spr_cotton_drillup
 	if (grounded)
 	{
 		state = states.cotton;

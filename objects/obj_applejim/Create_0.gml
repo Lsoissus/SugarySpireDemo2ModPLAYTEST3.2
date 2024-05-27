@@ -1,4 +1,6 @@
 grav = 0.5;
+squashval = 0
+cottoned = 0
 hsp = 0;
 vsp = 0;
 movespeed = 1;

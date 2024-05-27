@@ -124,7 +124,12 @@ if (tvsprite != spr_tvturnon && ds_queue_size(global.newhudtvanim) < 1 && tvleng
 		case states.mach3:
 			ChannelState = 5;
 			if (obj_player.state == states.mach3)
-				tvsprite = maxspeedtvspr;
+			{
+				if obj_player.sprite_index = spr_player_crazyrun
+				tvsprite = topspeedtvspr;
+				else
+				tvsprite = maxspeedtvspr
+			}
 			else
 				tvsprite = machtvspr;
 			break;
@@ -138,7 +143,7 @@ if (tvsprite != spr_tvturnon && ds_queue_size(global.newhudtvanim) < 1 && tvleng
 				ChannelState = 7;
 				if (tvsprite != idletvspr && !(tvsprite == tvchange1 || tvsprite == tvchange2))
 				{
-					tvcount = choose(500, 450, 400, 550);
+					tvcount = choose(500, 450, 400, 550)
 					tvsprite = idletvspr;
 					image_index = 0;
 				}
