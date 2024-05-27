@@ -920,6 +920,7 @@
     {"name":"sfx_taunt2","order":808,"path":"sounds/sfx_taunt2/sfx_taunt2.yy",},
     {"name":"font_dev","order":816,"path":"fonts/font_dev/font_dev.yy",},
     {"name":"entryway_6a","order":12,"path":"rooms/entryway_6a/entryway_6a.yy",},
+    {"name":"spr_combomask","order":986,"path":"sprites/spr_combomask/spr_combomask.yy",},
     {"name":"spr_player_machpunch2","order":1,"path":"sprites/spr_player_machpunch2/spr_player_machpunch2.yy",},
     {"name":"spr_chargershitbox","order":2,"path":"sprites/spr_chargershitbox/spr_chargershitbox.yy",},
     {"name":"spr_candy_appear","order":3,"path":"sprites/spr_candy_appear/spr_candy_appear.yy",},

@@ -17,7 +17,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 	draw_sprite_ext(spr_tvcomboshadow, image_index, 832, 74 + DrawY, 1, 1, 0, c_white, combofade);
 	if (global.combotime > 0 && global.combo > 0)
 	{
-
+		draw_sprite_ext(spr_tvcombo, image_index, 832, 74, 1, 1, 0, c_white, alpha);
 		draw_set_font(global.combofont);
 		draw_set_halign(fa_center);
 		draw_set_color(c_white);
@@ -34,10 +34,10 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 				_xx += irandom_range(-2, 2);
 				_yy += irandom_range(-2, 2);
 			}
-			draw_text_color(838 + _xx, 70 + _yy, string_char_at(_combo, i + 1), c_white, c_white, c_white, c_white, alpha);
+			draw_text_color(838 + _xx, 50 + _yy, string_char_at(_combo, i + 1), c_white, c_white, c_white, c_white, alpha);
 		}
 		if (!surface_exists(BarSurface))
-			BarSurface = surface_create(278, 268);
+			BarSurface = surface_create(137, 44);
 		else
 		{
 			surface_set_target(BarSurface);
@@ -48,12 +48,12 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 			draw_set_color(c_white);
 			draw_sprite_ext(spr_barpop3, 0, 112 * (global.combotime / 60), -64, 1, 5, 0, c_white, 1);
 			gpu_set_blendmode(bm_subtract);
-			draw_sprite_ext(spr_barpop, 1, 0, 0, 1, 1, 0, c_white, 1);
+			draw_sprite_ext(spr_combomask, 0, 463, 107, 1, 1, 0, c_white, 1);
 			gpu_set_blendmode(bm_normal);
 			surface_reset_target();
 			BarX += (-0.5 + (0.45 * (global.combofreeze / 30)));
-			draw_surface_ext(BarSurface, 107, 56, 1, 1, 0, c_white, alpha);
-			draw_sprite_ext(spr_barpop, 0, 107, 56, 1, 1, 0, c_white, alpha);
+			draw_surface_ext(BarSurface, 526, 294, 1, 1, 0, c_white, alpha);
+			draw_sprite_ext(spr_barpop, 0, 463, 107, 1, 1, 0, c_white, alpha);
 		}
 	}
 	else if (chooseOnecomboend)
