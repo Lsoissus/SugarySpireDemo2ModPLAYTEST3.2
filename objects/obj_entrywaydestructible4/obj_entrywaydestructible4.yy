@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_entrywaydestructible",
+  "name": "obj_entrywaydestructible4",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,},
@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "group1",
+    "path": "folders/Objects/group1.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_entryway_obstacle_1",
-    "path": "sprites/spr_entryway_obstacle_1/spr_entryway_obstacle_1.yy",
+    "name": "spr_entryway_obstacle_4",
+    "path": "sprites/spr_entryway_obstacle_4/spr_entryway_obstacle_4.yy",
   },
   "spriteMaskId": null,
   "visible": true,
