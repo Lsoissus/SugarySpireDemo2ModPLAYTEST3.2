@@ -1,1 +1,1 @@
-targetRoom = entryway_6a
+targetRoom = entryway_6
