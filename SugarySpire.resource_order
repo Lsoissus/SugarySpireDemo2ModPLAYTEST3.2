@@ -468,6 +468,7 @@
     {"name":"roomref","order":831,"path":"sprites/roomref/roomref.yy",},
     {"name":"steamy_secret1","order":15,"path":"rooms/steamy_secret1/steamy_secret1.yy",},
     {"name":"mines_6","order":10,"path":"rooms/mines_6/mines_6.yy",},
+    {"name":"steamy_lap","order":19,"path":"rooms/steamy_lap/steamy_lap.yy",},
     {"name":"timesuproom","order":3,"path":"rooms/timesuproom/timesuproom.yy",},
     {"name":"mines_2","order":6,"path":"rooms/mines_2/mines_2.yy",},
     {"name":"rm_initializer","order":5,"path":"rooms/rm_initializer/rm_initializer.yy",},

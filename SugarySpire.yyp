@@ -515,6 +515,7 @@
     {"id":{"name":"roomref","path":"sprites/roomref/roomref.yy",},},
     {"id":{"name":"steamy_secret1","path":"rooms/steamy_secret1/steamy_secret1.yy",},},
     {"id":{"name":"mines_6","path":"rooms/mines_6/mines_6.yy",},},
+    {"id":{"name":"steamy_lap","path":"rooms/steamy_lap/steamy_lap.yy",},},
     {"id":{"name":"timesuproom","path":"rooms/timesuproom/timesuproom.yy",},},
     {"id":{"name":"mines_2","path":"rooms/mines_2/mines_2.yy",},},
     {"id":{"name":"rm_initializer","path":"rooms/rm_initializer/rm_initializer.yy",},},
@@ -2158,6 +2159,7 @@
     {"roomId":{"name":"entryway_11","path":"rooms/entryway_11/entryway_11.yy",},},
     {"roomId":{"name":"hub_room2","path":"rooms/hub_room2/hub_room2.yy",},},
     {"roomId":{"name":"rm_internettytesting","path":"rooms/rm_internettytesting/rm_internettytesting.yy",},},
+    {"roomId":{"name":"steamy_lap","path":"rooms/steamy_lap/steamy_lap.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
