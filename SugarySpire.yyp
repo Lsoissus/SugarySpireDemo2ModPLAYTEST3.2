@@ -852,6 +852,7 @@
     {"id":{"name":"sfx_cottonjump","path":"sounds/sfx_cottonjump/sfx_cottonjump.yy",},},
     {"id":{"name":"sfx_cottondoublejump","path":"sounds/sfx_cottondoublejump/sfx_cottondoublejump.yy",},},
     {"id":{"name":"sfx_sweet","path":"sounds/sfx_sweet/sfx_sweet.yy",},},
+    {"id":{"name":"sound_lapenter","path":"sounds/sound_lapenter/sound_lapenter.yy",},},
     {"id":{"name":"sound_break","path":"sounds/sound_break/sound_break.yy",},},
     {"id":{"name":"sound_killingblow","path":"sounds/sound_killingblow/sound_killingblow.yy",},},
     {"id":{"name":"mu_mineshaft1","path":"sounds/mu_mineshaft1/mu_mineshaft1.yy",},},

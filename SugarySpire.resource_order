@@ -800,6 +800,7 @@
     {"name":"sfx_cottonjump","order":703,"path":"sounds/sfx_cottonjump/sfx_cottonjump.yy",},
     {"name":"sfx_cottondoublejump","order":704,"path":"sounds/sfx_cottondoublejump/sfx_cottondoublejump.yy",},
     {"name":"sfx_sweet","order":705,"path":"sounds/sfx_sweet/sfx_sweet.yy",},
+    {"name":"sound_lapenter","order":820,"path":"sounds/sound_lapenter/sound_lapenter.yy",},
     {"name":"sound_break","order":706,"path":"sounds/sound_break/sound_break.yy",},
     {"name":"sound_killingblow","order":707,"path":"sounds/sound_killingblow/sound_killingblow.yy",},
     {"name":"mu_mineshaft1","order":708,"path":"sounds/mu_mineshaft1/mu_mineshaft1.yy",},
