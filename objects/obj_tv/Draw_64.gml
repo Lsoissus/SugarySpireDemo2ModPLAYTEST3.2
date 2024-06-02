@@ -52,7 +52,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 			gpu_set_blendmode(bm_normal);
 			surface_reset_target();
 			BarX += (-0.5 + (0.45 * (global.combofreeze / 30)));
-			draw_surface_ext(BarSurface, 526, 294, 1, 1, 0, c_white, alpha);
+			draw_surface_ext(BarSurface, 527, 293, 1, 1, 0, c_white, alpha);
 			draw_sprite_ext(spr_barpop, 0, 463, 107, 1, 1, 0, c_white, alpha);
 		}
 	}

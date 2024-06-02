@@ -66,6 +66,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Tile Sets/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player Sprites","folderPath":"folders/Sprites/Player Sprites.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"gc.dll","CopyToMask":0,"filePath":"datafiles/GMLive",},
@@ -350,6 +351,7 @@
     {"id":{"name":"spr_entryway_obstacle_1","path":"sprites/spr_entryway_obstacle_1/spr_entryway_obstacle_1.yy",},},
     {"id":{"name":"obj_confectimallow","path":"objects/obj_confectimallow/obj_confectimallow.yy",},},
     {"id":{"name":"obj_confectichoco","path":"objects/obj_confectichoco/obj_confectichoco.yy",},},
+    {"id":{"name":"spr_player_wallkick","path":"sprites/spr_player_wallkick/spr_player_wallkick.yy",},},
     {"id":{"name":"ts_mines1","path":"tilesets/ts_mines1/ts_mines1.yy",},},
     {"id":{"name":"obj_confecticrack","path":"objects/obj_confecticrack/obj_confecticrack.yy",},},
     {"id":{"name":"obj_confecticandy","path":"objects/obj_confecticandy/obj_confecticandy.yy",},},
@@ -1423,6 +1425,7 @@
     {"id":{"name":"spr_knightpep_start","path":"sprites/spr_knightpep_start/spr_knightpep_start.yy",},},
     {"id":{"name":"rm_blank","path":"rooms/rm_blank/rm_blank.yy",},},
     {"id":{"name":"spr_crazyruneffect","path":"sprites/spr_crazyruneffect/spr_crazyruneffect.yy",},},
+    {"id":{"name":"spr_player_wallkickloop","path":"sprites/spr_player_wallkickloop/spr_player_wallkickloop.yy",},},
     {"id":{"name":"spr_violetblocklandtutorial","path":"sprites/spr_violetblocklandtutorial/spr_violetblocklandtutorial.yy",},},
     {"id":{"name":"bg_waferback1","path":"sprites/bg_waferback1/bg_waferback1.yy",},},
     {"id":{"name":"spr_taunteffect","path":"sprites/spr_taunteffect/spr_taunteffect.yy",},},

@@ -45,6 +45,7 @@ function scr_player_jump()
 		vsp = grav;
 		jumpstop = true;
 	}
+
 	if (grounded && input_buffer_jump < 8 && !key_down && !key_attack && vsp > 0 && !(sprite_index == spr_player_facestomp || sprite_index == spr_player_freefall))
 	{
 		scr_sound(sound_jump);
@@ -61,7 +62,7 @@ function scr_player_jump()
 		freefallstart = false;
 		instance_create_depth(x, y, 0, obj_landcloud);
 	}
-	if (key_attack && grounded && fallinganimation < 40 && !charged)
+	if (key_attack && grounded && fallinganimation < 40 && !charged && !(sprite_index == spr_player_wallkick || sprite_index == spr_player_wallkickloop))
 	{
 		mach2 = 0;
 		if (movespeed < 6)
@@ -186,7 +187,7 @@ function scr_player_jump()
 		scr_sound(sound_rollgetup);
 		scr_sound(sound_suplex1);
 	}
-	if ((!key_down && key_slap2 && !suplexmove && !shotgunAnim && !global.cane) && character == "P")
+	if ((!key_down && key_slap2 && !suplexmove && !shotgunAnim && !global.cane) && character == "P" && !(sprite_index == spr_player_wallkick || sprite_index == spr_player_wallkickloop))
 	{
 		scr_sound(sound_suplex1);
 		instance_create(x, y, obj_slaphitbox);
