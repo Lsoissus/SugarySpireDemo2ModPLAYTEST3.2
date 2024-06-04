@@ -1,1 +1,1 @@
-targetRoom = molassesB_6b
+targetRoom = molasses_6b
