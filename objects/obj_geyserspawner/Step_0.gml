@@ -1,4 +1,4 @@
-if ((place_meeting(x, y - obj_player.vsp, obj_player) || place_meeting(x, y - 1, obj_player)) && obj_player.state == states.freefallland && obj_player.sprite_index == spr_player_bodyslamland)
+if ((place_meeting(x, y - obj_player.vsp, obj_player) || place_meeting(x, y - 1, obj_player)) && (obj_player.state == states.freefallland && obj_player.sprite_index == spr_player_bodyslamland || obj_player.state == states.wallkick))
 {
 	if (!instance_exists(SpoutID))
 	{

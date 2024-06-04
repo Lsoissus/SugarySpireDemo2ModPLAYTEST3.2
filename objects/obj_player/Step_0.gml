@@ -49,12 +49,15 @@ if (state != states.gameover && y > (room_height + 64) && !place_meeting(x, y, o
 		x = _checkpoint.x;
 		y = _checkpoint.y;
 		instance_create(_checkpoint.x, _checkpoint.y, obj_poofeffect);
+		scr_sound(sfx_TVswitch)
+        instance_create(x, y, obj_technicaldifficulties)
 	}
 	else
 	{
-		x = roomstartx;
-		y = roomstarty;
-		instance_create(roomstartx, roomstarty, obj_poofeffect);
+        x = roomstartx
+        y = roomstarty
+        scr_sound(sfx_TVswitch)
+        instance_create(x, y, obj_technicaldifficulties)
 	}
 	if (instance_exists(obj_train))
 	{
