@@ -23,7 +23,9 @@ function sh_escape()
 	global.minutes = real(string_digits(arg1));
 	global.seconds = real(string_digits(arg2));
 	global.wave = 0;
-	global.maxwave = ((global.minutes * 60) + global.seconds) * 60;
+	global.maxwave = (global.minutes * 60 + global.seconds) * 60;
+	with (obj_tv)
+        chunkmax = (global.minutes * 60 + global.seconds) * 60
 	obj_camera.alarm[1] = 60;
 	if (!instance_exists(obj_panicchanger))
 		instance_create(x, y, obj_panicchanger);

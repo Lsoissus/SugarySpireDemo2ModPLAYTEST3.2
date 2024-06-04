@@ -90,7 +90,7 @@ var top = (spr_h - t)
 draw_sprite_part(spr_ranks_hudfill, rank_ix, 0, top, spr_w, (spr_h - top), (190 - spr_xo), (((29 + obj_stylebar.hudbounce) - spr_yo) + top))
 draw_set_halign(fa_center)
 draw_set_color(c_white)
-if (global.panic || global.starrmode)
+/*if (global.panic || global.starrmode)
 {
 	if (global.seconds < 10)
 	{
@@ -108,7 +108,7 @@ if (global.panic || global.starrmode)
 			draw_set_color(c_white);
 		draw_text(random_range(1, -1) + 480, random_range(1, -1) + 65, string_hash_to_newline(string(global.minutes) + ":" + string(global.seconds)));
 	}
-}
+}*/
 if (global.debugmode)
 {
 	draw_set_font(global.font);
@@ -132,3 +132,47 @@ if (global.debugmode)
 	var spritename = string_upper(sprite_get_name(obj_player.sprite_index));
 	draw_text(0, 150, spritename);
 }
+
+#region BAR TIMER
+
+if global.panic || global.starrmode
+{
+    var _fill = (global.minutes * 60 + global.seconds) * 60
+    var _currentbarpos = chunkmax - _fill
+    var _perc = _currentbarpos / chunkmax
+    var _max_x = cam_w / 2 - 200
+    var _barpos = _max_x * _perc
+    var timerspr = coneball_sprite
+    draw_sprite(timerspr, coneball_index, timer_x + 280, timer_y + 10)
+	draw_sprite(spr_coneball_bartimertongue, -1, timer_x, timer_y)
+    if !surface_exists(bar_surface)
+        bar_surface = surface_create(cam_w / 2, 30)
+    var _barfillpos = floor(_barpos) + 13
+    if _barfillpos > 0
+    {
+        surface_resize(bar_surface, _barfillpos, 30)
+        surface_set_target(bar_surface)
+        draw_clear_alpha(c_black, 0)
+        var clip_x = timer_x + 3
+        var clip_y = timer_y + 5
+        draw_sprite(spr_coneball_bartimer_rolltrail, 0, timer_x, 0)
+        surface_reset_target()
+        draw_surface(bar_surface, timer_x, timer_y)
+    }
+    draw_sprite(roll_sprite, roll_index, timer_x + 13 + _barpos, timer_y + 20)
+	var seconds
+    if global.seconds < 10
+        seconds = concat("0", global.seconds)
+    else
+        seconds = string(global.seconds)
+    draw_set_halign(fa_center)
+    draw_set_valign(fa_middle)
+    draw_set_font(global.font)
+	if global.minutes < 1
+		var _offset = random_range(1, -1)
+    draw_text(timer_x + 200 + _offset, timer_y + 18 + _offset - (sprite_get_yoffset(spr_font) / 2), concat(global.minutes, ":", seconds))
+}
+else if surface_exists(bar_surface)
+    surface_free(bar_surface)
+	
+#endregion

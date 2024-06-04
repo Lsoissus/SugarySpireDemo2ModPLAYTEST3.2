@@ -128,3 +128,46 @@ else
 if (global.panicbg && global.panic)
 	global.wave = clamp(clamp(global.wave + (60 / room_speed), 0, global.maxwave - (((global.minutes * 60) + global.seconds) * 60)), 0, global.maxwave);
 Collectshake = approach(Collectshake, 0, 20 / room_speed);
+
+#region BAR TIMER
+
+timer_xstart = cam_w / 2 + timer_xplus
+timer_ystart = cam_h + timer_yplus
+timer_x = timer_xstart
+coneball_index += 0.35
+roll_index += 0.35
+if global.panic || global.starrmode
+{
+	if global.minutes > 0 || global.seconds > 0
+	{
+	    showtime_buffer = 100
+	    timer_y = approach(timer_y, timer_ystart, 1)
+	}
+	else
+	{
+	    if coneball_sprite == spr_coneball_bartimer
+	    {
+	        coneball_sprite = spr_coneball_bartimesup
+	        coneball_index = 0
+	    }
+	    else if coneball_sprite == spr_coneball_bartimesup
+	    {
+	        if floor(coneball_index) == sprite_get_number(coneball_sprite) - 1
+	            coneball_index = 57
+	    }
+	    else if showtime_buffer > 0
+	        showtime_buffer--
+	    else
+	        timer_y = approach(timer_y, timer_ystart + 212, 1)
+	}
+}
+else
+{
+    coneball_sprite = spr_coneball_bartimer
+    //coneball_pal = 0
+    timer_y = approach(timer_y, timer_ystart + 212, 1)
+}
+/*if global.panic && global.fill < (chunkmax / 5)
+    coneball_pal = 1*/
+
+#endregion
