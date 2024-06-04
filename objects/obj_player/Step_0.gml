@@ -72,6 +72,12 @@ if (state != states.gameover && y > (room_height + 64) && !place_meeting(x, y, o
 		}
 	}
 }
+    if (state != states.door && (!instance_exists(obj_fadeout)))
+    {
+        obj_player.hallway = 0
+        obj_player.vertical = 0
+        obj_player.box = 0
+    }
 if (state != states.freefall && state != states.freefallprep && state != states.freefallland)
 	freefallsmash = 0;
 if (!instance_exists(baddiegrabbedID) && (state == states.grab || (state == states.superslam && sprite_index != spr_piledriverland) || state == states.charge))

@@ -7,4 +7,3 @@ static_dir = 1
 use_static = 1
 subimg = random_range(0,2)
 alarm[0] = 80
-obj_player.visible = false
