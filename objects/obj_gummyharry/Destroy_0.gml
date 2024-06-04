@@ -16,6 +16,8 @@ if (ds_list_find_index(global.saveroom, id) == -1)
 	global.seconds = time_array[1];
 	global.wave = 0;
 	global.maxwave = ((global.minutes * 60) + global.seconds) * 60;
+	with (obj_tv)
+        chunkmax = (global.minutes * 60 + global.seconds) * 60
 	instance_create(x, y, obj_panicchanger);
 	switch (global.combo)
 	{

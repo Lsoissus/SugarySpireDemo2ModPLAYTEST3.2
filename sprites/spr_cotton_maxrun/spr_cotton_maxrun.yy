@@ -29,8 +29,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cotton",
+    "path": "folders/Sprites/Player Sprites/Pizzelle/Cotton.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

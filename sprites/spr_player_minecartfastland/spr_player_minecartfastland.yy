@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Player Sprites",
-    "path": "folders/Sprites/Player Sprites.yy",
+    "name": "Minecart",
+    "path": "folders/Sprites/Player Sprites/Pizzelle/Minecart.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
