@@ -51,7 +51,6 @@ function scr_player_climbwall()
 			vsp = -12;
 			sprite_index = spr_player_wallkick;
 			xscale *= -1;
-			hsp = 3 * xscale
 			state = states.wallkick
 	}
 	image_speed = 0.6;
