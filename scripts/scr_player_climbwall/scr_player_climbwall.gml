@@ -49,28 +49,10 @@ function scr_player_climbwall()
 	{
 			instance_create(x, y, obj_jumpdust);
 			vsp = -12;
-			sprite_index = spr_player_mach2jump;
+			sprite_index = spr_player_wallkick;
 			xscale *= -1;
-			vsp = 5 * xscale
-	}
-	if (sprite_index == spr_player_mach2jump)
-		sprite_index = spr_player_wallkick
-	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_wallkick)
-		sprite_index = spr_player_wallkickloop
-	if (key_slap2 && sprite_index == spr_player_wallkickloop)
-	{
-			instance_create(x, y, obj_jumpdust);
-			sprite_index = spr_player_mach3;
-			state = states.mach3
-			vsp = -9
-			movespeed += 2
-	}
-	if (grounded && sprite_index == spr_player_wallkickloop)
-	{
-			instance_create(x, y, obj_jumpdust);
-			sprite_index = spr_player_mach3;
-			state = states.mach3
-			movespeed += 2
+			hsp = 3 * xscale
+			state = states.wallkick
 	}
 	image_speed = 0.6;
 	if (!instance_exists(obj_cloudeffect))

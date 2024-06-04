@@ -98,6 +98,7 @@
     {"id":{"name":"obj_gnome","path":"objects/obj_gnome/obj_gnome.yy",},},
     {"id":{"name":"obj_cottonplatform_tiled","path":"objects/obj_cottonplatform_tiled/obj_cottonplatform_tiled.yy",},},
     {"id":{"name":"obj_molassesWall","path":"objects/obj_molassesWall/obj_molassesWall.yy",},},
+    {"id":{"name":"scr_player_wallkick","path":"scripts/scr_player_wallkick/scr_player_wallkick.yy",},},
     {"id":{"name":"spr_rank_marshmallow","path":"sprites/spr_rank_marshmallow/spr_rank_marshmallow.yy",},},
     {"id":{"name":"obj_deeznut","path":"objects/obj_deeznut/obj_deeznut.yy",},},
     {"id":{"name":"obj_flingFrog","path":"objects/obj_flingFrog/obj_flingFrog.yy",},},
