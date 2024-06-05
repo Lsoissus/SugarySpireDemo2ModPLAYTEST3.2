@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "bg_mines1para2",
-  "bbox_bottom": 299,
+  "bbox_bottom": 298,
   "bbox_left": 0,
-  "bbox_right": 959,
+  "bbox_right": 869,
   "bbox_top": 24,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db9fd4b9-e321-4c42-82d7-6f6b10caf90a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"01d94a54-d103-45d6-8753-02dc3a561adb",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 521,
+  "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fbe9ce22-7084-461c-86cb-e1fb61196228","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c7040c42-48a3-490b-9c8c-4de6e3583379","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"db9fd4b9-e321-4c42-82d7-6f6b10caf90a","path":"sprites/bg_mines1para2/bg_mines1para2.yy",},},},"Disabled":false,"id":"0e58b76e-ace7-4753-9de5-6645b63108b6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"01d94a54-d103-45d6-8753-02dc3a561adb","path":"sprites/bg_mines1para2/bg_mines1para2.yy",},},},"Disabled":false,"id":"723ad204-7eff-433d-b5c3-dd0ba445688b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 960,
+  "width": 870,
 }

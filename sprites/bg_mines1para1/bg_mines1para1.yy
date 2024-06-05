@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "bg_mines1para1",
   "bbox_bottom": 539,
-  "bbox_left": 187,
-  "bbox_right": 827,
+  "bbox_left": 97,
+  "bbox_right": 737,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bf0f8395-9c8e-4bd2-ac11-7b7f10f18553",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7247481e-22a4-4b2a-b972-09887275b1c1",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ed5b6e38-ec0b-4e46-a1b6-8441f8a9091f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"01cd6927-4165-4d5e-b93a-7e485b5e9ed5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bf0f8395-9c8e-4bd2-ac11-7b7f10f18553","path":"sprites/bg_mines1para1/bg_mines1para1.yy",},},},"Disabled":false,"id":"e4e29719-0bed-4b87-adf0-130ab18d58a3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7247481e-22a4-4b2a-b972-09887275b1c1","path":"sprites/bg_mines1para1/bg_mines1para1.yy",},},},"Disabled":false,"id":"dbbfadad-adfd-4a0f-a959-cb734abc9064","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 960,
+  "width": 870,
 }
