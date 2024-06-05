@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "bg_mines1para2_escape",
-  "bbox_bottom": 518,
+  "bbox_bottom": 517,
   "bbox_left": 0,
   "bbox_right": 959,
   "bbox_top": 15,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3aa80f1a-a082-4e9f-a25c-20b9a9c98409",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71facd39-218a-4b30-9903-6bf0d1a4fe0f",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 521,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"456f8462-ea6c-4695-a82f-2aac6de6c940","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c96cb946-6183-48b4-8b86-2fa66c154d3e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3aa80f1a-a082-4e9f-a25c-20b9a9c98409","path":"sprites/bg_mines1para2_escape/bg_mines1para2_escape.yy",},},},"Disabled":false,"id":"cc8d6683-8c52-4edf-88e3-cf9f96e170cb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"71facd39-218a-4b30-9903-6bf0d1a4fe0f","path":"sprites/bg_mines1para2_escape/bg_mines1para2_escape.yy",},},},"Disabled":false,"id":"5e40b50d-4378-4ba5-84eb-fcd160138fdd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

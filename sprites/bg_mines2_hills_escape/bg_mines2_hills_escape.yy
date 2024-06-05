@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e533b1f5-abf8-4f8b-88ce-0fdf699e5ed7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6f5886cb-2009-49e1-bbdd-fd3f1786db70",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 700,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e4719e59-fad9-4eb3-a5cc-a445b3a3b0a1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f8f0f239-bd1e-4542-836a-c3a6baf10939","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e533b1f5-abf8-4f8b-88ce-0fdf699e5ed7","path":"sprites/bg_mines2_hills_escape/bg_mines2_hills_escape.yy",},},},"Disabled":false,"id":"6b996904-700e-4e30-b840-4e1e91c95b57","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6f5886cb-2009-49e1-bbdd-fd3f1786db70","path":"sprites/bg_mines2_hills_escape/bg_mines2_hills_escape.yy",},},},"Disabled":false,"id":"1b295d13-f1ed-4f32-b88b-a2fd3a7a802b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
