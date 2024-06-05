@@ -326,6 +326,7 @@
     {"id":{"name":"obj_taunteffect","path":"objects/obj_taunteffect/obj_taunteffect.yy",},},
     {"id":{"name":"obj_machalleffect","path":"objects/obj_machalleffect/obj_machalleffect.yy",},},
     {"id":{"name":"obj_gmliveblank","path":"objects/obj_gmliveblank/obj_gmliveblank.yy",},},
+    {"id":{"name":"spr_numbers","path":"sprites/spr_numbers/spr_numbers.yy",},},
     {"id":{"name":"obj_superdashcloud","path":"objects/obj_superdashcloud/obj_superdashcloud.yy",},},
     {"id":{"name":"tile_hub","path":"tilesets/tile_hub/tile_hub.yy",},},
     {"id":{"name":"obj_bangeffect","path":"objects/obj_bangeffect/obj_bangeffect.yy",},},

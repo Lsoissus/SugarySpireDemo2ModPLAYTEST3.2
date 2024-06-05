@@ -11,6 +11,7 @@ global.smallfont = font_add_sprite_ext(spr_smallfont, "ABCDEFGHIJKLMNOPQRSTUVWXY
 global.creditsfont = font_add_sprite_ext(spr_creditsfont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", 1, 0);
 global.combofont = font_add_sprite_ext(spr_fontcombo, "0123456789", 1, 0);
 global.collectfont = font_add_sprite_ext(spr_fontcollect, "0123456789", 1, 0);
+global.numbers = font_add_sprite_ext(spr_numbers, "0123456789.:", 1, 0)
 global.shellactivate = false;
 global.showcollisions = false;
 global.debugmode = false;
