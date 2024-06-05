@@ -9,8 +9,10 @@ function scr_player_machroll()
 	mach2 = 100;
 	machslideAnim = true;
 	move = key_right + key_left;
-	if (grounded)
+	if (grounded and mach2 < 100)
 		sprite_index = spr_player_machroll;
+	if (grounded and mach2 >= 100)
+		sprite_index = spr_player_mach3roll;
 	if (((!key_down && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16)) || !grounded) && character == "P")
 	{
 		sprite_index = spr_player_mach3;

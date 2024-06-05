@@ -16,7 +16,7 @@ function scr_player_handstandjump()
 				instance_create(x, y, obj_crazyrunothereffect);
 			if (image_index > 7)
 				movespeed -= 1;
-			if (move != xscale && move != 0)
+			if (move != xscale && move != 0 && !grounded)
 			{
 				state = states.jump;
 				image_index = 0;
@@ -51,7 +51,7 @@ function scr_player_handstandjump()
 					image_index = 1;
 					state = states.freefallprep;
 					sprite_index = spr_player_bodyslamstart;
-					vsp = -18;
+					vsp = -5;
 				}
 			}
 			if (key_jump && grounded)
@@ -68,8 +68,8 @@ function scr_player_handstandjump()
 			{
 				grav = 0.5;
 				movespeed = 0;
+				sprite_index = spr_player_suplexbump
 				state = states.bump;
-				hsp = -2.5 * xscale;
 				vsp = -3;
 				mach2 = 0;
 				image_index = 0;
