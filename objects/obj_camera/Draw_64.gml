@@ -165,12 +165,11 @@ if global.panic || global.starrmode
         seconds = concat("0", global.seconds)
     else
         seconds = string(global.seconds)
-    draw_set_halign(fa_center)
-    draw_set_valign(fa_middle)
-    draw_set_font(global.font)
+    draw_set_font(global.numbers)
+	var _offset = 0
 	if global.minutes < 1
-		var _offset = random_range(1, -1)
-    draw_text(timer_x + 200 + _offset, timer_y + 18 + _offset - (sprite_get_yoffset(spr_font) / 2), concat(global.minutes, ":", seconds))
+		_offset = random_range(2, -2)
+	draw_text(timer_x + 200 + _offset, timer_y + 18 + _offset - (sprite_get_yoffset(spr_font) / 2), concat(global.minutes, ":", seconds))
 }
 else if surface_exists(bar_surface)
     surface_free(bar_surface)

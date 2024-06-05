@@ -277,6 +277,7 @@
     {"name":"obj_taunteffect","order":196,"path":"objects/obj_taunteffect/obj_taunteffect.yy",},
     {"name":"obj_machalleffect","order":197,"path":"objects/obj_machalleffect/obj_machalleffect.yy",},
     {"name":"obj_gmliveblank","order":198,"path":"objects/obj_gmliveblank/obj_gmliveblank.yy",},
+    {"name":"spr_numbers","order":999,"path":"sprites/spr_numbers/spr_numbers.yy",},
     {"name":"obj_superdashcloud","order":199,"path":"objects/obj_superdashcloud/obj_superdashcloud.yy",},
     {"name":"tile_hub","order":7,"path":"tilesets/tile_hub/tile_hub.yy",},
     {"name":"obj_bangeffect","order":200,"path":"objects/obj_bangeffect/obj_bangeffect.yy",},
