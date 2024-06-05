@@ -127,7 +127,7 @@ if (suplexmove && grounded)
 	suplexmove = false;
 	flash = true;
 }
-if (obj_player.state != states.handstandjump)
+if (state != states.handstandjump && state != states.wallkick)
 	grav = 0.5;
 if (sprite_index == spr_player_idlevomit && image_index > 28 && image_index < 43)
 	instance_create(x + random_range(-5, 5), y + 46, obj_vomit);

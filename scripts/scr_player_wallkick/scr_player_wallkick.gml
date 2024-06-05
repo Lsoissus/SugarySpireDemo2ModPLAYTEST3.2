@@ -7,8 +7,23 @@ function scr_player_wallkick(){
 		movespeed -= 0.5;
 	if movespeed > 8
 		movespeed = 8;
-	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_wallkick)
-	{
+	
+	// gravity control
+	if (vsp <= 0) {
+		if key_jump2
+			grav = 0.3;
+		if key_down {
+			vsp = 7.5;
+			grav = 2.5;
+		}
+	}
+	else if (vsp > 0) {
+		grav += 0.05;
+		if grav > 5
+			grav = 5;
+	}
+	
+	if sprite_index == spr_player_wallkick && animation_end() {
 		sprite_index = spr_player_wallkickloop
 		scr_sound(sfx_flip)
 	}
@@ -18,9 +33,10 @@ function scr_player_wallkick(){
 			if move != 0
 				xscale = move;
 			instance_create(x, y, obj_jumpdust);
-			sprite_index = spr_player_mach3;
+			sprite_index = spr_player_mach3jump;
+			image_index = 0;
 			state = states.mach3
-			vsp = -11
+			vsp = -5
 			audio_stop_sound(sfx_flip)
 			movespeed = 12;
 			mach2 = 100;
