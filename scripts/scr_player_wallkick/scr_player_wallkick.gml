@@ -9,18 +9,18 @@ function scr_player_wallkick(){
 		movespeed = 8;
 	
 	// gravity control
-	if (vsp <= 0) {
-		if key_jump2
-			grav = 0.3;
-		if key_down {
-			vsp = 7.5;
-			grav = 2.5;
-		}
-	}
-	else if (vsp > 0) {
+	if ((vsp <= 0) && key_jump2)
+		grav = 0.3;
+	if (vsp > 0) {
 		grav += 0.05;
 		if grav > 5
 			grav = 5;
+	}
+	if key_down {
+		if (vsp < 7.5)
+			vsp = 7.5;
+		if (grav < 2.5)
+			grav = 2.5;
 	}
 	
 	if sprite_index == spr_player_wallkick && animation_end() {
