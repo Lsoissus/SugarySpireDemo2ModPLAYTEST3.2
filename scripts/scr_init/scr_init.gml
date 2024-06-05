@@ -41,6 +41,7 @@ audio_master_gain(global.masterVolume);
 global.targetCamX = 0;
 global.targetCamY = 0;
 global.laps = 0
+global.secretsfound = 0;
 switch (global.selectedResolution)
 {
 	case 0:

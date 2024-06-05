@@ -28,12 +28,15 @@ function scr_playerreset()
 	instance_destroy(obj_confectichoco);
 	instance_destroy(obj_confectiworm);
 	instance_destroy(obj_confecticandy);
+	instance_destroy(obj_rudy);
 	ds_list_clear(global.FollowerList);
 	global.mallowfollow = false;
 	global.crackfollow = false;
 	global.chocofollow = false;
 	global.wormfollow = false;
 	global.candyfollow = false;
+	global.janitor = false
+	global.secretsfound = 0
 	with (obj_camera)
 	{
 		DrawY = 0;

@@ -33,21 +33,85 @@ if (global.panic)
 			{
 				if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", "mines", "none")))
 					ini_write_string("Ranks", "mines", global.rank);
+				if (rank_checker(global.collect) > rank_checker(ini_read_string("Scores", "mines", "none")))
+					ini_write_string("Scores", "mines", global.collect);
+				if (rank_checker(global.secretsfound) > rank_checker(ini_read_string("Secrets", "mines", "none")))
+					ini_write_string("Secrets", "mines", global.secretsfound);
+				if (rank_checker(global.mallowfollow) > rank_checker(ini_read_string("Confecti", "minesMallow", "none")))
+					ini_write_string("Confecti", "minesMallow", global.mallowfollow);
+				if (rank_checker(global.chocofollow) > rank_checker(ini_read_string("Confecti", "minesChoco", "none")))
+					ini_write_string("Confecti", "minesChoco", global.chocofollow);
+				if (rank_checker(global.crackfollow) > rank_checker(ini_read_string("Confecti", "minesWorm", "none")))
+					ini_write_string("Confecti", "minesWorm", global.crackfollow);
+				if (rank_checker(global.wormfollow) > rank_checker(ini_read_string("Confecti", "minesWorm", "none")))
+					ini_write_string("Confecti", "minesWorm", global.wormfollow);
+				if (rank_checker(global.candyfollow) > rank_checker(ini_read_string("Confecti", "minesCandy", "none")))
+					ini_write_string("Confecti", "minesCandy", global.candyfollow);
+				if (rank_checker(global.janitor) > rank_checker(ini_read_string("Confecti", "minesRudy", "none")))
+					ini_write_string("Confecti", "minesRudy", global.janitor);
 			}
 			if (room == molasses_1)
 			{
 				if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", "molasses", "none")))
 					ini_write_string("Ranks", "molasses", global.rank);
+				if (rank_checker(global.collect) > rank_checker(ini_read_string("Scores", "molasses", "none")))
+					ini_write_string("Scores", "molasses", global.collect);
+									if (rank_checker(global.secretsfound) > rank_checker(ini_read_string("Secrets", "molasses", "none")))
+					ini_write_string("Secrets", "molasses", global.secretsfound);
+				if (rank_checker(global.mallowfollow) > rank_checker(ini_read_string("Confecti", "molassesMallow", "none")))
+					ini_write_string("Confecti", "molassesMallow", global.mallowfollow);
+				if (rank_checker(global.chocofollow) > rank_checker(ini_read_string("Confecti", "molassesChoco", "none")))
+					ini_write_string("Confecti", "molassesChoco", global.chocofollow);
+				if (rank_checker(global.crackfollow) > rank_checker(ini_read_string("Confecti", "molassesWorm", "none")))
+					ini_write_string("Confecti", "molassesWorm", global.crackfollow);
+				if (rank_checker(global.wormfollow) > rank_checker(ini_read_string("Confecti", "molassesWorm", "none")))
+					ini_write_string("Confecti", "molassesWorm", global.wormfollow);
+				if (rank_checker(global.candyfollow) > rank_checker(ini_read_string("Confecti", "molassesCandy", "none")))
+					ini_write_string("Confecti", "molassesCandy", global.candyfollow);
+				if (rank_checker(global.janitor) > rank_checker(ini_read_string("Confecti", "molassesRudy", "none")))
+					ini_write_string("Confecti", "molassesRudy", global.janitor);
 			}
 			if (room == steamy_1)
 			{
 				if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", "steamy", "none")))
 					ini_write_string("Ranks", "steamy", global.rank);
+				if (rank_checker(global.collect) > rank_checker(ini_read_string("Scores", "steamy", "none")))
+					ini_write_string("Scores", "steamy", global.collect);
+									if (rank_checker(global.secretsfound) > rank_checker(ini_read_string("Secrets", "steamy", "none")))
+					ini_write_string("Secrets", "steamy", global.secretsfound);
+				if (rank_checker(global.mallowfollow) > rank_checker(ini_read_string("Confecti", "steamyMallow", "none")))
+					ini_write_string("Confecti", "steamyMallow", global.mallowfollow);
+				if (rank_checker(global.chocofollow) > rank_checker(ini_read_string("Confecti", "steamyChoco", "none")))
+					ini_write_string("Confecti", "steamyChoco", global.chocofollow);
+				if (rank_checker(global.crackfollow) > rank_checker(ini_read_string("Confecti", "steamyWorm", "none")))
+					ini_write_string("Confecti", "steamyWorm", global.crackfollow);
+				if (rank_checker(global.wormfollow) > rank_checker(ini_read_string("Confecti", "steamyWorm", "none")))
+					ini_write_string("Confecti", "steamyWorm", global.wormfollow);
+				if (rank_checker(global.candyfollow) > rank_checker(ini_read_string("Confecti", "steamyCandy", "none")))
+					ini_write_string("Confecti", "steamyCandy", global.candyfollow);
+				if (rank_checker(global.janitor) > rank_checker(ini_read_string("Confecti", "steamyRudy", "none")))
+					ini_write_string("Confecti", "steamyRudy", global.janitor);
 			}
 			if (room == entryway_1)
 			{
 				if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", "entryway", "none")))
 					ini_write_string("Ranks", "entryway", global.rank);
+				if (rank_checker(global.collect) > rank_checker(ini_read_string("Scores", "entryway", "none")))
+					ini_write_string("Scores", "entryway", global.collect);
+									if (rank_checker(global.secretsfound) > rank_checker(ini_read_string("Secrets", "entryway", "none")))
+					ini_write_string("Secrets", "entryway", global.secretsfound);
+				if (rank_checker(global.mallowfollow) > rank_checker(ini_read_string("Confecti", "entrywayMallow", "none")))
+					ini_write_string("Confecti", "entrywayMallow", global.mallowfollow);
+				if (rank_checker(global.chocofollow) > rank_checker(ini_read_string("Confecti", "entrywayChoco", "none")))
+					ini_write_string("Confecti", "entrywayChoco", global.chocofollow);
+				if (rank_checker(global.crackfollow) > rank_checker(ini_read_string("Confecti", "entrywayWorm", "none")))
+					ini_write_string("Confecti", "entrywayWorm", global.crackfollow);
+				if (rank_checker(global.wormfollow) > rank_checker(ini_read_string("Confecti", "entrywayWorm", "none")))
+					ini_write_string("Confecti", "entrywayWorm", global.wormfollow);
+				if (rank_checker(global.candyfollow) > rank_checker(ini_read_string("Confecti", "entrywayCandy", "none")))
+					ini_write_string("Confecti", "entrywayCandy", global.candyfollow);
+				if (rank_checker(global.janitor) > rank_checker(ini_read_string("Confecti", "entrywayRudy", "none")))
+					ini_write_string("Confecti", "entrywayRudy", global.janitor);
 			}
 			ini_close();
 			obj_tv.tvsprite = spr_tvoff;
