@@ -68,7 +68,7 @@ if (global.panic)
 					ini_write_string("Confecti", "molassesWorm", global.wormfollow);
 				if (global.candyfollow == true)
 					ini_write_string("Confecti", "molassesCandy", global.candyfollow);
-				if (global.janitor == true))
+				if (global.janitor == true)
 					ini_write_string("Confecti", "molassesRudy", global.janitor);
 			}
 			if (room == steamy_1)

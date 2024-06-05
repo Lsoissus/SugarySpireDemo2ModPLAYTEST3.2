@@ -38,29 +38,37 @@ function scr_solid_player(_x, _y, _is_slope = false)
 			}
 		}
 	}
-	if (place_meeting(x, y, obj_minecartRail_Slope))
+	if (place_meeting(x, y, obj_slopePlatform))
 	{
-		var grindslope = instance_place(x, y, obj_minecartRail_Slope);
-		with (grindslope)
+		var slopePlatform = instance_place(x, y, obj_slopePlatform);
+		with (slopePlatform)
 		{
-			var gobject_side = 0;
-			var gslope_start = 0;
-			var gslope_end = 0;
+			var pobject_side = 0;
+			var pslope_start = 0;
+			var pslope_end = 0;
 			if (image_xscale > 0)
 			{
-				gobject_side = other.bbox_right;
-				gslope_start = bbox_bottom;
-				gslope_end = bbox_top;
+				pobject_side = other.bbox_right;
+				pslope_start = bbox_bottom;
+				pslope_end = bbox_top;
 			}
 			else
 			{
-				gobject_side = other.bbox_left;
-				gslope_start = bbox_top;
-				gslope_end = bbox_bottom;
+				pobject_side = other.bbox_left;
+				pslope_start = bbox_top;
+				pslope_end = bbox_bottom;
 			}
 			var n = (sign(image_xscale) * (bbox_bottom - bbox_top)) / (bbox_right - bbox_left);
-			var grindsslope = gslope_start - round(n * (gobject_side - bbox_left));
-			if (other.y >= old_y && can_collide(other.object_index) && other.bbox_bottom == grindsslope && other.bbox_top < grindsslope && gobject_side != grindsslope && !other.cutscene)
+			slopePlatform = pslope_start - round(n * (pobject_side - bbox_left));
+
+			// ternary operator could also work
+			var exclude = noone;
+			if object_index == obj_minecartRail_Slope
+				exclude = other.cutscene;
+			else
+				exclude = noone;
+
+			if (other.y >= old_y && can_collide(other.object_index) && other.bbox_bottom == slopePlatform && other.bbox_top < slopePlatform && pobject_side != slopePlatform && !exclude)
 			{
 				other.x = old_x;
 				other.y = old_y;
