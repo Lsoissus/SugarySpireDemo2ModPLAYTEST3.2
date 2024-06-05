@@ -54,30 +54,30 @@ if (global.panic)
 			{
 				if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", "molasses", "none")))
 					ini_write_string("Ranks", "molasses", global.rank);
-				if (rank_checker(global.collect) > rank_checker(ini_read_string("Scores", "molasses", "none")))
+				if (global.collect > ini_read_string("Scores", "molasses", "none"))
 					ini_write_string("Scores", "molasses", global.collect);
-									if (rank_checker(global.secretsfound) > rank_checker(ini_read_string("Secrets", "molasses", "none")))
+				if (global.secretsfound > ini_read_string("Secrets", "molasses", "none"))
 					ini_write_string("Secrets", "molasses", global.secretsfound);
-				if (rank_checker(global.mallowfollow) > rank_checker(ini_read_string("Confecti", "molassesMallow", "none")))
+				if (global.mallowfollow == true)
 					ini_write_string("Confecti", "molassesMallow", global.mallowfollow);
-				if (rank_checker(global.chocofollow) > rank_checker(ini_read_string("Confecti", "molassesChoco", "none")))
+				if (global.chocofollow == true)
 					ini_write_string("Confecti", "molassesChoco", global.chocofollow);
-				if (rank_checker(global.crackfollow) > rank_checker(ini_read_string("Confecti", "molassesWorm", "none")))
+				if (global.crackfollow == true)
 					ini_write_string("Confecti", "molassesWorm", global.crackfollow);
-				if (rank_checker(global.wormfollow) > rank_checker(ini_read_string("Confecti", "molassesWorm", "none")))
+				if (global.wormfollow == true)
 					ini_write_string("Confecti", "molassesWorm", global.wormfollow);
-				if (rank_checker(global.candyfollow) > rank_checker(ini_read_string("Confecti", "molassesCandy", "none")))
+				if (global.candyfollow == true)
 					ini_write_string("Confecti", "molassesCandy", global.candyfollow);
-				if (rank_checker(global.janitor) > rank_checker(ini_read_string("Confecti", "molassesRudy", "none")))
+				if (global.janitor == true))
 					ini_write_string("Confecti", "molassesRudy", global.janitor);
 			}
 			if (room == steamy_1)
 			{
 				if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", "steamy", "none")))
 					ini_write_string("Ranks", "steamy", global.rank);
-				if (rank_checker(global.collect) > rank_checker(ini_read_string("Scores", "steamy", "none")))
+				if (global.collect > ini_read_string("Scores", "steamy", "none"))
 					ini_write_string("Scores", "steamy", global.collect);
-									if (rank_checker(global.secretsfound) > rank_checker(ini_read_string("Secrets", "steamy", "none")))
+									if (global.secretsfound > ini_read_string("Secrets", "steamy", "none"))
 					ini_write_string("Secrets", "steamy", global.secretsfound);
 				if (rank_checker(global.mallowfollow) > rank_checker(ini_read_string("Confecti", "steamyMallow", "none")))
 					ini_write_string("Confecti", "steamyMallow", global.mallowfollow);
