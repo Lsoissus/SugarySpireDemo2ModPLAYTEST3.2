@@ -5,6 +5,7 @@ function scr_player_handstandjump()
 		case "P":
 			move = key_left + key_right;
 			landAnim = false;
+			if mach2 <= 3
 			mach2 = 35;
 			hsp = xscale * movespeed;
 			grav = 0;
@@ -16,7 +17,7 @@ function scr_player_handstandjump()
 				instance_create(x, y, obj_crazyrunothereffect);
 			if (image_index > 7)
 				movespeed -= 1;
-			if (move != xscale && move != 0 && !grounded)
+			if move != xscale && move != 0
 			{
 				state = states.jump;
 				image_index = 0;
