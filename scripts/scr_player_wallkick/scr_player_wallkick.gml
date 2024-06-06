@@ -1,6 +1,9 @@
 function scr_player_wallkick(){
+	// basic movement
 	move = key_right + key_left;
 	hsp = move * movespeed;
+	
+	// movespeed control
 	if move != 0
 		movespeed += 1;
 	else
@@ -9,8 +12,12 @@ function scr_player_wallkick(){
 		movespeed = 8;
 	
 	// gravity control
-	if ((vsp <= 0) && key_jump2)
-		grav = 0.3;
+	if ((vsp <= 0)) {
+		if key_jump2
+			grav = 0.3;
+		else
+			grav = 0.5;
+	}
 	if (vsp > 0) {
 		grav += 0.05;
 		if grav > 5
@@ -23,11 +30,13 @@ function scr_player_wallkick(){
 			grav = 2.5;
 	}
 	
+	// sprite check
 	if sprite_index == spr_player_wallkick && animation_end() {
 		sprite_index = spr_player_wallkickloop
 		scr_sound(sfx_flip)
 	}
 	if sprite_index == spr_player_wallkickloop {
+		// cancel wallkick
 		if (key_slap2 || key_attack2)
 		{
 			if move != 0
@@ -41,6 +50,8 @@ function scr_player_wallkick(){
 			movespeed = 12;
 			mach2 = 100;
 		}
+
+		// grounded check
 		if (grounded && vsp >= 0)
 		{
 			if key_attack {
@@ -59,5 +70,13 @@ function scr_player_wallkick(){
 				mach2 = 0;
 			}
 		}
+
+		// enemy stomp check
+		var stompfoe = instance_place(x, (y + vsp), obj_baddie)
+	    if stompfoe
+	    {
+	        instance_destroy(stompfoe)
+	        vsp = -10
+	    }
 	}
 }
