@@ -72,7 +72,7 @@ function scr_player_jump()
 		state = states.mach1;
 		image_index = 0;
 	}
-	if (key_attack && character == "N" && charged)
+	if (key_attack && character == characters.pizzano && charged)
 	{
 		sprite_index = spr_pizzano_sjumpprepside;
 		image_index = 0;
@@ -81,7 +81,7 @@ function scr_player_jump()
 		charged = false;
 		state = states.rocketfistpizzano;
 	}
-	if (key_up && character == "N" && charged)
+	if (key_up && character == characters.pizzano && charged)
 	{
 		alarm[0] = 240;
 		sprite_index = spr_pizzano_sjumpprep;
@@ -115,7 +115,7 @@ function scr_player_jump()
 	}
 	if (key_jump)
 		input_buffer_jump = 0;
-	if (character == "P")
+	if (character == characters.pizzelle)
 	{
 		if (vsp > 5)
 			fallinganimation++;
@@ -152,7 +152,7 @@ function scr_player_jump()
 		if (sprite_index == spr_stompprep && floor(image_index) == (image_number - 1))
 			sprite_index = spr_stomp;
 	}
-	if (key_attack && sprite_index != spr_airdash2 && sprite_index != spr_airdash1 && fallinganimation < 40 && sprite_index != spr_playerN_glide && character == "P")
+	if (key_attack && sprite_index != spr_airdash2 && sprite_index != spr_airdash1 && fallinganimation < 40 && sprite_index != spr_playerN_glide && character == characters.pizzelle)
 	{
 		stompAnim = false;
 		sprite_index = spr_airdash1;
@@ -187,7 +187,7 @@ function scr_player_jump()
 		scr_sound(sound_rollgetup);
 		scr_sound(sound_suplex1);
 	}
-	if ((!key_down && key_slap2 && !suplexmove && !shotgunAnim && !global.cane) && character == "P" && !(sprite_index == spr_player_wallkick || sprite_index == spr_player_wallkickloop))
+	if ((!key_down && key_slap2 && !suplexmove && !shotgunAnim && !global.cane) && character == characters.pizzelle && !(sprite_index == spr_player_wallkick || sprite_index == spr_player_wallkickloop))
 	{
 		scr_sound(sound_suplex1);
 		instance_create(x, y, obj_slaphitbox);
@@ -198,7 +198,7 @@ function scr_player_jump()
 		sprite_index = spr_suplexdash;
 		state = states.handstandjump;
 	}
-	if ((!key_down && key_slap2 && !suplexmove && !shotgunAnim) && sprite_index != spr_airdash1 && sprite_index != spr_airdash2 && character == "N")
+	if ((!key_down && key_slap2 && !suplexmove && !shotgunAnim) && sprite_index != spr_airdash1 && sprite_index != spr_airdash2 && character == characters.pizzano)
 	{
 		scr_sound(sound_suplex1);
 		instance_create(x, y, obj_slaphitbox);
@@ -293,13 +293,13 @@ function scr_player_jump()
 		movespeed = 0;
 		vsp = 0;
 	}
-	if (key_jump && character == "N" && !grounded && doublejumped == 0 && !scr_solid(x + xscale, y, true))
+	if (key_jump && character == characters.pizzano && !grounded && doublejumped == 0 && !scr_solid(x + xscale, y, true))
 	{
 		doublejumped = true;
 		vsp = -10;
 		sprite_index = spr_pizzano_djump;
 	}
-	if (key_jump && character == "N" && !grounded && scr_solid(x + xscale, y, true))
+	if (key_jump && character == characters.pizzano && !grounded && scr_solid(x + xscale, y, true))
 	{
 		hsp = 0;
 		vsp = 0;

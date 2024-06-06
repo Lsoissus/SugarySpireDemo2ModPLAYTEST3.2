@@ -75,7 +75,7 @@ else if (global.collect > global.crank && !shownrankc)
 if (global.hurtcounter >= global.hurtmilestone)
 {
 	alarm[0] = 150;
-	if (obj_player.character == "P")
+	if (obj_player.character == characters.pizzelle)
 		character = "PIZZELLE";
 	else
 		character = "THE PIZZANO";

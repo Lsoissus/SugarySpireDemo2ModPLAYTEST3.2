@@ -1,6 +1,6 @@
 function scr_tvsprites()
 {
-	if (obj_player.character == "P")
+	if (obj_player.character == characters.pizzelle)
 	{
 		idletvspr = spr_pizzytv;
 		escapetvspr = spr_pizzytv_escape1;
@@ -18,7 +18,7 @@ function scr_tvsprites()
 		topspeedtvspr = spr_pizzytvcrazyrun;
 		escapetvidle = spr_pizzytvescape
 	}
-	if (obj_player.character == "N")
+	if (obj_player.character == characters.pizzano)
 	{
 		idletvspr = spr_pizzanotv;
 		escapetvspr = spr_pizzytv_escape1;

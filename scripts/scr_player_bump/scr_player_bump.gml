@@ -1,17 +1,17 @@
 function scr_player_bump()
 {
-	if (character == "P")
+	if (character == characters.pizzelle)
 		movespeed = 0;
-	if (character == "N")
+	if (character == characters.pizzano)
 		hsp = xscale * movespeed;
 	mach2 = 0;
 	start_running = true;
 	alarm[4] = 14;
-	if ((grounded && vsp > 0) && character == "P")
+	if ((grounded && vsp > 0) && character == characters.pizzelle)
 		hsp = 0;
-	if (floor(image_index) == (image_number - 1) && character == "P" && sprite_index != spr_player_suplexbump)
+	if (floor(image_index) == (image_number - 1) && character == characters.pizzelle && sprite_index != spr_player_suplexbump)
 		state = states.normal;
-	if (grounded && (character == "N" || sprite_index == spr_player_suplexbump))
+	if (grounded && (character == characters.pizzano || sprite_index == spr_player_suplexbump))
 		state = states.normal;
 	if ((sprite_index != spr_player_catched && (sprite_index != spr_tumbleend && sprite_index != spr_player_mach3hitwall)) && sprite_index != spr_pizzano_shoulderbash && sprite_index != spr_player_suplexbump)
 		sprite_index = spr_bump;

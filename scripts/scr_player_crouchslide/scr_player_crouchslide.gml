@@ -26,7 +26,7 @@ function scr_player_crouchslide()
 				if (movespeed < 10)
 					movespeed = 10;
 				break;
-			case "N":
+			case characters.pizzano:
 				sprite_index = spr_pizzano_mach2;
 				image_index = 0;
 				state = states.machpizzano;

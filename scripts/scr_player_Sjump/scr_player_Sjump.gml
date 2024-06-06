@@ -1,8 +1,8 @@
 function scr_player_Sjump()
 {
-	if (character == "P" || sprite_index != spr_pizzano_sjump)
+	if (character == characters.pizzelle || sprite_index != spr_pizzano_sjump)
 		hsp = 0;
-	else if (character == "N" && sprite_index == spr_pizzano_sjump)
+	else if (character == characters.pizzano && sprite_index == spr_pizzano_sjump)
 		hsp = move * 3;
 	Sjumpcan_doublejump = false;
 	mach2 = 0;
@@ -54,7 +54,7 @@ function scr_player_Sjump()
 		movespeed = 0;
 	}
 	image_speed = 0.5;
-	if (key_attack2 && !grounded && vsp < -10 && character == "P")
+	if (key_attack2 && !grounded && vsp < -10 && character == characters.pizzelle)
 	{
         sprite_index = spr_player_superjump_cancelprep
         vsp = 0
@@ -68,7 +68,7 @@ function scr_player_Sjump()
         state = states.mach3
         sprite_index = spr_player_superjump_cancel
     }
-	if (key_slap2 && !grounded && vsp < -10 && character == "N")
+	if (key_slap2 && !grounded && vsp < -10 && character == characters.pizzano)
 	{
 		flash = true;
 		charged = false;

@@ -1,5 +1,5 @@
 draw_set_font(global.smallfont);
-if (obj_player.character == "P")
+if (obj_player.character == characters.pizzelle)
 {
 	switch (obj_player.paletteselect)
 	{

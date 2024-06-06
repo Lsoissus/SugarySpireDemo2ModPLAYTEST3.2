@@ -27,7 +27,7 @@ function scr_pizzano_twirl()
 		instance_destroy(jumpbad);
 		vsp = -10;
 	}
-	if (key_slap2 && character == "N" && charged && !key_up)
+	if (key_slap2 && character == characters.pizzano && charged && !key_up)
 	{
 		flash = true;
 		state = states.rocketfistpizzano;
@@ -37,7 +37,7 @@ function scr_pizzano_twirl()
 		mach2 = 0;
 		charged = false;
 	}
-	if (key_slap2 && key_up && character == "N" && charged)
+	if (key_slap2 && key_up && character == characters.pizzano && charged)
 	{
 		flash = true;
 		alarm[0] = 240;
@@ -45,7 +45,7 @@ function scr_pizzano_twirl()
 		state = states.Sjump;
 		sprite_index = spr_pizzano_sjumpprep;
 	}
-	if (key_jump && character == "N" && !grounded && scr_solid(x + xscale, y, true))
+	if (key_jump && character == characters.pizzano && !grounded && scr_solid(x + xscale, y, true))
 	{
 		hsp = 0;
 		vsp = 0;

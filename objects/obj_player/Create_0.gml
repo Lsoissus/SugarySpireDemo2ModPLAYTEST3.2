@@ -106,7 +106,7 @@ suplexhavetomash = 0;
 breakdanceammo = 0;
 anger = 0;
 angry = false;
-character = "P";
+character = characters.pizzelle;
 baddiegrabbedID = -4;
 scr_characterspr();
 paletteselect = 1;

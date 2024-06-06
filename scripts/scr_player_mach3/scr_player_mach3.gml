@@ -2,8 +2,8 @@ function scr_player_mach3()
 {
 	switch (character)
 	{
-		case "P":
-		case "N":
+		case characters.pizzelle:
+		case characters.pizzano:
 			if (grounded)
 				Sjumpcan_doublejump = true;
 			if (windingAnim < 2000)

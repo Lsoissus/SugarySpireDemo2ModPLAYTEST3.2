@@ -1,6 +1,12 @@
+enum characters {
+	pizzelle,
+	pizzano,
+};
+
+
 function scr_characterspr()
 {
-	if (character == "P")
+	if (character == characters.pizzelle)
 	{
 		spr_idle = spr_player_idle;
 		spr_move = spr_player_walk;
@@ -92,7 +98,7 @@ function scr_characterspr()
 		spr_escapeidle = spr_player_escapeidle;
 		spr_timesupidle = spr_player_timesupidle;
 	}
-	if (character == "N")
+	if (character == characters.pizzano)
 	{
 		spr_idle = spr_pizzano_idle;
 		spr_move = spr_pizzano_walk;

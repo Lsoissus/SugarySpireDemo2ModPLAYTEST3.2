@@ -2,7 +2,7 @@ function scr_player_handstandjump()
 {
 	switch (character)
 	{
-		case "P":
+		case characters.pizzelle:
 			move = key_left + key_right;
 			landAnim = false;
 			if mach2 <= 3

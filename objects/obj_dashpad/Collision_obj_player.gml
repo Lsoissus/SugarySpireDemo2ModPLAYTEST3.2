@@ -7,7 +7,7 @@ if (other.state != states.bombpep && other.Dashpad_buffer <= 0)
 			if (state == states.mach3 && xscale == sign(other.image_xscale))
 				movespeed += 4;
 			movespeed = clamp(movespeed, 12, 24);
-			if (character == "P")
+			if (character == characters.pizzelle)
 			{
 				state = states.mach3;
 				Dashpad_buffer = 25;
@@ -30,7 +30,7 @@ if (other.state != states.bombpep && other.Dashpad_buffer <= 0)
 				vsp = 3;
 				flash = true;
 			}
-			if (character == "N")
+			if (character == characters.pizzano)
 			{
 				state = states.mach2;
 				Dashpad_buffer = 10;

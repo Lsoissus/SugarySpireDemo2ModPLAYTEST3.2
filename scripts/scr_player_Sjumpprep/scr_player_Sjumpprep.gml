@@ -59,7 +59,7 @@ function scr_player_Sjumpprep()
 		scr_sound(sound_superjumprelease);
 		instance_create(x, y, obj_explosioneffect);
 		sprite_index = spr_player_superjump;
-		if (character == "N")
+		if (character == characters.pizzano)
 			sprite_index = spr_pizzano_sjump;
 		state = states.Sjump;
 		vsp = -12;

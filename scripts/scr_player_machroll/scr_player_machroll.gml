@@ -13,7 +13,7 @@ function scr_player_machroll()
 		sprite_index = spr_player_machroll;
 	if (grounded and mach2 >= 100)
 		sprite_index = spr_player_mach3roll;
-	if (((!key_down && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16)) || !grounded) && character == "P")
+	if (((!key_down && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16)) || !grounded) && character == characters.pizzelle)
 	{
 		sprite_index = spr_player_mach3;
 		state = states.mach3;
@@ -74,15 +74,15 @@ function scr_player_machroll()
 		image_index = 0;
 		scr_sound(sound_rollgetup);
 		state = states.mach2;
-		if (character == "P")
+		if (character == characters.pizzelle)
 			sprite_index = spr_player_rollgetup;
 	}
-	if ((!key_down && (!scr_solid(x + 27, y - 32) && (!scr_solid(x - 27, y - 32) && (!scr_solid(x, y - 32) && !scr_solid(x, y - 16))))) && !key_attack && character == "P")
+	if ((!key_down && (!scr_solid(x + 27, y - 32) && (!scr_solid(x - 27, y - 32) && (!scr_solid(x, y - 32) && !scr_solid(x, y - 16))))) && !key_attack && character == characters.pizzelle)
 	{
 		image_index = 0;
 		scr_sound(sound_rollgetup);
 		state = states.normal;
-		if (character == "P")
+		if (character == characters.pizzelle)
 			sprite_index = spr_player_rollgetup;
 	}
 	if (grounded)
@@ -92,7 +92,7 @@ function scr_player_machroll()
 		sprite_index = spr_dive;
 		vsp = 10;
 	}
-	if (key_jump2 && character == "N")
+	if (key_jump2 && character == characters.pizzano)
 	{
 		sprite_index = spr_pizzano_twirl;
 		state = states.pizzanotwirl;

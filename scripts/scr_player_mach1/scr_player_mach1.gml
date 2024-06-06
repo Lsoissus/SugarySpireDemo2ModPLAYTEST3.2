@@ -2,8 +2,8 @@ function scr_player_mach1()
 {
 	switch (character)
 	{
-		case "N":
-		case "P":
+		case characters.pizzano:
+		case characters.pizzelle:
 			dir = xscale;
 			move = key_left + key_right;
 			landAnim = false;

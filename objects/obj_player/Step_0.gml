@@ -84,7 +84,7 @@ if (!instance_exists(baddiegrabbedID) && (state == states.grab || (state == stat
 	state = states.normal;
 if (!(state == states.grab || state == states.charge || state == states.superslam || state == states.finishingblow))
 	baddiegrabbedID = -4;
-if (character == "P")
+if (character == characters.pizzelle)
 {
 	if (anger == 0)
 		angry = false;

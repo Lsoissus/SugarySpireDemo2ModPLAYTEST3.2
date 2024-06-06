@@ -2,8 +2,8 @@ function scr_player_mach2()
 {
 	switch (character)
 	{
-		case "P":
-		case "N":
+		case characters.pizzelle:
+		case characters.pizzano:
 			if (windingAnim < 2000)
 				windingAnim++;
 			if (!place_meeting(x, y + 1, obj_railh) && !place_meeting(x, y + 1, obj_railh2))
@@ -25,7 +25,7 @@ function scr_player_mach2()
 			}
 			if (sprite_index != spr_null)
 			{
-				if (character == "P")
+				if (character == characters.pizzelle)
 				{
 					if (grounded && vsp > 0)
 						jumpstop = false;
@@ -37,7 +37,7 @@ function scr_player_mach2()
 						vsp = -9;
 					}
 				}
-				else if (character == "N")
+				else if (character == characters.pizzano)
 				{
 					if (key_jump2 && (grounded && vsp > 0) && !jumpstop)
 					{
@@ -77,7 +77,7 @@ function scr_player_mach2()
 				machpunchAnim = false;
 			if (mach2 < 100)
 				mach2 += 1.5;
-			if (mach2 >= 100 && grounded && character == "P")
+			if (mach2 >= 100 && grounded && character == characters.pizzelle)
 			{
 				machhitAnim = false;
 				state = states.mach3;
@@ -87,7 +87,7 @@ function scr_player_mach2()
 				if (movespeed < 12)
 					movespeed = 12;
 			}
-			if (movespeed >= 10 && grounded && character == "N")
+			if (movespeed >= 10 && grounded && character == characters.pizzano)
 			{
 				if (!charged)
 				{
@@ -128,11 +128,11 @@ function scr_player_mach2()
 			if (key_down2 && grounded)
 			{
 				sprite_index = spr_crouchslip;
-				if (character == "P")
+				if (character == characters.pizzelle)
 					machhitAnim = false;
 				state = states.crouchslide;
 			}
-			if (((!grounded && place_meeting(x + hsp, y, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + sign(hsp), y, obj_slope)) || (grounded && place_meeting(x + hsp, y - 32, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + hsp, y, obj_metalblock) && place_meeting(x, y + 1, obj_slope))) && character == "P")
+			if (((!grounded && place_meeting(x + hsp, y, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + sign(hsp), y, obj_slope)) || (grounded && place_meeting(x + hsp, y - 32, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + hsp, y, obj_metalblock) && place_meeting(x, y + 1, obj_slope))) && character == characters.pizzelle)
 			{
 				wallspeed = movespeed;
 				state = states.climbwall;
@@ -178,12 +178,12 @@ function scr_player_mach2()
 				image_speed = 0.4;
 			else
 				image_speed = 0.65;
-			if (character == "N" && key_down2)
+			if (character == characters.pizzano && key_down2)
 			{
 				sprite_index = spr_pizzano_crouchslide;
 				state = states.machroll;
 			}
-			if (character == "N" && key_up && key_slap2 && charged)
+			if (character == characters.pizzano && key_up && key_slap2 && charged)
 			{
 				flash = true;
 				alarm[0] = 240;

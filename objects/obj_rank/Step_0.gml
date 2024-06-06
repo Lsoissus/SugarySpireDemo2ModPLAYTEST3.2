@@ -1,7 +1,7 @@
 scr_getinput();
 if (floor(image_index) == (image_number - 1))
 	image_speed = 0;
-if (obj_player.character == "P")
+if (obj_player.character == characters.pizzelle)
 {
 	if (global.rank == "s")
 		sprite_index = spr_rankS;
