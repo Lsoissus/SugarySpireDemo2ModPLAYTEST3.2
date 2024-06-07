@@ -9,7 +9,7 @@ function scr_rocketfist_pizzano()
 		{
 			image_index = 0;
 			if (grounded)
-				sprite_index = spr_pizzano_mach3;
+				sprite_index = spr_pizzano_mach3old;
 			else
 				sprite_index = spr_pizzano_sjumpside;
 			movespeed = 12;
@@ -55,7 +55,7 @@ function scr_rocketfist_pizzano()
 		if (key_down && grounded)
 			sprite_index = spr_pizzano_crouchslide;
 		else if (!key_down && grounded && hsp != 0)
-			sprite_index = spr_pizzano_mach3;
+			sprite_index = spr_pizzano_mach3old;
 	}
 	image_speed = 0.35;
 }
