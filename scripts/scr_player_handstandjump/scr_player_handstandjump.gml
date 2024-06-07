@@ -2,13 +2,16 @@ function scr_player_handstandjump()
 {
 	switch (character)
 	{
-		case characters.pizzelle:
+		default:
 			move = key_left + key_right;
 			landAnim = false;
 			if mach2 <= 3
 			mach2 = 35;
 			hsp = xscale * movespeed;
-			grav = 0;
+			if character == characters.pizzano
+				grav = 0.5;
+			else
+				grav = 0;
 			momemtum = true;
 			dir = xscale;
 			if movespeed <= 12
@@ -102,12 +105,21 @@ function scr_player_handstandjump()
 	{
 		if (key_slap2 && !key_down)
 		{
-			sprite_index = spr_player_machtumble;
-			image_index = 0;
-			image_speed = 0.2;
-			state = states.machtumble;
-			with (instance_create(x, y, obj_jumpdust))
-				image_xscale = other.xscale;
+			if character == characters.pizzelle {
+				sprite_index = spr_player_machtumble;
+				image_index = 0;
+				image_speed = 0.2;
+				state = states.machtumble;
+				with (instance_create(x, y, obj_jumpdust))
+					image_xscale = other.xscale;
+			}
+			if character == characters.pizzano {
+				sprite_index = spr_pizzano_shoulderbash;
+				image_index = 0;
+				movespeed = 10;
+				state = states.pizzanoshoulderbash;
+				instance_create(x, y, obj_jumpdust);
+			}
 		}
 	}
 }

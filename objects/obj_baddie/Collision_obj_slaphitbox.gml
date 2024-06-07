@@ -2,52 +2,32 @@ if (object_index != obj_charcherry)
 {
 	scr_sound(sound_slaphit);
 	instance_create(x + (obj_player.xscale * 40), y, obj_punchdust);
-	if (obj_player.character == characters.pizzelle)
+	if (!global.cane)
 	{
-		if (!global.cane)
+		with (obj_player)
 		{
-			with (obj_player)
-			{
-				suplexhavetomash = 5;
-				sprite_index = spr_grab;
-			}
-			obj_player.baddiegrabbedID = id;
-			obj_player.state = states.grab;
-			obj_player.sprite_index = spr_player_haulingstart;
-			obj_player.image_index = 0;
-			state = baddiestates.grabbed;
-			instance_destroy(other.id);
+			suplexhavetomash = 5;
+			sprite_index = spr_grab;
+			baddiegrabbedID = other.id;
+			state = states.grab;
+			sprite_index = spr_player_haulingstart;
+			image_index = 0;
 		}
-		else
-		{
-			state = baddiestates.stun;
-			hp -= 1;
-			thrown = true;
-			hsp = obj_player.xscale * 15;
-			vsp = -6;
-			obj_player.hsp = 0;
-			obj_player.vsp = 0;
-			obj_player.sprite_index = obj_player.spr_canehit;
-			obj_player.state = states.finishingblow;
-		}
+		state = baddiestates.grabbed;
+		instance_destroy(other.id);
 	}
-	if (obj_player.character == characters.pizzano)
+	else
 	{
 		state = baddiestates.stun;
 		hp -= 1;
 		thrown = true;
 		hsp = obj_player.xscale * 15;
 		vsp = -6;
-		with (obj_player)
-		{
-			grounded = false;
-			movespeed = -3.5;
-			vsp = -8;
-			mach2 = 0;
-			state = states.bump;
-			image_index = 0;
-			machslideAnim = true;
-			machhitAnim = false;
+		with obj_player {
+			hsp = 0;
+			vsp = 0;
+			sprite_index = spr_canehit;
+			state = states.finishingblow;
 		}
 	}
 }

@@ -34,12 +34,34 @@ function scr_pizzano_shoulderbash()
 			audio_stop_sound(sound_suplex1);
 		scr_sound(sound_bump);
 	}
-	if (key_attack && grounded)
+	if (key_attack2 && grounded)
 	{
 		flash = true;
 		state = states.mach2;
 		image_index = 0;
 		sprite_index = spr_mach;
 		jumpstop = false;
+	}
+	
+	// duration
+	static shoulderTime = 35;
+	static loop = true;
+	
+	if shoulderTime <= 0 {
+		if loop {
+			shoulderTime = 35;
+			loop = false
+		}
+		else
+			state = states.normal;
+	}
+	if shoulderTime > 0 {
+		shoulderTime--
+		loop = false
+	}
+	
+	if state != states.pizzanoshoulderbash {
+		shoulderTime = 35;
+		loop = true;
 	}
 }
