@@ -1,0 +1,13 @@
+image_index = 1;
+image_speed = 0;
+depth = 49;
+level = "placeholder";
+levelrank = ""
+levelscore = ""
+levelmallow = ""
+levelchoco = ""
+levelcrack = ""
+levelworm = ""
+levelcandy = ""
+leveljanitor = ""
+levelsecret = ""
