@@ -116,7 +116,6 @@ function scr_player_handstandjump()
 			if character == characters.pizzano {
 				sprite_index = spr_pizzano_shoulderbash;
 				image_index = 0;
-				movespeed = 10;
 				state = states.pizzanoshoulderbash;
 				instance_create(x, y, obj_jumpdust);
 			}

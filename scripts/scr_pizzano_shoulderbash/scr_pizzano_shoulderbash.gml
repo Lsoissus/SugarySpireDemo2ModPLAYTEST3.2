@@ -1,6 +1,14 @@
 function scr_pizzano_shoulderbash()
 {
-	hsp = xscale * movespeed;
+	move = key_right + key_left;
+	if move == xscale {
+		hsp = xscale * movespeed;
+		movespeed = 10;
+	}
+	if move != xscale && move != 0 {
+		hsp = move * movespeed;
+		movespeed = 7.5;
+	}
 	if (key_jump && grounded)
 	{
 		state = states.pizzanotwirl;
@@ -36,8 +44,11 @@ function scr_pizzano_shoulderbash()
 	}
 	if (key_attack2 && grounded)
 	{
+		if move != 0
+			xscale = move;
 		flash = true;
 		state = states.mach2;
+		movespeed = 10;
 		image_index = 0;
 		sprite_index = spr_mach;
 		jumpstop = false;
@@ -45,23 +56,12 @@ function scr_pizzano_shoulderbash()
 	
 	// duration
 	static shoulderTime = 35;
-	static loop = true;
 	
-	if shoulderTime <= 0 {
-		if loop {
-			shoulderTime = 35;
-			loop = false
-		}
-		else
-			state = states.normal;
-	}
-	if shoulderTime > 0 {
+	if shoulderTime > 0
 		shoulderTime--
-		loop = false
-	}
+	if shoulderTime <= 0
+		state = states.normal;
 	
-	if state != states.pizzanoshoulderbash {
+	if state != states.pizzanoshoulderbash
 		shoulderTime = 35;
-		loop = true;
-	}
 }

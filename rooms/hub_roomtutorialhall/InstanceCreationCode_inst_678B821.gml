@@ -1,1 +1,1 @@
-targetRoom = hub_room1107
+targetRoom = hub_room1
