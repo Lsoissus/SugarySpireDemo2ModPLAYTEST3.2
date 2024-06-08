@@ -40,56 +40,58 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 		draw_text((_xx + shakeX), ((((29 + obj_stylebar.hudbounce) + _yyoffset) + DrawY) + shakeY), string_char_at(_string, (l + 1)))
 		pal_swap_reset();
 	}
-}
-draw_set_font(global.font);
-draw_set_halign(fa_center);
-draw_set_color(c_white);
-var _score = global.collect
-var rank_ix = 0
-if (_score >= global.srank)
-{
-    rank_ix = 4
-}
-else if (_score >= global.arank)
-    rank_ix = 3
-else if (_score >= global.brank)
-    rank_ix = 2
-else if (_score >= global.crank)
-    rank_ix = 1
-rank_scale = approach(rank_scale, 1, 0.2)
-draw_sprite_ext(spr_ranks_hud, rank_ix, 190, 29 + obj_stylebar.hudbounce, rank_scale, rank_scale, 0, c_white, 1)
-var spr_w = sprite_get_width(spr_ranks_hudfill)
-var spr_h = sprite_get_height(spr_ranks_hudfill)
-var spr_xo = sprite_get_xoffset(spr_ranks_hudfill)
-var spr_yo = sprite_get_yoffset(spr_ranks_hudfill)
-var perc = 0
+	var roomname = room_get_name(room);
+	if (!string_starts_with(roomname, "hub") && !string_starts_with(roomname, "outer") && !string_starts_with(roomname, "spire")) {
+		draw_set_font(global.font);
+		draw_set_halign(fa_center);
+		draw_set_color(c_white);
+		var _score = global.collect
+		var rank_ix = 0
+		if (_score >= global.srank)
+		    rank_ix = 4
+		else if (_score >= global.arank)
+		    rank_ix = 3
+		else if (_score >= global.brank)
+			rank_ix = 2
+		else if (_score >= global.crank)
+			rank_ix = 1
+		rank_scale = approach(rank_scale, 1, 0.2)
+		var rank_xpos = 217 // 190
+		var rank_ypos = 23 // 29
+		draw_sprite_ext(spr_ranks_hud, rank_ix, rank_xpos, rank_ypos + obj_stylebar.hudbounce + DrawY, rank_scale, rank_scale, 0, c_white, 1)
+		var spr_w = sprite_get_width(spr_ranks_hudfill)
+		var spr_h = sprite_get_height(spr_ranks_hudfill)
+		var spr_xo = sprite_get_xoffset(spr_ranks_hudfill)
+		var spr_yo = sprite_get_yoffset(spr_ranks_hudfill)
+		var perc = 0
 
-switch rank_ix
-{
-    case 5:
-        perc = 1
-        break
-    case 4:
-        perc = 1
-        break
-    case 3:
-        perc = ((_score - global.arank) / (global.srank - global.arank))
-        break
-    case 2:
-        perc = ((_score - global.brank) / (global.arank - global.brank))
-        break
-    case 1:
-        perc = ((_score - global.crank) / (global.brank - global.crank))
-        break
-    default:
-        perc = (_score / global.crank)
+		switch rank_ix
+		{
+			case 5:
+				perc = 1
+				break
+			case 4:
+				perc = 1
+				break
+			case 3:
+				perc = ((_score - global.arank) / (global.srank - global.arank))
+			    break
+			case 2:
+				perc = ((_score - global.brank) / (global.arank - global.brank))
+				break
+			case 1:
+				perc = ((_score - global.crank) / (global.brank - global.crank))
+				break
+			default:
+				perc = (_score / global.crank)
+		}
+		var t = (spr_h * perc)
+		var top = (spr_h - t)
+		draw_sprite_part(spr_ranks_hudfill, rank_ix, 0, top, spr_w, (spr_h - top), ((rank_xpos) - spr_xo), ((rank_ypos + obj_stylebar.hudbounce + DrawY) - spr_yo) + top)
+		draw_set_halign(fa_center)
+		draw_set_color(c_white)
+	}
 }
-
-var t = (spr_h * perc)
-var top = (spr_h - t)
-draw_sprite_part(spr_ranks_hudfill, rank_ix, 0, top, spr_w, (spr_h - top), (190 - spr_xo), (((29 + obj_stylebar.hudbounce) - spr_yo) + top))
-draw_set_halign(fa_center)
-draw_set_color(c_white)
 /*if (global.panic || global.starrmode)
 {
 	if (global.seconds < 10)
