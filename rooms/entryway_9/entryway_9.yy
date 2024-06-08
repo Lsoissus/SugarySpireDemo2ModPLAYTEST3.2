@@ -78,7 +78,6 @@
     {"name":"inst_35AAE536","path":"rooms/entryway_9/entryway_9.yy",},
     {"name":"inst_75EAA2AC","path":"rooms/entryway_9/entryway_9.yy",},
     {"name":"inst_4AE6AFFB","path":"rooms/entryway_9/entryway_9.yy",},
-    {"name":"inst_70A185F9","path":"rooms/entryway_9/entryway_9.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -160,7 +159,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_35AAE536","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_entrywaydestructible8","path":"objects/obj_entrywaydestructible8/obj_entrywaydestructible8.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2347.0,"y":960.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_75EAA2AC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_entrywaydestructible7","path":"objects/obj_entrywaydestructible7/obj_entrywaydestructible7.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2269.0,"y":977.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4AE6AFFB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_entrywaydestructible4","path":"objects/obj_entrywaydestructible4/obj_entrywaydestructible4.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2141.0,"y":1040.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_70A185F9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":null,"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3212.0,"y":1056.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F3627CD_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":1120.0,},

@@ -42,7 +42,6 @@
     {"name":"inst_36E6B6DA","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_BB992442","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_404D92BA","path":"rooms/entryway_10/entryway_10.yy",},
-    {"name":"inst_C4000032","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_521A6A8A","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_E7CED8F2","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_6C81466A","path":"rooms/entryway_10/entryway_10.yy",},
@@ -53,7 +52,6 @@
     {"name":"inst_88B6091A","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_0D697792","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_3CD53AC1","path":"rooms/entryway_10/entryway_10.yy",},
-    {"name":"inst_289E9DFD","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_D8A0A81","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_1E2C6C28","path":"rooms/entryway_10/entryway_10.yy",},
     {"name":"inst_7DC43B88","path":"rooms/entryway_10/entryway_10.yy",},
@@ -122,9 +120,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36E6B6DA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1504.0,"y":608.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_BB992442","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":14.000001,"scaleY":18.0,"x":3424.0,"y":288.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_404D92BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":14.0,"scaleY":5.0,"x":3424.0,"y":-64.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C4000032","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretdestroyable_metal","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_secretdestroyable_metal","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"propertyId":{"name":"layer_tile","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"value":"\"Tiles_4\"",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3424.0,"y":160.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_521A6A8A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretdestroyable_metal","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_secretdestroyable_metal","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"propertyId":{"name":"layer_tile","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"value":"\"Tiles_4\"",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3424.0,"y":224.0,},
@@ -141,9 +136,6 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_baddie","path":"objects/obj_baddie/obj_baddie.yy",},"propertyId":{"name":"panicEscape","path":"objects/obj_baddie/obj_baddie.yy",},"value":"true",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2624.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3CD53AC1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rudycollect","path":"objects/obj_rudycollect/obj_rudycollect.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":3808.0,"y":242.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_289E9DFD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretdestroyable_metal","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_secretdestroyable_metal","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"propertyId":{"name":"layer_tile","path":"objects/obj_secretdestroyable_metal/obj_secretdestroyable_metal.yy",},"value":"\"Tiles_4\"",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3424.0,"y":96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D8A0A81","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_minipillarwoke","path":"objects/obj_minipillarwoke/obj_minipillarwoke.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":1600.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E2C6C28","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_minipillarwoke","path":"objects/obj_minipillarwoke/obj_minipillarwoke.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":1472.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7DC43B88","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_minipillarsleep","path":"objects/obj_minipillarsleep/obj_minipillarsleep.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":1600.0,"y":576.0,},
