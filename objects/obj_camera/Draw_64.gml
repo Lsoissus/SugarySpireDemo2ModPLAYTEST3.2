@@ -58,7 +58,7 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 		rank_scale = approach(rank_scale, 1, 0.2)
 		var rank_xpos = 217 // 190
 		var rank_ypos = 23 // 29
-		draw_sprite_ext(spr_ranks_hud, rank_ix, rank_xpos, rank_ypos + obj_stylebar.hudbounce + DrawY, rank_scale, rank_scale, 0, c_white, 1)
+		draw_sprite_ext(spr_ranks_hud, rank_ix, rank_xpos, rank_ypos + DrawY, rank_scale, rank_scale, 0, c_white, 1)
 		var spr_w = sprite_get_width(spr_ranks_hudfill)
 		var spr_h = sprite_get_height(spr_ranks_hudfill)
 		var spr_xo = sprite_get_xoffset(spr_ranks_hudfill)
@@ -87,7 +87,7 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 		}
 		var t = (spr_h * perc)
 		var top = (spr_h - t)
-		draw_sprite_part(spr_ranks_hudfill, rank_ix, 0, top, spr_w, (spr_h - top), ((rank_xpos) - spr_xo), ((rank_ypos + obj_stylebar.hudbounce + DrawY) - spr_yo) + top)
+		draw_sprite_part(spr_ranks_hudfill, rank_ix, 0, top, spr_w, (spr_h - top), ((rank_xpos) - spr_xo), ((rank_ypos + DrawY) - spr_yo) + top)
 		draw_set_halign(fa_center)
 		draw_set_color(c_white)
 	}

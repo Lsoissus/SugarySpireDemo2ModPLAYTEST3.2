@@ -6,9 +6,6 @@ function scr_roomnames(_room = room)
         case rm_missing:
             room_name = "MISSING ROOM LMAO";
             break;
-        case realtitlescreen:
-            room_name = "Welcome To Sugary Spire!";
-            break;
         case outer_room1:
             room_name = "Welcome To Sugary Spire!";
             break;

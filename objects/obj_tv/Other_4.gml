@@ -5,7 +5,7 @@ if string_starts_with(_roomname, "steamy")
 {
 	tvbgsprite = global.panic ? spr_tvbg_steamy_panic : spr_tvbg_steamy;
 }
-else if string_starts_with(_roomname, "hub")
+else if (string_starts_with(_roomname, "hub") || string_starts_with(_roomname, "outer") || string_starts_with(_roomname, "spire"))
 {
 	tvbgsprite = global.panic ? spr_tvbg_hub : spr_tvbg_hub;
 }

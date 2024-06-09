@@ -4,12 +4,11 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 	if (tvsprite == spr_pizzytvcotton)
 		draw_sprite_ext(spr_tvpropeller, -1, 832, 74 + DrawY, 1, 1, 1, c_white, 1);
 	pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, 0);
-	if (!staticdraw)
-		draw_sprite_ext(tvsprite, image_index, 832, 74 + DrawY, 1, 1, 0, c_white, 1);
-	else
-		draw_sprite_ext(spr_tvstatic, image_index, 832, 74 + DrawY, 1, 1, 0, c_white, 1);
+	draw_sprite_ext(tvsprite, image_index, 832, 74 + DrawY, 1, 1, 0, c_white, 1);
+	if (staticdraw)
+		draw_sprite_ext(spr_tvstatic, statictimer, 832, 74 + DrawY, 1, 1, 0, c_white, 1);
 	pal_swap_reset();
-	draw_sprite_ext(invsprite, image_index, 700, 57 + DrawY, 1, 1, 0, c_white, 1);
+	draw_sprite_ext(invsprite, image_index, 700, 57 + DrawY, -1, 1, 0, c_white, 1);
 	draw_set_font(global.font);
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);
