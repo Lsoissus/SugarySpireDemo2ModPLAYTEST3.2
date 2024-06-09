@@ -117,6 +117,7 @@
     {"name":"inst_D57E649B","path":"rooms/molasses_9/molasses_9.yy",},
     {"name":"inst_6A21D203","path":"rooms/molasses_9/molasses_9.yy",},
     {"name":"inst_EFE5407B","path":"rooms/molasses_9/molasses_9.yy",},
+    {"name":"inst_1828ED65","path":"rooms/molasses_9/molasses_9.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -239,6 +240,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D57E649B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_siren","path":"objects/obj_siren/obj_siren.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":1056.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A21D203","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_siren","path":"objects/obj_siren/obj_siren.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":1056.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EFE5407B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_exitdoorsign","path":"objects/obj_exitdoorsign/obj_exitdoorsign.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":1312.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1828ED65","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorP","path":"objects/obj_doorP/obj_doorP.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":480.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":63,"SerialiseWidth":110,"TileCompressedData":[
 -1497,0,3,608,609,610,-108,0,1,705,-109,0,1,641,-108,0,2,736,737,-329,0,2,609,610,-108,0,1,705,-108,0,3,736,737,738,-538,0,3,612,613,614,-108,0,1,645,-109,0,1,677,-109,0,1,709,-109,0,1,645,-109,0,1,677,-108,0,3,740,741,742,-3349,0,],"TileDataFormat":1,},"tilesetId":{"name":"ts_molasses3","path":"tilesets/ts_molasses3/ts_molasses3.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
