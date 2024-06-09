@@ -10,8 +10,8 @@ function scr_escapetimes(_room = room)
 			seconds = 0;
 			break;
 		case entryway_11:
-			minutes = 2;
-			seconds = 30;
+			minutes = 3;
+			seconds = 0;
 			break;
 		case molasses_9:
 			minutes = 5;
