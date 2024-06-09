@@ -51,5 +51,13 @@ function scr_escapebgs()
         layer_change_background(bg_mines2, bg_mines2_escape);
         layer_change_background(bg_mines2_hills, bg_mines2_hills_escape);
         layer_change_background(bg_mines3, bg_mines3_escape);
+	    layer_change_background(bg_swampbg1, bg_swampbg1escape);
+        layer_change_background(bg_swampbg2, bg_swampbg2escape);
+		layer_change_background(bg_swampbg3, bg_swampbg3escape);
+		layer_change_background(bg_swampbg4, bg_swampbg4escape);
+		layer_change_background(bg_swampbg5, bg_swampbg5escape);
+		layer_change_background(bg_swampbg6, bg_swampbg6escape);
+		layer_change_background(bg_swampbgmain, bg_swampbgmainescape)
+	}
 	}
 }
