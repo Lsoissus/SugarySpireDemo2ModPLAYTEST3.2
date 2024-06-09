@@ -34,6 +34,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entryway","folderPath":"folders/Rooms/Levels/Entryway.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mines","folderPath":"folders/Rooms/Levels/Mines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Molasses Swamp","folderPath":"folders/Rooms/Levels/Molasses Swamp.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"unused molasses","folderPath":"folders/Rooms/Levels/Molasses Swamp/unused molasses.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"old tutorial","folderPath":"folders/Rooms/Levels/old tutorial.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"misc.","folderPath":"folders/Rooms/misc..yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Technical","folderPath":"folders/Rooms/Technical.yy",},
@@ -75,7 +76,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Tile Sets/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"unused molasses","folderPath":"folders/Rooms/Levels/Molasses Swamp/unused molasses.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"gc.dll","CopyToMask":0,"filePath":"datafiles/GMLive",},

@@ -19,6 +19,7 @@
     {"name":"Cottontown","order":4,"path":"folders/Rooms/Levels/Cottontown.yy",},
     {"name":"Mines","order":3,"path":"folders/Rooms/Levels/Mines.yy",},
     {"name":"Molasses Swamp","order":2,"path":"folders/Rooms/Levels/Molasses Swamp.yy",},
+    {"name":"unused molasses","order":21,"path":"folders/Rooms/Levels/Molasses Swamp/unused molasses.yy",},
     {"name":"old tutorial","order":1,"path":"folders/Rooms/Levels/old tutorial.yy",},
     {"name":"misc.","order":3,"path":"folders/Rooms/misc..yy",},
     {"name":"Technical","order":5,"path":"folders/Rooms/Technical.yy",},
@@ -44,7 +45,6 @@
     {"name":"TVbgs","order":829,"path":"folders/Sprites/TVbgs.yy",},
     {"name":"Tile Sets","order":9,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":28,"path":"folders/Tile Sets/Timelines.yy",},
-    {"name":"unused molasses","order":21,"path":"folders/Rooms/Levels/Molasses Swamp/unused molasses.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":963,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},
