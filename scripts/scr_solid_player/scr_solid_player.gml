@@ -38,36 +38,36 @@ function scr_solid_player(_x, _y, _is_slope = false)
 			}
 		}
 	}
-    if place_meeting(x, y, obj_minecartRail_Slope)
-    {
-        var grindslope = instance_place(x, y, obj_minecartRail_Slope)
-        with (grindslope)
-        {
-            var gobject_side = 0
-            var gslope_start = 0
-            var gslope_end = 0
-            if (image_xscale > 0)
-            {
-                gobject_side = other.bbox_right
-                gslope_start = bbox_bottom
-                gslope_end = bbox_top
-            }
-            else
-            {
-                gobject_side = other.bbox_left
-                gslope_start = bbox_top
-                gslope_end = bbox_bottom
-            }
-            var n = sign(image_xscale) * (bbox_bottom - bbox_top) / (bbox_right - bbox_left)
-            var grindsslope = gslope_start - (round(n * (gobject_side - bbox_left)))
-            if (other.y >= old_y && self.can_collide(other.object_index) && other.bbox_bottom == grindsslope && other.bbox_top < grindsslope && gobject_side != grindsslope && (!other.cutscene))
-            {
-                other.x = old_x
-                other.y = old_y
-                return true;
-            }
-        }
-    }
+	if (place_meeting(x, y, obj_minecartRail_Slope))
+	{
+		var grindslope = instance_place(x, y, obj_minecartRail_Slope);
+		with (grindslope)
+		{
+			var gobject_side = 0;
+			var gslope_start = 0;
+			var gslope_end = 0;
+			if (image_xscale > 0)
+			{
+				gobject_side = other.bbox_right;
+				gslope_start = bbox_bottom;
+				gslope_end = bbox_top;
+			}
+			else
+			{
+				gobject_side = other.bbox_left;
+				gslope_start = bbox_top;
+				gslope_end = bbox_bottom;
+			}
+			var n = (sign(image_xscale) * (bbox_bottom - bbox_top)) / (bbox_right - bbox_left);
+			var grindsslope = gslope_start - round(n * (gobject_side - bbox_left));
+			if (other.y >= old_y && can_collide(other.object_index) && other.bbox_bottom == grindsslope && other.bbox_top < grindsslope && gobject_side != grindsslope && !other.cutscene)
+			{
+				other.x = old_x;
+				other.y = old_y;
+				return true;
+			}
+		}
+	}
 	var slope = instance_place(x, y, obj_slope);
 	if (slope && !_is_slope)
 	{
