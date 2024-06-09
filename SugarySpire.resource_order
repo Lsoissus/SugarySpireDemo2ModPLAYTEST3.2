@@ -1203,6 +1203,7 @@
     {"name":"spr_knightpep_hitbox","order":210,"path":"sprites/spr_knightpep_hitbox/spr_knightpep_hitbox.yy",},
     {"name":"spr_molassesbgpara1","order":857,"path":"sprites/spr_molassesbgpara1/spr_molassesbgpara1.yy",},
     {"name":"bg_spirepara","order":858,"path":"sprites/bg_spirepara/bg_spirepara.yy",},
+    {"name":"molasses_lap","order":19,"path":"rooms/molasses_lap/molasses_lap.yy",},
     {"name":"spr_rank_candy_lose","order":1,"path":"sprites/spr_rank_candy_lose/spr_rank_candy_lose.yy",},
     {"name":"spr_rank_gummyworm","order":6,"path":"sprites/spr_rank_gummyworm/spr_rank_gummyworm.yy",},
     {"name":"spr_player_eatspaghetti","order":49,"path":"sprites/spr_player_eatspaghetti/spr_player_eatspaghetti.yy",},

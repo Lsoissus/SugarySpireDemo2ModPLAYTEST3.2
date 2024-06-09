@@ -1269,6 +1269,7 @@
     {"id":{"name":"spr_knightpep_hitbox","path":"sprites/spr_knightpep_hitbox/spr_knightpep_hitbox.yy",},},
     {"id":{"name":"spr_molassesbgpara1","path":"sprites/spr_molassesbgpara1/spr_molassesbgpara1.yy",},},
     {"id":{"name":"bg_spirepara","path":"sprites/bg_spirepara/bg_spirepara.yy",},},
+    {"id":{"name":"molasses_lap","path":"rooms/molasses_lap/molasses_lap.yy",},},
     {"id":{"name":"spr_rank_candy_lose","path":"sprites/spr_rank_candy_lose/spr_rank_candy_lose.yy",},},
     {"id":{"name":"spr_rank_gummyworm","path":"sprites/spr_rank_gummyworm/spr_rank_gummyworm.yy",},},
     {"id":{"name":"spr_player_eatspaghetti","path":"sprites/spr_player_eatspaghetti/spr_player_eatspaghetti.yy",},},
@@ -2208,6 +2209,7 @@
     {"roomId":{"name":"steamy_lap","path":"rooms/steamy_lap/steamy_lap.yy",},},
     {"roomId":{"name":"hub_room1","path":"rooms/hub_room1/hub_room1.yy",},},
     {"roomId":{"name":"spire_1new","path":"rooms/spire_1new/spire_1new.yy",},},
+    {"roomId":{"name":"molasses_lap","path":"rooms/molasses_lap/molasses_lap.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
