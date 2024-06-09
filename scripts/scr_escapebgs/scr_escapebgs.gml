@@ -57,7 +57,6 @@ function scr_escapebgs()
 		layer_change_background(bg_swampbg4, bg_swampbg4escape);
 		layer_change_background(bg_swampbg5, bg_swampbg5escape);
 		layer_change_background(bg_swampbg6, bg_swampbg6escape);
-		layer_change_background(bg_swampbgmain, bg_swampbgmainescape)
-	}
+		layer_change_background(bg_swampbgmain, bg_swampbgmainescape);
 	}
 }
