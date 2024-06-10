@@ -1997,6 +1997,7 @@
     {"id":{"name":"spr_rosehouse","path":"sprites/spr_rosehouse/spr_rosehouse.yy",},},
     {"id":{"name":"spr_donutbubble","path":"sprites/spr_donutbubble/spr_donutbubble.yy",},},
     {"id":{"name":"bg_templebgnew3","path":"sprites/bg_templebgnew3/bg_templebgnew3.yy",},},
+    {"id":{"name":"obj_Options_Modded","path":"objects/obj_Options_Modded/obj_Options_Modded.yy",},},
     {"id":{"name":"Sprite418","path":"sprites/Sprite418/Sprite418.yy",},},
     {"id":{"name":"bg_mines1","path":"sprites/bg_mines1/bg_mines1.yy",},},
     {"id":{"name":"bg_cavebg2","path":"sprites/bg_cavebg2/bg_cavebg2.yy",},},

@@ -8,7 +8,8 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 	if (staticdraw)
 		draw_sprite_ext(spr_tvstatic, statictimer, 832, 74 + DrawY, 1, 1, 0, c_white, 1);
 	pal_swap_reset();
-	draw_sprite_ext(invsprite, image_index, 700, 57 + DrawY, -1, 1, 0, c_white, 1);
+	if (global.invtv)
+		draw_sprite_ext(invsprite, image_index, 700, 57 + DrawY, -1, 1, 0, c_white, 1);
 	draw_set_font(global.font);
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);

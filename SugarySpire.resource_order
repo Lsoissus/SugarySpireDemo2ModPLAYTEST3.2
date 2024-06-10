@@ -1924,6 +1924,7 @@
     {"name":"spr_rosehouse","order":727,"path":"sprites/spr_rosehouse/spr_rosehouse.yy",},
     {"name":"spr_donutbubble","order":728,"path":"sprites/spr_donutbubble/spr_donutbubble.yy",},
     {"name":"bg_templebgnew3","order":939,"path":"sprites/bg_templebgnew3/bg_templebgnew3.yy",},
+    {"name":"obj_Options_Modded","order":331,"path":"objects/obj_Options_Modded/obj_Options_Modded.yy",},
     {"name":"Sprite418","order":729,"path":"sprites/Sprite418/Sprite418.yy",},
     {"name":"bg_mines1","order":940,"path":"sprites/bg_mines1/bg_mines1.yy",},
     {"name":"bg_cavebg2","order":941,"path":"sprites/bg_cavebg2/bg_cavebg2.yy",},

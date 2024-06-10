@@ -4,7 +4,7 @@ enum option_selected
 	audio,
 	video,
 	input,
-	misc
+	modded,
 }
 image_speed = 0.35;
 CursorX = 0;

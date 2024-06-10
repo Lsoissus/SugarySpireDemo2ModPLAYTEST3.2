@@ -8,6 +8,7 @@ if (!selected)
 	draw_option(480, 100, "AUDIO CONFIG", optionselected == option_selected.audio);
 	draw_option(480, 200, "VIDEO CONFIG", optionselected == option_selected.video);
 	draw_option(480, 300, "CONTROL CONFIG", optionselected == option_selected.input);
+	draw_option(480, 400, "MODDED CONFIG", optionselected == option_selected.modded);
 	draw_set_font(global.smallfont);
 	draw_text(480, 512, subtitle);
 }

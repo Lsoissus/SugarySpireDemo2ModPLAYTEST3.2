@@ -8,7 +8,7 @@ if (selected == 0)
 		optionselected -= 1;
 		scr_sound(sound_step);
 	}
-	if ((key_down2 || keyboard_check_pressed(vk_down)) && optionselected < 3)
+	if ((key_down2 || keyboard_check_pressed(vk_down)) && optionselected < 4)
 	{
 		optionselected += 1;
 		scr_sound(sound_step);
@@ -54,11 +54,14 @@ if (selected == 0)
 				instance_create(0, 0, obj_Options_Input);
 			}
 			break;
-		case option_selected.misc:
-			subtitle = string_upper("Adjust Miscellaneous Settings");
+		case option_selected.modded:
+			subtitle = string_upper("ADJUST MOD SETTINGS");
 			CursorY = 400;
-			if (key_jump)
+			if (key_jump) {
 				scr_sound(sound_enemythrow);
+				selected = true;
+				instance_create(0, 0, obj_Options_Modded);
+			}
 			break;
 	}
 	if (key_slap2 || key_start)
