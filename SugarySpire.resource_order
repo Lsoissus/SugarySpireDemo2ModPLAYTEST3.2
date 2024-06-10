@@ -1168,6 +1168,7 @@
     {"name":"spr_taserhitbox","order":181,"path":"sprites/spr_taserhitbox/spr_taserhitbox.yy",},
     {"name":"entryway_11","order":20,"path":"rooms/entryway_11/entryway_11.yy",},
     {"name":"spr_pizzytvcotton","order":182,"path":"sprites/spr_pizzytvcotton/spr_pizzytvcotton.yy",},
+    {"name":"minessecret_1109","order":19,"path":"rooms/minessecret_1109/minessecret_1109.yy",},
     {"name":"spr_player_idlevomit","order":85,"path":"sprites/spr_player_idlevomit/spr_player_idlevomit.yy",},
     {"name":"spr_darkhole","order":184,"path":"sprites/spr_darkhole/spr_darkhole.yy",},
     {"name":"spr_caramel_alive","order":185,"path":"sprites/spr_caramel_alive/spr_caramel_alive.yy",},

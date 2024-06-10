@@ -1234,6 +1234,7 @@
     {"id":{"name":"spr_taserhitbox","path":"sprites/spr_taserhitbox/spr_taserhitbox.yy",},},
     {"id":{"name":"entryway_11","path":"rooms/entryway_11/entryway_11.yy",},},
     {"id":{"name":"spr_pizzytvcotton","path":"sprites/spr_pizzytvcotton/spr_pizzytvcotton.yy",},},
+    {"id":{"name":"minessecret_1109","path":"rooms/minessecret_1109/minessecret_1109.yy",},},
     {"id":{"name":"spr_player_idlevomit","path":"sprites/spr_player_idlevomit/spr_player_idlevomit.yy",},},
     {"id":{"name":"spr_darkhole","path":"sprites/spr_darkhole/spr_darkhole.yy",},},
     {"id":{"name":"spr_caramel_alive","path":"sprites/spr_caramel_alive/spr_caramel_alive.yy",},},
@@ -2215,6 +2216,7 @@
     {"roomId":{"name":"hub_room1","path":"rooms/hub_room1/hub_room1.yy",},},
     {"roomId":{"name":"spire_1new","path":"rooms/spire_1new/spire_1new.yy",},},
     {"roomId":{"name":"molasses_lap","path":"rooms/molasses_lap/molasses_lap.yy",},},
+    {"roomId":{"name":"minessecret_1109","path":"rooms/minessecret_1109/minessecret_1109.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
