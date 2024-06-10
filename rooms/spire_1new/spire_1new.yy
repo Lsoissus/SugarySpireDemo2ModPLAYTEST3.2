@@ -150,8 +150,8 @@
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"concept","assets":[],"depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
   ],
   "parent": {
-    "name": "World1",
-    "path": "folders/Rooms/Hub/World1.yy",
+    "name": "Unused",
+    "path": "folders/Rooms/Hub/Unused.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

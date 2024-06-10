@@ -10,8 +10,8 @@
   "isDnd": false,
   "layers": [],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "GMLive",
+    "path": "folders/Rooms/Misc./GMLive.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

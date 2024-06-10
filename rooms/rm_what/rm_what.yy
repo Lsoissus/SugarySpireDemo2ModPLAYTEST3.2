@@ -29,8 +29,8 @@
       ],"spriteId":{"name":"bg_tole_tole","path":"sprites/bg_tole_tole/bg_tole_tole.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "misc.",
-    "path": "folders/Rooms/misc..yy",
+    "name": "Unused",
+    "path": "folders/Rooms/Misc./Unused.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

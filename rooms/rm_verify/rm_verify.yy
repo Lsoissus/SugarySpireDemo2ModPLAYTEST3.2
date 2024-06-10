@@ -16,8 +16,8 @@
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
   ],
   "parent": {
-    "name": "misc.",
-    "path": "folders/Rooms/misc..yy",
+    "name": "Unused",
+    "path": "folders/Rooms/Misc./Unused.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
