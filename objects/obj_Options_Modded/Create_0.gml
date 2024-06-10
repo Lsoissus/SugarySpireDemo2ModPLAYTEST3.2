@@ -4,7 +4,7 @@ enum modded_selected {
 }
 optionselected = modded_selected.back;
 ini_open("optionData.ini");
-global.invtv = ini_read_real("Settings", "invtv", 1);
+global.invtv = ini_read_real("Settings", "invtv", 0);
 ini_close();
 optionsaved_invtv = global.invtv;
 subtitle = "GO BACK TO MAIN SCREEN";

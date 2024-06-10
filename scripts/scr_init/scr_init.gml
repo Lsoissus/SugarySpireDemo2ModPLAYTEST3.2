@@ -36,7 +36,7 @@ global.playerrotate = ini_read_real("Settings", "playrot", 1);
 global.musicVolume = ini_read_real("Settings", "musicvol", 1);
 global.soundVolume = ini_read_real("Settings", "soundvol", 1);
 global.masterVolume = ini_read_real("Settings", "mastervol", 1);
-global.invtv = ini_read_real("Settings", "invtv", 1);
+global.invtv = ini_read_real("Settings", "invtv", 0);
 ini_close();
 audio_master_gain(global.masterVolume);
 global.targetCamX = 0;
