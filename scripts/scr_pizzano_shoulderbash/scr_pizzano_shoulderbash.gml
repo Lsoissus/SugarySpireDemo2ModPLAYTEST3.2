@@ -1,34 +1,16 @@
 function scr_pizzano_shoulderbash()
 {
 	move = key_right + key_left;
-	if move == xscale {
+	if move == xscale
 		hsp = xscale * movespeed;
-		movespeed = 10;
-	}
-	if move != xscale && move != 0 {
+	if move != xscale && move != 0
 		hsp = move * movespeed;
-		movespeed = 7.5;
-	}
 	if (key_jump && grounded)
 	{
 		state = states.pizzanotwirl;
 		vsp = -12;
 	}
-	if ((scr_solid(x + 1, y) && xscale == 1 && !place_meeting(x + sign(hsp), y, obj_slope)) && !place_meeting(x + xscale, y, obj_destructibles))
-	{
-		movespeed = -3.5;
-		vsp = -8;
-		mach2 = 0;
-		state = states.bump;
-		image_index = 0;
-		machslideAnim = true;
-		machhitAnim = false;
-		instance_create(x + 10, y + 10, obj_bumpeffect);
-		if (audio_is_playing(sound_suplex1))
-			audio_stop_sound(sound_suplex1);
-		scr_sound(sound_bump);
-	}
-	if ((scr_solid(x - 1, y) && xscale == -1 && !place_meeting(x + sign(hsp), y, obj_slope)) && !place_meeting(x + xscale, y, obj_destructibles))
+	if (scr_solid(x + hsp, y) && !place_meeting(x + hsp, y, obj_slope) && !place_meeting(x + sign(hsp), y, obj_destructibles))
 	{
 		movespeed = -3.5;
 		vsp = -8;

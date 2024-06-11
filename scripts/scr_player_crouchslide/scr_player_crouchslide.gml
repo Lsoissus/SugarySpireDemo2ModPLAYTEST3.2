@@ -9,10 +9,11 @@ function scr_player_crouchslide()
 	mask_index = spr_crouchmask;
 	if key_jump2
 	{
-		movespeed += 4.5
+		movespeed = 14;
+		sprite_index = spr_player_longjump;
+		instance_create(x, y, obj_jumpdust);
 		state = states.mach2;
-		vsp = -9
-		sprite_index = spr_player_longjump
+		vsp = -9;
 	}
 	if (key_attack2 && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16))
 	{
