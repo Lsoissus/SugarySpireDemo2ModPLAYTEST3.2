@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 300.5649,
+  "duration": 154.22284,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "mu_swampB.mp3",
+  "soundFile": "mu_swampB.ogg",
   "type": 0,
   "volume": 1.0,
 }
