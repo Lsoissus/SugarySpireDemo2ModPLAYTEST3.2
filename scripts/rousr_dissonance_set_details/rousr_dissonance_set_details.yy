@@ -1,13 +1,11 @@
 {
-  "$GMScript":"",
-  "%Name":"rousr_dissonance_set_details",
-  "isCompatibility":false,
-  "isDnD":false,
-  "name":"rousr_dissonance_set_details",
-  "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "rousr_dissonance_set_details",
+  "isCompatibility": false,
+  "isDnD": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
-  "resourceType":"GMScript",
-  "resourceVersion":"2.0",
 }

@@ -1,13 +1,11 @@
 {
-  "$GMScript":"",
-  "%Name":"pal_swap_reset",
-  "isCompatibility":false,
-  "isDnD":false,
-  "name":"pal_swap_reset",
-  "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "pal_swap_reset",
+  "isCompatibility": false,
+  "isDnD": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
-  "resourceType":"GMScript",
-  "resourceVersion":"2.0",
 }

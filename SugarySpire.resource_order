@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings":[
+  "FolderOrderSettings": [
     {"name":"Animation Curves","order":18,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":20,"path":"folders/Extensions.yy",},
     {"name":"GMLive","order":422,"path":"folders/Extensions/GMLive.yy",},
@@ -50,7 +50,7 @@
     {"name":"Tile Sets","order":9,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":28,"path":"folders/Tile Sets/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[
+  "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":963,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},
     {"name":"obj_dummycart","order":1,"path":"objects/obj_dummycart/obj_dummycart.yy",},
     {"name":"obj_doorS","order":2,"path":"objects/obj_doorS/obj_doorS.yy",},
