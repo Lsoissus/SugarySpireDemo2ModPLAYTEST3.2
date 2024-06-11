@@ -103,8 +103,11 @@ if (instance_exists(obj_player) && (obj_player.state != states.timesup && obj_pl
 }
 if (global.panic && global.minutes == 0 && global.seconds == 0 && room != timesuproom)
 {
-	if (!instance_exists(obj_coneball))
-		instance_create(0, 0, obj_coneball);
+if (!instance_exists(obj_coneball))
+{
+	instance_create(0, 0, obj_coneball);
+	scr_sound(sfx_coneball)
+}
 }
 if (global.panic && global.screentilt)
 {
@@ -140,7 +143,7 @@ if global.panic || global.starrmode
 {
 	if global.minutes > 0 || global.seconds > 0
 	{
-	    showtime_buffer = 100
+	    showtime_buffer = 10
 	    timer_y = approach(timer_y, timer_ystart, 1)
 	}
 	else

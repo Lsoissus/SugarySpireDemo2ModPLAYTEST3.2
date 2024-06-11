@@ -5,6 +5,7 @@ if (fadealpha > 1 && !fadein)
 		obj_pause.pause = false;
 		instance_activate_all();
 		audio_resume_all();
+		audio_stop_sound(mu_pause)
 	}
 	else if (!obj_pause.pause)
 	{
@@ -13,6 +14,7 @@ if (fadealpha > 1 && !fadein)
 		instance_deactivate_all(true);
 		instance_activate_object(obj_pause);
 		instance_activate_object(obj_rpc);
+		audio_play_sound(mu_pause, 1, true)
 	}
 	fadein = true;
 }
