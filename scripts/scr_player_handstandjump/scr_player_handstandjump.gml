@@ -5,8 +5,8 @@ function scr_player_handstandjump()
 		default:
 			move = key_left + key_right;
 			landAnim = false;
-			if mach2 <= 3
-			mach2 = 35;
+			if mach2 <= 35
+				mach2 = 35;
 			hsp = xscale * movespeed;
 			if character == characters.pizzano
 				grav = 0.5;
@@ -15,7 +15,7 @@ function scr_player_handstandjump()
 			momemtum = true;
 			dir = xscale;
 			if movespeed <= 12
-			movespeed = 12
+				movespeed = 12
 			if (sprite_index == spr_player_suplexdash && !instance_exists(obj_crazyrunothereffect))
 				instance_create(x, y, obj_crazyrunothereffect);
 			if (image_index > 7)
@@ -60,7 +60,7 @@ function scr_player_handstandjump()
 			}
 			if (key_jump && grounded)
 			{
-				movespeed += 2.35
+				movespeed = 14;
 				sprite_index = spr_player_longjump;
 				instance_create(x, y, obj_jumpdust);
 				state = states.mach2;
@@ -116,6 +116,7 @@ function scr_player_handstandjump()
 			if character == characters.pizzano {
 				sprite_index = spr_pizzano_shoulderbash;
 				image_index = 0;
+				movespeed = 10;
 				state = states.pizzanoshoulderbash;
 				instance_create(x, y, obj_jumpdust);
 			}
