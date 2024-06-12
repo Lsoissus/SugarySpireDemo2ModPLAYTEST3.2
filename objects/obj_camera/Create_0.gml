@@ -80,3 +80,4 @@ roll_index = 0
 bar_surface = noone
 barfill_x = 0
 showtime_buffer = 0
+global.levelname = "";

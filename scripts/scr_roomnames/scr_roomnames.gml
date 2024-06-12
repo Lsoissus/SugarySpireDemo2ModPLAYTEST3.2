@@ -66,13 +66,13 @@ function scr_roomnames(_room = room)
         case entryway_11:
             room_name = "Beary Careful";
             break;
-        case steamy_secret1:
+        case steamysecret_1:
             room_name = "Rocky Road";
             break;
-        case steamy_secret2:
+        case steamysecret_2:
             room_name = "Digging For Cotton";
             break;
-        case steamy_secret3:
+        case steamysecret_3:
             room_name = "Kick Gum And Chew Gum";
             break;
         case steamy_1:
