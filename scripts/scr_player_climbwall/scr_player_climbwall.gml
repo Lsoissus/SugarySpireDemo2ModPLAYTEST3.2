@@ -70,6 +70,4 @@ function scr_player_climbwall()
 	if !instance_exists(obj_cloudeffect)
 		instance_create(x, y + 43, obj_cloudeffect);
 	
-	show_debug_message(string(wallspeed))
-	show_debug_message(string(vsp))
 }
