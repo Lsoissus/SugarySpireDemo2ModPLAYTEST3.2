@@ -45,7 +45,6 @@
     {"name":"inst_FC862F2A","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_7139AD92","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_06ED1B0A","path":"rooms/entryway_3/entryway_3.yy",},
-    {"name":"inst_8B908972","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_0F44F7EA","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_94076562","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_19BAE3DA","path":"rooms/entryway_3/entryway_3.yy",},
@@ -67,7 +66,6 @@
     {"name":"inst_8D480FEA","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_02FB7C52","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_87AFEACA","path":"rooms/entryway_3/entryway_3.yy",},
-    {"name":"inst_1B625832","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_9016D6AA","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_15C94422","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_A97CB29A","path":"rooms/entryway_3/entryway_3.yy",},
@@ -104,6 +102,7 @@
     {"name":"inst_52F6705A","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_53CCD145","path":"rooms/entryway_3/entryway_3.yy",},
     {"name":"inst_4F955112","path":"rooms/entryway_3/entryway_3.yy",},
+    {"name":"inst_8B908972","path":"rooms/entryway_3/entryway_3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -173,9 +172,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8D480FEA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destroyable3","path":"objects/obj_destroyable3/obj_destroyable3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2080.0,"y":640.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_02FB7C52","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destroyable3_hard","path":"objects/obj_destroyable3_hard/obj_destroyable3_hard.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1440.0,"y":576.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_87AFEACA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destroyable3_hard","path":"objects/obj_destroyable3_hard/obj_destroyable3_hard.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2016.0,"y":640.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B625832","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_babybear","path":"objects/obj_babybear/obj_babybear.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_baddie","path":"objects/obj_baddie/obj_baddie.yy",},"propertyId":{"name":"panicEscape","path":"objects/obj_baddie/obj_baddie.yy",},"value":"true",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1300.0,"y":531.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_9016D6AA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_googlyjuice","path":"objects/obj_googlyjuice/obj_googlyjuice.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_baddie","path":"objects/obj_baddie/obj_baddie.yy",},"propertyId":{"name":"panicEscape","path":"objects/obj_baddie/obj_baddie.yy",},"value":"true",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2272.0,"y":608.0,},
