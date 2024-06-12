@@ -8,6 +8,46 @@ if (ev_type == "DiscordReady")
 	ready = true;
 	
 	np_setpresence_more(small_image_text, large_image_text, false);
+	
+	var user_id = async_load[? "user_id"]
+	var lockout = true;
+	var staff = [
+		// developers
+		1060255492775084162, // ini
+		784009451815567371, // zeph
+		1136404769536229457, // scrap hat
+		1234176936452821058, // ace
+		873313874726764565, // cadmital
+		1221898227188633713, // canco
+		1091785279075008704, // cookie man
+		997939810025082983, // diso456riented
+		908054257381572648, // divided
+		991995529032634458, // doomgaming2024
+		1190496235895918667, // escargado
+		985446784119734332, // fizzyplop
+		977224713560547368, // gearedguy
+		1187127989729771541, // hellobro
+		865337740220170240, // internetty
+		993148435823874058, // mememan
+		1192261172938932367, // spaghette
+		1245010164793475105, // the w
+		1088741139038871642, // thesillysillysilly
+		608514709540569098, // veldao
+		
+		// playtesters
+		710517510218186843, // afrozenclover
+		1100223613283598386, // luna
+		958084660083183647, // wizzerlytheknarly
+	]
+    
+	for(var i = 0; i < array_length(staff); i++) {
+	    if user_id == string(staff[i])
+	       lockout = false;
+	}
+	
+	if (lockout)
+		show_error("teacher! teacher! someone tried to leak the mod!", true);
+	
 	np_setpresence(state, details, large_image, small_image);
 	
 	// passing a URL will add this sprite asynchronously via *internets*
