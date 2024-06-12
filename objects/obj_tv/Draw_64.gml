@@ -1,3 +1,4 @@
+live_auto_call;
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen)
 {
 	draw_sprite(tvbgsprite, 0, 832, 74 + DrawY)
@@ -37,23 +38,29 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 			draw_text_color(838 + _xx, 50 + _yy, string_char_at(_combo, i + 1), c_white, c_white, c_white, c_white, alpha);
 		}
 		if (!surface_exists(BarSurface))
-			BarSurface = surface_create(137, 44);
+			BarSurface = surface_create(sprite_get_width(spr_barpop), sprite_get_height(spr_barpop));
 		else
 		{
 			surface_set_target(BarSurface);
 			draw_clear_alpha(c_white, 0);
 			draw_sprite_tiled(spr_barpop2, 0, BarX, 0);
-			draw_set_color(0x280048);
-			draw_rectangle(112 * (global.combotime / 60), -50, 112, 50, false);
-			draw_set_color(c_white);
-			draw_sprite_ext(spr_barpop3, 0, 112 * (global.combotime / 60), -64, 1, 5, 0, c_white, 1);
+
+			
 			gpu_set_blendmode(bm_subtract);
-			draw_sprite_ext(spr_combomask, 0, 463, 107, 1, 1, 0, c_white, 1);
+			draw_set_color(c_black);
+			draw_rectangle(230 * (global.combotime / 60) + 40, 180, 200, 230, false);
+			draw_set_color(c_white);
+			draw_sprite_ext(spr_combomask, 0, 0, 0, 1, 1, 0, c_white, 1);
 			gpu_set_blendmode(bm_normal);
+			draw_sprite_ext(spr_barpop3, 0, 230 * (global.combotime / 60) + 40, 180, 1, 5, 0, c_white, 1);
+			// since im a lazy fuck lets mask again for the foam at the end
+			gpu_set_blendmode(bm_subtract);
+			draw_sprite_ext(spr_combomask, 0, 0, 0, 1, 1, 0, c_white, 1);
+			gpu_set_blendmode(bm_normal);
+			draw_sprite_ext(spr_barpop, 0, 0, 0, 1, 1, 0, c_white, alpha);
 			surface_reset_target();
 			BarX += (-0.5 + (0.45 * (global.combofreeze / 30)));
-			draw_surface_ext(BarSurface, 527, 293, 1, 1, 0, c_white, alpha);
-			draw_sprite_ext(spr_barpop, 0, 463, 107, 1, 1, 0, c_white, alpha);
+			draw_surface_ext(BarSurface, 699, -18 + DrawY, 1, 1, 0, c_white, alpha);
 		}
 	}
 	else if (chooseOnecomboend)
