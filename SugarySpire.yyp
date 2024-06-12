@@ -108,7 +108,6 @@
     {"id":{"name":"obj_ridetest","path":"objects/obj_ridetest/obj_ridetest.yy",},},
     {"id":{"name":"obj_pass","path":"objects/obj_pass/obj_pass.yy",},},
     {"id":{"name":"obj_gnome","path":"objects/obj_gnome/obj_gnome.yy",},},
-    {"id":{"name":"Script275","path":"scripts/Script275/Script275.yy",},},
     {"id":{"name":"obj_cottonplatform_tiled","path":"objects/obj_cottonplatform_tiled/obj_cottonplatform_tiled.yy",},},
     {"id":{"name":"obj_molassesWall","path":"objects/obj_molassesWall/obj_molassesWall.yy",},},
     {"id":{"name":"scr_player_wallkick","path":"scripts/scr_player_wallkick/scr_player_wallkick.yy",},},

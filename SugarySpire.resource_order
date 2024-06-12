@@ -61,7 +61,6 @@
     {"name":"obj_ridetest","order":7,"path":"objects/obj_ridetest/obj_ridetest.yy",},
     {"name":"obj_pass","order":8,"path":"objects/obj_pass/obj_pass.yy",},
     {"name":"obj_gnome","order":9,"path":"objects/obj_gnome/obj_gnome.yy",},
-    {"name":"Script275","order":19,"path":"scripts/Script275/Script275.yy",},
     {"name":"obj_cottonplatform_tiled","order":10,"path":"objects/obj_cottonplatform_tiled/obj_cottonplatform_tiled.yy",},
     {"name":"obj_molassesWall","order":11,"path":"objects/obj_molassesWall/obj_molassesWall.yy",},
     {"name":"scr_player_wallkick","order":698,"path":"scripts/scr_player_wallkick/scr_player_wallkick.yy",},

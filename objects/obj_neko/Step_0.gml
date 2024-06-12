@@ -15,10 +15,6 @@ if ready {
 		global.rpcrank = "D";
 	if (!obj_pause.pause)
 	{
-		if (global.panic)
-			np_setpresence_timestamps(0, (global.minutes * 60) + global.seconds, false);
-		else
-			np_setpresence_timestamps(0, 0, false);
 		var roomname = room_get_name(room);
 		if (room != realtitlescreen && room != scootercutsceneidk && room != palroom && room != rank_room && !string_starts_with(roomname, "hub") && !string_starts_with(roomname, "outer") && !string_starts_with(roomname, "spire"))
 			state = string(global.collect) + " Points | Rank " + string(global.rpcrank);
