@@ -93,7 +93,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"obj_talisman","path":"objects/obj_talisman/obj_talisman.yy",},},
@@ -138,6 +138,7 @@
     {"id":{"name":"obj_doorP","path":"objects/obj_doorP/obj_doorP.yy",},},
     {"id":{"name":"obj_rpc","path":"objects/obj_rpc/obj_rpc.yy",},},
     {"id":{"name":"object_1","path":"objects/object_1/object_1.yy",},},
+    {"id":{"name":"obj_neko","path":"objects/obj_neko/obj_neko.yy",},},
     {"id":{"name":"obj_timesup","path":"objects/obj_timesup/obj_timesup.yy",},},
     {"id":{"name":"obj_flamecloud","path":"objects/obj_flamecloud/obj_flamecloud.yy",},},
     {"id":{"name":"obj_minecartRail_Slope","path":"objects/obj_minecartRail_Slope/obj_minecartRail_Slope.yy",},},
@@ -835,6 +836,7 @@
     {"id":{"name":"scr_escapebgs","path":"scripts/scr_escapebgs/scr_escapebgs.yy",},},
     {"id":{"name":"scr_soundFunctions","path":"scripts/scr_soundFunctions/scr_soundFunctions.yy",},},
     {"id":{"name":"obj_entrywaydestructible4","path":"objects/obj_entrywaydestructible4/obj_entrywaydestructible4.yy",},},
+    {"id":{"name":"NekoPresence","path":"extensions/NekoPresence/NekoPresence.yy",},},
     {"id":{"name":"sfx_TVswitchback","path":"sounds/sfx_TVswitchback/sfx_TVswitchback.yy",},},
     {"id":{"name":"scr_scareenemy","path":"scripts/scr_scareenemy/scr_scareenemy.yy",},},
     {"id":{"name":"scr_confecti_init","path":"scripts/scr_confecti_init/scr_confecti_init.yy",},},
