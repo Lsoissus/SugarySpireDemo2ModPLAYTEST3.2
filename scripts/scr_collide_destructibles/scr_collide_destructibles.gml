@@ -68,6 +68,28 @@ function scr_collide_destructibles()
 			}
 		}
 	}
+	if (state == states.wallkick)
+	{
+		if (place_meeting(x, y + vsp, obj_destructibles))
+		{
+			with (instance_place(x, y + vsp, obj_destructibles))
+			{
+				DestroyedBy = other.id;
+				event_user(0);
+			}
+		}
+	}
+	if (state == states.wallkick)
+	{
+		if (place_meeting(x, y - vsp, obj_destructibles))
+		{
+			with (instance_place(x, y - vsp, obj_destructibles))
+			{
+				DestroyedBy = other.id;
+				event_user(0);
+			}
+		}
+	}
 	if (vsp >= 0 && (state == states.puddle || (state == states.freefall || state == states.freefallland)))
 	{
 		if ((place_meeting(x, y + vsp + 2, obj_metalblock) && state == states.puddle) || ((state == states.freefall || state == states.freefallland) && freefallsmash >= 10))
