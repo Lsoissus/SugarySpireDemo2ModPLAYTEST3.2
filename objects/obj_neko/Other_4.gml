@@ -1,4 +1,4 @@
-/// @description Check what room the player is in
+/// @description Check if the player has entered a new room
 
 if ready {
 	var roomname = room_get_name(room);
