@@ -44,16 +44,13 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);
 	draw_text(xi, yi, string_hash_to_newline(message));
-	draw_sprite_ext(spr_tvcomboshadow, image_index, 832, 74 + DrawY, 1, 1, 0, c_white, combofade);
 	if (global.combotime > 0 && global.combo > 0)
 	{
-		draw_sprite_ext(spr_tvcombo, image_index, 832, 74, 1, 1, 0, c_white, alpha);
+		draw_sprite_ext(spr_tvcombo, image_index, 827, 112+ DrawY + ComboY, 1, 1, 0, c_white, alpha);
 		draw_set_font(global.combofont);
 		draw_set_halign(fa_center);
 		draw_set_color(c_white);
 		var _combo = string(global.combo);
-		if (global.combo < 10)
-			_combo = "0" + string(global.combo);
 		var _string_length = string_length(_combo);
 		for (var i = 0; i < _string_length; i++)
 		{
@@ -64,7 +61,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 				_xx += irandom_range(-2, 2);
 				_yy += irandom_range(-2, 2);
 			}
-			draw_text_color(838 + _xx, 50 + _yy, string_char_at(_combo, i + 1), c_white, c_white, c_white, c_white, alpha);
+			draw_text_color(800 + _xx, 170 + DrawY + ComboY + _yy, string_char_at(_combo, i + 1), c_white, c_white, c_white, c_white, alpha);
 		}
 	}
 	else if (chooseOnecomboend) {
