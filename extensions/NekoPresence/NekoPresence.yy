@@ -12,8 +12,11 @@
   "androidsourcedir": "",
   "author": "",
   "classname": "",
+  "ConfigValues": {
+    "Debug": {"androidcodeinjection":"","copyToTargets":"194","HTML5CodeInjection":"","ioscodeinjection":"","tvoscodeinjection":"",},
+  },
   "copyToTargets": 194,
-  "date": "2020-11-11T04:13:31.2571444-06:00",
+  "date": "2020-11-11T02:13:31.2571444-08:00",
   "description": "",
   "exportToGame": true,
   "extensionVersion": "1.3.2",
