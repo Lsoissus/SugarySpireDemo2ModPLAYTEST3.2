@@ -46,6 +46,7 @@ tvlength = 0;
 global.newhudtvanim = ds_queue_create();
 alarm[1] = 1;
 DrawY = 0;
+ComboY = -300;
 function scr_combotext(_combo = global.combo)
 {
 	var sprite = spr_badcombo_intro;

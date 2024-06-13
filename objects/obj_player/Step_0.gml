@@ -154,6 +154,7 @@ if (global.combotime <= 0 && global.combo != 0)
 		scr_queue_tvanim(spr_pizzytvhappy, 200);
 	global.combo = 0;
 	playComboVariable = -4;
+	global.combodropped = true;
 }
 if (input_buffer_jump < 8)
 	input_buffer_jump++;

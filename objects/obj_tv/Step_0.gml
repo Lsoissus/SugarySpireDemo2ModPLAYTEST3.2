@@ -195,10 +195,11 @@ if (tvlength > 0)
 tvlength--;
 if (global.key_inv)
 	invsprite = spr_invkey;
-else if (global.treat && global.key_inv != true) // yes this is actual code
+else if (global.treat)
 	invsprite = spr_invdonut;
 else
 	invsprite = spr_invempty;
 if (tvsprite == spr_tvturnon && floor(image_index) == (image_number - 1))
 	tvsprite = idletvspr;
 sprite_index = tvsprite;
+
