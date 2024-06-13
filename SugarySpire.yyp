@@ -59,6 +59,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cottontown","folderPath":"folders/Sprites/Level Gates/World 1/Cottontown.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entryway","folderPath":"folders/Sprites/Level Gates/World 1/Entryway.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sugarshack Mines","folderPath":"folders/Sprites/Level Gates/World 1/Sugarshack Mines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"World 2","folderPath":"folders/Sprites/Level Gates/World 2.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Molasses Swamp","folderPath":"folders/Sprites/Level Gates/World 2/Molasses Swamp.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Obstacles","folderPath":"folders/Sprites/Obstacles.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player Sprites","folderPath":"folders/Sprites/Player Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Pizzano","folderPath":"folders/Sprites/Player Sprites/Pizzano.yy",},
@@ -79,8 +81,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Tile Sets/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Molasses Swamp","folderPath":"folders/Sprites/Level Gates/World 2/Molasses Swamp.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"World 2","folderPath":"folders/Sprites/Level Gates/World 2.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"gc.dll","CopyToMask":0,"filePath":"datafiles/GMLive",},

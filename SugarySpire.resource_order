@@ -37,6 +37,7 @@
     {"name":"World 1","order":2,"path":"folders/Sprites/Level Gates/World 1.yy",},
     {"name":"Cottontown","order":1,"path":"folders/Sprites/Level Gates/World 1/Cottontown.yy",},
     {"name":"Sugarshack Mines","order":2,"path":"folders/Sprites/Level Gates/World 1/Sugarshack Mines.yy",},
+    {"name":"World 2","order":4,"path":"folders/Sprites/Level Gates/World 2.yy",},
     {"name":"Obstacles","order":984,"path":"folders/Sprites/Obstacles.yy",},
     {"name":"Player Sprites","order":993,"path":"folders/Sprites/Player Sprites.yy",},
     {"name":"Ranks","order":974,"path":"folders/Sprites/Ranks.yy",},
@@ -48,7 +49,6 @@
     {"name":"TVbgs","order":829,"path":"folders/Sprites/TVbgs.yy",},
     {"name":"Tile Sets","order":9,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":28,"path":"folders/Tile Sets/Timelines.yy",},
-    {"name":"World 2","order":4,"path":"folders/Sprites/Level Gates/World 2.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":963,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},
