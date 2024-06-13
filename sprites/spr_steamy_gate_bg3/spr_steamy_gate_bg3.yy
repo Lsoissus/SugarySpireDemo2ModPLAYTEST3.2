@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_steamy_gate_bg3",
   "bbox_bottom": 255,
-  "bbox_left": 2,
-  "bbox_right": 188,
-  "bbox_top": 76,
+  "bbox_left": 0,
+  "bbox_right": 191,
+  "bbox_top": 91,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -16,14 +16,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eaa54421-5992-4088-b87a-85ddccf0a62a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a3eb62eb-afcc-42f3-b515-9f21a68bd1d9",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 256,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6f23e412-5bf7-4bc7-bbf9-5d3411b63751","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f6c7be61-a724-462f-9c43-8964bb0a9ebb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -57,7 +57,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eaa54421-5992-4088-b87a-85ddccf0a62a","path":"sprites/spr_steamy_gate_bg3/spr_steamy_gate_bg3.yy",},},},"Disabled":false,"id":"0868781d-ca76-4a78-8398-323be47ae789","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a3eb62eb-afcc-42f3-b515-9f21a68bd1d9","path":"sprites/spr_steamy_gate_bg3/spr_steamy_gate_bg3.yy",},},},"Disabled":false,"id":"a134796b-42ab-4791-8892-0909c816aa84","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
