@@ -20,7 +20,7 @@ if (floor(image_index) == (image_number - 1))
             sprite_index = spr_lapportalexit
             with (obj_player)
             {
-                state = 0
+                state = states.freefallprep
                 visible = true
             }
             active = 0

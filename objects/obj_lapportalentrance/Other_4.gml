@@ -4,7 +4,7 @@ with (obj_player)
     if (targetDoor == "LAP")
     {
         p = 1
-        state = "actor"
+        state = states.actor
         x = other.x
         y = other.y
         roomstartx = x

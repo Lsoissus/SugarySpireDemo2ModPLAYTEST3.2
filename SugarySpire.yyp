@@ -735,6 +735,7 @@
     {"id":{"name":"scr_player_handstand","path":"scripts/scr_player_handstand/scr_player_handstand.yy",},},
     {"id":{"name":"scr_sleep","path":"scripts/scr_sleep/scr_sleep.yy",},},
     {"id":{"name":"scr_enemy_bounce","path":"scripts/scr_enemy_bounce/scr_enemy_bounce.yy",},},
+    {"id":{"name":"obj_entrywaydestructibleparent","path":"objects/obj_entrywaydestructibleparent/obj_entrywaydestructibleparent.yy",},},
     {"id":{"name":"scr_enemy_charge","path":"scripts/scr_enemy_charge/scr_enemy_charge.yy",},},
     {"id":{"name":"scr_enemy_grabbed","path":"scripts/scr_enemy_grabbed/scr_enemy_grabbed.yy",},},
     {"id":{"name":"ts_entryway3","path":"tilesets/ts_entryway3/ts_entryway3.yy",},},
