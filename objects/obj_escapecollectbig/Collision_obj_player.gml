@@ -7,7 +7,10 @@ if global.panic
 	global.pizzameter += 5;
 	scr_queue_tvanim(spr_pizzytvhappy, 50);
 	create_small_number(x, y, "100");
-    global.combotime = 60;
-	global.combofreeze = 30;
+    if (global.combo >= 1 && global.combotime < 60)
+    {
+		global.combofreeze = 30;
+		global.combotime += 10;
+    }
     instance_destroy()
 }
