@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_barpop2",
-  "bbox_bottom": 31,
+  "bbox_bottom": 51,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 143,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"605fe844-0bab-4d00-87af-92df7b303172",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cc07754b-9bd0-4601-9a62-19395183b8f6",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 52,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3d53c01f-402e-49d1-98d9-908cb9aefbf6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0100711f-b7d4-4aea-a9f0-473c8d7dc313","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"605fe844-0bab-4d00-87af-92df7b303172","path":"sprites/spr_barpop2/spr_barpop2.yy",},},},"Disabled":false,"id":"3047f149-b5e4-4ecc-8d34-6e12e3d5d2d5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cc07754b-9bd0-4601-9a62-19395183b8f6","path":"sprites/spr_barpop2/spr_barpop2.yy",},},},"Disabled":false,"id":"eb42c1a4-47ca-4b3c-8e2d-29d82d09a950","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32,
+  "width": 144,
 }

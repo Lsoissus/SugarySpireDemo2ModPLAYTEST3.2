@@ -140,7 +140,7 @@ if (angry && !instance_exists(obj_angrycloud) && obj_player.state == states.norm
 	instance_create(x, y, obj_angrycloud);
 global.combotime = clamp(global.combotime, 0, 60);
 if (global.combofreeze <= 0)
-	global.combotime = approach(global.combotime, 0, 0.25);
+	global.combotime = approach(global.combotime, 0, 0.13);
 if ((global.combo % 3) == 0 && playComboVariable != global.combo && global.combotime > 0 && global.combo > 0)
 {
 	scr_queue_tvanim(spr_pizzytv_combo, 250);

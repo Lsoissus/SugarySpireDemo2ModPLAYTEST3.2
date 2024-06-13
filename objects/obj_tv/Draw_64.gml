@@ -2,8 +2,6 @@ live_auto_call;
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen)
 {
 	draw_sprite(tvbgsprite, 0, 832, 74 + DrawY)
-	if (tvsprite == spr_pizzytvcotton)
-		draw_sprite_ext(spr_tvpropeller, -1, 832, 74 + DrawY, 1, 1, 1, c_white, 1);
 	pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, 0);
 	draw_sprite_ext(tvsprite, image_index, 832, 74 + DrawY, 1, 1, 0, c_white, 1);
 	if (staticdraw)
@@ -43,7 +41,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 		{
 			surface_set_target(BarSurface);
 			draw_clear_alpha(c_white, 0);
-			draw_sprite_tiled(spr_barpop2, 0, BarX, 0);
+			draw_sprite_tiled(spr_barpop2, 0, BarX, 180);
 
 			
 			gpu_set_blendmode(bm_subtract);
