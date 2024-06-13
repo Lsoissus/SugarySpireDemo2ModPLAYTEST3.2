@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "bg_molassestemple_entrance2",
-  "bbox_bottom": 515,
+  "bbox_bottom": 681,
   "bbox_left": 0,
-  "bbox_right": 1257,
-  "bbox_top": 157,
+  "bbox_right": 1167,
+  "bbox_top": 13,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"01d87710-6478-495b-adf2-8b5e44f91a3c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"774f5b6e-8d0b-4348-bb19-6a0a6fc6604c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 682,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0009a380-79dd-4b23-9a3e-fe2efa3ead2b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a3e6fe28-27d5-4c9b-a749-c15338db919b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"01d87710-6478-495b-adf2-8b5e44f91a3c","path":"sprites/bg_molassestemple_entrance2/bg_molassestemple_entrance2.yy",},},},"Disabled":false,"id":"30ab56f9-7aba-4391-96f2-6a93e1474a34","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"774f5b6e-8d0b-4348-bb19-6a0a6fc6604c","path":"sprites/bg_molassestemple_entrance2/bg_molassestemple_entrance2.yy",},},},"Disabled":false,"id":"0e732240-c67e-4f3b-a924-7a2ded6432a4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1258,
+  "width": 1168,
 }

@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "bg_molassestemple_clouds2",
-  "bbox_bottom": 302,
+  "bbox_bottom": 488,
   "bbox_left": 0,
-  "bbox_right": 959,
-  "bbox_top": 29,
+  "bbox_right": 1167,
+  "bbox_top": 139,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d1ee764-663b-479a-839b-763ce0f49eb4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"56317875-b4b3-4548-ae73-f13d088d68b4",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 540,
+  "height": 682,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d41dc2fb-7e5f-40c7-847d-20c3893ceebc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b9009262-3fca-4eb5-be7d-e87fc480cd58","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1d1ee764-663b-479a-839b-763ce0f49eb4","path":"sprites/bg_molassestemple_clouds2/bg_molassestemple_clouds2.yy",},},},"Disabled":false,"id":"7b075a55-5ad5-4623-af1e-ea6ce1378f1e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"56317875-b4b3-4548-ae73-f13d088d68b4","path":"sprites/bg_molassestemple_clouds2/bg_molassestemple_clouds2.yy",},},},"Disabled":false,"id":"8af350d4-1fe2-4320-b24b-63487d9589cc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 960,
+  "width": 1168,
 }
