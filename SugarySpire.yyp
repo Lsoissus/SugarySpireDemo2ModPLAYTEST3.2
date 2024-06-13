@@ -135,7 +135,6 @@
     {"id":{"name":"obj_bigcollect","path":"objects/obj_bigcollect/obj_bigcollect.yy",},},
     {"id":{"name":"obj_playerreset","path":"objects/obj_playerreset/obj_playerreset.yy",},},
     {"id":{"name":"obj_doorP","path":"objects/obj_doorP/obj_doorP.yy",},},
-    {"id":{"name":"obj_rpc","path":"objects/obj_rpc/obj_rpc.yy",},},
     {"id":{"name":"object_1","path":"objects/object_1/object_1.yy",},},
     {"id":{"name":"obj_neko","path":"objects/obj_neko/obj_neko.yy",},},
     {"id":{"name":"obj_timesup","path":"objects/obj_timesup/obj_timesup.yy",},},

@@ -3,26 +3,32 @@
 np_update();
 
 if ready {
+	// initialize temporary variables
+	var rpcrank = "D";
+	
+	// check what rank the player has
 	if (global.collect > global.crank && global.collect < global.brank)
-		global.rpcrank = "C";
+		rpcrank = "C";
 	else if (global.collect > global.brank && global.collect < global.arank)
-		global.rpcrank = "B";
+		rpcrank = "B";
 	else if (global.collect > global.arank && global.collect < global.srank)
-		global.rpcrank = "A";
+		rpcrank = "A";
 	else if (global.collect > global.srank)
-		global.rpcrank = "S";
-	else if (global.collect < global.crank)
-		global.rpcrank = "D";
+		rpcrank = "S";
+		
+	// check for if the game isn't paused
 	if (!obj_pause.pause)
 	{
 		var roomname = room_get_name(room);
 		if (room != realtitlescreen && room != scootercutsceneidk && room != palroom && room != rank_room && !string_starts_with(roomname, "hub") && !string_starts_with(roomname, "outer") && !string_starts_with(roomname, "spire"))
-			state = string(global.collect) + " Points | Rank " + string(global.rpcrank);
+			state = string(global.collect) + " Points | Rank " + string(rpcrank);
 		else if (room == rank_room)
-			state = "Rank " + string(global.rpcrank);
+			state = "Rank " + string(rpcrank);
 		else
 			state = "";
 	}
+	
+	// update neko presence
 	np_setpresence_more(small_image_text, large_image_text, false);
 	np_setpresence(state, details, large_image, small_image);
 }

@@ -1,6 +1,7 @@
 /// @description Check if the player has entered a new room
 
 if ready {
+	// initialize temporary variables
 	var roomname = room_get_name(room);
 	var rpc_message = (scr_roomnames(room) != "NO ROOMNAME FOUND-1265") ? scr_roomnames(room) : "";
 
@@ -90,6 +91,7 @@ if ready {
 		}
 	}
 
+	// update neko presence
 	np_setpresence_more(small_image_text, large_image_text, false);
 	np_setpresence(state, details, large_image, small_image);
 }

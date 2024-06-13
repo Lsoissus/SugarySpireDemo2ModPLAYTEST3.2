@@ -13,7 +13,7 @@ if (fadealpha > 1 && !fadein)
 		obj_pause.pause = true;
 		instance_deactivate_all(true);
 		instance_activate_object(obj_pause);
-		instance_activate_object(obj_rpc);
+		instance_activate_object(obj_neko);
 		audio_play_sound(mu_pause, 1, true)
 	}
 	fadein = true;

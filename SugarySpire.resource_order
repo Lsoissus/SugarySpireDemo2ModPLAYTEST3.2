@@ -88,7 +88,6 @@
     {"name":"obj_bigcollect","order":30,"path":"objects/obj_bigcollect/obj_bigcollect.yy",},
     {"name":"obj_playerreset","order":31,"path":"objects/obj_playerreset/obj_playerreset.yy",},
     {"name":"obj_doorP","order":32,"path":"objects/obj_doorP/obj_doorP.yy",},
-    {"name":"obj_rpc","order":33,"path":"objects/obj_rpc/obj_rpc.yy",},
     {"name":"object_1","order":34,"path":"objects/object_1/object_1.yy",},
     {"name":"obj_neko","order":333,"path":"objects/obj_neko/obj_neko.yy",},
     {"name":"obj_timesup","order":35,"path":"objects/obj_timesup/obj_timesup.yy",},

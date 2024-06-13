@@ -10,7 +10,6 @@ small_image = "";
 small_image_text = "";
 
 state = "";
-global.rpcrank = "D";
 details = "Titlescreen";
 
 alarm[0] = room_speed * 5;
