@@ -59,6 +59,9 @@
     {"name":"inst_FA7D2D9","path":"rooms/hub_room1/hub_room1.yy",},
     {"name":"inst_FA43194","path":"rooms/hub_room1/hub_room1.yy",},
     {"name":"inst_2333CC45","path":"rooms/hub_room1/hub_room1.yy",},
+    {"name":"inst_2C44BAF","path":"rooms/hub_room1/hub_room1.yy",},
+    {"name":"inst_24AC1938","path":"rooms/hub_room1/hub_room1.yy",},
+    {"name":"inst_2F4013D0","path":"rooms/hub_room1/hub_room1.yy",},
   ],
   "isDnd": false,
   "layers": [
