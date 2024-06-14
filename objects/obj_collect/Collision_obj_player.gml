@@ -10,5 +10,6 @@ with (instance_create(x, y, obj_collecteffect))
 {
 	sprite_index = other.sprite_index;
 	choosed = true;
+	pal_index = other.pal_index
 }
 instance_destroy();

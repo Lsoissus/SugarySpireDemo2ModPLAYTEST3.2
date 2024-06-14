@@ -1,16 +1,10 @@
 pal = undefined;
 old_collect = 0;
-pal_width = sprite_get_width(spr_fontcollect_palold);
-color_array[0] = irandom_range(0,pal_width);
-color_array[1] = irandom_range(0,pal_width);
-color_array[2] = irandom_range(0,pal_width);
-color_array[3] = irandom_range(0,pal_width);
-color_array[4] = irandom_range(0,pal_width);
-color_array[5] = irandom_range(0,pal_width);
-color_array[6] = irandom_range(0,pal_width);
-color_array[7] = irandom_range(0,pal_width);
-color_array[8] = irandom_range(0,pal_width);
-color_array[9] = irandom_range(0,pal_width);
+pal_width = sprite_get_width(spr_fontcollect_pal);
+for (var i = 0; i< sprite_get_width(spr_fontcollect_pal); i++;)
+{
+	color_array[i] = irandom_range(0, pal_width);
+}
 
 n = 0;
 Collectshake = 0;
