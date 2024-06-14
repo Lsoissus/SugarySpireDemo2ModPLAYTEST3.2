@@ -292,7 +292,7 @@ function scr_player_normal()
 		tauntstoredsprite = sprite_index;
 		tauntstoredstate = state;
 		state = states.backbreaker;
-		if (supertauntcharged && key_up2)
+		if (supertauntcharged && key_up)
 		{
 			image_index = 0;
 			sprite_index = choose(spr_player_supertaunt1, spr_player_supertaunt2, spr_player_supertaunt3);
