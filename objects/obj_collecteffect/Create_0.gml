@@ -21,3 +21,4 @@ if (!choosed)
 			break;
 	}
 }
+pal_index = 0;

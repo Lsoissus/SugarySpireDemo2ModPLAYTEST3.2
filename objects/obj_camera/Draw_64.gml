@@ -24,7 +24,7 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 	{
 		// cycle through array and change the colors
 	    for (var i = 0; i < _string_length; i++)
-	        color_array[i] = irandom_range(0,pal_width);
+	        color_array[i] = irandom_range(0, pal_width);
 		// update the old_collect var so it only runs when global.collect changes
 	    old_collect = global.collect
 	}
@@ -35,7 +35,7 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 		var _yyoffset = (l % 2) == 0 ? -4 : 0;
 		// palette one character
 		pal = color_array[l]
-		pal_swap_set(spr_fontcollect_palold, pal, 0);
+		pal_swap_set(spr_fontcollect_pal, pal, 0);
 		// draw one character
 		draw_text((_xx + shakeX), ((((29 + obj_stylebar.hudbounce) + _yyoffset) + DrawY) + shakeY), string_char_at(_string, (l + 1)))
 		pal_swap_reset();

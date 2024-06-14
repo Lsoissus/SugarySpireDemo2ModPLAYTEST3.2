@@ -1,4 +1,6 @@
+pal_swap_set(spr_candy_pal, pal_index, false);
 draw_sprite_ext(sprite_index, -1, drawx, drawy, drawxscale, drawyscale, 0, c_white, image_alpha);
+pal_swap_reset();
 var angle = point_direction(drawx, drawy, targetx, targety);
 drawx += lengthdir_x(16, angle);
 drawy += lengthdir_y(16, angle);

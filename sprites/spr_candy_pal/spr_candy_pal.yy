@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_candy_pal",
-  "bbox_bottom": 17,
-  "bbox_left": 3,
-  "bbox_right": 17,
+  "bbox_bottom": 5,
+  "bbox_left": 0,
+  "bbox_right": 5,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -16,14 +16,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7f7872ed-51ef-4927-b068-76d73b303dd8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e27db4cf-79a2-4fec-bd4a-67573eccf5a3",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 18,
+  "height": 6,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a0dea047-62ae-44d3-b7e5-1c6fccf3deb5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8a8b1da7-e046-4db8-b467-1309ca0d461b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -57,7 +57,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7f7872ed-51ef-4927-b068-76d73b303dd8","path":"sprites/spr_candy_pal/spr_candy_pal.yy",},},},"Disabled":false,"id":"07acf652-7671-47e0-ba9f-ce54f320e384","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e27db4cf-79a2-4fec-bd4a-67573eccf5a3","path":"sprites/spr_candy_pal/spr_candy_pal.yy",},},},"Disabled":false,"id":"aa71110c-1e25-4bb2-8441-6bb4f27df77a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -73,5 +73,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 18,
+  "width": 6,
 }
