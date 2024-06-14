@@ -1,14 +1,17 @@
+// check if active is true or not
 if active
 {
     with (obj_player)
     {
-        state = "actor"
+        state = states.actor;
         hsp = 0
         vsp = 0
         visible = false
     }
 }
-if (floor(image_index) == (image_number - 1))
+
+// animation end events
+if (animation_end())
 {
     switch sprite_index
     {
