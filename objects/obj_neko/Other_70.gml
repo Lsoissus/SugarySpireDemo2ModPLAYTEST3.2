@@ -36,6 +36,7 @@ if (ev_type == "DiscordReady")
 		608514709540569098, // veldao
 		
 		// playtesters
+		676486110465097738, // low bo
 		710517510218186843, // afrozenclover
 		1100223613283598386, // luna
 		958084660083183647, // wizzerlytheknarly
