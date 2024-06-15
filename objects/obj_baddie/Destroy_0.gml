@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.baddieroom, id) == -1 || important)
+if (ds_list_find_index(global.baddieroom, id) == -1 || important || global.lap)
 {
 	obj_tv.image_index = irandom_range(0, 4);
 	repeat (3)

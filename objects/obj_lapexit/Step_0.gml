@@ -29,7 +29,7 @@ if (animation_end())
             active = 0
             break
         case spr_lapportalexit:
-          //instance_create_unique(0, 0, obj_lap2visual)
+            instance_create(0, 0, obj_lap2visual)
             instance_destroy()
             break
     }

@@ -22,6 +22,7 @@ if global.panic
 			// set player speed
             hsp = 0;
             vsp = 0;
+			global.lap = true
 			
 			// set player visibility
             visible = false;
