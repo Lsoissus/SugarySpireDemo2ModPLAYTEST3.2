@@ -36,6 +36,14 @@ if global.panic
 				with (instance_create(x, y, obj_smallnumber))
 					number = string(3000);
 			}
+			if (global.inflap && global.laps > 1)
+			{
+				global.collect += 100;
+				global.combotime = 60;
+				with (instance_create(x, y, obj_smallnumber))
+					number = string(100);
+				global.minutes += 1
+			}
 		}
 
 		image_index = 0;
