@@ -16,8 +16,8 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5bebadb9-cd22-48e5-b5da-b2e8cbacc1d6",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1cbb917f-3913-4c6f-9053-9d6bac71d4d0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5bebadb9-cd22-48e5-b5da-b2e8cbacc1d6",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -58,8 +58,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5bebadb9-cd22-48e5-b5da-b2e8cbacc1d6","path":"sprites/spr_mines_gate/spr_mines_gate.yy",},},},"Disabled":false,"id":"bba8a357-128e-4077-a102-aed059e7eb62","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1cbb917f-3913-4c6f-9053-9d6bac71d4d0","path":"sprites/spr_mines_gate/spr_mines_gate.yy",},},},"Disabled":false,"id":"3f19fa3c-ae47-42bf-baa2-e410452edd2d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1cbb917f-3913-4c6f-9053-9d6bac71d4d0","path":"sprites/spr_mines_gate/spr_mines_gate.yy",},},},"Disabled":false,"id":"3f19fa3c-ae47-42bf-baa2-e410452edd2d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5bebadb9-cd22-48e5-b5da-b2e8cbacc1d6","path":"sprites/spr_mines_gate/spr_mines_gate.yy",},},},"Disabled":false,"id":"bba8a357-128e-4077-a102-aed059e7eb62","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
