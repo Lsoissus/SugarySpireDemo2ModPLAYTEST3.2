@@ -13,6 +13,9 @@ switch (global.levelname)
 	case "molasses":
 		tvbgsprite = global.panic ? spr_tvbg_mlass_panic : spr_tvbg_mlass;
 		break;
+	case "hub":
+		tvbgsprite = global.panic ? spr_tvbg_hub : spr_tvbg_hub;
+		break;
 	default:
 		tvbgsprite = global.panic ? spr_tvbg_hub : spr_tvbg_hub;
 		break;

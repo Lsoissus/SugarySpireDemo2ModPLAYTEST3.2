@@ -1,5 +1,6 @@
 function scr_player_cotton()
 {
+	var dreaming = false;
 	if (dir != xscale)
 	{
 		dir = xscale;
@@ -48,17 +49,36 @@ function scr_player_cotton()
 	}
 	if (sprite_index == spr_cotton_attack)
 	{
-		hsp = 8 * xscale;
-		movespeed = 0;
-		instance_create(x, y, obj_swordhitbox);
-		move = xscale;
-		if ((-key_left2 && xscale == 1) || (key_right2 && xscale == -1))
+		if (place_meeting(x + sign(hsp), y, obj_dreamblock))
+			dreaming = true;
+		if (!dreaming)
 		{
+			
+			hsp = 8 * xscale;
 			movespeed = 0;
-			vsp = 0;
-			hsp = 0;
-			sprite_index = spr_cotton_fall;
+			instance_create(x, y, obj_swordhitbox);
+			move = xscale;
+			if ((-key_left2 && xscale == 1) || (key_right2 && xscale == -1))
+			{
+				movespeed = 0;
+				vsp = 0;
+				hsp = 0;
+				sprite_index = spr_cotton_fall;
+			}
 		}
+		else
+		{
+			hsp = 14 * xscale;
+			movespeed = 0;
+			instance_create(x, y, obj_swordhitbox);
+			move = xscale;
+			vsp = 0;
+		}
+	}
+	if (dreaming && !place_meeting(x + sign(hsp), y, obj_dreamblock))
+	{
+		dreaming = false;
+		sprite_index = spr_cotton_fall;
 	}
 	if (grounded && sprite_index == spr_cotton_attack)
 	{
