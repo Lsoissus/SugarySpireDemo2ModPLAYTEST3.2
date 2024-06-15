@@ -8,5 +8,8 @@ create_small_number(x, y, "100");
 global.combotime = 60;
 global.combofreeze = 30;
 repeat (5)
-	instance_create(x + random_range(-32, 32), y + random_range(-32, 32), obj_collecteffect);
+	with (instance_create(x + random_range(-32, 32), y + random_range(-32, 32), obj_collecteffect))
+	{
+		pal_index = irandom_range(1, sprite_get_width(spr_candy_pal))
+	}
 instance_destroy();

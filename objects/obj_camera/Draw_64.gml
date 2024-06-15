@@ -24,7 +24,7 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 	{
 		// cycle through array and change the colors
 	    for (var i = 0; i < _string_length; i++)
-	        color_array[i] = irandom_range(0, pal_width);
+	        color_array[i] = irandom_range(1, pal_width);
 		// update the old_collect var so it only runs when global.collect changes
 	    old_collect = global.collect
 	}

@@ -3,7 +3,7 @@ old_collect = 0;
 pal_width = sprite_get_width(spr_fontcollect_pal);
 for (var i = 0; i< sprite_get_width(spr_fontcollect_pal); i++;)
 {
-	color_array[i] = irandom_range(0, pal_width);
+	color_array[i] = irandom_range(1, pal_width);
 }
 
 n = 0;

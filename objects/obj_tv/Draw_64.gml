@@ -32,7 +32,8 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 			draw_surface_ext(BarSurface, 699, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 		}
 	}
-	draw_sprite_ext(spr_barpop, 0, 699, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
+	meter_image_index += 0.35;
+	draw_sprite_ext(spr_barpop, meter_image_index, 699, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 	if combo {
 		draw_sprite_ext(spr_tvcombo, image_index, 827, 112 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 		draw_set_font(global.combofont);
