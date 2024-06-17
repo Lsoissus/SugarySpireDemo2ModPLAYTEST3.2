@@ -8,3 +8,4 @@ lastbesthurt = 99;
 lastbesttimeseconds = 99;
 depth = 49;
 image_index = 0;
+confectiArray = ["mallow", "choco", "crack", "worm", "candy"]

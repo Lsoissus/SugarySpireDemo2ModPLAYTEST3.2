@@ -9,7 +9,7 @@ function scr_confecti_init()
 			spr_panic = spr_marshmellow_panic;
 			spr_panicrun = spr_marshmellow_panicWalk
 			spr_appear = spr_marshmallow_appear;
-			spr_taunt = spr_marshmellow_taunt;
+			spr_taunt = spr_mallow_taunt;
 			global.mallowfollow = true;
 			break;
 		case obj_confectichoco:
@@ -36,7 +36,7 @@ function scr_confecti_init()
 			spr_panic = spr_gummyworm_panic;
 			spr_panicrun = spr_gummyworm_panicWalk;
 			spr_appear = spr_gummyworm_appear;
-			spr_taunt = spr_gummyworm_taunt;
+			spr_taunt = spr_worm_taunt;
 			global.wormfollow = true;
 			break;
 		case obj_confecticandy:

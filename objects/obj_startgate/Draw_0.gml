@@ -28,3 +28,18 @@ depth = old_depth;
 draw_sprite(sprite_index, 0, x, y)
 white_alpha = lerp(white_alpha, !start_parallax, 0.05)
 draw_sprite_ext(sprite_index, 1, x, y, 1, 1, 0, c_white, white_alpha)
+
+// statistics display
+foreach_spacing = -150;
+foreach_iteration = 0;
+struct_foreach(confecti_struct, function(_name, _val)
+{
+	if !_val
+		gpu_set_fog(true, c_black, 0, 10000);
+	else
+		gpu_set_fog(false, c_white, 0, 0);
+	show_debug_message(string("spr_" + _name + "_taunt"))
+	draw_sprite(asset_get_index("spr_" + _name + "_taunt"), 0, x + foreach_spacing , y - sprite_get_height(sprite_index) - 50)
+	foreach_iteration++;
+	foreach_spacing += 75;
+});
