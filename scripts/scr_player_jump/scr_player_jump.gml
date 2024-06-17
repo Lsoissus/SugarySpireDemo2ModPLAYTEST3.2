@@ -261,7 +261,7 @@ function scr_player_jump()
 			scr_sound(sound_suplex1);
 			instance_create(x, y, obj_slaphitbox);
 			suplexmove = true;
-			vsp = 0;
+			vsp = (character == characters.pizzano ? -4 : 0);
 			instance_create(x, y, obj_jumpdust);
 			image_index = 0;
 			sprite_index = spr_canesuplex;
