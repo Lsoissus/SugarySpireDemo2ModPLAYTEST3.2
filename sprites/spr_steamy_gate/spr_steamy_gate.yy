@@ -27,7 +27,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bff4f991-673e-46f3-bf34-ad971ff4567b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 7,
   "parent": {
     "name": "Cottontown",
     "path": "folders/Sprites/Level Gates/World 1/Cottontown.yy",
@@ -65,7 +65,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 82,
-    "yorigin": 128,
+    "yorigin": 256,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

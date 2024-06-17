@@ -27,7 +27,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9535cff0-60d8-43bd-8468-4d901b6735e4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 7,
   "parent": {
     "name": "Molasses Swamp",
     "path": "folders/Sprites/Level Gates/World 2/Molasses Swamp.yy",
@@ -65,7 +65,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 87,
-    "yorigin": 127,
+    "yorigin": 254,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

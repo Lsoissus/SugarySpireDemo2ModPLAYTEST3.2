@@ -1,6 +1,6 @@
 image_index = 1;
 image_speed = 0;
-depth = 49;
+depth = 50;
 level = "placeholder";
 levelrank = ""
 levelscore = ""

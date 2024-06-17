@@ -27,7 +27,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"01f6dcca-b052-484d-8803-4902254877e2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 7,
   "parent": {
     "name": "Sugarshack Mines",
     "path": "folders/Sprites/Level Gates/World 1/Sugarshack Mines.yy",
@@ -65,7 +65,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 92,
-    "yorigin": 135,
+    "yorigin": 271,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
