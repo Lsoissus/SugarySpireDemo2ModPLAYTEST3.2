@@ -22,12 +22,14 @@ if global.panic
 			// set player speed
             hsp = 0;
             vsp = 0;
-			global.lap = true
 			
 			// set player visibility
             visible = false;
 
-			// other actions
+			// enable lapping
+			global.lap = true
+			
+			// lap 2
 			if (ds_list_find_index(global.saveroom, other.id) == -1)
 			{
 				ds_list_add(global.saveroom, other.id);
@@ -36,7 +38,9 @@ if global.panic
 				with (instance_create(x, y, obj_smallnumber))
 					number = string(3000);
 			}
-			if (global.inflap && global.laps > 1)
+			
+			// infinite lapping
+			if (global.inflap && global.laps >= 1)
 			{
 				global.collect += 100;
 				global.combotime = 60;

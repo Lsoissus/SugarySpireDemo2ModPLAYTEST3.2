@@ -495,7 +495,6 @@
     {"name":"mines_4","order":8,"path":"rooms/mines_4/mines_4.yy",},
     {"name":"outer_room2","order":2,"path":"rooms/outer_room2/outer_room2.yy",},
     {"name":"mines_8B","order":14,"path":"rooms/mines_8B/mines_8B.yy",},
-    {"name":"mines_1B","order":5,"path":"rooms/mines_1B/mines_1B.yy",},
     {"name":"steamy_6","order":11,"path":"rooms/steamy_6/steamy_6.yy",},
     {"name":"ts_molasses2_sprite","order":1814,"path":"sprites/ts_molasses2_sprite/ts_molasses2_sprite.yy",},
     {"name":"steamy_13","order":5,"path":"rooms/steamy_13/steamy_13.yy",},
