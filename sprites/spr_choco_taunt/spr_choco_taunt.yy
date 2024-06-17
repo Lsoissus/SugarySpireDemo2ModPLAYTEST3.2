@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_chocolate_taunt",
+  "name": "spr_choco_taunt",
   "bbox_bottom": 93,
   "bbox_left": 27,
   "bbox_right": 67,
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_chocolate_taunt",
+    "name": "spr_choco_taunt",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"82e7faed-f851-4b68-871c-c87a4339442c","path":"sprites/spr_chocolate_taunt/spr_chocolate_taunt.yy",},},},"Disabled":false,"id":"fc44a8c8-4248-4c5a-b7d7-9022ef01e5a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7cd492cf-9179-4156-b3f0-dc47b32c6c00","path":"sprites/spr_chocolate_taunt/spr_chocolate_taunt.yy",},},},"Disabled":false,"id":"59c93548-8253-4662-9b42-39acdbdc1f5a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"82e7faed-f851-4b68-871c-c87a4339442c","path":"sprites/spr_choco_taunt/spr_choco_taunt.yy",},},},"Disabled":false,"id":"fc44a8c8-4248-4c5a-b7d7-9022ef01e5a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7cd492cf-9179-4156-b3f0-dc47b32c6c00","path":"sprites/spr_choco_taunt/spr_choco_taunt.yy",},},},"Disabled":false,"id":"59c93548-8253-4662-9b42-39acdbdc1f5a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

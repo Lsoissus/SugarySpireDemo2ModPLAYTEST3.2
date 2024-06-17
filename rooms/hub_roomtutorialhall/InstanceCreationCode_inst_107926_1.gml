@@ -2,4 +2,3 @@
 targetDoor = "A"
 level = "mines"
 
-init_startgate()

@@ -1911,7 +1911,7 @@
     {"id":{"name":"bg_entryway2_buildings2","path":"sprites/bg_entryway2_buildings2/bg_entryway2_buildings2.yy",},},
     {"id":{"name":"spr_collectrudy_tv","path":"sprites/spr_collectrudy_tv/spr_collectrudy_tv.yy",},},
     {"id":{"name":"bg_entryway2_sun","path":"sprites/bg_entryway2_sun/bg_entryway2_sun.yy",},},
-    {"id":{"name":"spr_chocolate_taunt","path":"sprites/spr_chocolate_taunt/spr_chocolate_taunt.yy",},},
+    {"id":{"name":"spr_choco_taunt","path":"sprites/spr_choco_taunt/spr_choco_taunt.yy",},},
     {"id":{"name":"spr_ranksign","path":"sprites/spr_ranksign/spr_ranksign.yy",},},
     {"id":{"name":"spr_cottonpoof","path":"sprites/spr_cottonpoof/spr_cottonpoof.yy",},},
     {"id":{"name":"tile_clock_sprite","path":"sprites/tile_clock_sprite/tile_clock_sprite.yy",},},

@@ -1832,7 +1832,7 @@
     {"name":"bg_entryway2_buildings2","order":687,"path":"sprites/bg_entryway2_buildings2/bg_entryway2_buildings2.yy",},
     {"name":"spr_collectrudy_tv","order":4,"path":"sprites/spr_collectrudy_tv/spr_collectrudy_tv.yy",},
     {"name":"bg_entryway2_sun","order":688,"path":"sprites/bg_entryway2_sun/bg_entryway2_sun.yy",},
-    {"name":"spr_chocolate_taunt","order":452,"path":"sprites/spr_chocolate_taunt/spr_chocolate_taunt.yy",},
+    {"name":"spr_choco_taunt","order":452,"path":"sprites/spr_choco_taunt/spr_choco_taunt.yy",},
     {"name":"spr_ranksign","order":453,"path":"sprites/spr_ranksign/spr_ranksign.yy",},
     {"name":"spr_cottonpoof","order":454,"path":"sprites/spr_cottonpoof/spr_cottonpoof.yy",},
     {"name":"tile_clock_sprite","order":1799,"path":"sprites/tile_clock_sprite/tile_clock_sprite.yy",},

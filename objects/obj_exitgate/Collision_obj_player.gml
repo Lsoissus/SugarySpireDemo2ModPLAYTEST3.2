@@ -35,7 +35,10 @@ if (global.panic)
 				if (!ini_read_real(global.levelname + "_confecti", "confecti" + other.confectiArray[i], _followvar) || !ini_key_exists(global.levelname + "_confecti", "confecti" + other.confectiArray[i]))
 					ini_write_real(global.levelname + "_confecti", "confecti" + other.confectiArray[i], _followvar)
 			}
-			
+			if (ini_read_real("Laps", global.levelname, global.laps) < global.laps)
+				ini_write_real("Laps", global.levelname, global.laps);
+			if (ini_read_real("Secrets", global.levelname, global.secretsfound) < global.secretsfound)
+				ini_write_real("Secrets", global.levelname, global.secretsfound);
 			/*
 			if (room == mines_1)
 			{

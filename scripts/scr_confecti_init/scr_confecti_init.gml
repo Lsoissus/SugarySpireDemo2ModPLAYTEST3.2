@@ -18,7 +18,7 @@ function scr_confecti_init()
 			spr_panic = spr_chocolate_panic;
 			spr_panicrun = spr_chocolate_panicWalk;
 			spr_appear = spr_chocolate_appear;
-			spr_taunt = spr_chocolate_taunt;
+			spr_taunt = spr_choco_taunt;
 			global.chocofollow = true;
 			break;
 		case obj_confecticrack:
