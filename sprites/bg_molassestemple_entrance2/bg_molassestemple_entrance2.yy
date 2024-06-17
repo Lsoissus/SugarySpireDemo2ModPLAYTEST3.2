@@ -5,7 +5,7 @@
   "bbox_bottom": 681,
   "bbox_left": 0,
   "bbox_right": 1167,
-  "bbox_top": 13,
+  "bbox_top": 424,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"774f5b6e-8d0b-4348-bb19-6a0a6fc6604c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7da1ae84-2614-4063-ba42-623f01305d70",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 682,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a3e6fe28-27d5-4c9b-a749-c15338db919b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d26f6e06-2def-4010-877a-7be51757ca57","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"774f5b6e-8d0b-4348-bb19-6a0a6fc6604c","path":"sprites/bg_molassestemple_entrance2/bg_molassestemple_entrance2.yy",},},},"Disabled":false,"id":"0e732240-c67e-4f3b-a924-7a2ded6432a4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7da1ae84-2614-4063-ba42-623f01305d70","path":"sprites/bg_molassestemple_entrance2/bg_molassestemple_entrance2.yy",},},},"Disabled":false,"id":"663e0915-b904-4367-bf66-cfbcabde7286","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
