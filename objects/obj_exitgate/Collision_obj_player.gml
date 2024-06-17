@@ -15,21 +15,31 @@ if (global.panic)
 				global.rank = "c";
 			else
 				global.rank = "d";
-			if (global.rank == "s")
-				scr_sound(mu_ranks);
-			if (global.rank == "a")
-				scr_sound(mu_ranka);
-			if (global.rank == "b")
-				scr_sound(mu_rankb);
-			if (global.rank == "c")
-				scr_sound(mu_rankc);
-			if (global.rank == "d")
-				scr_sound(mu_rankd);
-			if (global.rank == "e")
+			if (global.rank != "e")
+				scr_sound(asset_get_index("mu_rank" + global.rank))
+			else
 				scr_sound(mu_rankd);
 			audio_stop_sound(mu_escape);
 			audio_stop_sound(mu_lap2);
 			ini_open("saveData.ini");
+			// save statistics to the INI
+			if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", global.levelname, "none")))
+				ini_write_string("Ranks", global.levelname, global.rank);
+			if (ini_write_real("Scores", global.levelname, global.collect) < global.collect)
+				ini_write_real("Scores", global.levelname, global.collect);
+			if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", global.levelname, "none")))
+				ini_write_string("Confecti", global.levelname, global.rank);
+			for (var i = 0; i < 5; i++;)
+			{
+				var _followvar = variable_global_get(other.confectiArray[i] + "follow")
+				if (!ini_read_real(global.levelname + "_confecti", "confecti" + other.confectiArray[i], _followvar) || !ini_key_exists(global.levelname + "_confecti", "confecti" + other.confectiArray[i]))
+					ini_write_real(global.levelname + "_confecti", "confecti" + other.confectiArray[i], _followvar)
+			}
+			if (ini_read_real("Laps", global.levelname, global.laps) < global.laps)
+				ini_write_real("Laps", global.levelname, global.laps);
+			if (ini_read_real("Secrets", global.levelname, global.secretsfound) < global.secretsfound)
+				ini_write_real("Secrets", global.levelname, global.secretsfound);
+			/*
 			if (room == mines_1)
 			{
 				if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", "mines", "none")))
@@ -49,7 +59,7 @@ if (global.panic)
 			{
 				if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", "entryway", "none")))
 					ini_write_string("Ranks", "entryway", global.rank);
-			}
+			}*/
 			ini_close();
 			obj_tv.tvsprite = spr_tvoff;
 			if (!instance_exists(obj_endlevelfade))

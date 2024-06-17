@@ -26,6 +26,8 @@ global.chocofollow = false;
 global.wormfollow = false;
 global.candyfollow = false;
 global.janitor = false;
+
+
 ini_open("optionData.ini");
 global.fullscreen = ini_read_real("Settings", "fullscrn", 0);
 global.selectedResolution = ini_read_real("Settings", "resolution", 1);

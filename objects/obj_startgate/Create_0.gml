@@ -11,18 +11,17 @@ levelworm = ""
 levelcandy = ""
 leveljanitor = ""
 levelsecret = ""
-parallax_struct = {}
+parallax_array = [];
 old_depth = depth;
 gate_surf = surface_create(sprite_get_width(sprite_index), sprite_get_height(sprite_index));
 start_parallax = false;
 white_alpha = 1;
-// im like REALLY lazy and dont want to learn the mess that is a constructor function so youre getting this instead
-function add_gate_parallax(_spr, _spd, _dep)
+confecti_array = ["mallow", "choco", "crack", "worm", "candy"]
+foreach_iteration = 0;
+foreach_spacing = 0;
+rank_array = ["d", "c", "b", "a", "s", "p"];
+near_gate = false;
+function add_gate_parallax(_spr, _spd)
 {
-	var _ind = struct_names_count(parallax_struct);
-	parallax_struct[$ string(_ind)] = {};
-	parallax_struct[$ string(_ind)][$ "_sprite"] = _spr;
-	parallax_struct[$ string(_ind)][$ "_speed"] = _spd;
-	parallax_struct[$ string(_ind)][$ "_depth"] = _dep;
-	parallax_struct[$ string(_ind)][$ "_x"] = 0;
+	return { _sprite : _spr, _speed : _spd, _x : 0 };
 }
