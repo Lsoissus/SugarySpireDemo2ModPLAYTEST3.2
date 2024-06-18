@@ -18,6 +18,8 @@ function scr_playerreset()
 	global.stylethreshold = 0;
 	global.minesProgress = false;
 	global.combodropped = false;
+	global.laps = 0
+	global.lap = 0
 	obj_tv.image_index = 0;
 	obj_tv.tvsprite = spr_tvturnon;
 	obj_player.visible = true;
