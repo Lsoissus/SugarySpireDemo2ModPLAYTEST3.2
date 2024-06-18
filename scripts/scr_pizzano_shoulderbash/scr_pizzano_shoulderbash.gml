@@ -1,16 +1,17 @@
 function scr_pizzano_shoulderbash()
 {
-	move = key_right + key_left;
-	if move == xscale
-		hsp = xscale * movespeed;
-	if move != xscale && move != 0
-		hsp = move * movespeed;
+	// basic movement
+	hsp = xscale * movespeed;
+	
+	// jumping
 	if (key_jump && grounded)
 	{
 		state = states.pizzanotwirl;
 		vsp = -12;
 	}
-	if (scr_solid(x + hsp, y) && !place_meeting(x + hsp, y, obj_slope) && !place_meeting(x + sign(hsp), y, obj_destructibles))
+	
+	// collision
+	if (scr_solid(x + xscale, y) && !scr_slope_ext(x + xscale, y)) && !place_meeting(x + xscale, y, obj_destructibles)
 	{
 		movespeed = -3.5;
 		vsp = -8;
@@ -24,6 +25,8 @@ function scr_pizzano_shoulderbash()
 			audio_stop_sound(sound_suplex1);
 		scr_sound(sound_bump);
 	}
+	
+	// cancel shoulderbash
 	if (key_attack2 && grounded)
 	{
 		if move != 0
@@ -39,11 +42,11 @@ function scr_pizzano_shoulderbash()
 	// duration
 	static shoulderTime = 35;
 	
-	if shoulderTime > 0
+	if (shoulderTime > 0)
 		shoulderTime--
-	if shoulderTime <= 0
+	if (shoulderTime <= 0)
 		state = states.normal;
 	
-	if state != states.pizzanoshoulderbash
+	if (state != states.pizzanoshoulderbash)
 		shoulderTime = 35;
 }
