@@ -8,10 +8,7 @@ function scr_player_handstandjump()
 			if mach2 <= 35
 				mach2 = 35;
 			hsp = xscale * movespeed;
-			if character == characters.pizzano
-				grav = 0.5;
-			else
-				grav = 0;
+			grav = (character == characters.pizzano ? 0.5 : 0);
 			momemtum = true;
 			dir = xscale;
 			if movespeed <= 12
@@ -67,6 +64,11 @@ function scr_player_handstandjump()
 				vsp = -9;
 				if (audio_is_playing(sound_suplex1))
 					audio_stop_sound(sound_suplex1);
+			}
+			if (character == characters.pizzano && !key_jump2 && !jumpstop && vsp < 0.5 && !stompAnim)
+			{
+				vsp /= 5;
+				jumpstop = true;
 			}
 			if ((scr_solid(x + xscale, y) && !scr_slope_ext(x + xscale, y)) && !place_meeting(x + xscale, y, obj_destructibles) && grounded)
 			{
