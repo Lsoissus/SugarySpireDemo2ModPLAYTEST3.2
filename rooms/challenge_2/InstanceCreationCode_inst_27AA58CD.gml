@@ -1,1 +1,0 @@
-targetRoom = challenge_3
