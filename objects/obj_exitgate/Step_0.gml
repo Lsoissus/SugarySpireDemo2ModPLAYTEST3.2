@@ -16,8 +16,6 @@ if (place_meeting(x, y, obj_player) && obj_player.state != states.comingoutdoor 
 }
 if (sprite_index == spr_exitgateclosing && floor(image_index) == (image_number - 1))
 	sprite_index = spr_exitgateclosed;
-if (global.starrmode)
-	image_alpha -= 0.1;
 if (image_alpha == 0)
 {
 	instance_destroy();

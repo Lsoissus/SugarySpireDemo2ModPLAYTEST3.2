@@ -1,2 +1,1 @@
-if (!global.starrmode)
-	x = 100000;
+x = 100000;

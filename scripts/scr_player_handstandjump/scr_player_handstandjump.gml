@@ -103,26 +103,23 @@ function scr_player_handstandjump()
 		state = states.mach2;
 		sprite_index = spr_mach;
 	}
-	if (!global.starrmode)
+	if (key_slap2 && !key_down)
 	{
-		if (key_slap2 && !key_down)
-		{
-			if character == characters.pizzelle {
-				sprite_index = spr_player_machtumble;
-				image_index = 0;
-				image_speed = 0.2;
-				state = states.machtumble;
-				with (instance_create(x, y, obj_jumpdust))
-					image_xscale = other.xscale;
-			}
-			if character == characters.pizzano {
-				sprite_index = spr_pizzano_shoulderbash;
-				image_index = 0;
-				movespeed = 10;
-				suplexmove = true;
-				state = states.pizzanoshoulderbash;
-				instance_create(x, y, obj_jumpdust);
-			}
+		if character == characters.pizzelle {
+			sprite_index = spr_player_machtumble;
+			image_index = 0;
+			image_speed = 0.2;
+			state = states.machtumble;
+			with (instance_create(x, y, obj_jumpdust))
+				image_xscale = other.xscale;
+		}
+		if character == characters.pizzano {
+			sprite_index = spr_pizzano_shoulderbash;
+			image_index = 0;
+			movespeed = 10;
+			suplexmove = true;
+			state = states.pizzanoshoulderbash;
+			instance_create(x, y, obj_jumpdust);
 		}
 	}
 }

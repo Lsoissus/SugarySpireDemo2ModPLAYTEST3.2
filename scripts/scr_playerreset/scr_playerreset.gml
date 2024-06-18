@@ -111,11 +111,8 @@ function scr_playerreset()
 		turning = false;
 		hurtbounce = 0;
 		hurted = false;
-		autodash = false;
 		mach2 = 0;
 		input_buffer_jump = 8;
-		input_buffer_secondjump = 8;
-		input_buffer_highjump = 8;
 		targetRoom = 0;
 		flash = false;
 		global.key_inv = false;
@@ -149,9 +146,7 @@ function scr_playerreset()
 		chainsaw = 50;
 		toomuchalarm1 = 0;
 		toomuchalarm2 = 0;
-		dashdust = false;
 		throwforce = false;
-		hurtsound = 0;
 		idleanim = 0;
 		momemtum = false;
 		cutscene = false;

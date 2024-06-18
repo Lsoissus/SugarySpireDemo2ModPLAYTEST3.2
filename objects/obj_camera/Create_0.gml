@@ -46,7 +46,6 @@ heatpal = 0;
 global.playseconds = 0;
 global.playminutes = 0;
 global.login = 0;
-global.starrmode = 0;
 global.switchactivated = 0;
 Cam_x = 0;
 Cam_y = 0;

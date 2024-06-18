@@ -139,7 +139,7 @@ timer_ystart = cam_h + timer_yplus
 timer_x = timer_xstart
 coneball_index += 0.35
 roll_index += 0.35
-if global.panic || global.starrmode
+if global.panic
 {
 	if global.minutes > 0 || global.seconds > 0
 	{
