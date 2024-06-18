@@ -43,11 +43,12 @@ if (near_gate)
 	}
 
 	draw_set_font(global.smallfont);
-	var _secretsfound = ini_read_real("Secrets", global.levelname, global.secretsfound);
+	var _secretsfound = ini_read_real("Secrets", level, 0);
 	var _score = ini_read_real("Scores", level, 0);
 	var _laps = ini_read_real("Laps", level, 0);
+	var _reallystupidS = (_laps == 1 ? "" : "S")
 	draw_text(x, y - sprite_get_height(sprite_index) - 25, string(_secretsfound) + " OF 3 SECRETS");
-	draw_text(x, y - sprite_get_height(sprite_index) + 5, string(_score) + " POINTS - " + string(_laps) + " LAPS");
+	draw_text(x, y - sprite_get_height(sprite_index) + 5, string(_score) + " POINTS - " + string(_laps) + " LAP" + _reallystupidS);
 	// rank bubble
 	var _rank = ini_read_string("Ranks", level, "d");
 	draw_sprite(spr_ranks_hud, array_get_index(rank_array, _rank), x - sprite_get_width(spr_ranks_hud)/2, y - sprite_get_height(sprite_index) + 37);

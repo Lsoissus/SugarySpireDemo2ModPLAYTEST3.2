@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_lap2visual",
-    "path": "sprites/spr_lap2visual/spr_lap2visual.yy",
+    "name": "spr_lapcard",
+    "path": "sprites/spr_lapcard/spr_lapcard.yy",
   },
   "spriteMaskId": null,
   "visible": true,

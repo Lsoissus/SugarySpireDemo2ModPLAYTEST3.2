@@ -1,6 +1,6 @@
 start_parallax = (distance_to_object(obj_player) < 150)
-near_gate = (distance_to_object(obj_player) < 75)
-if (distance_to_object(obj_player) < 50)
+near_gate = (distance_to_object(obj_player) < 50)
+if (near_gate)
 {
 	switch (level)
 	{

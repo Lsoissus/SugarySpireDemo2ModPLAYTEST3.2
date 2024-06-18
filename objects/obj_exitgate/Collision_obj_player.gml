@@ -32,12 +32,13 @@ if (global.panic)
 			for (var i = 0; i < 5; i++;)
 			{
 				var _followvar = variable_global_get(other.confectiArray[i] + "follow")
-				if (!ini_read_real(global.levelname + "_confecti", "confecti" + other.confectiArray[i], _followvar) || !ini_key_exists(global.levelname + "_confecti", "confecti" + other.confectiArray[i]))
+				if (!ini_read_real(global.levelname + "_confecti", "confecti" + other.confectiArray[i], 0) || !ini_key_exists(global.levelname + "_confecti", "confecti" + other.confectiArray[i]))
 					ini_write_real(global.levelname + "_confecti", "confecti" + other.confectiArray[i], _followvar)
 			}
-			if (ini_read_real("Laps", global.levelname, global.laps) < global.laps)
+			if (ini_read_real("Laps", global.levelname, 0) < global.laps)
 				ini_write_real("Laps", global.levelname, global.laps);
-			if (ini_read_real("Secrets", global.levelname, global.secretsfound) < global.secretsfound)
+				
+			if (ini_read_real("Secrets", global.levelname, 0) < global.secretsfound)
 				ini_write_real("Secrets", global.levelname, global.secretsfound);
 			/*
 			if (room == mines_1)

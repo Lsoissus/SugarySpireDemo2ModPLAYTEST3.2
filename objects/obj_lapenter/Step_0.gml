@@ -63,6 +63,7 @@ if global.panic
 				targetRoom = other.targetRoom
 			}
 			global.laps++
+			show_message(string(global.laps))
 			instance_create(0, 0, obj_fadeout);
 		}
 	}
