@@ -36,7 +36,7 @@ function scr_player_uppercut()
 	{
 		scr_sound(sound_step);
 		landAnim = true;
-		input_buffer_secondjump = false;
+		input_buffer_secondjump = 0;
 		state = false;
 		jumpAnim = true;
 		jumpstop = false;
