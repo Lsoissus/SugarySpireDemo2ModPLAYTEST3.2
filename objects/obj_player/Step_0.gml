@@ -420,8 +420,7 @@ if (state == states.finishingblow && floor(image_index) == (image_number - 0))
 	grav = 0.5;
 }
 // i honestly have no clue how this fixes gravity but it just does (don't remove this unless you really know what you're doing)
-if (!place_meeting(x, y, obj_molasseswater))
-	grav = 0.5;
+grav = 0.5;
 // dashpad buffer
 if (Dashpad_buffer > 0)
 	Dashpad_buffer = max(Dashpad_buffer - 1, 0);
