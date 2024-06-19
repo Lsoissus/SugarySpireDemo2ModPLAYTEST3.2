@@ -11,7 +11,7 @@ if (fadealpha > 1)
 {
 	fadein = true;
 	if (room != rank_room)
-		room = rank_room;
+		room_goto(rank_room);
 }
 if (!fadein)
 	fadealpha += 0.1;

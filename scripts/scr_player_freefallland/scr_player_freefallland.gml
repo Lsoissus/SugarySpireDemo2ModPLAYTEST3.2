@@ -13,15 +13,12 @@ function scr_player_freefallland()
 	facehurt = true;
 	start_running = true;
 	alarm[4] = 14;
-	if divebomb == true then
-		sprite_index = spr_player_bodyslamland;
-	else
-		sprite_index = spr_player_poundend;
+	sprite_index = (divebomb ? spr_player_bodyslamland : spr_player_poundend);
 	vsp = 0;
 	hsp = 0;
 	if (floor(image_index) == (image_number - 1))
 	{
-		divebomb = false
+		divebomb = false;
 		state = states.normal;
 		sprite_index = spr_idle;
 		freefallsmash = false;

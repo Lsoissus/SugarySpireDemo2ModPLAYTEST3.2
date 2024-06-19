@@ -150,10 +150,7 @@ if (suplexmove && grounded)
 	flash = true;
 }
 // if gravity is broken look here lol
-if (state == states.handstandjump)
-	grav = 0;
-else
-	grav = 0.5;
+grav = (state == states.handstandjump ? 0 : 0.5)
 // combo stuff
 global.combotime = clamp(global.combotime, 0, 60);
 // if combo isnt frozen, make combo go down.

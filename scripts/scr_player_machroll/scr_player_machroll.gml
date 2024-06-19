@@ -94,7 +94,7 @@ function scr_player_machroll()
 	}
 	if (sprite_index == spr_dive && key_jump2)
 	{
-		divebomb = true
+		divebomb = true;
 		vsp = -2
 		state = states.freefallprep
 	}

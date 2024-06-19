@@ -3,7 +3,7 @@ if (room != rank_room && room != hub_room1 && room != hub_public && room != oute
 	pause = 0;
 	instance_activate_all();
 	scr_playerreset();
-	room = hub_room1;
+	room_goto(hub_room1);
 	with (obj_tv)
 		tvsprite = spr_tvoff;
 	with (obj_player)
@@ -19,7 +19,7 @@ else if (room == hub_room1 || room == hub_public || room == outer_room1 || room 
 	pause = 0;
 	instance_activate_all();
 	scr_playerreset();
-	room = realtitlescreen;
+	room_goto(realtitlescreen);
 	with (obj_player)
 	{
 		scr_characterspr();
