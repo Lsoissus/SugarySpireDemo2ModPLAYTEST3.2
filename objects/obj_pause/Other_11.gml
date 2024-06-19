@@ -3,7 +3,7 @@ if (string_letters(roomname) == "entryway" || string_letters(roomname) == "entry
 {
 	instance_activate_all();
 	scr_playerreset();
-	room = entryway_1;
+	room_goto(entryway_1);
 	pause = false;
 	with (obj_player)
 		targetDoor = "A";
@@ -17,7 +17,7 @@ else if (string_letters(roomname) == "steamy" || string_letters(roomname) == "st
 {
 	instance_activate_all();
 	scr_playerreset();
-	room = steamy_1;
+	room_goto(steamy_1);
 	pause = false;
 	with (obj_player)
 		targetDoor = "A";
@@ -31,7 +31,7 @@ else if (string_letters(roomname) == "molasses" || string_letters(roomname) == "
 {
 	instance_activate_all();
 	scr_playerreset();
-	room = molasses_1;
+	room_goto(molasses_1);
 	pause = 0;
 	with (obj_player)
 		targetDoor = "A";
@@ -45,7 +45,7 @@ else if (string_letters(roomname) == "mines" || string_letters(roomname) == "min
 {
 	instance_activate_all();
 	scr_playerreset();
-	room = mines_1;
+	room_goto(mines_1);
 	pause = 0;
 	with (obj_player)
 		targetDoor = "A";
