@@ -149,8 +149,9 @@ if (suplexmove && grounded)
 	suplexmove = false;
 	flash = true;
 }
-// if gravity is broken look here lol
-grav = (state == states.handstandjump ? 0 : 0.5)
+// gravity
+if (is_undefined(grav))
+	grav = 0.5;
 // combo stuff
 global.combotime = clamp(global.combotime, 0, 60);
 // if combo isnt frozen, make combo go down.
@@ -418,6 +419,8 @@ if (state == states.finishingblow && floor(image_index) == (image_number - 0))
 		vsp = 0.1;
 	grav = 0.5;
 }
+// gravity 2 (squared) (don't mess with this unless you really know what you're doing)
+grav = 0.5;
 // dashpad buffer
 if (Dashpad_buffer > 0)
 	Dashpad_buffer = max(Dashpad_buffer - 1, 0);
