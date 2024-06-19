@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 154.61531,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "mu_pizzanoescape",
+  "soundFile": "mu_pizzanoescape.ogg",
   "type": 0,
   "volume": 1.0,
 }

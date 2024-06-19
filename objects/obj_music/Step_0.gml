@@ -1,11 +1,20 @@
 pausedmusic = global.music;
-if (global.panic && !obj_pause.pause && room != timesuproom && !global.lap)
+if (global.panic && !obj_pause.pause && room != timesuproom && !global.lap && obj_player.character == "P")
 {
 	if (!audio_is_playing(mu_escape))
 	{
 		audio_stop_all_music();
 		scr_music(mu_escape);
 		pausedmusic = mu_escape;
+	}
+}
+if (global.panic && !obj_pause.pause && room != timesuproom && !global.lap && obj_player.character == "N")
+{
+	if (!audio_is_playing(mu_pizzanoescape))
+	{
+		audio_stop_all_music();
+		scr_music(mu_pizzanoescape);
+		pausedmusic = mu_pizzanoescape;
 	}
 }
 if (global.panic && !obj_pause.pause && room != timesuproom && global.lap && global.laps < 5)
