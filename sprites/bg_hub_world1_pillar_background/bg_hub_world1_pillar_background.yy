@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "bg_hub_world1_pillar_background",
   "bbox_bottom": 499,
-  "bbox_left": 378,
-  "bbox_right": 556,
+  "bbox_left": 401,
+  "bbox_right": 559,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -16,14 +16,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"87b05557-26aa-4b98-866a-739b4feb88eb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2cfba0d8-8336-40a5-9e30-8131c3ab65f4",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 500,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d9750836-b777-4008-b612-d5ca88430c9c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d60bfd3a-b9c6-47d2-b6f3-08ea6f9dbc81","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -57,7 +57,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"87b05557-26aa-4b98-866a-739b4feb88eb","path":"sprites/bg_hub_world1_pillar_background/bg_hub_world1_pillar_background.yy",},},},"Disabled":false,"id":"cb4d8a74-3130-485c-acb8-000615df516f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2cfba0d8-8336-40a5-9e30-8131c3ab65f4","path":"sprites/bg_hub_world1_pillar_background/bg_hub_world1_pillar_background.yy",},},},"Disabled":false,"id":"dea2b558-358f-409c-b871-f1f765514c08","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
