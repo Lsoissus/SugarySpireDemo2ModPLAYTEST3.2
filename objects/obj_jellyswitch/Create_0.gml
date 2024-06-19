@@ -1,1 +1,2 @@
-x = 100000;
+if (!global.starrmode)
+	x = 100000;

@@ -1,10 +1,7 @@
 function scr_playersounds()
 {
-	if (state == states.machroll)
-	{
-		if (!audio_is_playing(sound_tumble))
-			scr_sound(sound_tumble);
-	}
+	if (state == states.machroll && !audio_is_playing(sound_tumble))
+		scr_sound(sound_tumble);
 	else
 		audio_stop_sound(sound_tumble);
 	if (!audio_is_playing(sfx_railgrind) && state == states.minecart && grounded)
@@ -42,12 +39,4 @@ function scr_playersounds()
 	}
 	else
 		audio_stop_sound(sound_customdash2);
-		
-	if (sprite_index == spr_mach2jump)
-	{
-		if (!audio_is_playing(sfx_flip))
-			scr_sound(sfx_flip);
-	}
-	if (audio_is_playing(sfx_flip) && sprite_index != spr_mach2jump)
-		audio_stop_sound(sfx_flip);
 }

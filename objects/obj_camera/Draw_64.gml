@@ -92,7 +92,7 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 		draw_set_color(c_white)
 	}
 }
-/*if (global.panic)
+/*if (global.panic || global.starrmode)
 {
 	if (global.seconds < 10)
 	{
@@ -137,7 +137,7 @@ if (global.debugmode)
 
 #region BAR TIMER
 
-if global.panic
+if global.panic || global.starrmode
 {
     var _fill = (global.minutes * 60 + global.seconds) * 60
     var _currentbarpos = chunkmax - _fill
