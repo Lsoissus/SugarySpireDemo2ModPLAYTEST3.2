@@ -69,7 +69,6 @@ function scr_playerreset()
 		image_index = 0;
 		sprite_index = spr_walkfront;
 		Sjumpcan_doublejump = true;
-		playComboVariable = -4;
 		ResetMusic = false;
 		Dashpad_buffer = 0;
 		Dashpad_buffer = 0;

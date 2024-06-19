@@ -3,6 +3,7 @@ scr_characterspr();
 scr_playerstate();
 if (state != states.comingoutdoor)
 	image_blend = make_color_hsv(0, 0, 255);
+// create fire trail
 if (firetrailbuffer > 0)
 	firetrailbuffer -= ((movespeed / 24) * 26);
 if (firetrailbuffer <= 0)
@@ -11,10 +12,12 @@ if (firetrailbuffer <= 0)
 		instance_create(x, y, obj_flamecloud);
 	firetrailbuffer = 100;
 }
+// slope rotation
 if (global.playerrotate)
 {
 	if (grounded && vsp >= 0 && !(state == states.climbwall || state == states.tumble || state == states.grab || state == states.freefallland || state == states.shotgun || state == states.finishingblow || state == states.minecart))
 	{
+		// if going fast enough then enable slope rotation
 		if (abs(hsp) >= 8)
 		{
 			var targetangle = scr_slopeangle();
@@ -22,43 +25,55 @@ if (global.playerrotate)
 		}
 		else
 		{
+			// selse set the target rotation to normal
 			targetangle = 360;
 			RotationStep = ((abs(hsp) / 16) - 2) * -1;
 		}
+		// the rotation that is used in the draw event
 		draw_angle = darctan2(dsin(targetangle) + (dsin(draw_angle) * RotationStep), dcos(targetangle) + (dcos(draw_angle) * RotationStep));
 	}
 	else
 	{
+		// if angle is less than or equal to 0 then add 360 degrees to the angle
 		if (draw_angle <= 0)
 			draw_angle += 360;
-		if (draw_angle < 180)
+		
+		if (draw_angle < 180) // if its below 180 then check set draw angle to the highest value
 			draw_angle = max(draw_angle - 2.8125, 0);
-		else
+		else // else set the draw angle to the lowest value
 			draw_angle = min(draw_angle + 2.8125, 360);
 	}
 }
+// if inside a room that could be considered a titlescreen, set your state to states.titlescreen
 if (room == realtitlescreen || room == scootercutsceneidk)
 	state = states.titlescreen;
+// if grounded normally, set grounded for the cotton transformation
 if (grounded)
-	groundedcot = true;
+	groundedcot = grounded;
+// if not losing or going into a vertical hallway then execute checkpoint related code
 if (state != states.gameover && y > (room_height + 64) && !place_meeting(x, y, obj_vertical_hallway) && !instance_exists(obj_fadeout) && room != outer_room2)
 {
 	if (instance_exists(obj_checkpoint))
 	{
+		// get the nearest checkpoint and set player position to it
 		var _checkpoint = instance_nearest(x, y, obj_checkpoint);
 		x = _checkpoint.x;
 		y = _checkpoint.y;
 		instance_create(_checkpoint.x, _checkpoint.y, obj_poofeffect);
+		// technical difficulties screen.
 		scr_sound(sfx_TVswitch)
         instance_create(x, y, obj_technicaldifficulties)
 	}
 	else
 	{
+		// else set player position to start of room
         x = roomstartx
         y = roomstarty
+		// technical difficulties screen.
         scr_sound(sfx_TVswitch)
         instance_create(x, y, obj_technicaldifficulties)
 	}
+	// if the train exists, initialize its position and vars
 	if (instance_exists(obj_train))
 	{
 		with (obj_train)
@@ -72,90 +87,71 @@ if (state != states.gameover && y > (room_height + 64) && !place_meeting(x, y, o
 		}
 	}
 }
-    if (state != states.door && (!instance_exists(obj_fadeout)))
-    {
-        obj_player.hallway = 0
-        obj_player.vertical = 0
-        obj_player.box = 0
-    }
+if (state != states.door && (!instance_exists(obj_fadeout)))
+{
+	// reset door related vars
+    obj_player.hallway = 0
+    obj_player.vertical = 0
+    obj_player.box = 0
+}
+// freefall stuff
 if (state != states.freefall && state != states.freefallprep && state != states.freefallland)
 	freefallsmash = 0;
+// if holding enemy and said enemy dies, set state to normal
 if (!instance_exists(baddiegrabbedID) && (state == states.grab || (state == states.superslam && sprite_index != spr_piledriverland) || state == states.charge))
 	state = states.normal;
+// if not grabbing or any of these enemy-killing states, set the grabbed baddie to nothing
 if (!(state == states.grab || state == states.charge || state == states.superslam || state == states.finishingblow))
-	baddiegrabbedID = -4;
+	baddiegrabbedID = undefined;
+// if pizzelle do angry related things
 if (character == characters.pizzelle)
 {
-	if (anger == 0)
-		angry = false;
+	angry = sign(anger);
+	// if anger above 0 then tick it down
 	if (anger > 0)
-	{
-		angry = true;
-		anger -= 1;
-	}
+		anger--;
+	// create the angry cloud when angry
+	if (angry && !instance_exists(obj_angrycloud) && obj_player.state == states.normal)
+		instance_create(x, y, obj_angrycloud);
 }
+// set angry sprite
 if (angry && sprite_index == spr_idle)
 	sprite_index = spr_player_3hpidle;
+// initalize player sound control down here for some reason
 scr_playersounds();
-if (state == states.machroll)
-{
-	if (!audio_is_playing(sound_tumble))
-		scr_sound(sound_tumble);
-}
-else
-	audio_stop_sound(sound_tumble);
+// if sprite is set to the winding idle sprite and state is changed, set the animation counter to 0
 if (sprite_index == spr_player_winding && state != states.normal)
 	windingAnim = 0;
 else
-	audio_stop_sound(sound_superjumpcharge2);
-if (state == states.cottonroll && sprite_index == spr_cotton_run)
-{
-	if (!audio_is_playing(sound_customdash1))
-		scr_sound(sound_customdash1);
-}
-else
-	audio_stop_sound(sound_customdash1);
-if (state == states.cottonroll && sprite_index == spr_cotton_maxrun)
-{
-	if (!audio_is_playing(sound_customdash2))
-		scr_sound(sound_customdash2);
-}
-else
-	audio_stop_sound(sound_customdash2);
+	audio_stop_sound(sound_superjumpcharge2); // stop this sound for some reason
+// when hitting the ground while suplexed, enable the flash and set suplexing to false;
 if (suplexmove && grounded)
 {
 	suplexmove = false;
 	flash = true;
 }
-if is_undefined(grav)
-	grav = 0.5;
-if (sprite_index == spr_player_idlevomit && image_index > 28 && image_index < 43)
-	instance_create(x + random_range(-5, 5), y + 46, obj_vomit);
-if (sprite_index == spr_player_idlevomitblood && image_index > 28 && image_index < 43)
-{
-	with (instance_create(x + random_range(-5, 5), y + 46, obj_vomit))
-		sprite_index = spr_vomit2;
-}
-if (angry && !instance_exists(obj_angrycloud) && obj_player.state == states.normal)
-	instance_create(x, y, obj_angrycloud);
+//if is_undefined(grav)
+//	grav = 0.5;
+// combo stuff
 global.combotime = clamp(global.combotime, 0, 60);
+// if combo isnt frozen, make combo go down.
 if (global.combofreeze <= 0)
 	global.combotime = approach(global.combotime, 0, 0.13);
-if ((global.combo % 3) == 0 && playComboVariable != global.combo && global.combotime > 0 && global.combo > 0)
-{
-	scr_queue_tvanim(spr_pizzytv_combo, 250);
-	playComboVariable = global.combo;
-}
+
+// tick down combofreeze and make sure it doesnt go below 0
 global.combofreeze--;
 global.combofreeze = clamp(global.combofreeze, 0, 75);
+// combo end logic
 if (global.combotime <= 0 && global.combo != 0)
 {
+	// if combo at the end of the combo is above 5, queue the happy tvanim
 	if (global.combo > 5)
 		scr_queue_tvanim(spr_pizzytvhappy, 200);
+	// reset combo related vars and drop the combo
 	global.combo = 0;
-	playComboVariable = -4;
 	global.combodropped = true;
 }
+// input buffering
 if (input_buffer_jump < 8)
 	input_buffer_jump++;
 if (input_buffer_secondjump < 8)
