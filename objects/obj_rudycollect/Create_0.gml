@@ -1,7 +1,5 @@
-event_inherited();
 image_speed = 0.35;
 sprite_index = spr_rudy_idle;
-image_xscale = 1;
 grabbed = 0;
 hsp = 0;
 vsp = 0;
