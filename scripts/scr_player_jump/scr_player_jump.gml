@@ -103,7 +103,6 @@ function scr_player_jump()
 	{
 		if (key_attack)
 			landAnim = false;
-		input_buffer_secondjump = 0;
 		state = states.normal;
 		jumpAnim = true;
 		jumpstop = false;

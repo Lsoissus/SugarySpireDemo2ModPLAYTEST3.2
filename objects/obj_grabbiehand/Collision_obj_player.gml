@@ -16,7 +16,7 @@ if (sprite_index == spr_grabbiehand_fall)
 			with (instance_create(x, y, obj_boxxeddebris))
 				image_index = 4;
 		}
-		if (state == states.portal || state == states.secondjump)
+		if (state == states.portal)
 		{
 			scr_sound(sound_losetransformation);
 			instance_create(x, y, obj_slimedebris);

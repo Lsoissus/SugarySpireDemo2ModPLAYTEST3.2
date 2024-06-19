@@ -163,9 +163,6 @@ function scr_playerstate()
 		case states.portal:
 			_stateFunction = scr_player_portal;
 			break;
-		case states.secondjump:
-			_stateFunction = scr_player_secondjump;
-			break;
 		case states.chainsawbump:
 			_stateFunction = scr_player_chainsawbump;
 			break;
@@ -198,9 +195,6 @@ function scr_playerstate()
 			break;
 		case states.stunned:
 			_stateFunction = scr_player_stunned;
-			break;
-		case states.highjump:
-			_stateFunction = scr_player_highjump;
 			break;
 		case states.chainsaw:
 			_stateFunction = scr_player_chainsaw;
@@ -279,9 +273,6 @@ function scr_playerstate()
 			break;
 		case states.runonball:
 			_stateFunction = scr_player_runonball;
-			break;
-		case states.boulder:
-			_stateFunction = scr_player_boulder;
 			break;
 		case states.keyget:
 			_stateFunction = scr_player_keyget;
@@ -390,9 +381,6 @@ function scr_playerstate()
 			break;
 		case states.shocked:
 			_stateFunction = scr_player_shocked;
-			break;
-		case states.bushdisguise:
-			_stateFunction = scr_player_bushdisguise;
 			break;
 		case states.parry:
 			_stateFunction = scr_player_parry;
