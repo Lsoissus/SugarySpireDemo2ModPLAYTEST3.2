@@ -6,6 +6,7 @@ firetrailbuffer = 0;
 playComboVariable = -4;
 ResetMusic = false;
 Dashpad_buffer = 0;
+divebomb = false;
 supertauntbuffer = 0;
 supertaunteffect = -4;
 supertauntcharged = false;

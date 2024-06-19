@@ -8,13 +8,22 @@ if (global.panic && !obj_pause.pause && room != timesuproom && !global.lap)
 		pausedmusic = mu_escape;
 	}
 }
-if (global.panic && !obj_pause.pause && room != timesuproom && global.lap)
+if (global.panic && !obj_pause.pause && room != timesuproom && global.lap && global.laps < 5)
 {
 	if (!audio_is_playing(mu_lap2))
 	{
 		audio_stop_all_music();
-		scr_music(mu_lap2);
+		scr_music(mu_lap2, 11.08, 131.54);
 		pausedmusic = mu_lap2;
+	}
+}
+if (global.panic && !obj_pause.pause && room != timesuproom && global.lap && global.laps >= 5)
+{
+	if (!audio_is_playing(mu_lap5))
+	{
+		audio_stop_all_music();
+		scr_music(mu_lap5, 0.00, 161.4);
+		pausedmusic = mu_lap5;
 	}
 }
 else if (!global.panic && room == timesuproom)

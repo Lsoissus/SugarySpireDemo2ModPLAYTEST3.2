@@ -92,6 +92,13 @@ function scr_player_machroll()
 		sprite_index = spr_dive;
 		vsp = 10;
 	}
+	if (sprite_index == spr_dive && key_jump2)
+	{
+		divebomb = true
+		vsp = -2
+		state = states.freefallprep
+	}
+
 	if (key_jump2 && character == characters.pizzano)
 	{
 		sprite_index = spr_pizzano_twirl;
