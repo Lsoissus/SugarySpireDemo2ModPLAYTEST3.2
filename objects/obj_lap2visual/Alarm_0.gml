@@ -1,1 +1,1 @@
-down = 0
+down = false;
