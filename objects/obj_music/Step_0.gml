@@ -1,5 +1,5 @@
 pausedmusic = global.music;
-if (global.panic && !obj_pause.pause && room != timesuproom && !global.lap && obj_player.character == "P")
+if (global.panic && !obj_pause.pause && room != timesuproom && !global.lap && obj_player.character == characters.pizzelle)
 {
 	if (!audio_is_playing(mu_escape))
 	{
@@ -8,7 +8,7 @@ if (global.panic && !obj_pause.pause && room != timesuproom && !global.lap && ob
 		pausedmusic = mu_escape;
 	}
 }
-if (global.panic && !obj_pause.pause && room != timesuproom && !global.lap && obj_player.character == "N")
+if (global.panic && !obj_pause.pause && room != timesuproom && !global.lap && obj_player.character == characters.pizzano)
 {
 	if (!audio_is_playing(mu_pizzanoescape))
 	{
