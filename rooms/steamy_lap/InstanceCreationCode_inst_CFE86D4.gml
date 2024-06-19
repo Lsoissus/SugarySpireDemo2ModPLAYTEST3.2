@@ -1,2 +1,2 @@
-targetRoom = entryway_11;
+targetRoom = steamy_12;
 targetDoor = "P"
