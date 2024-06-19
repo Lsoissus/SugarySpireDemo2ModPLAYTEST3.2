@@ -114,8 +114,8 @@ enum states {
 	pizzanoshoulderbash, // 112
 	pizzanowallcling, // 113
     mini, // 114
-	wallkick // 115
-    
+	wallkick, // 115
+    noclip // 116
 };
 
 
@@ -458,7 +458,10 @@ function scr_playerstate()
 			_stateFunction = scr_player_mini;
 			break;
 		case states.wallkick:
-			_stateFunction = scr_player_wallkick();
+			_stateFunction = scr_player_wallkick;
+			break;
+		case states.noclip:
+			_stateFunction = scr_player_noclip;
 			break;
 	}
 	stateName = "states.undefined";

@@ -1267,6 +1267,7 @@
     {"id":{"name":"spr_player_superjumpland","path":"sprites/spr_player_superjumpland/spr_player_superjumpland.yy",},},
     {"id":{"name":"spr_cardcherry_idle","path":"sprites/spr_cardcherry_idle/spr_cardcherry_idle.yy",},},
     {"id":{"name":"mu_pause","path":"sounds/mu_pause/mu_pause.yy",},},
+    {"id":{"name":"scr_player_noclip","path":"scripts/scr_player_noclip/scr_player_noclip.yy",},},
     {"id":{"name":"spr_grabbiehand_idle","path":"sprites/spr_grabbiehand_idle/spr_grabbiehand_idle.yy",},},
     {"id":{"name":"spr_MinecartrailSlope","path":"sprites/spr_MinecartrailSlope/spr_MinecartrailSlope.yy",},},
     {"id":{"name":"spr_coneball_bartimesup","path":"sprites/spr_coneball_bartimesup/spr_coneball_bartimesup.yy",},},

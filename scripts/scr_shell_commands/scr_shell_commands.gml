@@ -182,3 +182,8 @@ function meta_instance_create()
 		argumentDescriptions: ["the X coordinate to create the object at", "the Y coordinate to create the object at", "the object to create"]
 	};
 }
+function sh_noclip()
+{
+	
+	obj_player.state = (obj_player.state != states.noclip ? states.noclip : states.normal)
+}

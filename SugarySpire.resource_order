@@ -1196,6 +1196,7 @@
     {"name":"spr_player_superjumpland","order":153,"path":"sprites/spr_player_superjumpland/spr_player_superjumpland.yy",},
     {"name":"spr_cardcherry_idle","order":85,"path":"sprites/spr_cardcherry_idle/spr_cardcherry_idle.yy",},
     {"name":"mu_pause","order":825,"path":"sounds/mu_pause/mu_pause.yy",},
+    {"name":"scr_player_noclip","order":699,"path":"scripts/scr_player_noclip/scr_player_noclip.yy",},
     {"name":"spr_grabbiehand_idle","order":86,"path":"sprites/spr_grabbiehand_idle/spr_grabbiehand_idle.yy",},
     {"name":"spr_MinecartrailSlope","order":87,"path":"sprites/spr_MinecartrailSlope/spr_MinecartrailSlope.yy",},
     {"name":"spr_coneball_bartimesup","order":6,"path":"sprites/spr_coneball_bartimesup/spr_coneball_bartimesup.yy",},
