@@ -8,7 +8,7 @@ if global.panic
     instance_create(x, y, obj_10)
     if (global.combo >= 1 && global.combotime < 60)
     {
-        global.combotime += 2
+        global.combotime += 4
         global.combofreeze += 2
     }
     instance_destroy()
