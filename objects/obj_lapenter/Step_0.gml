@@ -44,8 +44,9 @@ if global.panic
 			{
 				global.collect += 100;
 				global.combotime = 60;
-				create_small_number(x, y, "100");
-				global.minutes += 1;
+				with (instance_create(x, y, obj_smallnumber))
+					number = string(100);
+				global.minutes += 1
 			}
 		}
 
@@ -61,7 +62,8 @@ if global.panic
 				targetDoor = "LAP"
 				targetRoom = other.targetRoom
 			}
-			global.laps++;
+			global.laps++
+			show_message(string(global.laps))
 			instance_create(0, 0, obj_fadeout);
 		}
 	}

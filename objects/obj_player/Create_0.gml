@@ -3,6 +3,7 @@ scr_getinput();
 wallrunBuffer = 0
 Sjumpcan_doublejump = true;
 firetrailbuffer = 0;
+playComboVariable = -4;
 ResetMusic = false;
 Dashpad_buffer = 0;
 supertauntbuffer = 0;
