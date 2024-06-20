@@ -3,7 +3,6 @@ image_speed = 0.5;
 image_alpha = 1;
 storedimage = obj_player.image_index;
 sprite_index = obj_player.sprite_index;
-randomize();
 color = choose(1, 2);
 realcol = 
 {

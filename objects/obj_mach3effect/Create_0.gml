@@ -4,7 +4,6 @@ image_alpha = 1;
 sprite_index = playerid.sprite_index;
 image_index = playerid.image_index - 1
 image_xscale = playerid.xscale
-randomize();
 color = choose(1, 2);
 realcol = 
 {
