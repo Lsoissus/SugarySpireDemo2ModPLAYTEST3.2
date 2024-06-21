@@ -79,6 +79,11 @@ function scr_player_machtumble()
 		}
 	}
 	image_speed = 0.35;
+	if key_jump
+	{
+		movespeed += 0.25
+		vsp = -9
+	}
 	if (attack_afterimagetimer > 0)
 		attack_afterimagetimer--;
 	if (attack_afterimagetimer <= 0 && vsp <= 0)
