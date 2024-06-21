@@ -1293,6 +1293,7 @@
     {"id":{"name":"steamybg3","path":"sprites/steamybg3/steamybg3.yy",},},
     {"id":{"name":"world1bg1","path":"sprites/world1bg1/world1bg1.yy",},},
     {"id":{"name":"obj_icepop","path":"objects/obj_icepop/obj_icepop.yy",},},
+    {"id":{"name":"obj_molassesparticle","path":"objects/obj_molassesparticle/obj_molassesparticle.yy",},},
     {"id":{"name":"spr_player_suplexbump","path":"sprites/spr_player_suplexbump/spr_player_suplexbump.yy",},},
     {"id":{"name":"spr_player_donutget","path":"sprites/spr_player_donutget/spr_player_donutget.yy",},},
     {"id":{"name":"spr_violetblocklandtestroom","path":"sprites/spr_violetblocklandtestroom/spr_violetblocklandtestroom.yy",},},

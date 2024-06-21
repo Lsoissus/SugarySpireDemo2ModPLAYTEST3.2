@@ -1221,6 +1221,7 @@
     {"name":"steamybg3","order":625,"path":"sprites/steamybg3/steamybg3.yy",},
     {"name":"world1bg1","order":626,"path":"sprites/world1bg1/world1bg1.yy",},
     {"name":"obj_icepop","order":792,"path":"objects/obj_icepop/obj_icepop.yy",},
+    {"name":"obj_molassesparticle","order":338,"path":"objects/obj_molassesparticle/obj_molassesparticle.yy",},
     {"name":"spr_player_suplexbump","order":163,"path":"sprites/spr_player_suplexbump/spr_player_suplexbump.yy",},
     {"name":"spr_player_donutget","order":46,"path":"sprites/spr_player_donutget/spr_player_donutget.yy",},
     {"name":"spr_violetblocklandtestroom","order":90,"path":"sprites/spr_violetblocklandtestroom/spr_violetblocklandtestroom.yy",},
