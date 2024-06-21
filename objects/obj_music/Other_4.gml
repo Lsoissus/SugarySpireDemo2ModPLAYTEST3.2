@@ -168,11 +168,12 @@ if (!global.panic)
 				if (!audio_is_playing(mu_mineshaft1))
 				{
 					audio_stop_all_music();
-					scr_music(mu_mineshaft1);
+					scr_music(mu_mineshaft1, 16.09);
 					pausedmusic = mu_mineshaft1;
 					audio_sound_set_track_position(global.music, fadeoff * audio_sound_length(global.music));
 				}
-			if (roomname == ("mines_" + string(i)) && i >= 5)
+			}
+			if ((roomname == ("mines_" + string(i)) && i >= 5))
 			{
 				if (!audio_is_playing(mu_mineshaft2))
 				{
@@ -181,7 +182,7 @@ if (!global.panic)
 					pausedmusic = mu_mineshaft2;
 					audio_sound_set_track_position(global.music, fadeoff * audio_sound_length(global.music));
 				}
-		}
+			}
 		}
 	}
 	if (string_letters(roomname) == "minessecret")
@@ -203,5 +204,4 @@ if (!global.panic)
 			pausedmusic = mu_paletteselect;
 		}
 	}
-}
 }

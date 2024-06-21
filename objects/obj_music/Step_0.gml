@@ -31,7 +31,7 @@ if (global.panic && !obj_pause.pause && room != timesuproom && global.lap && glo
 	if (!audio_is_playing(mu_lap5))
 	{
 		audio_stop_all_music();
-		scr_music(mu_lap5, 0.00, 161.4);
+		scr_music(mu_lap5, 0.00, 161.5);
 		pausedmusic = mu_lap5;
 	}
 }

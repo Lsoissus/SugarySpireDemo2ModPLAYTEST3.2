@@ -20,7 +20,9 @@ if (global.panic)
 			else
 				scr_sound(mu_rankd);
 			audio_stop_sound(mu_escape);
+			audio_stop_sound(mu_pizzanoescape);
 			audio_stop_sound(mu_lap2);
+			audio_stop_sound(mu_lap5);
 			ini_open("saveData.ini");
 			// save statistics to the INI
 			if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", global.levelname, "none")))
