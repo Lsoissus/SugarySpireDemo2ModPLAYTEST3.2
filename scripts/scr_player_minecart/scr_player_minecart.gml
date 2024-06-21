@@ -19,6 +19,23 @@ function scr_player_minecart()
 			}
 		}
 	}
+	if (place_meeting(x, y + 1, obj_minecartRail_Slopeswitch1) && global.switchblock == false)
+	{
+		with (instance_place(x, y + 1, obj_minecartRail_Slopeswitch1))
+		{
+			var slope_acceleration = abs(image_yscale) / abs(image_xscale);
+			if (_xscale == sign(image_xscale))
+			{
+				if (other.movespeed > 3)
+					other.movespeed -= (0.15 * slope_acceleration);
+			}
+			else if (_xscale == -sign(image_xscale))
+			{
+				if (other.movespeed < 15)
+					other.movespeed += (0.1 * slope_acceleration);
+			}
+		}
+	}
 	if (move == 0 && movespeed < 3)
 		movespeed += 0.1;
 	if ((move != 0 && move != xscale) && movespeed > 2 && Dashpad_buffer <= 0)
@@ -29,7 +46,7 @@ function scr_player_minecart()
 	hsp = xscale * movespeed;
 	if (movespeed >= 12 && !instance_exists(obj_chargeeffect))
 		instance_create(x + (32 * xscale), y, obj_chargeeffect);
-	if (scr_solid(x + xscale, y) && !place_meeting(x + xscale, y + 1, obj_minecartRail_Slope) && !place_meeting(x + xscale, y, obj_destructibles) && !place_meeting(x + xscale, y, obj_metalblock))
+	if (scr_solid(x + xscale, y) && !(place_meeting(x, y + 1, obj_minecartRail_Slope) || place_meeting(x, y + 1, obj_minecartRail_Slopeswitch1)) && !place_meeting(x + xscale, y, obj_destructibles) && !place_meeting(x + xscale, y, obj_metalblock))
 	{
 		sprite_index = spr_player_mach3hitwall;
 		state = states.bump;
@@ -56,7 +73,7 @@ function scr_player_minecart()
 		image_index = 0;
 		sprite_index = spr_player_minecartjump;
 	}
-	if (grounded && !place_meeting(x, y + 1, obj_minecartRail) && !place_meeting(x, y + 1, obj_minecartRail_Slope))
+	if (grounded && !(place_meeting(x, y + 1, obj_minecartRail) || place_meeting(x, y + 1, obj_minecartRailswitch1) || place_meeting(x, y + 1, obj_minecartRailswitch2)) && !(place_meeting(x, y + 1, obj_minecartRail_Slope) || place_meeting(x, y + 1, obj_minecartRail_Slopeswitch1)))
 	{
 		movespeed -= 0.4;
 		if (movespeed <= 0)
