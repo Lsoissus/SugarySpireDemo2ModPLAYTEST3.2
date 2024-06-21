@@ -1,4 +1,4 @@
-draw_x = 480;
+draw_x = 193;
 draw_y = -64;
 newdraw_y = 600;
 showtext = false;
