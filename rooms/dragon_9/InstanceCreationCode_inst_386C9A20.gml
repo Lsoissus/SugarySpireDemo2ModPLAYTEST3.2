@@ -1,2 +1,2 @@
 targetRoom = dragon_8
-targetDoor = "A"
+targetDoor = "C"
