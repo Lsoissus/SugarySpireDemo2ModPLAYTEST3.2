@@ -1,14 +1,14 @@
 if (showtext)
 {
 	if (draw_y < 35)
-		draw_y -= 5;
+		draw_y += 5;
 	else
 		draw_y = 35;
 }
 if (!showtext)
 {
-	if (draw_y < 64)
-		draw_y += 1;
+	if (draw_y > 64)
+		draw_y -= 1;
 	else
 		draw_y = 64;
 }
