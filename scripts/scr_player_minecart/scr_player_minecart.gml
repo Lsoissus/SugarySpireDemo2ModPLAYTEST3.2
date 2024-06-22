@@ -56,7 +56,7 @@ function scr_player_minecart()
 		image_index = 0;
 		sprite_index = spr_player_minecartjump;
 	}
-	if (grounded && !(place_meeting(x, y + 1, obj_minecartRail) || place_meeting(x, y + 1, obj_minecartRailswitch1) || place_meeting(x, y + 1, obj_minecartRailswitch2)) && !(place_meeting(x, y + 1, obj_minecartRail_Slope) || place_meeting(x, y + 1, obj_minecartRail_Slopeswitch1)))
+	if (grounded && !(place_meeting(x, y + 1, obj_minecartRail) || place_meeting(x, y + 1, obj_minecartRailswitch1) || place_meeting(x, y + 1, obj_minecartRailswitch2)) && !place_meeting(x, y + 1, obj_minecartRail_Slope))
 	{
 		movespeed -= 0.4;
 		if (movespeed <= 0)
