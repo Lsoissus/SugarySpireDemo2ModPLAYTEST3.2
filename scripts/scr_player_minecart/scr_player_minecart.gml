@@ -29,7 +29,7 @@ function scr_player_minecart()
 	hsp = xscale * movespeed;
 	if (movespeed >= 12 && !instance_exists(obj_chargeeffect))
 		instance_create(x + (32 * xscale), y, obj_chargeeffect);
-	if (scr_solid(x + xscale, y) && !(place_meeting(x, y + 1, obj_minecartRail_Slope))) && !place_meeting(x + xscale, y, obj_destructibles) && !place_meeting(x + xscale, y, obj_metalblock))
+	if (scr_solid(x + xscale, y) && !place_meeting(x, y + 1, obj_minecartRail_Slope) && !place_meeting(x + xscale, y, obj_destructibles) && !place_meeting(x + xscale, y, obj_metalblock))
 	{
 		sprite_index = spr_player_mach3hitwall;
 		state = states.bump;
