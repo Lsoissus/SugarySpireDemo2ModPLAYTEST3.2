@@ -173,7 +173,7 @@ if (!global.panic)
 					audio_sound_set_track_position(global.music, fadeoff * audio_sound_length(global.music));
 				}
 			}
-			if ((roomname == ("mines_" + string(i)) && i >= 5))
+			if (roomname == ("mines_" + string(i)) && i >= 5)
 			{
 				if (!audio_is_playing(mu_mineshaft2))
 				{
