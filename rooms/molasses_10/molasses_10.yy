@@ -51,6 +51,7 @@
     {"name":"inst_82842E1","path":"rooms/molasses_10/molasses_10.yy",},
     {"name":"inst_6285D590","path":"rooms/molasses_10/molasses_10.yy",},
     {"name":"inst_47371E74","path":"rooms/molasses_10/molasses_10.yy",},
+    {"name":"inst_195BEAE6","path":"rooms/molasses_10/molasses_10.yy",},
   ],
   "isDnd": false,
   "layers": [

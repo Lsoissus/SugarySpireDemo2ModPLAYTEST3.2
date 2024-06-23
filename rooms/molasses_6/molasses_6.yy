@@ -79,6 +79,11 @@
     {"name":"inst_8ED1C0","path":"rooms/molasses_6/molasses_6.yy",},
     {"name":"inst_3F4E5FBC","path":"rooms/molasses_6/molasses_6.yy",},
     {"name":"inst_3C826B0E","path":"rooms/molasses_6/molasses_6.yy",},
+    {"name":"inst_250CD703","path":"rooms/molasses_6/molasses_6.yy",},
+    {"name":"inst_6A758C7E","path":"rooms/molasses_6/molasses_6.yy",},
+    {"name":"inst_8ED1C0","path":"rooms/molasses_6/molasses_6.yy",},
+    {"name":"inst_3F4E5FBC","path":"rooms/molasses_6/molasses_6.yy",},
+    {"name":"inst_3C826B0E","path":"rooms/molasses_6/molasses_6.yy",},
   ],
   "isDnd": false,
   "layers": [
