@@ -1125,6 +1125,7 @@
     {"name":"spr_cotton_doublefall","order":155,"path":"sprites/spr_cotton_doublefall/spr_cotton_doublefall.yy",},
     {"name":"spr_cotton_drill","order":156,"path":"sprites/spr_cotton_drill/spr_cotton_drill.yy",},
     {"name":"hub2","order":1,"path":"tilesets/hub2/hub2.yy",},
+    {"name":"molasses_14","order":24,"path":"rooms/molasses_14/molasses_14.yy",},
     {"name":"spr_pizzano_crouchslide","order":157,"path":"sprites/spr_pizzano_crouchslide/spr_pizzano_crouchslide.yy",},
     {"name":"spr_alrightcombo_boil","order":55,"path":"sprites/spr_alrightcombo_boil/spr_alrightcombo_boil.yy",},
     {"name":"spr_player_blockbreak6","order":10,"path":"sprites/spr_player_blockbreak6/spr_player_blockbreak6.yy",},

@@ -1196,6 +1196,7 @@
     {"id":{"name":"spr_cotton_doublefall","path":"sprites/spr_cotton_doublefall/spr_cotton_doublefall.yy",},},
     {"id":{"name":"spr_cotton_drill","path":"sprites/spr_cotton_drill/spr_cotton_drill.yy",},},
     {"id":{"name":"hub2","path":"tilesets/hub2/hub2.yy",},},
+    {"id":{"name":"molasses_14","path":"rooms/molasses_14/molasses_14.yy",},},
     {"id":{"name":"spr_pizzano_crouchslide","path":"sprites/spr_pizzano_crouchslide/spr_pizzano_crouchslide.yy",},},
     {"id":{"name":"spr_alrightcombo_boil","path":"sprites/spr_alrightcombo_boil/spr_alrightcombo_boil.yy",},},
     {"id":{"name":"spr_secretportal_idle","path":"sprites/spr_secretportal_idle/spr_secretportal_idle.yy",},},
@@ -2274,6 +2275,7 @@
     {"roomId":{"name":"dragon_7","path":"rooms/dragon_7/dragon_7.yy",},},
     {"roomId":{"name":"dragon_8","path":"rooms/dragon_8/dragon_8.yy",},},
     {"roomId":{"name":"dragon_9","path":"rooms/dragon_9/dragon_9.yy",},},
+    {"roomId":{"name":"molasses_14","path":"rooms/molasses_14/molasses_14.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
