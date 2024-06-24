@@ -1,5 +1,4 @@
 mask_index = spr_juicepuddledone;
-scr_collide();
 if (grounded)
 {
 	var targetangle = scr_slopeanglenonplayer(x, y);
@@ -15,6 +14,7 @@ else
 	else
 		draw_angle = min(draw_angle + 2.8125, 360);
 }
+scr_collide();
 if (grounded && sprite_index != spr_juicepuddledone)
 	sprite_index = spr_juicepuddlesplash;
 if (animation_end() && sprite_index == spr_juicepuddlesplash)
