@@ -110,6 +110,69 @@ function scr_roomnames(_room = room)
             break;
         case steamy_12:
             room_name = "Pillars Break Room";
+		    break;
+		 case molasses_1:
+            room_name =  "The Swamp Of Spire";
+			break;
+		 case molasses_2:
+            room_name =  "Big Stump";
+			break;
+		case molasses_3:
+            room_name =  "Bubbly Swamp Water";
+			break;
+		case molasses_3b: 
+		    room_name =  "Moist Ridicule";
+			break;
+		case molasses_4:
+            room_name =  "Sticky and Wet";
+			break;
+		case molasses_5:
+            room_name =  "Drowning In Molasses";
+			break;
+		case molasses_6:
+            room_name =  "The Sweet Smell Of Death";
+			break;
+		case molasses_6b:
+            room_name =  "The Ancient Temple Entrance";
+		    break;
+		case molasses_6c:
+            room_name =  "Ancient Hallways";
+		    break;
+	   case molasses_6calt:
+            room_name = "Doodoo Faeces Room";
+            break;
+		case molasses_6b:
+            room_name = "Meet The Fling Frog";
+            break;
+		case molasses_7:
+            room_name = "Falling And Flinging";
+            break;
+		case molasses_8:
+            room_name = "This Used To Be The Gallery";
+            break;
+		case molasses_8b:
+            room_name = "Molasses Everywhere";
+            break;
+		case molasses_9:
+            room_name = "Gummy Harry In The Ancient Temple";
+            break;
+		case molasses_10:
+            room_name = "Somewhere in Frog Tower";
+            break;
+		case molasses_11:
+            room_name = "Unstationary Ground";
+            break;
+		case molasses_12:
+            room_name = "Froghop Strikes Back";
+            break;
+		case molasses_13:
+            room_name = "The Temple The Goop";
+            break;
+		case molasses_14:
+            room_name = "idk";
+            break;
+		case molasses_15:
+            room_name = "idk";
             break;
         case mines_1:
             room_name = "Sugary Spire Underground";
