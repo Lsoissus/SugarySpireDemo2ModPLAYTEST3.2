@@ -1,2 +1,2 @@
 showtext = false;
-draw_y = 64;
+draw_y = -64;

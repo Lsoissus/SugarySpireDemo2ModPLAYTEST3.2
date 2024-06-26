@@ -7,10 +7,10 @@ if (showtext)
 }
 if (!showtext)
 {
-	if (draw_y > 64)
+	if (draw_y > -64)
 		draw_y -= 1;
 	else
-		draw_y = 64;
+		draw_y = -64;
 }
 if (instance_exists(obj_player))
 {
