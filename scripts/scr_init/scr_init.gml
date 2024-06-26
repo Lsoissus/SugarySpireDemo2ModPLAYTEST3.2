@@ -51,6 +51,7 @@ global.targetCamY = 0;
 global.laps = 0
 global.secretsfound = 0;
 global.lap = 0
+global.treasurefound = 0
 switch (global.selectedResolution)
 {
 	case 0:
