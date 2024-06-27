@@ -1759,6 +1759,7 @@
     {"id":{"name":"spr_collectslice","path":"sprites/spr_collectslice/spr_collectslice.yy",},},
     {"id":{"name":"spr_sluggy_parry","path":"sprites/spr_sluggy_parry/spr_sluggy_parry.yy",},},
     {"id":{"name":"spr_tvoff","path":"sprites/spr_tvoff/spr_tvoff.yy",},},
+    {"id":{"name":"ts_newhub2_spriteold","path":"sprites/ts_newhub2_spriteold/ts_newhub2_spriteold.yy",},},
     {"id":{"name":"spr_tvturnon","path":"sprites/spr_tvturnon/spr_tvturnon.yy",},},
     {"id":{"name":"spr_minipillarwokeold","path":"sprites/spr_minipillarwokeold/spr_minipillarwokeold.yy",},},
     {"id":{"name":"spr_player_parry3","path":"sprites/spr_player_parry3/spr_player_parry3.yy",},},
