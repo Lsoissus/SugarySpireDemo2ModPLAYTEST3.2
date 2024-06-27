@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "bg_world2hub_4",
-  "bbox_bottom": 126,
+  "bbox_bottom": 163,
   "bbox_left": 0,
   "bbox_right": 718,
   "bbox_top": 0,

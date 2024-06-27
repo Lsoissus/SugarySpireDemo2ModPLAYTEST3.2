@@ -37,7 +37,7 @@ if (global.panic && !obj_pause.pause && room != timesuproom && global.lap && glo
 }
 else if (!global.panic && room == timesuproom)
 	audio_stop_sound(global.music);
-if (room != hub_room1 && room != outer_room2)
+if (room != hub_world1 && room != outer_room2)
 	fadeoff = audio_sound_get_track_position(global.music) / audio_sound_length(global.music);
 else
 	fadeoff = 0;

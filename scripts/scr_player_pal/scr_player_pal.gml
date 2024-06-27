@@ -26,7 +26,7 @@ function scr_player_pal()
 		with (obj_playerhatselect)
 			Selection = obj_playerhat.image_index;
 		state = states.normal;
-		targetRoom = hub_room1;
+		targetRoom = hub_world1;
 		targetDoor = "C";
 		instance_create(x, y, obj_fadeout);
 	}

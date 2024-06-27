@@ -5,7 +5,7 @@ if (position_meeting(mouse_x, mouse_y, id) && mouse_check_button_pressed(1))
 		with (obj_player)
 		{
 			targetDoor = "A";
-			targetRoom = hub_room1;
+			targetRoom = hub_world1;
 		}
 		if (!instance_exists(obj_fadeout))
 		{

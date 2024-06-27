@@ -1,4 +1,4 @@
-if (room != hub_room1 && room != palroom && room != rank_room)
+if (room != hub_world1 && room != palroom && room != rank_room)
 {
 	global.playseconds += 1;
 	if (!obj_pause.pause)

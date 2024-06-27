@@ -1,1 +1,1 @@
-targetRoom = hub_room1;
+targetRoom = hub_world1;

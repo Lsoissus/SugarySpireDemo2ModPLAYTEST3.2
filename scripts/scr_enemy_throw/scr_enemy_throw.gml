@@ -46,7 +46,7 @@ function scr_enemy_throw()
 				with (instance_create(x, y, obj_cottonwitchprojectile))
 					image_xscale = other.image_xscale;
 				break;
-			case obj_rudejanitor:
+			case obj_oldrudejanitor:
 				bombreset = 500;
 				if (!audio_is_playing(sound_enemythrow))
 					scr_sound(sound_enemythrow);

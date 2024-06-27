@@ -21,7 +21,7 @@ function scr_roomnames(_room = room)
 		case hub_roomtutorialhall:
             room_name = "Ragtimin";
 			 break;
-		case hub_room1:
+		case hub_world1:
             room_name = "Enjoy Your Stay";
             break;
         case entrywaysecret_1:

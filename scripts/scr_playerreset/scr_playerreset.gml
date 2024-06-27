@@ -31,7 +31,7 @@ function scr_playerreset()
 	instance_destroy(obj_confectichoco);
 	instance_destroy(obj_confectiworm);
 	instance_destroy(obj_confecticandy);
-	instance_destroy(obj_rudy);
+	instance_destroy(obj_rudejanitor);
 	ds_list_clear(global.FollowerList);
 	global.mallowfollow = false;
 	global.crackfollow = false;

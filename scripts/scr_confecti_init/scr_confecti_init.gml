@@ -48,13 +48,13 @@ function scr_confecti_init()
 			spr_taunt = spr_candy_taunt;
 			global.candyfollow = true;
 			break;
-		case obj_rudy:
-			spr_idle = spr_rudy_idle;
-			spr_run = spr_rudy_walk;
-			spr_panic = spr_rudy_panic;
-			spr_panicrun = spr_rudy_panicWalk;
-			spr_appear = spr_rudy_appear;
-			spr_taunt = spr_rudy_taunt;
+		case obj_rudejanitor:
+			spr_idle = spr_rudejanitor_idle;
+			spr_run = spr_rudejanitor_walk;
+			spr_panic = spr_rudejanitor_panic;
+			spr_panicrun = spr_rudejanitor_panicWalk;
+			spr_appear = spr_rudejanitor_appear;
+			spr_taunt = spr_rudejanitor_taunt;
 			global.janitor = true;
 			break;
 	}
