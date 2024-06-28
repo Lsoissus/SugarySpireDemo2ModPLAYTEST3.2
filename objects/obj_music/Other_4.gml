@@ -28,7 +28,7 @@ if (!global.panic)
 			pausedmusic = mu_credits;
 		}
 	}
-	if (string_letters(roomname) == "hubroom" || string_letters(roomname) == "hubpublic" || room == outer_room1)
+	if (string_letters(roomname) == "hubworld" || string_letters(roomname) == "hubpublic" || room == outer_room1)
 	{
 		if (!audio_is_playing(mu_hub))
 		{
