@@ -7,7 +7,7 @@ if ready {
 
 	// hub
 	if string_starts_with(roomname, "hub") {
-		if roomname == "hub_room2" {
+		if roomname == "hub_world2" {
 			large_image = "hub";
 			large_image_text = "Hub Room";
 			details = "World 2 Hub";
