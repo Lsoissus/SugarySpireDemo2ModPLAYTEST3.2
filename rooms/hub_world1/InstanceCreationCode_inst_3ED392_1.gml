@@ -1,1 +1,1 @@
-targetRoom = hub_roomtutorialhall
+targetRoom = hub_worldtutorialhall
