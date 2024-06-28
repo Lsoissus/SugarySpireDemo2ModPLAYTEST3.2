@@ -10,7 +10,7 @@ if (state != baddiestates.stun)
 	birdcreated = false;
 if (bombreset > 0)
 	bombreset--;
-if (((obj_player.x > (x - 400) && obj_player.x < (x + 400)) && (y <= (obj_player.y + 60) && y >= (obj_player.y - 60))) && obj_player.state != states.cotton && obj_player.state != states.cottondrill && obj_player.state != states.door && obj_player.state != states.cottonroll && obj_player.state != states.pizzanoshoulderbash)
+if (((obj_player.x > (x - 400) && obj_player.x < (x + 400)) && (y <= (obj_player.y + 60) && y >= (obj_player.y - 60))) && obj_player.state != states.cotton && obj_player.state != states.cottondrill && obj_player.state != states.door && obj_player.state != states.cottonroll && obj_player.state != states.pizzanokungfu)
 {
 	if (state != baddiestates.thrown && !bombreset && obj_player.state != states.cotton)
 	{

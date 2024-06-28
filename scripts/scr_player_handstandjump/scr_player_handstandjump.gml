@@ -117,8 +117,7 @@ function scr_player_handstandjump()
 			sprite_index = spr_pizzano_shoulderbash;
 			image_index = 0;
 			movespeed = 10;
-			suplexmove = true;
-			state = states.pizzanoshoulderbash;
+			state = states.pizzanokungfu;
 			instance_create(x, y, obj_jumpdust);
 		}
 	}
