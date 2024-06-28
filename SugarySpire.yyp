@@ -630,7 +630,7 @@
     {"id":{"name":"scr_player_coasterpeep","path":"scripts/scr_player_coasterpeep/scr_player_coasterpeep.yy",},},
     {"id":{"name":"scr_pizzano_wallcling","path":"scripts/scr_pizzano_wallcling/scr_pizzano_wallcling.yy",},},
     {"id":{"name":"sound_obstaclenormal","path":"sounds/sound_obstaclenormal/sound_obstaclenormal.yy",},},
-    {"id":{"name":"scr_pizzano_shoulderbash","path":"scripts/scr_pizzano_shoulderbash/scr_pizzano_shoulderbash.yy",},},
+    {"id":{"name":"scr_pizzano_kungfu","path":"scripts/scr_pizzano_kungfu/scr_pizzano_kungfu.yy",},},
     {"id":{"name":"spr_entryway_obstacle_7","path":"sprites/spr_entryway_obstacle_7/spr_entryway_obstacle_7.yy",},},
     {"id":{"name":"ReadMe","path":"scripts/ReadMe/ReadMe.yy",},},
     {"id":{"name":"bg_tutorial2_3_OLD","path":"sprites/bg_tutorial2_3_OLD/bg_tutorial2_3_OLD.yy",},},

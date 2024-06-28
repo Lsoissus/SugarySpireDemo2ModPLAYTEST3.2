@@ -111,7 +111,7 @@ enum states {
 	gumbobpropellor, // 109
 	gumbobmixnbrew, // 110
 	pizzanotwirl, // 111
-	pizzanoshoulderbash, // 112
+	pizzanokungfu, // 112
 	pizzanowallcling, // 113
     mini, // 114
 	wallkick, // 115
@@ -445,8 +445,8 @@ function scr_playerstate()
 		case states.pizzanotwirl:
 			_stateFunction = scr_pizzano_twirl;
 			break;
-		case states.pizzanoshoulderbash:
-			_stateFunction = scr_pizzano_shoulderbash;
+		case states.pizzanokungfu:
+			_stateFunction = scr_pizzano_kungfu;
 			break;
 		case states.pizzanowallcling:
 			_stateFunction = scr_pizzano_wallcling;

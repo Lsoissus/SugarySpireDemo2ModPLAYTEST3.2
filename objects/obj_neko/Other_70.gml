@@ -40,6 +40,7 @@ if (ev_type == "DiscordReady")
 		710517510218186843, // afrozenclover
 		1100223613283598386, // luna
 		958084660083183647, // wizzerlytheknarly
+		983028403986903050, // eggythefriedegg
 	]
 
 	// validate if the current userid matches one on the staff

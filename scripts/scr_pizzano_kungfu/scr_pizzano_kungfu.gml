@@ -1,7 +1,11 @@
-function scr_pizzano_shoulderbash()
+function scr_pizzano_kungfu()
 {
 	// basic movement
-	hsp = xscale * movespeed;
+	move = (key_right + key_left);
+	if (move == xscale)
+		hsp = (xscale * movespeed);
+	else if (move != 0)
+		hsp = approach(hsp, (-xscale * movespeed), 0.5);
 	
 	// jumping
 	if (key_jump && grounded)
@@ -44,9 +48,14 @@ function scr_pizzano_shoulderbash()
 	
 	if (shoulderTime > 0)
 		shoulderTime--
-	if (shoulderTime <= 0)
+	if (shoulderTime <= 0) {
+		if (move != 0) {
+			xscale = move;
+			movespeed = 7;
+		}
 		state = states.normal;
+	}
 	
-	if (state != states.pizzanoshoulderbash)
+	if (state != states.pizzanokungfu)
 		shoulderTime = 35;
 }
