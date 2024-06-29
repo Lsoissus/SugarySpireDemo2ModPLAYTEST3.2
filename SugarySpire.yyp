@@ -1166,7 +1166,7 @@
     {"id":{"name":"spr_player_mach3jump","path":"sprites/spr_player_mach3jump/spr_player_mach3jump.yy",},},
     {"id":{"name":"spr_player_haulingland","path":"sprites/spr_player_haulingland/spr_player_haulingland.yy",},},
     {"id":{"name":"spr_pizzytvhurt","path":"sprites/spr_pizzytvhurt/spr_pizzytvhurt.yy",},},
-    {"id":{"name":"spr_rudejanitorWalk","path":"sprites/spr_rudejanitorWalk/spr_rudejanitorWalk.yy",},},
+    {"id":{"name":"spr_rudejanitor_panicWalk","path":"sprites/spr_rudejanitor_panicWalk/spr_rudejanitor_panicWalk.yy",},},
     {"id":{"name":"spr_wtfcombo_intro","path":"sprites/spr_wtfcombo_intro/spr_wtfcombo_intro.yy",},},
     {"id":{"name":"spr_player_lookdoor","path":"sprites/spr_player_lookdoor/spr_player_lookdoor.yy",},},
     {"id":{"name":"scr_tvsprites","path":"scripts/scr_tvsprites/scr_tvsprites.yy",},},
