@@ -320,7 +320,7 @@
     {"name":"obj_destructibleplatform","order":204,"path":"objects/obj_destructibleplatform/obj_destructibleplatform.yy",},
     {"name":"obj_noisecrusher","order":205,"path":"objects/obj_noisecrusher/obj_noisecrusher.yy",},
     {"name":"obj_spikehurteffect","order":206,"path":"objects/obj_spikehurteffect/obj_spikehurteffect.yy",},
-    {"name":"hubNew_sprite","order":1795,"path":"sprites/hubNew_sprite/hubNew_sprite.yy",},
+    {"name":"ts_world1hub_sprite","order":1795,"path":"sprites/ts_world1hub_sprite/ts_world1hub_sprite.yy",},
     {"name":"obj_enemybird","order":207,"path":"objects/obj_enemybird/obj_enemybird.yy",},
     {"name":"obj_lock","order":208,"path":"objects/obj_lock/obj_lock.yy",},
     {"name":"obj_groundpoundeffect","order":209,"path":"objects/obj_groundpoundeffect/obj_groundpoundeffect.yy",},

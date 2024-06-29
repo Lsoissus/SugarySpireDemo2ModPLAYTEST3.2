@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "hubNew_sprite",
-    "path": "sprites/hubNew_sprite/hubNew_sprite.yy",
+    "name": "ts_world1hub_sprite",
+    "path": "sprites/ts_world1hub_sprite/ts_world1hub_sprite.yy",
   },
   "spriteNoExport": false,
   "textureGroupId": {

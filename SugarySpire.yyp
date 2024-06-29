@@ -365,7 +365,7 @@
     {"id":{"name":"obj_destructibleplatform","path":"objects/obj_destructibleplatform/obj_destructibleplatform.yy",},},
     {"id":{"name":"obj_noisecrusher","path":"objects/obj_noisecrusher/obj_noisecrusher.yy",},},
     {"id":{"name":"obj_spikehurteffect","path":"objects/obj_spikehurteffect/obj_spikehurteffect.yy",},},
-    {"id":{"name":"hubNew_sprite","path":"sprites/hubNew_sprite/hubNew_sprite.yy",},},
+    {"id":{"name":"ts_world1hub_sprite","path":"sprites/ts_world1hub_sprite/ts_world1hub_sprite.yy",},},
     {"id":{"name":"obj_enemybird","path":"objects/obj_enemybird/obj_enemybird.yy",},},
     {"id":{"name":"obj_lock","path":"objects/obj_lock/obj_lock.yy",},},
     {"id":{"name":"obj_groundpoundeffect","path":"objects/obj_groundpoundeffect/obj_groundpoundeffect.yy",},},
