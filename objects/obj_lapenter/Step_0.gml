@@ -46,6 +46,7 @@ if global.panic
 				global.combotime = 60;
 				create_small_number(x, y, "100");
 				global.minutes += 1;
+				global.seconds += 15;
 			}
 		}
 
