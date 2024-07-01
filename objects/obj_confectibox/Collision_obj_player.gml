@@ -1,9 +1,9 @@
 if (sprite_index != spr_confectiboxopen)
 {
-	var _content = instance_create(x + (sprite_width / 2), y + (sprite_height / 2), BoxContent);
+	var _content = instance_create(x, y, BoxContent);
 	if (object_get_parent(_content.object_index) == par_confecti)
 	{
-		with (instance_create(x + (sprite_width / 2), y + (sprite_height / 2), obj_explosioneffect))
+		with (instance_create(x,y, obj_explosioneffect))
 		{
 			sprite_index = spr_taunteffect;
 			depth = -2;
