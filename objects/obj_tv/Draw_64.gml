@@ -15,7 +15,8 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 			draw_clear_alpha(c_white, 0);
 			draw_sprite_tiled(ComboFill, 0, 230 * (global.combotime / 60) + 40, 180);
 
-			ComboY = lerp(ComboY, 0, 0.15);
+			ComboY = approach(ComboY, 0, 10);
+			meter_image_index += 0.35;
 			
 			gpu_set_blendmode(bm_subtract);
 			draw_set_color(c_black);
@@ -32,7 +33,6 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 			draw_surface_ext(BarSurface, 699, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 		}
 	}
-	meter_image_index += 0.35;
 	draw_sprite_ext(spr_barpop, meter_image_index, 699, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 	if combo {
 		draw_sprite_ext(spr_tvcombo, image_index, 827, 112 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
@@ -45,6 +45,11 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 		{
 			var _xx = -(string_width(_combo) / 2) + ((string_width(_combo) / _string_length) * i);
 			var _yy = i * -4;
+			if (ComboShake)
+			{
+				_xx += irandom_range(-2, 2);
+				_yy += irandom_range(-2, 2);
+			}
 			draw_text_color(800 + _xx, 170 + DrawY + ComboY + _yy, string_char_at(_combo, i + 1), c_white, c_white, c_white, c_white, alpha);
 		}
 	}
@@ -62,6 +67,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 	draw_text(xi, yi, string_hash_to_newline(msg));
 	if ((!combo) && chooseOnecomboend) {
 		draw_sprite_ext(comboendSprite, comboendImage, 832, 74, 1, 1, 0, c_white, combofade * alpha);
-		ComboY = lerp(ComboY, -300, 0.15);
+		ComboY = approach(ComboY, -300, 5);
+		meter_image_index = 0;
 	}
 }

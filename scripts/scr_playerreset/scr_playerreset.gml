@@ -182,6 +182,7 @@ function scr_playerreset()
 		global.hurtcounter = 0;
 		global.hurtmilestone = 10;
 		DrawY = 0;
+		ComboY = -300;
 		shownranka = false;
 		shownrankb = false;
 		shownrankc = false;
