@@ -53,39 +53,39 @@ else
 }
 if (global.collect > global.arank && !shownranka)
 {
-	message = "YOU GOT ENOUGH FOR RANK A";
+	msg = "YOU GOT ENOUGH FOR RANK A";
 	showtext = true;
 	alarm[0] = 200;
 	shownranka = true;
 }
 else if (global.collect > global.brank && !shownrankb)
 {
-	message = "YOU GOT ENOUGH FOR RANK B";
+	msg = "YOU GOT ENOUGH FOR RANK B";
 	showtext = true;
 	alarm[0] = 200;
 	shownrankb = true;
 }
 else if (global.collect > global.crank && !shownrankc)
 {
-	message = "YOU GOT ENOUGH FOR RANK C";
+	msg = "YOU GOT ENOUGH FOR RANK C";
 	showtext = true;
 	alarm[0] = 200;
 	shownrankc = true;
 }
 if (global.hurtcounter >= global.hurtmilestone)
 {
+	var _pChar = "PIZZELLE"
+	if (obj_player.character == characters.pizzano)
+		_pChar = "THE PIZZANO"
+	msg = $"YOU HAVE HURT {_pChar} {global.hurtmilestone} TIMES...";
+	global.hurtmilestone += 10;
+	showtext = true;
 	alarm[0] = 150;
-	if (obj_player.character == characters.pizzelle)
-		character = "PIZZELLE";
-	else
-		character = "THE PIZZANO";
-	message = "YOU HAVE HURT " + string(character) + " " + string(global.hurtmilestone) + " TIMES...";
-	global.hurtmilestone += 3;
 }
 if (obj_player.state == states.keyget)
 {
 	showtext = true;
-	message = "KEY OBTAINED!";
+	msg = "KEY OBTAINED!";
 	alarm[0] = 50;
 }
 if (staticdraw)
@@ -193,12 +193,7 @@ if (tvlength > 0)
 	}
 }
 tvlength--;
-if (global.key_inv)
-	invsprite = spr_invkey;
-else if (global.treat)
-	invsprite = spr_invdonut;
-else
-	invsprite = spr_invempty;
+invsprite = (global.key_inv ? spr_invkey : (global.treat ? spr_invdonut : spr_invempty));
 if (tvsprite == spr_tvturnon && floor(image_index) == (image_number - 1))
 	tvsprite = idletvspr;
 sprite_index = tvsprite;

@@ -1,2 +1,2 @@
-message = "";
+msg = "";
 selected = 0;

@@ -1,6 +1,6 @@
 with (obj_tv)
 {
-	message = "YOU HAVE FOUND A SECRET!";
+	msg = "YOU HAVE FOUND A SECRET!";
 	showtext = true;
 	alarm[0] = 150;
 }

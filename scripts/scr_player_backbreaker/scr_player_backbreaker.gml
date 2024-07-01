@@ -81,7 +81,7 @@ function scr_player_backbreaker()
 	if (sprite_index == spr_bossintro)
 	{
 		obj_tv.showtext = true;
-		obj_tv.message = "GET BACK TO THE START!!";
+		obj_tv.msg = "GET BACK TO THE START!!";
 		obj_tv.alarm[0] = 150;
 	}
 	if (sprite_index != spr_player_taunt)

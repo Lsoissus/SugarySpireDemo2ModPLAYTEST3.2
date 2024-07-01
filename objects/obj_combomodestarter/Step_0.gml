@@ -12,7 +12,7 @@ if (place_meeting(x + obj_player.hsp, y, obj_player) && obj_player.state == stat
 		global.combomode = true;
 		with (obj_tv)
 		{
-			message = "NON STOP COMBO MODE ACTIVATED";
+			msg = "NON STOP COMBO MODE ACTIVATED";
 			showtext = true;
 			alarm[0] = 200;
 		}
@@ -32,7 +32,7 @@ if (place_meeting(x + obj_player.hsp, y, obj_player) && obj_player.state == stat
 		global.combomode = false;
 		with (obj_tv)
 		{
-			message = "NORMAL COMBO MODE ACTIVATED";
+			msg = "NORMAL COMBO MODE ACTIVATED";
 			showtext = true;
 			alarm[0] = 200;
 		}

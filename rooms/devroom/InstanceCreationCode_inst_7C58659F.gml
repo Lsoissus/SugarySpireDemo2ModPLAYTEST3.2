@@ -1,3 +1,3 @@
 sprite_index = spr_man
-message = "I am error"
+msg = "I am error"
 is_error = 1

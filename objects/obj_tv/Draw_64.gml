@@ -59,7 +59,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 	draw_set_font(global.font);
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);
-	draw_text(xi, yi, string_hash_to_newline(message));
+	draw_text(xi, yi, string_hash_to_newline(msg));
 	if ((!combo) && chooseOnecomboend) {
 		draw_sprite_ext(comboendSprite, comboendImage, 832, 74, 1, 1, 0, c_white, combofade * alpha);
 		ComboY = lerp(ComboY, -300, 0.15);

@@ -1,4 +1,4 @@
-message = "You should not be seeing this in the current moment.";
+msg = "You should not be seeing this in the current moment.";
 drawing = false;
 is_error = false;
 error_shake = 0;

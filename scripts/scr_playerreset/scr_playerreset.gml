@@ -179,6 +179,8 @@ function scr_playerreset()
 		ds_queue_clear(global.newhudtvanim);
 		alarm[1] = 1;
 		staticdraw = false;
+		global.hurtcounter = 0;
+		global.hurtmilestone = 10;
 		DrawY = 0;
 		shownranka = false;
 		shownrankb = false;

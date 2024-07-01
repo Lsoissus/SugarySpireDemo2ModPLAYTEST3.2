@@ -11,5 +11,5 @@ if (drawing)
 	draw_set_font(font_dev);
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);
-	draw_text(x, y - 32, message);
+	draw_text(x, y - 32, msg);
 }

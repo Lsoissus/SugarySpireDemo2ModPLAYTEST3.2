@@ -1,2 +1,2 @@
 sprite_index = spr_mineken
-message = "placeholder"
+msg = "placeholder"

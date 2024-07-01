@@ -1,13 +1,9 @@
-if (obj_player.character == characters.pizzelle)
-{
-	obj_player.character = characters.pizzano;
+with (obj_player) {
+	if (character == characters.pizzelle)
+		character = characters.pizzano;
+	else if (character == characters.pizzano)
+		character = characters.pizzelle;
 	scr_characterspr();
-	scr_tvsprites();
-	tvcount = 500;
 }
-else if (obj_player.character == characters.pizzano)
-{
-	obj_player.character = characters.pizzelle;
-	scr_tvsprites();
-	tvcount = 500;
-}
+scr_tvsprites();
+tvcount = 500;
