@@ -1,26 +1,30 @@
 {
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "sound_lapenter",
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+  "$GMSound":"",
+  "%Name":"sound_lapenter",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
-  "bitDepth": 1,
-  "bitRate": 128,
-  "compression": 0,
-  "ConfigValues": {
-    "Debug": {"audioGroupId":"{\"name\":\"audiogroup_default\",\"path\":\"audiogroups/audiogroup_default\"}",},
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "ConfigValues":{
+    "Debug":{
+      "audioGroupId":"{\"name\":\"audiogroup_default\",\"path\":\"audiogroups/audiogroup_default\"}",
+    },
   },
-  "conversionMode": 0,
-  "duration": 0.580062,
-  "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+  "conversionMode":0,
+  "duration":0.580062,
+  "name":"sound_lapenter",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
-  "preload": false,
-  "sampleRate": 44100,
-  "soundFile": "sound_lapenter.wav",
-  "type": 0,
-  "volume": 1.0,
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sound_lapenter.wav",
+  "type":0,
+  "volume":1.0,
 }
