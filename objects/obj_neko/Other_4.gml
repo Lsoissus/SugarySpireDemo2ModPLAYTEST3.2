@@ -67,6 +67,7 @@ if ready {
 		case "rankroom":
 			large_image = "victory";
 			large_image_text = "Rank Screen";
+			details = "Sweet Victory";
 			break;
 	}
 	

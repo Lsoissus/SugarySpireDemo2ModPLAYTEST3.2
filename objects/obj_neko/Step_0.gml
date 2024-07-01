@@ -20,12 +20,21 @@ if ready {
 	if (!obj_pause.pause)
 	{
 		var roomname = room_get_name(room);
-		if (room != realtitlescreen && room != scootercutsceneidk && room != palroom && room != rank_room && !string_starts_with(roomname, "hub") && !string_starts_with(roomname, "outer") && !string_starts_with(roomname, "spire"))
-			state = string(global.collect) + " Points | Rank " + string(rpcrank);
-		else if (room == rank_room)
-			state = "Rank " + string(rpcrank);
-		else
+		if (room != realtitlescreen && room != scootercutsceneidk && room != palroom && room != rank_room && !string_starts_with(roomname, "hub") && !string_starts_with(roomname, "outer") && !string_starts_with(roomname, "spire")) {
+			state = $"{global.collect} Points | {global.combo} Combo | Lap {global.laps + 1}";
+			small_image = $"rank{string_lower(rpcrank)}";
+			small_image_text = $"Rank {rpcrank}";
+		}
+		else if (room == rank_room) {
 			state = "";
+			small_image = $"rank{string_lower(rpcrank)}";
+			small_image_text = $"Rank {rpcrank}";
+		}
+		else {
+			state = "";
+			small_image = "";
+			small_image_text = "";
+		}
 	}
 	
 	// update neko presence
