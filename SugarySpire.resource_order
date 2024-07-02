@@ -1213,6 +1213,7 @@
     {"name":"spr_knightpep_hitbox","order":89,"path":"sprites/spr_knightpep_hitbox/spr_knightpep_hitbox.yy",},
     {"name":"spr_molassesbgpara1","order":621,"path":"sprites/spr_molassesbgpara1/spr_molassesbgpara1.yy",},
     {"name":"bg_spirepara","order":622,"path":"sprites/bg_spirepara/bg_spirepara.yy",},
+    {"name":"hub_room1","order":3,"path":"rooms/hub_room1/hub_room1.yy",},
     {"name":"parlor_2","order":2,"path":"rooms/parlor_2/parlor_2.yy",},
     {"name":"spr_rank_candy_lose","order":1,"path":"sprites/spr_rank_candy_lose/spr_rank_candy_lose.yy",},
     {"name":"spr_rank_gummyworm","order":6,"path":"sprites/spr_rank_gummyworm/spr_rank_gummyworm.yy",},

@@ -1279,6 +1279,7 @@
     {"id":{"name":"spr_knightpep_hitbox","path":"sprites/spr_knightpep_hitbox/spr_knightpep_hitbox.yy",},},
     {"id":{"name":"spr_molassesbgpara1","path":"sprites/spr_molassesbgpara1/spr_molassesbgpara1.yy",},},
     {"id":{"name":"bg_spirepara","path":"sprites/bg_spirepara/bg_spirepara.yy",},},
+    {"id":{"name":"hub_room1","path":"rooms/hub_room1/hub_room1.yy",},},
     {"id":{"name":"parlor_2","path":"rooms/parlor_2/parlor_2.yy",},},
     {"id":{"name":"spr_rank_candy_lose","path":"sprites/spr_rank_candy_lose/spr_rank_candy_lose.yy",},},
     {"id":{"name":"spr_rank_gummyworm","path":"sprites/spr_rank_gummyworm/spr_rank_gummyworm.yy",},},
@@ -2297,6 +2298,7 @@
     {"roomId":{"name":"molassessecret_1","path":"rooms/molassessecret_1/molassessecret_1.yy",},},
     {"roomId":{"name":"molassessecret_2","path":"rooms/molassessecret_2/molassessecret_2.yy",},},
     {"roomId":{"name":"molassessecret_3","path":"rooms/molassessecret_3/molassessecret_3.yy",},},
+    {"roomId":{"name":"hub_room1","path":"rooms/hub_room1/hub_room1.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
