@@ -1,6 +1,8 @@
 live_auto_call;
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen)
 {
+	// image index change
+	goo_index += 0.35
 	var combo = (global.combotime > 0 && global.combo > 0);
 	if combo
 	{
@@ -13,27 +15,25 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 
 			surface_set_target(BarSurface);
 			draw_clear_alpha(c_white, 0);
-			draw_sprite_tiled(ComboFill, 0, 230 * (global.combotime / 60) + 40, 180);
-
+			draw_sprite_tiled(ComboFill, goo_index, 230 * (global.combotime / 60) + 40 + combo_posX, 180 + ComboY);
 			ComboY = approach(ComboY, 0, 10);
 			meter_image_index += 0.35;
-			
+			combo_posX = wave(-5, 5, 2, 20)
 			gpu_set_blendmode(bm_subtract);
 			draw_set_color(c_black);
-			draw_rectangle(230 * (global.combotime / 60) + 40, 180, 200, 230, false);
+			draw_rectangle(230 * (global.combotime / 60) + 40 + combo_posX, 180 + ComboY, 200, 230, false);
 			draw_set_color(c_white);
 			draw_sprite_ext(spr_combomask, 0, 0, 0, 1, 1, 0, c_white, 1);
 			gpu_set_blendmode(bm_normal);
-			draw_sprite_ext(ComboEnd, 0, 230 * (global.combotime / 60) + 40, 180, 1, 5, 0, c_white, 1);
 			// since im a lazy fuck lets mask again for the foam at the end
 			gpu_set_blendmode(bm_subtract);
 			draw_sprite_ext(spr_combomask, 0, 0, 0, 1, 1, 0, c_white, 1);
 			gpu_set_blendmode(bm_normal);
 			surface_reset_target();
-			draw_surface_ext(BarSurface, 699, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
+			draw_surface_ext(BarSurface, 699 + combo_posX, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 		}
 	}
-	draw_sprite_ext(spr_barpop, meter_image_index, 699, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
+	draw_sprite_ext(spr_barpop, meter_image_index, 699 + combo_posX, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 	if combo {
 		draw_sprite_ext(spr_tvcombo, image_index, 827, 112 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 		draw_set_font(global.combofont);
@@ -56,6 +56,8 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 	draw_sprite(tvbgsprite, 0, 832, 74 + DrawY)
 	pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, 0);
 	draw_sprite_ext(tvsprite, image_index, 832, 74 + DrawY, 1, 1, 0, c_white, 1);
+	if global.panic
+        draw_sprite_ext(spr_tv_panicline, goo_index, 832, 74 + DrawY, 1, 1, 0, c_white, 1)
 	if (staticdraw)
 		draw_sprite_ext(spr_tvstatic, statictimer, 832, 74 + DrawY, 1, 1, 0, c_white, 1);
 	pal_swap_reset();

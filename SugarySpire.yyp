@@ -398,6 +398,7 @@
     {"id":{"name":"bg_world2hub_glass","path":"sprites/bg_world2hub_glass/bg_world2hub_glass.yy",},},
     {"id":{"name":"obj_bushdisguise","path":"objects/obj_bushdisguise/obj_bushdisguise.yy",},},
     {"id":{"name":"spr_ranks_hud","path":"sprites/spr_ranks_hud/spr_ranks_hud.yy",},},
+    {"id":{"name":"spr_tv_panicline","path":"sprites/spr_tv_panicline/spr_tv_panicline.yy",},},
     {"id":{"name":"obj_chocofrogsmall","path":"objects/obj_chocofrogsmall/obj_chocofrogsmall.yy",},},
     {"id":{"name":"obj_hotcaramel","path":"objects/obj_hotcaramel/obj_hotcaramel.yy",},},
     {"id":{"name":"obj_superspring","path":"objects/obj_superspring/obj_superspring.yy",},},

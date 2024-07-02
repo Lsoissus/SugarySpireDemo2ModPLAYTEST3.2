@@ -352,6 +352,7 @@
     {"name":"bg_world2hub_glass","order":4,"path":"sprites/bg_world2hub_glass/bg_world2hub_glass.yy",},
     {"name":"obj_bushdisguise","order":228,"path":"objects/obj_bushdisguise/obj_bushdisguise.yy",},
     {"name":"spr_ranks_hud","order":575,"path":"sprites/spr_ranks_hud/spr_ranks_hud.yy",},
+    {"name":"spr_tv_panicline","order":796,"path":"sprites/spr_tv_panicline/spr_tv_panicline.yy",},
     {"name":"obj_chocofrogsmall","order":229,"path":"objects/obj_chocofrogsmall/obj_chocofrogsmall.yy",},
     {"name":"obj_hotcaramel","order":230,"path":"objects/obj_hotcaramel/obj_hotcaramel.yy",},
     {"name":"obj_superspring","order":231,"path":"objects/obj_superspring/obj_superspring.yy",},
