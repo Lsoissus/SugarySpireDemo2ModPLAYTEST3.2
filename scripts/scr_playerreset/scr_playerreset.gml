@@ -183,6 +183,8 @@ function scr_playerreset()
 		global.hurtmilestone = 10;
 		DrawY = 0;
 		ComboY = -300;
+		meter_image_index = 0;
+		goo_index = 0;
 		shownranka = false;
 		shownrankb = false;
 		shownrankc = false;

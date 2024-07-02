@@ -1,8 +1,6 @@
 live_auto_call;
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen)
 {
-	// image index change
-	goo_index += 0.35
 	var combo = (global.combotime > 0 && global.combo > 0);
 	if combo
 	{
@@ -11,25 +9,26 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 		else
 		{
 			var ComboFill = (global.combodropped ? spr_barpop2 : spr_barpop2P);
-			var ComboEnd = (global.combodropped ? spr_barpop3 : spr_barpop3P);
 
 			surface_set_target(BarSurface);
 			draw_clear_alpha(c_white, 0);
-			draw_sprite_tiled(ComboFill, goo_index, 230 * (global.combotime / 60) + 40 + combo_posX, 180 + ComboY);
+			
 			ComboY = approach(ComboY, 0, 10);
 			meter_image_index += 0.35;
-			combo_posX = wave(-5, 5, 2, 20)
+			goo_index += 0.35;
+			combo_posX = wave(-5, 5, 2, 20);
+			
+			draw_sprite_tiled(ComboFill, goo_index, 230 * (global.combotime / 60) + 40, 180);
+
 			gpu_set_blendmode(bm_subtract);
 			draw_set_color(c_black);
-			draw_rectangle(230 * (global.combotime / 60) + 40 + combo_posX, 180 + ComboY, 200, 230, false);
+			draw_rectangle(230 * (global.combotime / 60) + 40, 180, 200, 230, false);
 			draw_set_color(c_white);
 			draw_sprite_ext(spr_combomask, 0, 0, 0, 1, 1, 0, c_white, 1);
 			gpu_set_blendmode(bm_normal);
-			// since im a lazy fuck lets mask again for the foam at the end
-			gpu_set_blendmode(bm_subtract);
-			draw_sprite_ext(spr_combomask, 0, 0, 0, 1, 1, 0, c_white, 1);
-			gpu_set_blendmode(bm_normal);
+
 			surface_reset_target();
+
 			draw_surface_ext(BarSurface, 699 + combo_posX, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 		}
 	}
@@ -71,5 +70,6 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 		draw_sprite_ext(comboendSprite, comboendImage, 832, 74, 1, 1, 0, c_white, combofade * alpha);
 		ComboY = approach(ComboY, -300, 5);
 		meter_image_index = 0;
+		goo_index = 0;
 	}
 }
