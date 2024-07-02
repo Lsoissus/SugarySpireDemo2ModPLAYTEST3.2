@@ -56,7 +56,6 @@
     {"name":"inst_6C9F58CD","path":"rooms/molasses_6/molasses_6.yy",},
     {"name":"inst_2FE97214","path":"rooms/molasses_6/molasses_6.yy",},
     {"name":"inst_5E0DEC51","path":"rooms/molasses_6/molasses_6.yy",},
-    {"name":"inst_77BA7722","path":"rooms/molasses_6/molasses_6.yy",},
     {"name":"inst_5F4FE52F","path":"rooms/molasses_6/molasses_6.yy",},
     {"name":"inst_5194FD7C","path":"rooms/molasses_6/molasses_6.yy",},
     {"name":"inst_4B522782","path":"rooms/molasses_6/molasses_6.yy",},
@@ -86,6 +85,7 @@
     {"name":"inst_1B1C7DD5","path":"rooms/molasses_6/molasses_6.yy",},
     {"name":"inst_6F797059","path":"rooms/molasses_6/molasses_6.yy",},
     {"name":"inst_4514F5C5","path":"rooms/molasses_6/molasses_6.yy",},
+    {"name":"inst_77BA7722","path":"rooms/molasses_6/molasses_6.yy",},
   ],
   "isDnd": false,
   "layers": [
