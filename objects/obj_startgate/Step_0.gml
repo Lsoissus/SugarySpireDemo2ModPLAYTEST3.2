@@ -68,7 +68,7 @@ if (near_gate)
 				alarm[0] = 2;
 			}
 			break;
-		case "fudge":
+		case "fudgetop":
 			with (obj_tv)
 			{
 				msg = "MT FUDGETOP";

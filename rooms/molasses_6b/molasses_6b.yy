@@ -90,7 +90,7 @@
     {"name":"inst_26750CD7","path":"rooms/molasses_6b/molasses_6b.yy",},
     {"name":"inst_6C01EEBF","path":"rooms/molasses_6b/molasses_6b.yy",},
     {"name":"inst_121ED99C","path":"rooms/molasses_6b/molasses_6b.yy",},
-    {"name":"inst_14808EDB","path":"rooms/molasses_6b/molasses_6b.yy",},
+    {"name":"inst_327BF4FC","path":"rooms/molasses_6b/molasses_6b.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -192,7 +192,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":null,"propertyId":null,"value":"molasses_6calt",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_door","path":"objects/par_door/par_door.yy",},"propertyId":{"name":"targetRoom","path":"objects/par_door/par_door.yy",},"value":"molasses_6",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":448.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14808EDB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorB","path":"objects/obj_doorB/obj_doorB.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":512.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_327BF4FC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorC","path":"objects/obj_doorC/obj_doorC.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":512.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_5","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":55,"SerialiseWidth":157,"TileCompressedData":[
 -3938,0,3,342,343,344,-584,0,3,395,396,397,-48,0,1,89,-105,0,3,459,460,461,-48,0,1,153,-150,0,2,149,150,-155,0,2,213,214,-943,0,2,87,88,-20,0,2,215,216,-24,0,6,524,525,526,527,528,529,-103,0,2,151,152,-20,0,2,279,280,-24,0,6,588,589,590,591,592,593,-153,0,2,654,655,-399,0,-1884,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_molasses2","path":"tilesets/ts_molasses2/ts_molasses2.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
