@@ -2012,6 +2012,7 @@
     {"name":"spr_caramel_idle","order":533,"path":"sprites/spr_caramel_idle/spr_caramel_idle.yy",},
     {"name":"spr_metalblockFAKE","order":534,"path":"sprites/spr_metalblockFAKE/spr_metalblockFAKE.yy",},
     {"name":"spr_molassesbgpara3","order":713,"path":"sprites/spr_molassesbgpara3/spr_molassesbgpara3.yy",},
+    {"name":"spr_player_climbwallmach3","order":182,"path":"sprites/spr_player_climbwallmach3/spr_player_climbwallmach3.yy",},
     {"name":"nextsky2","order":535,"path":"sprites/nextsky2/nextsky2.yy",},
     {"name":"spr_file1confirm","order":536,"path":"sprites/spr_file1confirm/spr_file1confirm.yy",},
     {"name":"spr_jellyswitch","order":537,"path":"sprites/spr_jellyswitch/spr_jellyswitch.yy",},

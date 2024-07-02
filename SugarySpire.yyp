@@ -2090,6 +2090,7 @@
     {"id":{"name":"spr_caramel_idle","path":"sprites/spr_caramel_idle/spr_caramel_idle.yy",},},
     {"id":{"name":"spr_metalblockFAKE","path":"sprites/spr_metalblockFAKE/spr_metalblockFAKE.yy",},},
     {"id":{"name":"spr_molassesbgpara3","path":"sprites/spr_molassesbgpara3/spr_molassesbgpara3.yy",},},
+    {"id":{"name":"spr_player_climbwallmach3","path":"sprites/spr_player_climbwallmach3/spr_player_climbwallmach3.yy",},},
     {"id":{"name":"nextsky2","path":"sprites/nextsky2/nextsky2.yy",},},
     {"id":{"name":"spr_file1confirm","path":"sprites/spr_file1confirm/spr_file1confirm.yy",},},
     {"id":{"name":"spr_jellyswitch","path":"sprites/spr_jellyswitch/spr_jellyswitch.yy",},},
