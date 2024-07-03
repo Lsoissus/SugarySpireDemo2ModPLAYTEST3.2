@@ -401,6 +401,7 @@
     {"id":{"name":"obj_chocofrogsmall","path":"objects/obj_chocofrogsmall/obj_chocofrogsmall.yy",},},
     {"id":{"name":"obj_hotcaramel","path":"objects/obj_hotcaramel/obj_hotcaramel.yy",},},
     {"id":{"name":"obj_superspring","path":"objects/obj_superspring/obj_superspring.yy",},},
+    {"id":{"name":"spr_barpopback","path":"sprites/spr_barpopback/spr_barpopback.yy",},},
     {"id":{"name":"obj_trainjump","path":"objects/obj_trainjump/obj_trainjump.yy",},},
     {"id":{"name":"obj_traindestroy","path":"objects/obj_traindestroy/obj_traindestroy.yy",},},
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},},

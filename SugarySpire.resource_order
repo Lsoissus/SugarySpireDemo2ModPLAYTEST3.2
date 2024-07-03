@@ -355,6 +355,7 @@
     {"name":"obj_chocofrogsmall","order":229,"path":"objects/obj_chocofrogsmall/obj_chocofrogsmall.yy",},
     {"name":"obj_hotcaramel","order":230,"path":"objects/obj_hotcaramel/obj_hotcaramel.yy",},
     {"name":"obj_superspring","order":231,"path":"objects/obj_superspring/obj_superspring.yy",},
+    {"name":"spr_barpopback","order":797,"path":"sprites/spr_barpopback/spr_barpopback.yy",},
     {"name":"obj_trainjump","order":232,"path":"objects/obj_trainjump/obj_trainjump.yy",},
     {"name":"obj_traindestroy","order":233,"path":"objects/obj_traindestroy/obj_traindestroy.yy",},
     {"name":"obj_key","order":234,"path":"objects/obj_key/obj_key.yy",},
