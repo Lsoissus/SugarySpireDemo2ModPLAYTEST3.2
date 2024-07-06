@@ -6,9 +6,13 @@ if (ev_type == "DiscordReady")
 {
 	global.discord_initialized = true;
 	ready = true;
-	
+
+	np_setpresence_timestamps(date_current_datetime(), 0, false);
 	np_setpresence_more(small_image_text, large_image_text, false);
 	
+    /*
+        if this leaks again i told you so
+
 	// initialize temporary variables
 	var user_id = async_load[? "user_id"]
 	var lockout = true;
@@ -42,6 +46,7 @@ if (ev_type == "DiscordReady")
 		958084660083183647, // wizzerlytheknarly
 		983028403986903050, // eggythefriedegg
 	]
+        
 
 	// validate if the current userid matches one on the staff
 	for(var i = 0; i < array_length(staff); i++) {
@@ -51,7 +56,7 @@ if (ev_type == "DiscordReady")
 
 	// if validation failed
 	if (lockout)
-		show_error("teacher! teacher! someone tried to leak the mod!", true);
+		show_error("teacher! teacher! someone tried to leak the mod!", true);*/
 
 	//np_setpresence() should ALWAYS come the last!!
 	np_setpresence(state, details, large_image, small_image);
