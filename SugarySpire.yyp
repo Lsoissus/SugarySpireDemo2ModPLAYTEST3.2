@@ -131,7 +131,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"obj_talisman","path":"objects/obj_talisman/obj_talisman.yy",},},
@@ -318,6 +318,7 @@
     {"id":{"name":"obj_baddie","path":"objects/obj_baddie/obj_baddie.yy",},},
     {"id":{"name":"obj_baddiecollisionbox","path":"objects/obj_baddiecollisionbox/obj_baddiecollisionbox.yy",},},
     {"id":{"name":"obj_sausageman_dead","path":"objects/obj_sausageman_dead/obj_sausageman_dead.yy",},},
+    {"id":{"name":"spr_pizzytvsecret","path":"sprites/spr_pizzytvsecret/spr_pizzytvsecret.yy",},},
     {"id":{"name":"obj_slimedead","path":"objects/obj_slimedead/obj_slimedead.yy",},},
     {"id":{"name":"obj_gumslime","path":"objects/obj_gumslime/obj_gumslime.yy",},},
     {"id":{"name":"obj_gumballmachine","path":"objects/obj_gumballmachine/obj_gumballmachine.yy",},},
@@ -2337,6 +2338,7 @@
     {"roomId":{"name":"molassessecret_3","path":"rooms/molassessecret_3/molassessecret_3.yy",},},
     {"roomId":{"name":"hub_room1","path":"rooms/hub_room1/hub_room1.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"pizzelletext","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

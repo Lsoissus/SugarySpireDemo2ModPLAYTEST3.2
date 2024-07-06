@@ -138,6 +138,8 @@ if (tvsprite != spr_tvturnon && ds_queue_size(global.newhudtvanim) < 1 && tvleng
 			STOREDtvsprite = orbtvspr;
 			break;
 		default:
+		if (!instance_exists(obj_secretfound))
+        {
 			if (!obj_player.angry)
 			{
 				ChannelState = 7;
@@ -174,6 +176,9 @@ if (tvsprite != spr_tvturnon && ds_queue_size(global.newhudtvanim) < 1 && tvleng
 				ChannelState = 8;
 				STOREDtvsprite = angrytvspr;
 			}
+		}
+		else
+			STOREDtvsprite = secrettvspr;		
 			break;
 	}
 	if (OLDChannelState != ChannelState)

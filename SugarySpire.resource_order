@@ -270,6 +270,7 @@
     {"name":"obj_baddie","order":141,"path":"objects/obj_baddie/obj_baddie.yy",},
     {"name":"obj_baddiecollisionbox","order":142,"path":"objects/obj_baddiecollisionbox/obj_baddiecollisionbox.yy",},
     {"name":"obj_sausageman_dead","order":143,"path":"objects/obj_sausageman_dead/obj_sausageman_dead.yy",},
+    {"name":"spr_pizzytvsecret","order":797,"path":"sprites/spr_pizzytvsecret/spr_pizzytvsecret.yy",},
     {"name":"obj_slimedead","order":144,"path":"objects/obj_slimedead/obj_slimedead.yy",},
     {"name":"obj_gumslime","order":145,"path":"objects/obj_gumslime/obj_gumslime.yy",},
     {"name":"obj_gumballmachine","order":146,"path":"objects/obj_gumballmachine/obj_gumballmachine.yy",},
