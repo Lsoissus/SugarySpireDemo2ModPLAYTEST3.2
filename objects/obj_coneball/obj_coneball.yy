@@ -25,8 +25,11 @@
   "physicsObject": false,
   "physicsRestitution": 0.1,
   "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsShapePoints": [],
+  "physicsShape": 0,
+  "physicsShapePoints": [
+    {"x":100.0,"y":105.0,},
+    {"x":27.0,"y":105.0,},
+  ],
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
@@ -35,8 +38,8 @@
     "path": "sprites/spr_coneball/spr_coneball.yy",
   },
   "spriteMaskId": {
-    "name": "spr_coneballold",
-    "path": "sprites/spr_coneballold/spr_coneballold.yy",
+    "name": "spr_coneball",
+    "path": "sprites/spr_coneball/spr_coneball.yy",
   },
   "visible": true,
 }
