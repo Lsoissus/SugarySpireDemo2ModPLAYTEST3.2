@@ -34,7 +34,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 	}
 	draw_sprite_ext(spr_barpop, meter_image_index, 699 + combo_posX, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 	if combo {
-		draw_sprite_ext(spr_tvcombo, image_index, 827, 112 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
+		draw_sprite_ext(spr_tvcombo, image_index, 827 + (combo_posX * 0.6), 112 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 		draw_set_font(global.combofont);
 		draw_set_halign(fa_center);
 		draw_set_color(c_white);
@@ -49,7 +49,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 				_xx += irandom_range(-2, 2);
 				_yy += irandom_range(-2, 2);
 			}
-			draw_text_color(800 + _xx, 170 + DrawY + ComboY + _yy, string_char_at(_combo, i + 1), c_white, c_white, c_white, c_white, alpha);
+			draw_text_color(800 + _xx + (combo_posX * 0.6), 170 + DrawY + ComboY + _yy, string_char_at(_combo, i + 1), c_white, c_white, c_white, c_white, alpha);
 		}
 	}
 	draw_sprite(tvbgsprite, 0, 832, 74 + DrawY)
