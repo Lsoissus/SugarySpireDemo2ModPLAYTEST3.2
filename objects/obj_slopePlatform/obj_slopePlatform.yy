@@ -11,10 +11,7 @@
     "name": "Structure",
     "path": "folders/Objects/level/Structure.yy",
   },
-  "parentObjectId": {
-    "name": "obj_slope",
-    "path": "objects/obj_slope/obj_slope.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
