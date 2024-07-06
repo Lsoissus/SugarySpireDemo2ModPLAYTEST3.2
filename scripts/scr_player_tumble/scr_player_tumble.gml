@@ -41,7 +41,7 @@ function scr_player_tumble()
 	}
 	if (grounded && vsp > 0)
 		jumpstop = false;
-	if (input_buffer_jump < 8 && grounded && hsp != 0)
+	if (input_buffer_jump < 8 && grounded && hsp != 0 && (sprite_index == spr_tumble || sprite_index == spr_tumblestart))
 		vsp = -9;
 	image_speed = 0.35;
 	if (!audio_is_playing(sound_tumble))
