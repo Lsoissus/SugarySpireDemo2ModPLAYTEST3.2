@@ -143,3 +143,4 @@ draw_angle = 0;
 doublejumped = false;
 charged = false;
 substate = states.normal;
+mach4mode = false

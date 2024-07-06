@@ -126,7 +126,7 @@ if (tvsprite != spr_tvturnon && ds_queue_size(global.newhudtvanim) < 1 && tvleng
 		case states.mach3:
 			ChannelState = 5;
 			if (obj_player.state == states.mach3)
-				if obj_player.sprite_index == spr_player_crazyrun
+				if obj_player.mach4mode
 					STOREDtvsprite = topspeedtvspr;
 				else
 					STOREDtvsprite = maxspeedtvspr;

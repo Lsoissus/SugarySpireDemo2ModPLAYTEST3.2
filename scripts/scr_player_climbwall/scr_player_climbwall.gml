@@ -4,11 +4,11 @@ function scr_player_climbwall()
 		windingAnim++;
 	suplexmove = false;
 	vsp = -wallspeed;
-    if wallspeed < 24
+    if wallspeed < 20
         wallspeed += 0.15
     if wallspeed > 0
     {
-         if wallspeed < 20
+         if mach4mode == false
             movespeed += 0.2
          else
             movespeed += 0.4
