@@ -318,6 +318,7 @@
     {"id":{"name":"obj_baddie","path":"objects/obj_baddie/obj_baddie.yy",},},
     {"id":{"name":"obj_baddiecollisionbox","path":"objects/obj_baddiecollisionbox/obj_baddiecollisionbox.yy",},},
     {"id":{"name":"obj_sausageman_dead","path":"objects/obj_sausageman_dead/obj_sausageman_dead.yy",},},
+    {"id":{"name":"spr_pizzytvsecret","path":"sprites/spr_pizzytvsecret/spr_pizzytvsecret.yy",},},
     {"id":{"name":"obj_slimedead","path":"objects/obj_slimedead/obj_slimedead.yy",},},
     {"id":{"name":"obj_gumslime","path":"objects/obj_gumslime/obj_gumslime.yy",},},
     {"id":{"name":"obj_gumballmachine","path":"objects/obj_gumballmachine/obj_gumballmachine.yy",},},
