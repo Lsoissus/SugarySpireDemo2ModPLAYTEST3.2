@@ -47,6 +47,12 @@ function scr_player_cotton()
 		scr_sound(sfx_cottonattack);
 		groundedcot = false;
 	}
+	if (key_down && grounded)
+    {
+        sprite_index = spr_cotton_maxroll
+        state = states.cottonroll
+        movespeed = 6
+    }
 	if (sprite_index == spr_cotton_attack)
 	{
 		if (place_meeting(x + sign(hsp), y, obj_dreamblock))

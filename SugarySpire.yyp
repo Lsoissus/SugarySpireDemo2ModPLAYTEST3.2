@@ -1900,6 +1900,7 @@
     {"id":{"name":"obj_slopePlatform","path":"objects/obj_slopePlatform/obj_slopePlatform.yy",},},
     {"id":{"name":"spr_tvbg_placeholder_panic","path":"sprites/spr_tvbg_placeholder_panic/spr_tvbg_placeholder_panic.yy",},},
     {"id":{"name":"spr_smallbreak2Escape","path":"sprites/spr_smallbreak2Escape/spr_smallbreak2Escape.yy",},},
+    {"id":{"name":"spr_cotton_maxroll","path":"sprites/spr_cotton_maxroll/spr_cotton_maxroll.yy",},},
     {"id":{"name":"bg_clockend_1escape","path":"sprites/bg_clockend_1escape/bg_clockend_1escape.yy",},},
     {"id":{"name":"spr_tvmolasses","path":"sprites/spr_tvmolasses/spr_tvmolasses.yy",},},
     {"id":{"name":"bg_secret2","path":"sprites/bg_secret2/bg_secret2.yy",},},

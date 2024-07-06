@@ -1805,6 +1805,7 @@
     {"name":"obj_slopePlatform","order":2,"path":"objects/obj_slopePlatform/obj_slopePlatform.yy",},
     {"name":"spr_tvbg_placeholder_panic","order":3,"path":"sprites/spr_tvbg_placeholder_panic/spr_tvbg_placeholder_panic.yy",},
     {"name":"spr_smallbreak2Escape","order":408,"path":"sprites/spr_smallbreak2Escape/spr_smallbreak2Escape.yy",},
+    {"name":"spr_cotton_maxroll","order":986,"path":"sprites/spr_cotton_maxroll/spr_cotton_maxroll.yy",},
     {"name":"bg_clockend_1escape","order":3,"path":"sprites/bg_clockend_1escape/bg_clockend_1escape.yy",},
     {"name":"spr_tvmolasses","order":409,"path":"sprites/spr_tvmolasses/spr_tvmolasses.yy",},
     {"name":"bg_secret2","order":670,"path":"sprites/bg_secret2/bg_secret2.yy",},
