@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cottontown",
+    "path": "folders/Sprites/Background/W1/Cottontown.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

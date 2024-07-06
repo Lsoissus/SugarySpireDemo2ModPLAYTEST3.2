@@ -67,6 +67,7 @@ global.toppintotal = 1;
 global.hit = 0;
 global.combofreeze = 0;
 global.baddieroom = ds_list_create();
+global.escaperoom = ds_list_create();
 global.combodropped = false;
 key_particles = false;
 barrel = false;

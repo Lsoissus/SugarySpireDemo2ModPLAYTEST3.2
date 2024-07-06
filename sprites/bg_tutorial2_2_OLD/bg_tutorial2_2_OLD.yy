@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "unused or scrapped",
-    "path": "folders/Sprites/Backgrounds/unused or scrapped.yy",
+    "name": "OLD",
+    "path": "folders/Sprites/Background/Spire/Tutorial/OLD.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

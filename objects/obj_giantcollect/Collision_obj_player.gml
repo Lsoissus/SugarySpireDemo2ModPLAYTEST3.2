@@ -11,5 +11,5 @@ create_small_number(x, y, "1000");
 global.combofreeze = 30;
 global.combotime = 60;
 repeat (15)
-	instance_create(x + random_range(-60, 60), y + random_range(-60, 60), obj_collecteffect);
+	instance_create(x + random_range(-60, 60), y + random_range(-60, 60), obj_collectEffect);
 instance_destroy();

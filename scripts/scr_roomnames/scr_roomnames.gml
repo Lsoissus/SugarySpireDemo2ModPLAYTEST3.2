@@ -141,9 +141,11 @@ function scr_roomnames(_room = room)
 	   case molasses_6calt:
             room_name = "Doodoo Faeces Room";
             break;
-		case molasses_6b:
+		/*case molasses_6b:
             room_name = "Meet The Fling Frog";
             break;
+		//You do NOT meet the fling frog here I can say that
+		*/
 		case molasses_7:
             room_name = "Falling And Flinging";
             break;

@@ -26,6 +26,7 @@ function scr_playerreset()
 	camera_set_view_angle(view_camera[0], 0);
 	ds_list_clear(global.saveroom);
 	ds_list_clear(global.baddieroom);
+	ds_list_clear(global.escaperoom);
 	instance_destroy(obj_confectimallow);
 	instance_destroy(obj_confecticrack);
 	instance_destroy(obj_confectichoco);

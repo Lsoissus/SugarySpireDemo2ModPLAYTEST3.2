@@ -13,4 +13,4 @@ else
     if (y <= ty)
         instance_destroy();
 }
-x = (window_get_width() / 2);
+x = 480; //Screen Width divided by 2

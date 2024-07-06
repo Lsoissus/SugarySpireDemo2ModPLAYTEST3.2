@@ -6,5 +6,5 @@ if (audio_is_playing(sound_points))
 	audio_stop_sound(sound_points);
 scr_sound(sound_points);
 repeat (3)
-	instance_create(x + random_range(-5, 5), y + random_range(-5, 5), obj_collecteffect);
+	instance_create(x + random_range(-5, 5), y + random_range(-5, 5), obj_collectEffect);
 instance_destroy();

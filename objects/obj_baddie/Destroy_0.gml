@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.baddieroom, id) == -1 || important || global.lap)
+if (ds_list_find_index(global.baddieroom, id) == -1 || important || ds_list_find_index(global.escaperoom, id) == -1)
 {
 	obj_tv.image_index = irandom_range(0, 4);
 	repeat (3)
@@ -56,5 +56,8 @@ if (ds_list_find_index(global.baddieroom, id) == -1 || important || global.lap)
 		global.style += 4;
 		global.combofreeze = 30;
 	}
-	ds_list_add(global.baddieroom, id);
+	if panicEscape
+		ds_list_add(global.escaperoom, id);
+	else
+		ds_list_add(global.baddieroom, id);
 }

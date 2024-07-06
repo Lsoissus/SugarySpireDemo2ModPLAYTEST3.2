@@ -6,7 +6,7 @@ global.pizzameter += 1;
 create_small_number(x + 16, y, "10");
 global.combofreeze = 30;
 global.combotime += 3;
-with (instance_create(x, y, obj_collecteffect))
+with (instance_create(x, y, obj_collectEffect))
 {
 	sprite_index = other.sprite_index;
 	choosed = true;

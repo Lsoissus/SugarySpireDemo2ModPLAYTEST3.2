@@ -52,8 +52,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Mines",
+    "path": "folders/Sprites/Background/W1/Mines.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

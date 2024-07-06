@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "levels",
-    "path": "folders/Sprites/Backgrounds/levels.yy",
+    "name": "Dragons Lair",
+    "path": "folders/Sprites/Background/Misc/Dragons Lair.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
