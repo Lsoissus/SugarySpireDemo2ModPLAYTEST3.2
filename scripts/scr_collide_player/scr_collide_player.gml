@@ -32,10 +32,10 @@ function scr_collide_player()
 			}
 		}
 		var MaxDecline = 3;
-		for (i = 1; i < (MaxDecline + 1); i++)
+		for (var i = 1; i < (MaxDecline + 1); i++)
 		{
-			_check = true;
-			_z = 1;
+			var _check = true;
+			var _z = 1;
 			repeat (i)
 			{
 				if (scr_solid_player(x + sign(hsp), y + _z))
