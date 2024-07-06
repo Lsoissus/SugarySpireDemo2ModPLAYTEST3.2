@@ -13,7 +13,7 @@
   "option_sci_usesci": false,
   "option_spine_licence": false,
   "option_steam_app_id": "0",
-  "option_template_description": null,
+  "option_template_description": "Sugary Spire Preview Mod",
   "option_template_icon": "template_icon.png",
   "option_template_image": "${base_options_dir}/main/template_image.png",
   "option_window_colour": 0,

@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 0.568792,
   "parent": {
-    "name": "SugarySpire",
-    "path": "SugarySpire.yyp",
+    "name": "sounds",
+    "path": "folders/Sounds/sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
