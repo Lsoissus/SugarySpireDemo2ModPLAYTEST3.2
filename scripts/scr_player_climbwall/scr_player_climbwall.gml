@@ -17,9 +17,9 @@ function scr_player_climbwall()
 	sprite_index = spr_climbwall;
 /*	if wallspeed < 6
 		wallspeed = 6*/
-	if wallrunBuffer >= 0
-		wallrunBuffer -= 0.1
-	if (wallspeed <= 0 || !key_attack) && wallrunBuffer <= 0  && sprite_index != spr_player_wallkick && sprite_index != spr_player_wallkickloop
+	if grabclimbbuffer > 0
+		grabclimbbuffer--
+	if (wallspeed <= 0 || !key_attack) && grabclimbbuffer == 0  && sprite_index != spr_player_wallkick && sprite_index != spr_player_wallkickloop
 	{
 		state = states.jump;
 		sprite_index = spr_fall;
@@ -30,18 +30,44 @@ function scr_player_climbwall()
 		instance_create(x, y, obj_jumpdust);
 		vsp = 0;
 		wallrunBuffer = 0
-		if mach2 < 100
-			state = states.mach2;
-		else if mach2 >= 100
+		var old_x = x
+		var old_y = y
+		var i = 0
+		while !scr_solid(x + xscale, y)
 		{
-			state = states.mach3;
-			sprite_index = spr_player_mach3;
+			i++
+			y++
+			if scr_solid(x + xscale, y)
+			{
+				y--
+				break
+			}
+			else if i > 40
+			{
+				x = old_x
+				y = old_y
+				break
+			}
+		}
+		if wallspeed < 6
+			wallspeed = 6
+		if wallspeed >= 6 && wallspeed < 12
+		{
+			state = states.mach2
+			movespeed = wallspeed
+		}
+		else if wallspeed >= 12
+		{
+			state = states.mach3
+			sprite_index = spr_player_mach3
+			movespeed = wallspeed
 		}
 		else
 		{
 			state = states.jump;
 			vsp = -wallspeed;
 		}
+		hsp = xscale
 	}
 	if scr_solid(x, y - 1) && !place_meeting(x, y - 1, obj_destructibles) && !scr_slope_ext(x + sign(hsp), y) && !scr_slope_ext(x - sign(hsp), y)
 	{
@@ -69,5 +95,4 @@ function scr_player_climbwall()
 	image_speed = 0.6;
 	if !instance_exists(obj_cloudeffect)
 		instance_create(x, y + 43, obj_cloudeffect);
-	
 }

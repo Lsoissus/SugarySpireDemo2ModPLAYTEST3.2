@@ -1,6 +1,6 @@
 scr_initinput();
 scr_getinput();
-wallrunBuffer = 0
+grabclimbbuffer = 0
 Sjumpcan_doublejump = true;
 firetrailbuffer = 0;
 ResetMusic = false;

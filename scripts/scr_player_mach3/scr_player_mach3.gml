@@ -105,6 +105,7 @@ function scr_player_mach3()
 			}
 			if (((!grounded && !place_meeting(x + hsp, y, obj_metalblock)) && scr_solid(x + hsp, y, true) && !place_meeting(x + hsp, y, obj_destructibles) && !scr_slope_ext(x + sign(hsp), y)) || (grounded && (scr_solid(x + sign(hsp), y - 2, true) && !scr_slope_ext(x + sign(hsp), y - 1)) && (!place_meeting(x + hsp, y, obj_metalblock) && !place_meeting(x + hsp, y, obj_destructibles)) && scr_slope()))
 			{
+				grabclimbbuffer = 0
 				wallspeed = clamp(movespeed, 12, 20);
 				state = states.climbwall;
 			}
@@ -143,12 +144,14 @@ function scr_player_mach3()
 				if (scr_solid(x + 1, y) && xscale == 1 && !place_meeting(x + sign(hsp), y, obj_slope) && !place_meeting(x + 1, y, obj_destructibles))
 				{
 					wallspeed = movespeed;
+					grabclimbbuffer = 0
 					machhitAnim = false;
 					state = states.climbwall;
 				}
 				else if (scr_solid(x - 1, y) && xscale == -1 && !place_meeting(x + sign(hsp), y, obj_slope) && !place_meeting(x - 1, y, obj_destructibles))
 				{
 					wallspeed = movespeed;
+					grabclimbbuffer = 0
 					machhitAnim = false;
 					state = states.climbwall;
 				}

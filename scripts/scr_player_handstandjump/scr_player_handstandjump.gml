@@ -88,10 +88,9 @@ function scr_player_handstandjump()
 			}
 			if ((scr_solid(x + xscale, y) && !scr_slope_ext(x + xscale, y)) && !place_meeting(x + xscale, y, obj_destructibles) && !grounded)
 			{
-				wallrunBuffer = 1
-				wallspeed = movespeed
+				wallspeed = 6
+				grabclimbbuffer = 10
 				state = states.climbwall;
-				instance_create(x + (10 * xscale), y + 10, obj_bumpeffect);
 			}
 			image_speed = 0.3;
 			if (!instance_exists(obj_slidecloud) && grounded && movespeed > 5)
