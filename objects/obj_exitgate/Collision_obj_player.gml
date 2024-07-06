@@ -5,8 +5,12 @@ if (global.panic)
 		if (grounded && key_up && (state == states.normal || state == states.mach1 || state == states.mach2 || state == states.mach3))
 		{
 			targetDoor = "none";
-			if (global.collect >= global.srank)
-				global.rank = "s";
+			if (global.collect >= global.srank) {
+				if scr_isprank()
+					global.rank = "p";
+				else
+					global.rank = "s";
+			}
 			else if (global.collect > global.arank)
 				global.rank = "a";
 			else if (global.collect > global.brank)

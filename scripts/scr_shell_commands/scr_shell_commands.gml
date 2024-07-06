@@ -187,3 +187,32 @@ function sh_noclip()
 	
 	obj_player.state = (obj_player.state != states.noclip ? states.noclip : states.normal)
 }
+function sh_get_p_rank()
+{
+	global.secretsfound = 3
+	global.treasurefound = true
+	global.lap = true
+	global.laps = 1
+	global.combodropped = false
+	global.collect = 5000000
+	global.panic = true
+	global.minutes = 5
+	global.seconds = 25
+	global.wave = 0;
+	global.maxwave = (global.minutes * 60 + global.seconds) * 60
+	with obj_tv
+        chunkmax = (global.minutes * 60 + global.seconds) * 60
+	obj_camera.alarm[1] = 60
+	if !instance_exists(obj_panicchanger)
+		instance_create(x, y, obj_panicchanger)
+}
+function meta_get_p_rank()
+{
+	return 
+	{
+		description: "gives an instant P rank",
+		arguments: [],
+		suggestions: [[], [], []],
+		argumentDescriptions: []
+	};
+}

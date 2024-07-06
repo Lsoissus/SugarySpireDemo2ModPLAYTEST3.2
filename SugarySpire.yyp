@@ -131,7 +131,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"obj_talisman","path":"objects/obj_talisman/obj_talisman.yy",},},
@@ -617,6 +617,7 @@
     {"id":{"name":"scootercutsceneidk","path":"rooms/scootercutsceneidk/scootercutsceneidk.yy",},},
     {"id":{"name":"palroom","path":"rooms/palroom/palroom.yy",},},
     {"id":{"name":"entryway_lap","path":"rooms/entryway_lap/entryway_lap.yy",},},
+    {"id":{"name":"scr_savescore","path":"scripts/scr_savescore/scr_savescore.yy",},},
     {"id":{"name":"rank_room","path":"rooms/rank_room/rank_room.yy",},},
     {"id":{"name":"scr_getinput_functions","path":"scripts/scr_getinput_functions/scr_getinput_functions.yy",},},
     {"id":{"name":"scr_basic_functions","path":"scripts/scr_basic_functions/scr_basic_functions.yy",},},
@@ -1112,6 +1113,7 @@
     {"id":{"name":"spr_minizelle_walk","path":"sprites/spr_minizelle_walk/spr_minizelle_walk.yy",},},
     {"id":{"name":"ts_molasses3_sprite","path":"sprites/ts_molasses3_sprite/ts_molasses3_sprite.yy",},},
     {"id":{"name":"spr_pizzytvmine","path":"sprites/spr_pizzytvmine/spr_pizzytvmine.yy",},},
+    {"id":{"name":"mu_rankp","path":"sounds/mu_rankp/mu_rankp.yy",},},
     {"id":{"name":"spr_player_haulingwalk","path":"sprites/spr_player_haulingwalk/spr_player_haulingwalk.yy",},},
     {"id":{"name":"spr_mineken","path":"sprites/spr_mineken/spr_mineken.yy",},},
     {"id":{"name":"spr_knight_scared","path":"sprites/spr_knight_scared/spr_knight_scared.yy",},},
@@ -2339,7 +2341,6 @@
     {"roomId":{"name":"molassessecret_3","path":"rooms/molassessecret_3/molassessecret_3.yy",},},
     {"roomId":{"name":"hub_room1","path":"rooms/hub_room1/hub_room1.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"pizzelletext","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

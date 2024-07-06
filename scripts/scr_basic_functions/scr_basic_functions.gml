@@ -31,6 +31,9 @@ function rank_checker(_rank = global.rank)
 		case "e":
 			value = 6;
 			break;
+		case "p":
+			value = 5;
+			break;
 		case "s":
 			value = 4;
 			break;

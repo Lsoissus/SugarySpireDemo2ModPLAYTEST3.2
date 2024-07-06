@@ -26,6 +26,7 @@ function cutscene_lapPortal_start()
 		global.combotime = 60;
 		with instance_create(x, y, obj_smallnumber)
 			number = string(_collect);
+		global.lap = true
 		global.laps++
 		if global.inflap {
 			global.minutes += 1;
