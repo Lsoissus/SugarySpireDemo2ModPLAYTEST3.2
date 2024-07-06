@@ -1,6 +1,8 @@
 scr_getinput();
 scr_characterspr();
 scr_playerstate();
+if state != states.handstandjump && state != states.tumble
+    crouchslipbuffer = 0
 if state != states.mach3 && (state != states.chainsaw || tauntstoredstate != states.mach3)
     mach4mode = false
 if (state != states.comingoutdoor)

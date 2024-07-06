@@ -144,3 +144,4 @@ doublejumped = false;
 charged = false;
 substate = states.normal;
 mach4mode = false
+crouchslipbuffer = 0

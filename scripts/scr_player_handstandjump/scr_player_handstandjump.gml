@@ -39,10 +39,14 @@ function scr_player_handstandjump()
 			{
 				if (grounded)
 				{
+					with instance_create(x, y, obj_jumpdust)
+						image_xscale = other.xscale
+					movespeed = 12
+					crouchslipbuffer = 25
 					grav = 0.5;
 					sprite_index = spr_crouchslip;
 					machhitAnim = false;
-					state = states.crouchslide;
+					state = states.tumble;
 					if (audio_is_playing(sound_suplex1))
 						audio_stop_sound(sound_suplex1);
 				}
