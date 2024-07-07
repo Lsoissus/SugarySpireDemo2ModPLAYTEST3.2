@@ -19,6 +19,7 @@
     {"name":"inst_44EFF53E","path":"rooms/steamy_lap/steamy_lap.yy",},
     {"name":"inst_27782DF9","path":"rooms/steamy_lap/steamy_lap.yy",},
     {"name":"inst_2002C263","path":"rooms/steamy_lap/steamy_lap.yy",},
+    {"name":"inst_3BADF56E","path":"rooms/steamy_lap/steamy_lap.yy",},
   ],
   "isDnd": false,
   "layers": [
