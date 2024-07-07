@@ -338,6 +338,7 @@
     {"name":"tile_hub","order":7,"path":"tilesets/tile_hub/tile_hub.yy",},
     {"name":"obj_bangeffect","order":195,"path":"objects/obj_bangeffect/obj_bangeffect.yy",},
     {"name":"obj_tile_swapper_start","order":196,"path":"objects/obj_tile_swapper_start/obj_tile_swapper_start.yy",},
+    {"name":"steamy_treasure","order":20,"path":"rooms/steamy_treasure/steamy_treasure.yy",},
     {"name":"obj_boxxeddebris","order":197,"path":"objects/obj_boxxeddebris/obj_boxxeddebris.yy",},
     {"name":"obj_chargeeffect","order":198,"path":"objects/obj_chargeeffect/obj_chargeeffect.yy",},
     {"name":"obj_slapstar","order":1,"path":"objects/obj_slapstar/obj_slapstar.yy",},
