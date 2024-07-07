@@ -127,10 +127,10 @@ function scr_player_mach2()
 			}
 			if (key_down2 && grounded)
 			{
-				sprite_index = spr_crouchslip;
+				sprite_index = spr_player_machroll;
 				if (character == characters.pizzelle)
 					machhitAnim = false;
-				state = states.crouchslide;
+				state = states.machroll;
 			}
 			if (((!grounded && place_meeting(x + hsp, y, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + sign(hsp), y, obj_slope)) || (grounded && place_meeting(x + hsp, y - 32, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + hsp, y, obj_metalblock) && place_meeting(x, y + 1, obj_slope))) && character == characters.pizzelle)
 			{

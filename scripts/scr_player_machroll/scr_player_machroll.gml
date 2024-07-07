@@ -9,10 +9,6 @@ function scr_player_machroll()
 	mach2 = 100;
 	machslideAnim = true;
 	move = key_right + key_left;
-	if (grounded and mach2 < 100)
-		sprite_index = spr_player_machroll;
-	if (grounded and mach2 >= 100)
-		sprite_index = spr_player_mach3roll;
 	if (((!key_down && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16)) || !grounded) && character == characters.pizzelle)
 	{
 		sprite_index = spr_player_mach3;
@@ -85,19 +81,21 @@ function scr_player_machroll()
 		if (character == characters.pizzelle)
 			sprite_index = spr_player_rollgetup;
 	}
-	if (grounded)
-		sprite_index = spr_machroll;
-	else if (sprite_index != spr_dive)
-	{
-		sprite_index = spr_dive;
-		vsp = 10;
-	}
-	if (sprite_index == spr_dive && key_jump2)
-	{
-		divebomb = true;
-		vsp = -2
-		state = states.freefallprep
-	}
+    if (grounded && movespeed < 12)
+        sprite_index = spr_machroll
+    else if (grounded && movespeed >= 12 && sprite_index != spr_player_mach3roll && sprite_index != spr_player_rollgetup)
+        sprite_index = spr_player_mach3roll
+    else if (sprite_index != spr_dive && (!grounded))
+    {
+        sprite_index = spr_dive
+        vsp = 10
+    }
+    if (key_jump && sprite_index == spr_dive && (!grounded))
+    {
+        sprite_index = spr_player_bodyslamstart
+        vsp = -7
+        state = (50 << 0)
+    }
 
 	if (key_jump2 && character == characters.pizzano)
 	{
