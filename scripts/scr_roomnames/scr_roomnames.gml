@@ -76,22 +76,22 @@ function scr_roomnames(_room = room)
             room_name = "Kick Gum And Chew Gum";
             break;
         case steamy_1:
-            room_name = "Welcome to Cottontown!";
+            room_name = "Steamtown Spire";
             break;
         case steamy_2:
-            room_name = "Scary Monsters Nice Sights";
+            room_name = "Welcome To Cottontown";
             break;
         case steamy_3:
             room_name = "Boiler Room";
             break;
         case steamy_4:
-            room_name = "Cakewalk";
-            break;
-        case steamy_5:
             room_name = "Steamy Cotton Candy";
             break;
-        case steamy_6:
+        case steamy_5:
             room_name = "Skyhigh";
+            break;
+        case steamy_6:
+            room_name = "Park Tricks";
             break;
         case steamy_7:
             room_name = "Grand Gateau";
@@ -100,17 +100,23 @@ function scr_roomnames(_room = room)
             room_name = "Like Clockwork";
             break;
         case steamy_9:
-            room_name = "Clocks And Candies";
+            room_name = "Tricky Witch";
             break;
         case steamy_10:
             room_name = "Race Around The Clock";
             break;
         case steamy_11:
-            room_name = "Froghop";
+            room_name = "Top Of The Clock";
             break;
         case steamy_12:
             room_name = "Pillars Break Room";
 		    break;
+		case steamy_13:
+			room_name = "Secret Side Room";
+			break;
+		case steamy_14:
+			room_name = "Slow And Steady";
+			break;
 		 case molasses_1:
             room_name =  "The Swamp Of Spire";
 			break;
