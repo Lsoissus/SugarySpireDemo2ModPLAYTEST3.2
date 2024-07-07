@@ -4,7 +4,13 @@ function scr_solid(_x, _y, _is_slope = false)
 	var old_y = y;
 	x = _x;
 	y = _y;
-	if (place_meeting(x, y, obj_solid))
+	if (place_meeting(x, y, obj_solid) && !place_meeting(x, y, obj_cottonwall))
+	{
+		x = old_x;
+		y = old_y;
+		return true;
+	}
+	if (place_meeting(x, y, obj_cottonwall) && obj_player.state != states.cotton && obj_player.state != states.cottondrill && obj_player.state != states.cottonroll)
 	{
 		x = old_x;
 		y = old_y;
