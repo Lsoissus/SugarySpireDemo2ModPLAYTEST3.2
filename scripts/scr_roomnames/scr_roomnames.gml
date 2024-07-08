@@ -93,6 +93,9 @@ function scr_roomnames(_room = room)
         case steamy_6:
             room_name = "Park Tricks";
             break;
+		case steamy_6b:
+            room_name = "The Grand Clock Tower";
+            break;
         case steamy_7:
             room_name = "Grand Gateau";
             break;
