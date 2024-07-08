@@ -18,7 +18,7 @@ function scr_player_mach3()
 			momemtum = true;
 			move = key_right + key_left;
 			move2 = key_right2 + key_left2;
-			if (movespeed < 20 && move == xscale)
+			if (movespeed < 24 && move == xscale)
 			{
 				if mach4mode movespeed += 0.1;
 				else movespeed += 0.025;
