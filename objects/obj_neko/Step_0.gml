@@ -3,25 +3,24 @@
 np_update();
 
 if ready {
-	// initialize temporary variables
-	var rpcrank = "D";
-
-	// check what rank the player has
-	if (global.collect > global.crank && global.collect < global.brank)
-		rpcrank = "C";
-	else if (global.collect > global.brank && global.collect < global.arank)
-		rpcrank = "B";
-	else if (global.collect > global.arank && global.collect < global.srank)
-		rpcrank = "A";
-	else if (global.collect > global.srank)
-		rpcrank = (scr_isprank() ? "P" : "S");
-
-	// check for if the game isn't paused
+	// check if the game isn't paused
 	if (!obj_pause.pause)
 	{
+		// initialize temporary variables
+		var _score = global.collect;
+		var rpcrank = "D";
 		var roomname = room_get_name(room);
+
 		if (room != realtitlescreen && room != scootercutsceneidk && room != palroom && room != rank_room && !string_starts_with(roomname, "hub") && !string_starts_with(roomname, "outer") && !string_starts_with(roomname, "spire")) {
 			state = $"{global.collect} Points | {global.combo} Combo";
+			if (_score >= global.srank)
+				rpcrank = (scr_isprank() ? "P" : "S");
+			else if (_score >= global.arank)
+				rpcrank = "A";
+			else if (_score >= global.brank)
+				rpcrank = "B";
+			else if (_score >= global.crank)
+				rpcrank = "C";
 			small_image = $"rank{string_lower(rpcrank)}";
 			small_image_text = $"Rank {rpcrank}";
 		}

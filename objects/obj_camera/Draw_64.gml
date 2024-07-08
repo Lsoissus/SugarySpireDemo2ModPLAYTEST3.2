@@ -47,12 +47,8 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 		draw_set_color(c_white);
 		var _score = global.collect
 		var rank_ix = 0
-		if (_score >= global.srank) {
-			if scr_isprank()
-				rank_ix = 5
-			else
-				rank_ix = 4
-		}
+		if (_score >= global.srank)
+			rank_ix = (scr_isprank() ? 5 : 4);
 		else if (_score >= global.arank)
 		    rank_ix = 3
 		else if (_score >= global.brank)
