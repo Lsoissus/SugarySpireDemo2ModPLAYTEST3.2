@@ -4,8 +4,7 @@ np_update();
 
 if ready {
 	// check if the game isn't paused
-	if (!obj_pause.pause)
-	{
+	if (!obj_pause.pause) {
 		// initialize temporary variables
 		var _score = global.collect;
 		var rpcrank = "D";

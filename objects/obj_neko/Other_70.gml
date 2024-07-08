@@ -9,8 +9,8 @@ if (ev_type == "DiscordReady")
 
 	np_setpresence_timestamps(date_current_datetime(), 0, false);
 	np_setpresence_more(small_image_text, large_image_text, false);
-	
-    /* if this leaks again i told you so
+
+    /* if this leaks again i told you so (you don't need to keep adding people to the anti-leak because it's all commented out)
 	// initialize temporary variables
 	var user_id = async_load[? "user_id"]
 	var lockout = true;
