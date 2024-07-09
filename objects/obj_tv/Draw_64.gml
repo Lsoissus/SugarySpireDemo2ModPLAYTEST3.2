@@ -1,5 +1,5 @@
 live_auto_call;
-if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen)
+if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen && room != rm_initializer)
 {
 	var combo = (global.combotime > 0 && global.combo > 0);
 	if combo

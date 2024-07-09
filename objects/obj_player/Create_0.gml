@@ -60,6 +60,7 @@ global.collect = 0;
 global.ammo = 0;
 global.treasure = false;
 global.combo = 0;
+global.maxcombo = 0;
 global.roomsave = false;
 global.combotime = 0;
 global.pizzacoin = 0;

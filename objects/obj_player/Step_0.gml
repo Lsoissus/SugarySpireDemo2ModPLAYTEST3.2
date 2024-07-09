@@ -165,6 +165,10 @@ if (global.combofreeze <= 0)
 // tick down combofreeze and make sure it doesnt go below 0
 global.combofreeze--;
 global.combofreeze = clamp(global.combofreeze, 0, 75);
+
+//for results screen and shit
+if global.combo >= global.maxcombo
+	global.maxcombo = global.combo
 // combo end logic
 if (global.combotime <= 0 && global.combo != 0)
 {
@@ -431,3 +435,6 @@ if (Dashpad_buffer > 0)
 // after hitting something in mach1, reset back to the default mach1 sprite
 if ((sprite_index == spr_player_machpunch1 || sprite_index == spr_player_machpunch2) && animation_end())
 	sprite_index = spr_mach;
+
+//rank stuff
+visible = !instance_exists(obj_rank);

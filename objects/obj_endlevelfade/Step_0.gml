@@ -17,3 +17,6 @@ if (!fadein)
 	fadealpha += 0.1;
 else if (fadein == 1)
 	fadealpha -= 0.1;
+if (bgfadein)
+	bgalpha += 0.1;
+val++

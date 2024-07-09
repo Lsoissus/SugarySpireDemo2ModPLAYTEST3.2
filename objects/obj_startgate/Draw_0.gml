@@ -1,4 +1,4 @@
-old_depth = object_get_depth();
+_old_depth = object_get_depth();
 if (white_alpha != 1)
 {
 	// create surface is surface is dead

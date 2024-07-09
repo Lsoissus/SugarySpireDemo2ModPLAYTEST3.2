@@ -183,8 +183,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "pizzelletext",
+    "path": "texturegroups/pizzelletext",
   },
   "type": 0,
   "VTile": false,

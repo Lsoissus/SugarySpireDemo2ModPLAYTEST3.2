@@ -20,7 +20,7 @@ if (global.panic)
 			else
 				global.rank = "d";
 			if (global.rank != "e")
-				scr_sound(asset_get_index("mu_rank" + global.rank))
+				scr_sound(mu_rankstuffs)
 			else
 				scr_sound(mu_rankd);
 			audio_stop_sound(mu_escape);
@@ -76,7 +76,7 @@ if (global.panic)
 				{
 					sprite_index = spr_lookdoor;
 					state = states.door;
-					obj_endlevelfade.alarm[0] = 235;
+					obj_endlevelfade.alarm[0] = 200;
 					image_index = 0;
 				}
 			}
