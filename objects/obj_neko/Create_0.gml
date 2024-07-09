@@ -12,7 +12,7 @@ small_image_text = "";
 state = "";
 details = "Titlescreen";
 
-alarm[0] = room_speed * 5;
+alarm[0] = 300;
 
 if (!np_initdiscord(DISCORD_APP_ID, true, np_steam_app_id_empty))
 	show_error("NekoPresence init fail.", true);
