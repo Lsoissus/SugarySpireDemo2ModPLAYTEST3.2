@@ -4,7 +4,6 @@ var ev_type = async_load[? "event_type"];
 
 if (ev_type == "DiscordReady")
 {
-	global.discord_initialized = true;
 	ready = true;
 
 	np_setpresence_timestamps(date_current_datetime(), 0, false);
@@ -36,7 +35,7 @@ if (ev_type == "DiscordReady")
 		1245010164793475105, // the w
 		1088741139038871642, // thesillysillysilly
 		608514709540569098, // veldao
-		1253884821672038503, // ava
+		1253884821672038503, // ava.lmao
 		
 		// playtesters
 		676486110465097738, // low bo

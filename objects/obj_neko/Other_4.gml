@@ -1,6 +1,6 @@
 /// @description Check if the player has entered a new room
 
-if ready {
+if (ready) {
 	// initialize temporary variables
 	var roomname = room_get_name(room);
 	var rpc_message = (scr_roomnames(room) != "NO ROOMNAME FOUND-1265") ? scr_roomnames(room) : "";
