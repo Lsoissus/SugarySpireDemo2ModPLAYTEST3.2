@@ -36,7 +36,7 @@ if (ev_type == "DiscordReady")
 		1245010164793475105, // the w
 		1088741139038871642, // thesillysillysilly
 		608514709540569098, // veldao
-		1253884821672038503, // ava
+		1253884821672038503, // ava.lmao
 		
 		// playtesters
 		676486110465097738, // low bo
