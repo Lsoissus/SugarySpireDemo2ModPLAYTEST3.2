@@ -41,6 +41,7 @@ function scr_hurtplayer(_player_index = obj_player)
 			}
 			else if (state != states.hurt && state != states.backbreaker && !hurted && !cutscene && state != states.bump && state != states.tumble)
 			{
+				global.combotime -= 20
 				scr_sound(sound_touchspike);
 				global.hurtcounter += 1;
 				state = states.hurt;

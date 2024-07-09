@@ -117,7 +117,7 @@ if (!global.panic)
 					audio_sound_set_track_position(global.music, fadeoff * audio_sound_length(global.music));
 				}
 			}
-			if ((roomname == ("steamy_" + string(i)) && i >= 8) || room == steamy_11_1)
+			if ((roomname == ("steamy_" + string(i)) && i >= 7) || room == steamy_11_1)
 			{
 				if (!audio_is_playing(mu_steamyinner))
 				{
