@@ -16,12 +16,17 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_doortrigger_parent","path":"objects/obj_doortrigger_parent/obj_doortrigger_parent.yy",},"propertyId":{"name":"id_door","path":"objects/obj_doortrigger_parent/obj_doortrigger_parent.yy",},"value":"\"SECRET\"",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_doortrigger_parent",
+    "path": "objects/obj_doortrigger_parent/obj_doortrigger_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
