@@ -79,13 +79,12 @@
     {"name":"inst_2768A596","path":"rooms/entryway_9/entryway_9.yy",},
     {"name":"inst_FF616A7","path":"rooms/entryway_9/entryway_9.yy",},
     {"name":"inst_42C9C286","path":"rooms/entryway_9/entryway_9.yy",},
-    {"name":"inst_345B0379","path":"rooms/entryway_9/entryway_9.yy",},
-    {"name":"inst_3C8F03CD","path":"rooms/entryway_9/entryway_9.yy",},
     {"name":"inst_41077F08","path":"rooms/entryway_9/entryway_9.yy",},
     {"name":"inst_5B46AF20","path":"rooms/entryway_9/entryway_9.yy",},
     {"name":"inst_3374520F","path":"rooms/entryway_9/entryway_9.yy",},
     {"name":"inst_2E299E","path":"rooms/entryway_9/entryway_9.yy",},
     {"name":"inst_3C9C4B0F","path":"rooms/entryway_9/entryway_9.yy",},
+    {"name":"inst_49D23514","path":"rooms/entryway_9/entryway_9.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -184,10 +183,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1807930","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destroyable3","path":"objects/obj_destroyable3/obj_destroyable3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":992.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_Secret","depth":528,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_345B0379","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_door","path":"objects/par_door/par_door.yy",},"propertyId":{"name":"targetRoom","path":"objects/par_door/par_door.yy",},"value":"entrywaysecret_3",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4224.0,"y":1056.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3C8F03CD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorA","path":"objects/obj_doorA/obj_doorA.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4256.0,"y":1120.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_49D23514","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretportal","path":"objects/obj_secretportal/obj_secretportal.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4288.0,"y":1088.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_Secret","depth":556,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":47,"SerialiseWidth":157,"TileCompressedData":[
 -2618,-2147483648,-14,0,-143,-2147483648,-14,0,-143,-2147483648,-14,0,-143,-2147483648,-14,0,-143,-2147483648,-14,0,-143,-2147483648,-14,0,-143,-2147483648,-14,0,-143,-2147483648,-14,0,-1265,-2147483648,9,66,67,68,69,66,67,68,67,68,-147,-2147483648,11,261,98,99,100,454,455,99,100,99,100,519,-146,-2147483648,10,293,130,132,132,133,130,131,132,131,132,-147,-2147483648,10,293,98,99,100,101,101,98,454,455,101,-147,-2147483648,10,325,130,484,485,133,133,130,131,132,133,-147,-2147483648,7,357,66,67,68,66,67,519,-3,69,-148,-2147483648,10,98,99,100,98,99,100,101,101,452,453,-147,-2147483648,6,130,131,132,130,131,132,-3,133,-1275,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_entryway3","path":"tilesets/ts_entryway3/ts_entryway3.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
