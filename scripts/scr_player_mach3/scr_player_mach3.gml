@@ -18,10 +18,14 @@ function scr_player_mach3()
 			momemtum = true;
 			move = key_right + key_left;
 			move2 = key_right2 + key_left2;
+			 if ((sprite_index == spr_player_airkickstart) && (floor(image_index) == (image_number - 1)))
+                sprite_index = spr_player_airkick
 			if (movespeed < 24 && move == xscale)
 			{
-				if mach4mode movespeed += 0.1;
-				else movespeed += 0.025;
+				if mach4mode 
+				movespeed += 0.1;
+				else 
+				movespeed += 0.025;
 				if !instance_exists(obj_crazyruneffect)
 					instance_create(x, y, obj_crazyruneffect);
 			}
@@ -46,6 +50,8 @@ function scr_player_mach3()
 				sprite_index = spr_player_mach3;
 			if (floor(image_index) == (image_number - 1) && (sprite_index == spr_player_rollgetup || sprite_index == spr_player_dashpad))
 				sprite_index = spr_player_mach3;
+			  if (((sprite_index == spr_player_airkick)) && grounded)
+                sprite_index = spr_player_mach3
 			if ((movespeed > 16 && sprite_index != spr_player_crazyrun) && sprite_index != spr_player_dive && sprite_index != spr_player_rollgetup)
 			{
 				mach4mode = true;

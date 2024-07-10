@@ -1,14 +1,15 @@
 live_auto_call;
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen && room != rm_initializer)
 {
-	var combo = (global.combotime > 0 && global.combo > 0);
+	panicline_index += 0.35
+	var combo = (global.combotime > 0 && global.combo > 0); 
 	if combo
 	{
 		if (!surface_exists(BarSurface))
 			BarSurface = surface_create(sprite_get_width(spr_barpop), sprite_get_height(spr_barpop));
 		else
 		{
-			var ComboFill = (global.combodropped ? spr_barpop2 : spr_barpop2P);
+			var ComboFill = (global.combodropped ? spr_barpop2long : spr_barpop2Plong);
 
 			surface_set_target(BarSurface);
 			draw_clear_alpha(c_white, 0);
@@ -56,7 +57,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 	pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, 0);
 	draw_sprite_ext(tvsprite, image_index, 832, 74 + DrawY, 1, 1, 0, c_white, 1);
 	if global.panic
-        draw_sprite_ext(spr_tv_panicline, goo_index, 832, 74 + DrawY, 1, 1, 0, c_white, 1)
+        draw_sprite_ext(spr_tv_panicline, panicline_index, 832, 74 + DrawY, 1, 1, 0, c_white, 1)
 	if (staticdraw)
 		draw_sprite_ext(spr_tvstatic, statictimer, 832, 74 + DrawY, 1, 1, 0, c_white, 1);
 	pal_swap_reset();

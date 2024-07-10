@@ -36,6 +36,7 @@ function scr_player_machtumble()
 		mach2 = 0;
 		image_index = 0;
 		instance_create(x + (10 * xscale), y + 10, obj_bumpeffect);
+	machtumblestop = 0
 	}
 	if (key_slap2)
 		bufferslap = 0;
@@ -77,12 +78,14 @@ function scr_player_machtumble()
 			with (instance_create(x, y, obj_jumpdust))
 				image_xscale = other.xscale;
 		}
+	machtumblestop = 1
 	}
 	image_speed = 0.35;
-	if key_jump
+	if key_jump && machtumblestop = 0
 	{
 		movespeed += 0.25
 		vsp = -9
+	machtumblestop = 1
 	}
 	if (attack_afterimagetimer > 0)
 		attack_afterimagetimer--;

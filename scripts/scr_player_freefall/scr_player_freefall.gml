@@ -35,6 +35,7 @@ function scr_player_freefall()
 		}
 		if (move != 0)
 			xscale = move;
+	vsp += 0.1
 	}
 	if (!global.cane)
 		sprite_index = (divebomb ? spr_player_bodyslamfall : spr_player_pound);
@@ -86,7 +87,7 @@ function scr_player_freefall()
 	freefallsmash++;
 	if (freefallsmash > 10 && !instance_exists(obj_groundpoundeffect))
 		instance_create_depth(x, y, -6, obj_groundpoundeffect);
-	if (key_attack2 && !grounded && vsp > 10 && instance_exists(obj_groundpoundeffect))
+	if (key_slap2 && !grounded && vsp > 10 && instance_exists(obj_groundpoundeffect))
 	{
 		if (move != 0)
 			xscale = move;
