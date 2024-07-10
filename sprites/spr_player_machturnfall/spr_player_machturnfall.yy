@@ -13,8 +13,8 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c7fc8887-18ba-4e6a-baef-53c11c164bd9",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dff05849-1909-49ab-85cc-a09131cb438c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c7fc8887-18ba-4e6a-baef-53c11c164bd9",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"882c87ee-16cd-4add-95af-341bd9974ffb",},
   ],
   "gridX": 0,
@@ -56,8 +56,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c7fc8887-18ba-4e6a-baef-53c11c164bd9","path":"sprites/spr_player_machturnfall/spr_player_machturnfall.yy",},},},"Disabled":false,"id":"da7ce617-0ba6-406b-9287-f7b04c5de711","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dff05849-1909-49ab-85cc-a09131cb438c","path":"sprites/spr_player_machturnfall/spr_player_machturnfall.yy",},},},"Disabled":false,"id":"c876c12b-4883-4de4-8875-eaaaab5e25ef","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dff05849-1909-49ab-85cc-a09131cb438c","path":"sprites/spr_player_machturnfall/spr_player_machturnfall.yy",},},},"Disabled":false,"id":"c876c12b-4883-4de4-8875-eaaaab5e25ef","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c7fc8887-18ba-4e6a-baef-53c11c164bd9","path":"sprites/spr_player_machturnfall/spr_player_machturnfall.yy",},},},"Disabled":false,"id":"da7ce617-0ba6-406b-9287-f7b04c5de711","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"882c87ee-16cd-4add-95af-341bd9974ffb","path":"sprites/spr_player_machturnfall/spr_player_machturnfall.yy",},},},"Disabled":false,"id":"acd996a5-2034-4252-a1ae-e727e2e54178","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
