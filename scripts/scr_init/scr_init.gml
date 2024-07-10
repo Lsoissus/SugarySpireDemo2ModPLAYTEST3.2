@@ -8,6 +8,7 @@ global.minesProgress = false;
 global.GMLIVE_roomstart = false;
 global.GMLIVE_realroom = -4;
 global.cutsceneManager = -4;
+global.secretpanic = false;
 global.combomode = false;
 global.font = font_add_sprite_ext(spr_font, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!.0123456789:", 1, 0);
 global.smallfont = font_add_sprite_ext(spr_smallfont, "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-", 1, 0);

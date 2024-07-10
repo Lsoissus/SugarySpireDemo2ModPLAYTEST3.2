@@ -49,6 +49,7 @@ player_y = y;
 targetRoom = 0;
 flash = false;
 parryid = -4;
+machtumblestop = 0
 global.key_inv = false;
 global.mallowfollow = false;
 global.crackfollow = false;

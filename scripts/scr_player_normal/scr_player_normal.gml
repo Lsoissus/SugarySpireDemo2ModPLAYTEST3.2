@@ -155,10 +155,6 @@ function scr_player_normal()
 		else if (shotgunAnim && sprite_index != spr_player_shotgun)
 			sprite_index = spr_shotgun_walk;
 	}
-	if (scr_solid(x + sign(hsp), y) && xscale == 1 && move == 1 && !place_meeting(x + 1, y, obj_slope))
-		movespeed = 0;
-	if (scr_solid(x + sign(hsp), y) && xscale == -1 && move == -1 && !place_meeting(x - 1, y, obj_slope))
-		movespeed = 0;
 	jumpstop = false;
 	if (!grounded && !key_jump)
 	{
@@ -179,7 +175,7 @@ function scr_player_normal()
 				movespeed = 6;
 			sprite_index = spr_mach1;
 			jumpAnim = true;
-			state = states.mach1;
+			state = states.mach2;
 			image_index = 0;
 		}
 	}

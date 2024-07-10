@@ -15,6 +15,23 @@ function scr_player_mach2()
 			move2 = key_right2 + key_left2;
 			move = key_right + key_left;
 			crouchslideAnim = true;
+			if character = characters.pizzelle
+			{
+			if sprite_index = spr_mach1
+			{
+			if (movespeed <= 8)
+				movespeed += 0.5;
+				else if movespeed >= 8 && floor(image_index) == (image_number - 1)
+			sprite_index = spr_mach
+			}
+			if sprite_index = spr_mach
+			{
+			   if movespeed < 8
+			   movespeed = 8
+			   else if ((movespeed >= 8))
+                movespeed += 0.1
+			}
+			}
 			if (sprite_index != spr_null)
 			{
 				if (!key_jump2 && !jumpstop && vsp < 0.5)
@@ -29,7 +46,7 @@ function scr_player_mach2()
 				{
 					if (grounded && vsp > 0)
 						jumpstop = false;
-					if (input_buffer_jump < 8 && grounded && !(move == 1 && xscale == -1) && !(move == -1 && xscale == 1) && key_attack)
+					if (input_buffer_jump < 8 && grounded && !(move == 1 && xscale == -1) && !(move == -1 && xscale == 1) && key_attack) &&  sprite_index != spr_dive
 					{
 						image_index = 0;
 						sprite_index = spr_secondjump1;
@@ -49,7 +66,7 @@ function scr_player_mach2()
 			}
 			if (grounded && sprite_index != spr_null)
 			{
-				if (!machpunchAnim && sprite_index != spr_mach && sprite_index != spr_player_mach3 && sprite_index != spr_player_machhit)
+				if (!machpunchAnim && sprite_index != spr_mach && sprite_index != spr_player_mach3 && sprite_index != spr_player_machhit && sprite_index != spr_mach1 && sprite_index != spr_dive)
 				{
 					if (sprite_index != spr_player_machhit && sprite_index != spr_player_rollgetup)
 						sprite_index = spr_mach;
@@ -77,7 +94,7 @@ function scr_player_mach2()
 				machpunchAnim = false;
 			if (mach2 < 100)
 				mach2 += 1.5;
-			if (mach2 >= 100 && grounded && character == characters.pizzelle)
+			if (movespeed >= 12 && grounded && character == characters.pizzelle)
 			{
 				machhitAnim = false;
 				state = states.mach3;
@@ -109,7 +126,9 @@ function scr_player_mach2()
 					mach2 = 0;
 				}
 			}
-			if (move == -1 && xscale == 1 && grounded)
+if movespeed >= 9
+{
+		if (move == -1 && xscale == 1 && grounded)
 			{
 				scr_sound(sound_maximumspeedstop);
 				sprite_index = spr_machslideboost;
@@ -125,13 +144,29 @@ function scr_player_mach2()
 				image_index = 0;
 				mach2 = 35;
 			}
-			if (key_down2 && grounded)
+	}
+	else if movespeed < 9
+	{
+	  if ((move != 0))
+                {
+                    if ((move != xscale))
+                        xscale *= -1
+                }
+	}
+
+	if (key_down2 && grounded)
 			{
 				sprite_index = spr_player_machroll;
 				if (character == characters.pizzelle)
 					machhitAnim = false;
 				state = states.machroll;
 			}
+			 if (key_down && (!grounded) && (sprite_index != spr_dive))
+            {
+                sprite_index = spr_dive
+                vsp = 10
+                state = states.machroll
+            }
 			if (((!grounded && place_meeting(x + hsp, y, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + sign(hsp), y, obj_slope)) || (grounded && place_meeting(x + hsp, y - 32, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + hsp, y, obj_metalblock) && place_meeting(x, y + 1, obj_slope))) && character == characters.pizzelle)
 			{
 				wallspeed = movespeed;
@@ -140,8 +175,9 @@ function scr_player_mach2()
 			}
 			if (grounded && !scr_slope() && place_meeting(x + hsp, y, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + sign(hsp), y, obj_slope))
 			{
+				         sprite_index = spr_player_wallsplat
 				movespeed = 0;
-				state = states.normal;
+				state = states.bump
 			}
 			if (!instance_exists(obj_dashcloud) && grounded)
 			{
@@ -177,7 +213,9 @@ function scr_player_mach2()
 			}
 			if (sprite_index == spr_player_rollgetup)
 				image_speed = 0.4;
-			else
+		else if sprite_index = spr_mach1
+				image_speed = 0.45;
+		else
 				image_speed = 0.65;
 			if (character == characters.pizzano && key_down2)
 			{

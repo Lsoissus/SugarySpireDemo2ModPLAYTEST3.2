@@ -49,9 +49,10 @@ function scr_player_crouchslide()
 	{
 		movespeed = 0;
 		state = states.bump;
-		hsp = xscale * -2.5;
-		vsp = -3;
+		vsp = 0;
+		hsp = 0
 		mach2 = 0;
+       sprite_index = spr_player_wallsplat
 		image_index = 0;
 		machslideAnim = true;
 		machhitAnim = false;

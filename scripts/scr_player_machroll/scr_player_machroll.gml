@@ -9,78 +9,49 @@ function scr_player_machroll()
 	mach2 = 100;
 	machslideAnim = true;
 	move = key_right + key_left;
+	if movespeed < 8
+	movespeed = 8
 	if (((!key_down && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16)) || !grounded) && character == characters.pizzelle)
 	{
-		sprite_index = spr_player_mach3;
-		state = states.mach3;
+  scr_sound(sound_rollgetup)
+        sprite_index = spr_player_rollgetup
+        image_index = 0
+        mach2 = 35
+        if ((movespeed >= 12))
+            state = states.mach3
+        else
+            state = states.mach2
 	}
 	if (scr_solid(x + 1, y) && xscale == 1 && !place_meeting(x + sign(hsp), y, obj_slope) && !place_meeting(x + sign(hsp), y, obj_destructibles))
 	{
-		scr_sound(sound_maximumspeedland);
-		with (obj_camera)
-		{
-			shake_mag = 20;
-			shake_mag_acc = 40 / room_speed;
-		}
+	
 		hsp = 0;
 		image_speed = 0.35;
-		with (obj_baddie)
-		{
-			if (point_in_camera(x, y, view_camera[0]) && grounded)
-			{
-				stun = true;
-				alarm[0] = 200;
-				ministun = false;
-				vsp = -5;
-				hsp = 0;
-				image_xscale *= -1;
-			}
-		}
 		combo = 0;
 		state = states.bump;
-		hsp = -2.5;
-		vsp = -3;
+		hsp = 0
+		vsp = 0
 		mach2 = 0;
+			sprite_index = spr_player_wallsplat
 		image_index = 0;
 		instance_create(x + 10, y + 10, obj_bumpeffect);
 	}
 	if (scr_solid(x - 1, y) && xscale == -1 && !place_meeting(x + sign(hsp), y, obj_slope) && !place_meeting(x + sign(hsp), y, obj_destructibles))
-	{
-		scr_sound(sound_maximumspeedland);
-		with (obj_camera)
-		{
-			shake_mag = 20;
-			shake_mag_acc = 40 / room_speed;
-		}
+	{		
 		hsp = 0;
 		image_speed = 0.35;
 		combo = 0;
 		state = states.bump;
-		hsp = 2.5;
-		vsp = -3;
+		hsp = 0
+		vsp = 0
 		mach2 = 0;
+		sprite_index = spr_player_wallsplat
 		image_index = 0;
 		instance_create(x - 10, y + 10, obj_bumpeffect);
 	}
 	if (!instance_exists(obj_cloudeffect) && grounded)
 		instance_create(x, y + 43, obj_cloudeffect);
 	image_speed = 0.8;
-	if (!key_down && (!scr_solid(x + 27, y - 32) && (!scr_solid(x - 27, y - 32) && (!scr_solid(x, y - 32) && !scr_solid(x, y - 16)))))
-	{
-		image_index = 0;
-		scr_sound(sound_rollgetup);
-		state = states.mach2;
-		if (character == characters.pizzelle)
-			sprite_index = spr_player_rollgetup;
-	}
-	if ((!key_down && (!scr_solid(x + 27, y - 32) && (!scr_solid(x - 27, y - 32) && (!scr_solid(x, y - 32) && !scr_solid(x, y - 16))))) && !key_attack && character == characters.pizzelle)
-	{
-		image_index = 0;
-		scr_sound(sound_rollgetup);
-		state = states.normal;
-		if (character == characters.pizzelle)
-			sprite_index = spr_player_rollgetup;
-	}
     if (grounded && movespeed < 12)
         sprite_index = spr_machroll
     else if (grounded && movespeed >= 12 && sprite_index != spr_player_mach3roll && sprite_index != spr_player_rollgetup)
@@ -90,13 +61,17 @@ function scr_player_machroll()
         sprite_index = spr_dive
         vsp = 10
     }
-    if (key_jump && sprite_index == spr_dive && (!grounded))
+   else if (key_jump2 && (!grounded))
     {
         sprite_index = spr_player_bodyslamstart
         vsp = -7
-        state = (50 << 0)
+        state = states.freefallprep
     }
-
+   if (scr_solid((x + xscale), y) && (sprite_index == spr_dive) && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))))
+    {
+        sprite_index = spr_player_wallsplat
+        state = states.bump
+    }
 	if (key_jump2 && character == characters.pizzano)
 	{
 		sprite_index = spr_pizzano_twirl;

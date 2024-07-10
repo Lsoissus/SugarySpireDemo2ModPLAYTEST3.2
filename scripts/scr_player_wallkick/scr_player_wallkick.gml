@@ -42,13 +42,16 @@ function scr_player_wallkick(){
 			if move != 0
 				xscale = move;
 			instance_create(x, y, obj_jumpdust);
-			sprite_index = spr_player_mach3jump;
+			sprite_index = spr_player_airkickstart
 			image_index = 0;
 			state = states.mach3
 			vsp = -5
 			audio_stop_sound(sfx_flip)
+			scr_sound(sound_suplex1)
 			movespeed = 12;
 			mach2 = 100;
+		   with (instance_create(x, y, obj_crazyrunothereffect))
+                image_xscale = other.xscale
 		}
 
 		// grounded check

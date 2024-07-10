@@ -69,7 +69,7 @@ function scr_player_jump()
 			movespeed = 6;
 		sprite_index = spr_mach1;
 		jumpAnim = true;
-		state = states.mach1;
+		state = states.mach2;
 		image_index = 0;
 	}
 	if (key_attack && character == characters.pizzano && charged)
@@ -150,12 +150,6 @@ function scr_player_jump()
 	{
 		if (sprite_index == spr_stompprep && floor(image_index) == (image_number - 1))
 			sprite_index = spr_stomp;
-	}
-	if (key_attack && sprite_index != spr_airdash2 && sprite_index != spr_airdash1 && fallinganimation < 40 && sprite_index != spr_playerN_glide && character == characters.pizzelle)
-	{
-		stompAnim = false;
-		sprite_index = spr_airdash1;
-		image_index = 0;
 	}
 	if (key_slap2 && shotgunAnim && global.ammo > 0)
 	{

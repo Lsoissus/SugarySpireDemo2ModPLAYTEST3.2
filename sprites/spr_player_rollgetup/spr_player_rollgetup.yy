@@ -29,7 +29,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4ffd65a2-8c76-42b3-8360-62bf2ca08bb4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "Pizzelle",
     "path": "folders/Sprites/Player Sprites/Pizzelle.yy",
@@ -72,7 +72,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 61,
-    "yorigin": 43,
+    "yorigin": 39,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

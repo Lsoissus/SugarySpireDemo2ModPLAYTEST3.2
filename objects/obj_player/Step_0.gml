@@ -160,7 +160,7 @@ if (is_undefined(grav))
 global.combotime = clamp(global.combotime, 0, 60);
 // if combo isnt frozen, make combo go down.
 if (global.combofreeze <= 0)
-	global.combotime = approach(global.combotime, 0, 0.13);
+	global.combotime = approach(global.combotime, 0, 0.125);
 
 // tick down combofreeze and make sure it doesnt go below 0
 global.combofreeze--;
@@ -438,3 +438,6 @@ if ((sprite_index == spr_player_machpunch1 || sprite_index == spr_player_machpun
 
 //rank stuff
 visible = !instance_exists(obj_rank);
+// stopping infinite flying with machtumble
+if state != states.machtumble && state != states.jump
+machtumblestop = 0
