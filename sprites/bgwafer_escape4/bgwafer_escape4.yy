@@ -28,7 +28,7 @@
   "origin": 0,
   "parent": {
     "name": "Entryway",
-    "path": "folders/Sprites/Background/W1/Entryway.yy",
+    "path": "folders/Sprites/Background/Spire/World 1/Entryway.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
