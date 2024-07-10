@@ -1,6 +1,11 @@
-live_auto_call;
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen && room != rm_initializer)
 {
+	draw_set_font(global.font);
+	draw_set_halign(fa_center);
+	draw_set_color(c_white);
+	draw_text(xi, yi, string_hash_to_newline(msg));
+	if string_starts_with(room_get_name(room), "hub")
+		exit;
 	panicline_index += 0.35
 	var combo = (global.combotime > 0 && global.combo > 0); 
 	if combo
@@ -63,10 +68,6 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 	pal_swap_reset();
 	if (global.invtv)
 		draw_sprite_ext(invsprite, image_index, 700, 57 + DrawY, -1, 1, 0, c_white, 1);
-	draw_set_font(global.font);
-	draw_set_halign(fa_center);
-	draw_set_color(c_white);
-	draw_text(xi, yi, string_hash_to_newline(msg));
 	if ((!combo) && chooseOnecomboend) {
 		draw_sprite_ext(comboendSprite, comboendImage, 832, 74, 1, 1, 0, c_white, combofade * alpha);
 		ComboY = approach(ComboY, -300, 5);

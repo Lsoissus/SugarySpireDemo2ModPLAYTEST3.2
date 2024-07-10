@@ -1,5 +1,9 @@
 var shakeX = irandom_range(-Collectshake, Collectshake);
 var shakeY = irandom_range(-Collectshake, Collectshake);
+var roomname = room_get_name(room);
+if string_starts_with(roomname, "hub")
+	exit;
+
 if (room != scootercutsceneidk && room != rm_credits && room != devroom && room != palroom && room != rank_room && room != realtitlescreen)
 {
 	pal_swap_set(spr_heatpal, heatpal, 0);
@@ -40,7 +44,6 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 		draw_text((_xx + shakeX), ((((29 + obj_stylebar.hudbounce) + _yyoffset) + DrawY) + shakeY), string_char_at(_string, (l + 1)))
 		pal_swap_reset();
 	}
-	var roomname = room_get_name(room);
 	if (!string_starts_with(roomname, "hub") && !string_starts_with(roomname, "outer") && !string_starts_with(roomname, "spire")) {
 		draw_set_font(global.font);
 		draw_set_halign(fa_center);

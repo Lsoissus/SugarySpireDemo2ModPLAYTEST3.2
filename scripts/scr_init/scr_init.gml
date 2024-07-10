@@ -19,6 +19,7 @@ global.resultsfont = font_add_sprite_ext(spr_resultsfont, "0123456789", 1, 0);
 global.combofontresults = font_add_sprite_ext(spr_combofontresults, "0123456789", 1, -20);
 global.numbers = font_add_sprite_ext(spr_numbers, "0123456789.:", 1, 0)
 global.lapfont = font_add_sprite_ext(spr_fontlappingnumbers, "1234567890", 1, 0);
+	global.tutorialfont = font_add_sprite_ext(spr_tutorialfont, "ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz!¡,.:0123456789'?¿-áäãàâæéèêëíîïóöõôúùûüÿŸÁÄÃÀÂÉÈÊËÍÎÏÓÖÕÔÚÙÛÜÇç", true, 2);
 global.shellactivate = false;
 global.showcollisions = false;
 global.debugmode = false;
