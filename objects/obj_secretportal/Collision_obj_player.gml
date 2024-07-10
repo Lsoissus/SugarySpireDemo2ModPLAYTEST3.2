@@ -11,7 +11,6 @@ if (stopentersecret == 0 && exitedsecret == 0)
 	entered = true
 	obj_player.movespeed = 0
 	sprite_index = spr_secretportal_enter
+	image_index = 0;
 	scr_sound(sfx_secretenter)
-    alarm[0] = 45
-    alarm[1] = 65
 }

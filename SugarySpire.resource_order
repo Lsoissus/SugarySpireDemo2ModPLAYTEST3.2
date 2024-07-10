@@ -60,6 +60,7 @@
     {"name":"Mines","order":1,"path":"folders/Sprites/Background/W1/Mines.yy",},
     {"name":"Molasses","order":4,"path":"folders/Sprites/Background/W1/Molasses.yy",},
     {"name":"Bar Timer","order":734,"path":"folders/Sprites/Bar Timer.yy",},
+    {"name":"Candysonas","order":804,"path":"folders/Sprites/Candysonas.yy",},
     {"name":"CollectHUDS","order":593,"path":"folders/Sprites/CollectHUDS.yy",},
     {"name":"Fonts","order":799,"path":"folders/Sprites/Fonts.yy",},
     {"name":"Lapping","order":735,"path":"folders/Sprites/Lapping.yy",},
@@ -90,7 +91,6 @@
     {"name":"TVbgs","order":592,"path":"folders/Sprites/TVbgs.yy",},
     {"name":"Tile Sets","order":10,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":28,"path":"folders/Tile Sets/Timelines.yy",},
-    {"name":"Candysonas","order":804,"path":"folders/Sprites/Candysonas.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":726,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},

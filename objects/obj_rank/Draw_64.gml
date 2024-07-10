@@ -75,7 +75,7 @@ for (var l = 0; l < _string_length; l++)
 for (l = 0; l < 3; l++)
 {
 	var _xx = 455 + 170 + (75 * l)
-	if global.secretsfound - l - 1 < 0
+	if !variable_global_get("secretfound" + string(l + 1))
 	draw_sprite(spr_rankcard, 0, _xx, clipboardPos + 325)
 	else
 	draw_sprite(spr_rankcardflipped, 0, _xx, clipboardPos + 325)

@@ -77,7 +77,7 @@
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_1","depth":0,"effectEnabled":true,"effectType":"_filter_colourise","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_Intensity","type":0,"value":"1",},
         {"name":"g_TintCol","type":1,"value":"#FFFFFFFF",},
-      ],"userdefinedDepth":true,"visible":true,},
+      ],"userdefinedDepth":true,"visible":false,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_3","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":67,"TileCompressedData":[
 -692,0,4,5,6,6,7,-6,0,1,5,-3,6,1,7,-143,0,3,5,6,7,-3,0,4,5,6,6,7,-264,0,4,5,6,6,7,-110,0,1,5,-3,6,1,7,-3,0,3,5,6,7,-525,0,1,5,-3,6,1,7,-365,0,],"TileDataFormat":1,},"tilesetId":{"name":"tile_cottonplat","path":"tilesets/tile_cottonplat/tile_cottonplat.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":67,"TileCompressedData":[

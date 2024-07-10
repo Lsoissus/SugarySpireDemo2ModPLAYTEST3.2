@@ -5,3 +5,5 @@ stopentersecret = 0
 disappear = 0
 exitedsecret = 0
 entered = false
+die = false;
+secretid = 1

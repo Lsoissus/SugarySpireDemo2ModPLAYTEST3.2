@@ -196,4 +196,9 @@ function scr_playerreset()
 		fadeoff = 0;
 		audio_stop_all();
 	}
+	scale_xs = 1;
+	scale_ys = 1;
+	global.secretfound1 = false;
+	global.secretfound2 = false;
+	global.secretfound3 = false;
 }

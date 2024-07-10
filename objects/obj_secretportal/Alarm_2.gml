@@ -1,5 +1,5 @@
 obj_player.visible = true
 obj_player.state = states.freefallprep
-visible = true
+die = false
 sprite_index = spr_secretportal_exit
-alarm[3] = 40
+image_index = 0;
