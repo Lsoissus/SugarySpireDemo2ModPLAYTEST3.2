@@ -15,7 +15,7 @@ depth = -99;
 PauseMusic = -4;
 if (room != realtitlescreen)
 {
-	PauseMusic = scr_soundloop(mu_paletteselect);
+	PauseMusic = scr_soundloop(mu_opinions);
 	audio_sound_set_track_position(PauseMusic, global.PAUSEfadeoff);
 }
 subtitle = "GO BACK TO MAIN SCREEN";
