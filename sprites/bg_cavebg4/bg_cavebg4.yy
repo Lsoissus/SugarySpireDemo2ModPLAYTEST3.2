@@ -52,8 +52,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Mines",
-    "path": "folders/Sprites/Background/W1/Mines.yy",
+    "name": "Sugarshack Mines",
+    "path": "folders/Sprites/Background/Levels/Sugarshack Mines.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

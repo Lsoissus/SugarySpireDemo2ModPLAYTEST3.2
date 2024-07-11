@@ -29,7 +29,7 @@
   "origin": 0,
   "parent": {
     "name": "Cottontown",
-    "path": "folders/Sprites/Background/W1/Cottontown.yy",
+    "path": "folders/Sprites/Background/Levels/Cottontown.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
