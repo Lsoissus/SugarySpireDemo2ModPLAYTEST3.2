@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "OLD",
-    "path": "folders/Sprites/Background/Spire/Tutorial/OLD.yy",
+    "path": "folders/Sprites/Background/Hub/Tutorial/OLD.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
