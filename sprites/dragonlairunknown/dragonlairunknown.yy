@@ -40,7 +40,7 @@
   "origin": 0,
   "parent": {
     "name": "Dragon's Lair",
-    "path": "folders/Sprites/Background/Hub/World 1/Dragon's Lair.yy",
+    "path": "folders/Sprites/Background/Levels/Dragon's Lair.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Mines",
-    "path": "folders/Sprites/Background/Hub/World 1/Mines.yy",
+    "name": "Sugarshack Mines",
+    "path": "folders/Sprites/Background/Levels/Sugarshack Mines.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
