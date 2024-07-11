@@ -39,8 +39,9 @@ function scr_playerreset()
 	global.chocofollow = false;
 	global.wormfollow = false;
 	global.candyfollow = false;
-	global.janitor = false
-	global.secretsfound = 0
+	global.janitor = false;
+	global.secretsfound = 0;
+	global.treasurefound = false;
 	with (obj_camera)
 	{
 		DrawY = 0;
