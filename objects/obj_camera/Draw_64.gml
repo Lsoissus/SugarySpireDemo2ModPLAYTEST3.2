@@ -1,7 +1,7 @@
 var shakeX = irandom_range(-Collectshake, Collectshake);
 var shakeY = irandom_range(-Collectshake, Collectshake);
 var roomname = room_get_name(room);
-if string_starts_with(roomname, "hub")
+if string_starts_with(roomname, "hub") || string_starts_with(room_get_name(room), "parlor")
 	exit;
 
 if (room != scootercutsceneidk && room != rm_credits && room != devroom && room != palroom && room != rank_room && room != realtitlescreen)

@@ -37,6 +37,15 @@ if (!global.panic)
 			pausedmusic = mu_hub;
 		}
 	}
+	if (string_letters(roomname) == "parlor")
+	{
+		if (!audio_is_playing(mu_tutorial))
+		{
+			audio_stop_all_music();
+			scr_music(mu_tutorial);
+			pausedmusic = mu_tutorial;
+		}
+	}
 	if (string_letters(roomname) == "entryway" && obj_player.character == characters.pizzelle)
 	{
 		if (!audio_is_playing(mu_waffle))

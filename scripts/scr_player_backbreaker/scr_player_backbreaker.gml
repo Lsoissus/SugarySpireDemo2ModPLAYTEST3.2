@@ -8,18 +8,15 @@ function scr_player_backbreaker()
 	else
 		hsp = xscale * movespeed;
 	landAnim = false;
-	if (sprite_index == spr_pizzelle_taunt || sprite_index == spr_gumbob_taunt || sprite_index == spr_player_supertaunt || sprite_index == spr_pizzano_taunt)
+	switch sprite_index
 	{
+		case spr_pizzelle_taunt:
+		case spr_gumbob_taunt:
+		case spr_pizzano_taunt:
+		case spr_player_supertaunt:
+		image_speed = 0;
 		taunttimer--;
 		vsp = 0;
-	}
-	if (sprite_index == spr_player_machfreefall && place_meeting(x, y + 1, obj_solid))
-	{
-		state = states.machslide;
-		sprite_index = spr_player_crouchslide;
-	}
-	if (sprite_index == spr_pizzelle_taunt || sprite_index == spr_gumbob_taunt || sprite_index == spr_player_supertaunt || sprite_index == spr_pizzano_taunt)
-	{
 		if (!instance_exists(parryid))
 		{
 			with (instance_create(x, y, obj_parryhitbox))
@@ -28,6 +25,21 @@ function scr_player_backbreaker()
 				image_xscale = other.xscale;
 			}
 		}
+		if (!taunttimer)
+		{
+			movespeed = tauntstoredmovespeed;
+			sprite_index = tauntstoredsprite;
+			state = tauntstoredstate;
+		}
+		break;
+		case spr_player_machfreefall:
+		if place_meeting(x, y + 1, obj_solid)
+		{
+			state = states.machslide;
+			sprite_index = spr_player_crouchslide;
+		}
+		break;
+		
 	}
 	if (sprite_index == spr_player_supertaunt1 || sprite_index == spr_player_supertaunt2 || sprite_index == spr_player_supertaunt3)
 	{
@@ -58,36 +70,12 @@ function scr_player_backbreaker()
 			state = tauntstoredstate;
 		}
 	}
-	if (taunttimer == 0 && (sprite_index == spr_pizzelle_taunt || sprite_index == spr_gumbob_taunt || sprite_index == spr_player_supertaunt || sprite_index == spr_pizzano_taunt))
-	{
-		movespeed = tauntstoredmovespeed;
-		sprite_index = tauntstoredsprite;
-		state = tauntstoredstate;
-	}
-	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_eatspaghetti)
-		state = states.normal;
-	if (floor(image_index) == (image_number - 1) && sprite_index == spr_Timesup && !place_meeting(x, y, obj_exitgate))
-	{
-		global.panic = true;
-		sprite_index = spr_bossintro;
-		image_index = 0;
-	}
-	if (floor(image_index) == (image_number - 1) && sprite_index == spr_Timesup && place_meeting(x, y, obj_exitgate))
+	if (floor(image_index) == (image_number - 1) && (sprite_index == spr_Timesup))
 		state = states.normal;
 	if (floor(image_index) == (image_number - 1) && (sprite_index == spr_player_levelcomplete || sprite_index == spr_playerN_victory))
-		state = states.normal;
-	if (floor(image_index) == (image_number - 1) && sprite_index == spr_bossintro)
-		state = states.normal;
-	if (sprite_index == spr_bossintro)
-	{
-		obj_tv.showtext = true;
-		obj_tv.msg = "GET BACK TO THE START!!";
-		obj_tv.alarm[0] = 150;
-	}
+		state = states.normal
 	if (sprite_index != spr_player_taunt)
 		image_speed = 0.35;
 	else if (sprite_index == spr_player_supertaunt1 || sprite_index == spr_player_supertaunt2 || sprite_index == spr_player_supertaunt3)
 		image_speed = 0.5;
-	else if (sprite_index == spr_player_taunt)
-		image_speed = 0;
 }

@@ -4,7 +4,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);
 	draw_text(xi, yi, string_hash_to_newline(msg));
-	if string_starts_with(room_get_name(room), "hub")
+	if string_starts_with(room_get_name(room), "hub") || string_starts_with(room_get_name(room), "parlor")
 		exit;
 	panicline_index += 0.35
 	var combo = (global.combotime > 0 && global.combo > 0); 
