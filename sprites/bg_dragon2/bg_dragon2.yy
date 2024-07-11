@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "dragonlair2",
+  "name": "bg_dragon2",
   "bbox_bottom": 599,
   "bbox_left": 0,
   "bbox_right": 999,
@@ -28,14 +28,14 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Dragons Lair",
-    "path": "folders/Sprites/Background/Misc/Dragons Lair.yy",
+    "name": "Dragon's Lair",
+    "path": "folders/Sprites/Background/Hub/World 1/Dragon's Lair.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "dragonlair2",
+    "name": "bg_dragon2",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -57,7 +57,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b31d3401-afdc-40d8-ab51-db8b441b4f04","path":"sprites/dragonlair2/dragonlair2.yy",},},},"Disabled":false,"id":"19ccad95-4d68-4097-a88d-575c24d576d5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b31d3401-afdc-40d8-ab51-db8b441b4f04","path":"sprites/bg_dragon2/bg_dragon2.yy",},},},"Disabled":false,"id":"19ccad95-4d68-4097-a88d-575c24d576d5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

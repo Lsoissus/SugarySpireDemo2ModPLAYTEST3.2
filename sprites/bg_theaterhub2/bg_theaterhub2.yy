@@ -29,7 +29,7 @@
   "origin": 4,
   "parent": {
     "name": "World 1",
-    "path": "folders/Sprites/Background/Spire/World 1.yy",
+    "path": "folders/Sprites/Background/Hub/World 1.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Mines",
-    "path": "folders/Sprites/Background/Spire/World 1/Mines.yy",
+    "path": "folders/Sprites/Background/Hub/World 1/Mines.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

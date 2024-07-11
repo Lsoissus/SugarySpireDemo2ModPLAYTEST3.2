@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Tutorial",
-    "path": "folders/Sprites/Background/Spire/Tutorial.yy",
+    "path": "folders/Sprites/Background/Hub/Tutorial.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

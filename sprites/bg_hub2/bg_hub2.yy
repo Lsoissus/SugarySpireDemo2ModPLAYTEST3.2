@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Unused",
-    "path": "folders/Sprites/Background/Spire/Unused.yy",
+    "path": "folders/Sprites/Background/Hub/Unused.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

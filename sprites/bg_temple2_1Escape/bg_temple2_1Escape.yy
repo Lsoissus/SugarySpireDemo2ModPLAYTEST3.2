@@ -33,7 +33,7 @@
   "origin": 0,
   "parent": {
     "name": "Molasses",
-    "path": "folders/Sprites/Background/Spire/World 2/Molasses.yy",
+    "path": "folders/Sprites/Background/Hub/World 2/Molasses.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
