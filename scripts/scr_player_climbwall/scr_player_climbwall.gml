@@ -4,15 +4,12 @@ if windingAnim < 200
 		windingAnim++;
 	suplexmove = false;
 	vsp = -wallspeed;
-    if wallspeed < 20
-        wallspeed += 0.15
-    if wallspeed > 0
-    {
-         if mach4mode == false
-            movespeed += 0.2
-         else
-            movespeed += 0.4
-    }
+	if (!place_meeting(x, y, obj_molassesWall)) {
+	    if wallspeed < 20
+	        wallspeed += 0.15
+	    if wallspeed > 0
+			movespeed += ((!mach4mode) ? 0.2 : 0.4);
+	}
 	crouchslideAnim = true;
 	if wallspeed >= 12
 	sprite_index = spr_player_climbwallmach3
