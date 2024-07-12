@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_eheheh_ok",
+  "name": "mu_crunchytitlecard",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.149388,
+  "duration": 4.048938,
   "parent": {
-    "name": "sounds",
-    "path": "folders/Sounds/sounds.yy",
+    "name": "SugarySpire",
+    "path": "SugarySpire.yyp",
   },
-  "preload": true,
+  "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sfx_eheheh_ok.mp3",
+  "soundFile": "mu_crunchytitlecard.mp3",
   "type": 0,
-  "volume": 0.45,
+  "volume": 1.0,
 }

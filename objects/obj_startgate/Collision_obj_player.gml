@@ -1,3 +1,4 @@
+var gate = id
 if (sprite_index != spr_exitgateclosed)
 {
 	with (obj_player)
@@ -12,6 +13,17 @@ if (sprite_index != spr_exitgateclosed)
 			targetDoor = other.targetDoor;
 			targetRoom = other.targetRoom;
 			audio_stop_all();
+		}
+		if animation_end() && (!instance_exists(obj_titlecard)) && sprite_index = spr_entergate
+		{
+			with (instance_create(x, y, obj_titlecard))
+				{
+					titlecard_sprite = gate.titlecard_sprite;
+					titlecard_index = gate.titlecard_index;
+					title_sprite = gate.title_sprite;
+					title_index = gate.title_index;
+					title_music = gate.title_music;
+				}
 		}
 	}
 }

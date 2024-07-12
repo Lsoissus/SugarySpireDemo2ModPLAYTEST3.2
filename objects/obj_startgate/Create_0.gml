@@ -25,3 +25,8 @@ function add_gate_parallax(_spr, _spd)
 {
 	return { _sprite : _spr, _speed : _spd, _x : 0 };
 }
+titlecard_sprite = spr_crunchytitlecard
+titlecard_index = 0
+title_sprite = spr_crunchytitle
+title_index = 0
+title_music = mu_crunchytitlecard
