@@ -433,6 +433,7 @@
     {"id":{"name":"obj_minipillarwoke","path":"objects/obj_minipillarwoke/obj_minipillarwoke.yy",},},
     {"id":{"name":"obj_minipillarsleep","path":"objects/obj_minipillarsleep/obj_minipillarsleep.yy",},},
     {"id":{"name":"obj_endlevelfade","path":"objects/obj_endlevelfade/obj_endlevelfade.yy",},},
+    {"id":{"name":"spr_tvfont","path":"sprites/spr_tvfont/spr_tvfont.yy",},},
     {"id":{"name":"obj_pizzacutter","path":"objects/obj_pizzacutter/obj_pizzacutter.yy",},},
     {"id":{"name":"obj_watertop","path":"objects/obj_watertop/obj_watertop.yy",},},
     {"id":{"name":"bg_snowhub4","path":"sprites/bg_snowhub4/bg_snowhub4.yy",},},

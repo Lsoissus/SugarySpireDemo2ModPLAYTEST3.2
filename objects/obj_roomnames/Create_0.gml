@@ -1,5 +1,5 @@
-draw_x = 480;
-draw_y = -64;
+draw_x = 200;
+draw_y = 640;
 newdraw_y = 600;
 showtext = false;
 _message = "NO ROOMNAME FOUND-1265";

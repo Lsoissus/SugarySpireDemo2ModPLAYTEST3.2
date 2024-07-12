@@ -8,7 +8,7 @@ if (room == steamy_1)
 }
 if (room == entryway_1)
 {
-	global.srank = 8000;
+	global.srank = 10000;
 	global.arank = global.srank - (global.srank / 4);
 	global.brank = global.srank - ((global.srank / 4) * 2);
 	global.crank = global.srank - ((global.srank / 4) * 3);
@@ -29,15 +29,11 @@ if (room == mines_1)
 }
 if (showtext)
 {
-	xi = 500 + random_range(1, -1);
-	if (yi > 475)
-		yi -= 5;
+	yi = lerp(yi, 1, 0.2)
 }
 if (!showtext)
 {
-	xi = 500 + random_range(1, -1);
-	if (yi < 675)
-		yi += 1;
+	yi = lerp(yi, 0, 0.02)
 }
 if (!(obj_player.state == states.knightpep && obj_player.state == states.knightpepattack && obj_player.state == states.knightpepslopes))
 	once = false;
@@ -74,10 +70,10 @@ else if (global.collect > global.crank && !shownrankc)
 }
 if (global.hurtcounter >= global.hurtmilestone)
 {
-	var _pChar = "PIZZELLE"
+	var _pChar = "Pizzelle"
 	if (obj_player.character == characters.pizzano)
-		_pChar = "THE PIZZANO"
-	msg = $"YOU HAVE HURT {_pChar} {global.hurtmilestone} TIMES...";
+		_pChar = "The Pizzano"
+	msg = $"You have hurt {_pChar} {global.hurtmilestone} times...";
 	global.hurtmilestone += 10;
 	showtext = true;
 	alarm[0] = 150;
@@ -85,7 +81,7 @@ if (global.hurtcounter >= global.hurtmilestone)
 if (obj_player.state == states.keyget)
 {
 	showtext = true;
-	msg = "KEY OBTAINED!";
+	msg = "Got a key!";
 	alarm[0] = 50;
 }
 if (staticdraw)

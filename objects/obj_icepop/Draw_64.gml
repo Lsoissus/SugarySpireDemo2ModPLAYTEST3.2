@@ -12,4 +12,7 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_font(font);
 draw_set_color(text_color);
-draw_text(xx + text_contentpad, yy + text_contentpad, text);
+scr_draw_text_fx(xx + text_contentpad, yy + text_contentpad, text, text_color, 1, 2, 
+{
+	offset: 1
+});

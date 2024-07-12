@@ -379,6 +379,7 @@
     {"name":"obj_minipillarwoke","order":224,"path":"objects/obj_minipillarwoke/obj_minipillarwoke.yy",},
     {"name":"obj_minipillarsleep","order":225,"path":"objects/obj_minipillarsleep/obj_minipillarsleep.yy",},
     {"name":"obj_endlevelfade","order":320,"path":"objects/obj_endlevelfade/obj_endlevelfade.yy",},
+    {"name":"spr_tvfont","order":24,"path":"sprites/spr_tvfont/spr_tvfont.yy",},
     {"name":"obj_pizzacutter","order":226,"path":"objects/obj_pizzacutter/obj_pizzacutter.yy",},
     {"name":"obj_watertop","order":227,"path":"objects/obj_watertop/obj_watertop.yy",},
     {"name":"obj_bushdisguise","order":228,"path":"objects/obj_bushdisguise/obj_bushdisguise.yy",},

@@ -7,7 +7,7 @@ if (near_gate)
 		default:
 			with (obj_tv)
 			{
-				msg = "PLACEHOLDER";
+				msg = "Placeholder";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -15,7 +15,7 @@ if (near_gate)
 		case "entryway":
 			with (obj_tv)
 			{
-				msg = "ENTRYWAY";
+				msg = "Crunchy Construction";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -23,7 +23,7 @@ if (near_gate)
 		case "tutorial":
 			with (obj_tv)
 			{
-				msg = "TUTORIAL";
+				msg = "Tutorial";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -31,7 +31,7 @@ if (near_gate)
 		case "steamy":
 			with (obj_tv)
 			{
-				msg = "COTTONTOWN";
+				msg = "Cottontown";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -39,7 +39,7 @@ if (near_gate)
 		case "unownsteamy":
 			with (obj_tv)
 			{
-				msg = "UNOWNTOWN";
+				msg = "Unown-town";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -47,7 +47,7 @@ if (near_gate)
 		case "mines":
 			with (obj_tv)
 			{
-				msg = "SUGARSHACK MINES";
+				msg = "Sugarshack Mines";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -55,7 +55,7 @@ if (near_gate)
 		case "molasses":
 			with (obj_tv)
 			{
-				msg = "MOLASSES SWAMP";
+				msg = "Molasses Swamp";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -63,7 +63,7 @@ if (near_gate)
 		case "timetrial":
 			with (obj_tv)
 			{
-				msg = "TIME TRIAL";
+				msg = "Time Trial";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -71,7 +71,7 @@ if (near_gate)
 		case "fudgetop":
 			with (obj_tv)
 			{
-				msg = "MT FUDGETOP";
+				msg = "Mt. Fudgetop";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -79,7 +79,7 @@ if (near_gate)
 		case "dance":
 			with (obj_tv)
 			{
-				msg = "SEX";
+				msg = "Dance-Off";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -87,7 +87,7 @@ if (near_gate)
 		case "sucrose":
 			with (obj_tv)
 			{
-				msg = "SUCROSE SNOWSTORM";
+				msg = "Sucrose Snowstorm";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -95,7 +95,7 @@ if (near_gate)
 		case "martian":
 			with (obj_tv)
 			{
-				msg = "MARTIAN FREEZER";
+				msg = "Martian Freezer";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -103,7 +103,7 @@ if (near_gate)
 		case "mechanical":
 			with (obj_tv)
 			{
-				msg = "MECHANICAL MADNESS";
+				msg = "Mechanical Madness";
 				showtext = true;
 				alarm[0] = 2;
 			}
@@ -111,7 +111,7 @@ if (near_gate)
 		case "stormy":
 			with (obj_tv)
 			{
-				msg = "COTTONSTORM";
+				msg = "Cottonstorm";
 				showtext = true;
 				alarm[0] = 2;
 			}

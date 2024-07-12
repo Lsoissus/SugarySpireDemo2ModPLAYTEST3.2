@@ -53,35 +53,118 @@ function scr_draw_granny_texture(x, y, xscale, yscale, tex_x, tex_y, sprite = sp
 	
 	draw_surface(surffinal, x, y);
 }
-function iHateYou()
+function scr_string_width(str)
 {
-    var pos_space, pos_current, text_current, text_output;
-    pos_space = -1;
-    pos_current = 1;
-    text_current = argument0;
-    if (is_real(argument2)) argument2 = "#";
-    text_output = "";
-    while (string_length(text_current) >= pos_current) {
-        if (string_width(string_copy(text_current,1,pos_current)) > argument1) {
-            //if there is a space in this line then we can break there
-            if (pos_space != -1) {
-                text_output += string_copy(text_current,1,pos_space) + string(argument2);
-                //remove the text we just looked at from the current text string
-                text_current = string_copy(text_current,pos_space+1,string_length(text_current)-(pos_space));
-                pos_current = 1;
-                pos_space = -1;
-            } else if (argument3) {
-                //if not, we can force line breaks
-                text_output += string_copy(text_current,1,pos_current-1) + string(argument2);
-                //remove the text we just looked at from the current text string
-                text_current = string_copy(text_current,pos_current,string_length(text_current)-(pos_current-1));
-                pos_current = 1;
-                pos_space = -1;
-            }
-        }
-        pos_current += 1;
-        if (string_char_at(text_current,pos_current) == " ") pos_space = pos_current;
-    }
-    if (string_length(text_current) > 0) text_output += text_current;
-    return text_output;
+	var pos = 0;
+	var w = 0;
+	var originalstr = str;
+	var str_arr = array_create(0);
+	while (pos < string_length(originalstr))
+	{
+		if (string_copy(originalstr, pos, 2) == "\n")
+		{
+			array_push(str_arr, string_copy(originalstr, 1, pos));
+			string_delete(originalstr, 1, pos);
+			pos = 0;
+			if originalstr == ""
+				break;
+			continue;
+		}
+		pos++;
+	}
+	if (array_length(str_arr) == 0)
+		w = string_width(str);
+	for (var i = 0; i < array_length(str_arr); i++)
+	{
+		var b = str_arr[i];
+		if (string_width(b) > w)
+			w = string_width(b);
+	}
+	return w;
+}
+function scr_is_separation(char, separation)
+{
+	for (var i = 0; i < array_length(separation); i++)
+	{
+		if char == separation[i]
+			return true;
+	}
+	return false;
+}
+function scr_separate_text(str, font, width)
+{
+	if font != noone
+		draw_set_font(font);
+	
+	var separation = " "
+	separation = string_split(separation, ",");
+	
+	while (string_width(str) > width - string_width("a"))
+	{
+		var _pos = string_length(str);
+		var _oldpos = _pos;
+		while (!scr_is_separation(string_char_at(str, _pos), separation))
+		{
+			_pos--;
+			if _pos < 0
+				_pos = _oldpos;
+		}
+		if (string_char_at(str, _pos) == " ")
+		{
+			str = string_delete(str, _pos, 1);
+			str = string_insert("\n", str, _pos);
+		}
+		else
+			str = string_insert("\n", str, _pos + 1);
+	}
+	return str;
+}
+
+function scr_draw_text_fx(x, y, text, color = c_white, alpha = 1, effect = 0, option_struct = noone)
+{
+	var cx = x
+	var cy = y;
+	var shit = false
+	
+	for (var i = 0; i < string_length(text); i++)
+	{
+		var b = string_char_at(text, i + 1)
+		
+		if b == ansi_char(10)
+		{
+			cy += string_height("a");
+			cx = x;
+			shit = true;
+			continue;
+		}
+		
+		shit = false
+		
+		if effect == 0
+				draw_text_color(cx, cy, b, color, color, color, color, alpha);
+		else
+		{
+			switch effect
+			{
+				case 1:
+
+						var s1 = irandom_range(-1, 1);
+						var s2 = irandom_range(-1, 1);
+							draw_text_color(cx + s1, cy + s2, b, color, color, color, color, alpha);
+					break;
+						
+				case 2:
+						var s = 0;
+						var o = 1;
+						if option_struct != noone
+							o = option_struct.offset;
+						var d = ((i % 2) == 0) ? -1 : 1;
+						var _dir = floor(Wave(-1, 1, 0.1, 0));
+						s += (_dir * d * o);
+						draw_text_color(cx, cy + s, b, color, color, color, color, alpha);
+					break;
+			}
+		}
+		cx += scr_string_width(b);
+	}
 }

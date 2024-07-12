@@ -1,9 +1,9 @@
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen && room != rm_initializer)
 {
-	draw_set_font(global.font);
+	draw_set_font(global.tvfont);
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);
-	draw_text(xi, yi, string_hash_to_newline(msg));
+	scr_draw_text_fx(500 + -(string_width(msg) / 2), 475, string_hash_to_newline(msg), c_white, yi, 2);
 	if string_starts_with(room_get_name(room), "hub") || string_starts_with(room_get_name(room), "parlor")
 		exit;
 	panicline_index += 0.35
