@@ -1,4 +1,4 @@
-if (playerid.state != states.mach3 && playerid.state != states.hookshot && playerid.state != states.charge && playerid.state != states.mach2 && playerid.state != states.handstandjump && playerid.state != states.machslide && playerid.state != states.slam && playerid.state != states.timesup && playerid.state != states.shotgun && playerid.state != states.superslam && playerid.state != states.minecart && playerid.state != states.machroll && playerid.state != states.chainsaw && playerid.state != states.Sjump && playerid.state != states.parry && playerid.state != states.tumble && playerid.state != 125 && (playerid.state != states.jump && playerid.state != states.uppercut && playerid.state != states.machtumble && !global.cane && playerid.state != states.rocketfistpizzano && playerid.state != states.pizzanokungfu))
+if (playerid.state != states.wallkick && playerid.state != states.mach3 && playerid.state != states.hookshot && playerid.state != states.charge && playerid.state != states.mach2 && playerid.state != states.handstandjump && playerid.state != states.machslide && playerid.state != states.slam && playerid.state != states.timesup && playerid.state != states.shotgun && playerid.state != states.superslam && playerid.state != states.minecart && playerid.state != states.machroll && playerid.state != states.chainsaw && playerid.state != states.Sjump && playerid.state != states.parry && playerid.state != states.tumble && playerid.state != 125 && (playerid.state != states.jump && playerid.state != states.uppercut && playerid.state != states.machtumble && !global.cane && playerid.state != states.rocketfistpizzano && playerid.state != states.pizzanokungfu))
 	vanish = true;
 if (vanish)
 {
@@ -27,6 +27,14 @@ with (realcol)
 			r2 = 95;
 			g2 = 9;
 			b2 = 32;
+			break;
+		case 3:
+			r = 156;
+			g = 54;
+			b = 154;
+			r2 = 35;
+			g2 = 10;
+			b2 = 42;
 			break;
 	}
 }

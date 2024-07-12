@@ -124,7 +124,6 @@ function scr_draw_text_fx(x, y, text, color = c_white, alpha = 1, effect = 0, op
 {
 	var cx = x
 	var cy = y;
-	var shit = false
 	
 	for (var i = 0; i < string_length(text); i++)
 	{
@@ -134,11 +133,8 @@ function scr_draw_text_fx(x, y, text, color = c_white, alpha = 1, effect = 0, op
 		{
 			cy += string_height("a");
 			cx = x;
-			shit = true;
 			continue;
 		}
-		
-		shit = false
 		
 		if effect == 0
 				draw_text_color(cx, cy, b, color, color, color, color, alpha);
@@ -165,6 +161,6 @@ function scr_draw_text_fx(x, y, text, color = c_white, alpha = 1, effect = 0, op
 					break;
 			}
 		}
-		cx += scr_string_width(b);
+		cx += string_width_ext(b, 0,-1);
 	}
 }

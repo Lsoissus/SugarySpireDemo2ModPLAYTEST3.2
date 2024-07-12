@@ -8,7 +8,7 @@ if (room == steamy_1)
 }
 if (room == entryway_1)
 {
-	global.srank = 10000;
+	global.srank = 15000;
 	global.arank = global.srank - (global.srank / 4);
 	global.brank = global.srank - ((global.srank / 4) * 2);
 	global.crank = global.srank - ((global.srank / 4) * 3);

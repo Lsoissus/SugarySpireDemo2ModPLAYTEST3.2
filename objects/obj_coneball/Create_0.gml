@@ -7,3 +7,4 @@ y = obj_player.y
 x = obj_player.x
 y = obj_player.y
 image_alpha = 0
+alarm[1] = 10

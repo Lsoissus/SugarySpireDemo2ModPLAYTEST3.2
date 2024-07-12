@@ -292,6 +292,7 @@ if (toomuchalarm1 > 0)
 // if alarm is over and are in any of these states, enable mach3 afterimages
 if (toomuchalarm1 <= 0 &&
 (state == states.mach3 ||
+state == states.wallkick ||
 state == states.hookshot ||
 state == states.mach2 ||
 state == states.charge ||
@@ -314,6 +315,8 @@ mach2 >= 100)))
 		image_index = other.image_index - 1;
 		image_xscale = other.xscale;
 		sprite_index = other.sprite_index;
+		if other.state == states.wallkick
+			color = 3;
 	}
 	toomuchalarm1 = 6;
 }
