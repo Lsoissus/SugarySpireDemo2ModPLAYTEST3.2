@@ -48,6 +48,6 @@ function scr_playersounds()
 		if (!audio_is_playing(sfx_flip))
 			scr_sound(sfx_flip);
 	}
-	if (audio_is_playing(sfx_flip) && sprite_index != spr_mach2jump)
+	if (audio_is_playing(sfx_flip) && sprite_index != spr_mach2jump && sprite_index != spr_player_wallkickloop)
 		audio_stop_sound(sfx_flip);
 }

@@ -4,12 +4,10 @@ function scr_player_wallkick(){
 	hsp = move * movespeed;
 	
 	// movespeed control
-	if move != 0
-		movespeed += 1;
-	else
-		movespeed -= 0.5;
-	if movespeed > 8
-		movespeed = 8;
+	movespeed += abs(move);
+	if move == 0
+		movespeed -= 0.5
+	movespeed = min(movespeed, 8)
 	
 	// gravity control
 	if ((vsp <= 0)) {
@@ -20,22 +18,19 @@ function scr_player_wallkick(){
 	}
 	if (vsp > 0) {
 		grav += 0.05;
-		if grav > 5
-			grav = 5;
+		grav = min(grav, 5)
 	}
 	if key_down {
-		if (vsp < 7.5)
-			vsp = 7.5;
-		if (grav < 2.5)
-			grav = 2.5;
+		grav = max(grav, 7.5)
 	}
 	
 	// sprite check
-	if sprite_index == spr_player_wallkick && animation_end() {
+	if sprite_index == spr_player_wallkick && animation_end()
 		sprite_index = spr_player_wallkickloop
-		scr_sound(sfx_flip)
-	}
+	
 	if sprite_index == spr_player_wallkickloop {
+		if !audio_is_playing(sfx_flip)
+			scr_sound(sfx_flip)
 		// cancel wallkick
 		if (key_slap2 || key_attack2)
 		{
@@ -53,9 +48,8 @@ function scr_player_wallkick(){
 		   with (instance_create(x, y, obj_crazyrunothereffect))
                 image_xscale = other.xscale
 		}
-
 		// grounded check
-		if (grounded && vsp >= 0)
+		else if (grounded && vsp >= 0)
 		{
 			if key_attack {
 				if move != 0
