@@ -13,7 +13,6 @@ function scr_player_freefallprep()
 	stopAnim = true;
 	crouchslideAnim = true;
 	crouchAnim = true;
-	sprite_index = (divebomb ? spr_player_bodyslamstart : spr_player_poundprepare);
 	move = key_left + key_right;
 	if (!grounded)
 	{

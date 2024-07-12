@@ -15,6 +15,10 @@ function scr_player_machslide()
 		state = states.normal;
 	if (sprite_index == spr_machslidestart && floor(image_index) == (image_number - 1))
 		sprite_index = spr_machslide;
+	if (sprite_index == spr_machslide && floor(image_index) == (image_number - 1))
+		sprite_index = spr_machslideend;
+	if (sprite_index == spr_machslideend && floor(image_index) == (image_number - 1))
+		state = states.normal
 	image_speed = 0.35;
 	landAnim = false;
 	if (floor(movespeed) == 0 && (sprite_index == spr_machslide || sprite_index == spr_player_crouchslide))

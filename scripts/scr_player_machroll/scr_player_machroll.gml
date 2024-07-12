@@ -11,7 +11,7 @@ function scr_player_machroll()
 	move = key_right + key_left;
 	if movespeed < 8
 	movespeed = 8
-	if (((!key_down && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16)) || !grounded) && character == characters.pizzelle)
+	if (((!key_down && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16)) && grounded) && character == characters.pizzelle)
 	{
   scr_sound(sound_rollgetup)
         sprite_index = spr_player_rollgetup

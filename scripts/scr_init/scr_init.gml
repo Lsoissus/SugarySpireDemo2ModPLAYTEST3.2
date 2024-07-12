@@ -49,6 +49,7 @@ global.soundVolume = ini_read_real("Settings", "soundvol", 1);
 global.masterVolume = ini_read_real("Settings", "mastervol", 1);
 global.invtv = ini_read_real("Settings", "invtv", 0);
 global.inflap = ini_read_real("Settings", "inflap", 0);
+global.heatmeter = ini_read_real("Settings", "heatmeter", 0);
 ini_close();
 audio_master_gain(global.masterVolume);
 global.targetCamX = 0;

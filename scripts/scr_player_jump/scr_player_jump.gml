@@ -236,7 +236,7 @@ function scr_player_jump()
 	{
 		image_index = 0;
 		state = states.freefallprep;
-		sprite_index = spr_player_bodyslamstart;
+		sprite_index = spr_player_poundprepare;
 		vsp = -5;
 	}
 	if (global.cane)

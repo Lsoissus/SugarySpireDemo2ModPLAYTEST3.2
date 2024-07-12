@@ -10,10 +10,10 @@ function scr_player_freefallland()
 	crouchAnim = false;
 	machhitAnim = false;
 	movespeed = 0;
+	if  sprite_index != spr_player_poundend
 	facehurt = true;
 	start_running = true;
 	alarm[4] = 14;
-	sprite_index = (divebomb ? spr_player_bodyslamland : spr_player_poundend);
 	vsp = 0;
 	hsp = 0;
 	if (floor(image_index) == (image_number - 1))

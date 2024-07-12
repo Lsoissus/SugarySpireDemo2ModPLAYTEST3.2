@@ -7,13 +7,15 @@ if (canmove)
 		scr_sound(sound_step);
 		optionsaved_invtv = global.invtv;
 		optionsaved_inflap = global.inflap;
+	optionsaved_heatmeter = global.heatmeter;
 	}
-	if ((key_down2 || keyboard_check_pressed(vk_down)) && optionselected < 2)
+	if ((key_down2 || keyboard_check_pressed(vk_down)) && optionselected < 3)
 	{
 		optionselected += 1;
 		scr_sound(sound_step);
 		optionsaved_invtv = global.invtv;
 		optionsaved_inflap = global.inflap;
+	optionsaved_heatmeter = global.heatmeter;
 	}
 	switch (optionselected)
 	{
@@ -52,6 +54,20 @@ if (canmove)
 				ini_write_real("Settings", "inflap", optionsaved_inflap);
 				ini_close();
 				global.inflap = optionsaved_inflap;
+			}
+			break;
+	case modded_selected.heatmeter:
+			subtitle = "TOGGLE HEATMETER";
+			CursorY = 300;
+			optionsaved_heatmeter += (key_right2 + key_left2);
+			optionsaved_heatmeter = wrap(optionsaved_heatmeter, 0, 1);
+			if (key_jump)
+			{
+				scr_sound(sound_enemythrow);
+				ini_open("optionData.ini");
+				ini_write_real("Settings", "heatmeter", optionsaved_heatmeter);
+				ini_close();
+				global.heatmeter = optionsaved_heatmeter;
 			}
 			break;
 	}

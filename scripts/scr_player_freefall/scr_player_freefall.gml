@@ -33,12 +33,16 @@ function scr_player_freefall()
 			movespeed = 0;
 			momemtum = false;
 		}
-		if (move != 0)
-			xscale = move;
-	vsp += 0.1
-	}
-	if (!global.cane)
-		sprite_index = (divebomb ? spr_player_bodyslamfall : spr_player_pound);
+	  if ((sprite_index != spr_player_pound) && (sprite_index != spr_player_poundend) && (sprite_index != spr_player_poundprepare))
+        {
+            if ((move != 0))
+                xscale = move
+        }
+    }
+    if ((sprite_index == spr_player_bodyslamstart) && (floor(image_index) == (image_number - 1)))
+        sprite_index = spr_player_bodyslamfall
+    if ((sprite_index == spr_player_poundprepare) && (floor(image_index) == (image_number - 1)))
+        sprite_index = spr_player_pound
 	if (global.cane)
 		sprite_index = spr_caneslam;
 	if ((grounded && !input_buffer_jump < 8) && !place_meeting(x, y + 1, obj_destructibles))
@@ -78,7 +82,10 @@ function scr_player_freefall()
 			bounce = false;
 			instance_create(x, y, obj_landcloud);
 			freefallstart = 0;
-			sprite_index = (divebomb ? spr_player_bodyslamland : spr_player_poundend);
+		 if ((sprite_index == spr_player_pound))
+                sprite_index = spr_player_poundend
+            else
+                sprite_index = spr_player_bodyslamland
 		}
 	}
 	if (place_meeting(x, y + 1, obj_destructibles))
