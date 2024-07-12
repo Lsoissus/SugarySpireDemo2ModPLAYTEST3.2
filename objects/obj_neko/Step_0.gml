@@ -7,22 +7,19 @@ if (ready) {
 	if (!obj_pause.pause) {
 		var roomname = room_get_name(room);
 		if (room != realtitlescreen && room != scootercutsceneidk && room != palroom && room != rank_room && !string_starts_with(roomname, "hub") && !string_starts_with(roomname, "outer") && !string_starts_with(roomname, "spire")) {
-			// check player rank
 			var _score = global.collect;
-			var _rpcRank = "D";
+			var _rpcRank = "d";
 			if (_score >= global.srank)
-				_rpcRank = (scr_isprank() ? "P" : "S");
+				_rpcRank = (scr_isprank() ? "p" : "s");
 			else if (_score >= global.arank)
-				_rpcRank = "A";
+				_rpcRank = "a";
 			else if (_score >= global.brank)
-				_rpcRank = "B";
+				_rpcRank = "b";
 			else if (_score >= global.crank)
-				_rpcRank = "C";
-
-			// set neko presence
+				_rpcRank = "c";
 			state = $"{_score} Points | {global.combo} Combo";
-			small_image = $"rank{string_lower(_rpcRank)}";
-			small_image_text = $"Rank {_rpcRank}";
+			small_image = $"rank{_rpcRank}";
+			small_image_text = $"Rank {string_upper(_rpcRank)}";
 		}
 		else if (room == rank_room) {
 			state = "";
