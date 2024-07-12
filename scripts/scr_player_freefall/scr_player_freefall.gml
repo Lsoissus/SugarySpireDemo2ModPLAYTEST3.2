@@ -47,9 +47,15 @@ function scr_player_freefall()
 		sprite_index = spr_caneslam;
 	if ((grounded && !input_buffer_jump < 8) && !place_meeting(x, y + 1, obj_destructibles))
 	{
-		if (scr_slope() && !place_meeting(x, y, obj_dashpad) && key_down && freefallsmash > 10)
+		if (scr_slope() && !place_meeting(x, y, obj_dashpad))
 		{
 			flash = false;
+            if ((move == 0) && (!key_down))
+            {
+                sprite_index = spr_machslidestart
+                state = states.machslide
+            }
+            else
 			state = states.machroll;
 			movespeed = 12;
 			if (place_meeting(x, y + 1, obj_slope))
@@ -58,7 +64,7 @@ function scr_player_freefall()
 					other.xscale = -sign(image_xscale);
 			}
 		}
-		else
+		else if ((!scr_slope()) && (!(place_meeting(x, y, obj_dashpad))))
 		{
 			scr_sound(sound_maximumspeedland);
 			image_index = 0;

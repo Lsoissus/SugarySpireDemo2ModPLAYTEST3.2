@@ -46,17 +46,17 @@ function scr_player_handstandjump()
 					grav = 0.5;
 					sprite_index = spr_crouchslip;
 					machhitAnim = false;
-					state = states.tumble;
+					state = states.crouchslide;
 					if (audio_is_playing(sound_suplex1))
 						audio_stop_sound(sound_suplex1);
 				}
 				else
 				{
-					grav = 0.5;
-					image_index = 1;
-					state = states.freefallprep;
-					sprite_index = spr_player_bodyslamstart;
-					vsp = -5;
+
+					image_index = 0
+					state = states.machroll
+					sprite_index = spr_dive
+					vsp = 10
 				}
 			}
 			if (key_jump && grounded)

@@ -76,4 +76,8 @@ function scr_player_wallkick(){
 	        vsp = -10
 	    }
 	}
+if sprite_index = spr_player_wallkickloop
+image_speed = 0.35
+else if sprite_index = spr_player_wallkick
+image_speed = 0.5
 }

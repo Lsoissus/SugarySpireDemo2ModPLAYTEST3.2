@@ -61,7 +61,12 @@ if (room != scootercutsceneidk && room != rm_credits && room != devroom && room 
 			rank_ix = 2
 		else if (_score >= global.crank)
 			rank_ix = 1
-		rank_scale = approach(rank_scale, 1, 0.2)
+ if ((previousrank != rank_ix))
+    {
+        previousrank = rank_ix
+        rank_scale = 3
+    }
+    rank_scale = approach(rank_scale, 1, 0.2)
 		var rank_xpos = 217 // 190
 		var rank_ypos = 23 // 29
 		draw_sprite_ext(spr_ranks_hud, rank_ix, rank_xpos, rank_ypos + DrawY, rank_scale, rank_scale, 0, c_white, 1)

@@ -2023,6 +2023,7 @@
     {"name":"spr_candyifiedeffect2","order":478,"path":"sprites/spr_candyifiedeffect2/spr_candyifiedeffect2.yy",},
     {"name":"spr_bigcollect5","order":479,"path":"sprites/spr_bigcollect5/spr_bigcollect5.yy",},
     {"name":"spr_tvstaticold","order":566,"path":"sprites/spr_tvstaticold/spr_tvstaticold.yy",},
+    {"name":"spr_player_mach3rollstart","order":186,"path":"sprites/spr_player_mach3rollstart/spr_player_mach3rollstart.yy",},
     {"name":"spr_molasses","order":480,"path":"sprites/spr_molasses/spr_molasses.yy",},
     {"name":"spr_rosehouse","order":481,"path":"sprites/spr_rosehouse/spr_rosehouse.yy",},
     {"name":"spr_donutbubble","order":482,"path":"sprites/spr_donutbubble/spr_donutbubble.yy",},

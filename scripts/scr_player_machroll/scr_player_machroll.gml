@@ -54,9 +54,13 @@ function scr_player_machroll()
 	image_speed = 0.8;
     if (grounded && movespeed < 12)
         sprite_index = spr_machroll
-    else if (grounded && movespeed >= 12 && sprite_index != spr_player_mach3roll && sprite_index != spr_player_rollgetup)
+    else if (grounded && movespeed >= 12 && sprite_index != spr_player_mach3roll && sprite_index != spr_player_mach3rollstart && sprite_index != spr_player_rollgetup)
+        sprite_index = spr_player_mach3rollstart
+        if ((sprite_index == spr_player_rollgetup) && (floor(image_index) == (image_number - 1)))
+        sprite_index = spr_player_mach3rollstart
+	       if ((sprite_index == spr_player_mach3rollstart) && (floor(image_index) == (image_number - 1)))
         sprite_index = spr_player_mach3roll
-    else if (sprite_index != spr_dive && (!grounded))
+	else if (sprite_index != spr_dive && (!grounded))
     {
         sprite_index = spr_dive
         vsp = 10
@@ -67,7 +71,7 @@ function scr_player_machroll()
         vsp = -7
         state = states.freefallprep
     }
-   if (scr_solid((x + xscale), y) && (sprite_index == spr_dive) && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))))
+  if (scr_solid((x + xscale), y) && (sprite_index == spr_dive) && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))))
     {
         sprite_index = spr_player_wallsplat
         state = states.bump
