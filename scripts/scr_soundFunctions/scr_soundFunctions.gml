@@ -15,6 +15,8 @@ function scr_music(_snd, _loopBegin = 0, _loopEnd = undefined)
 		LoopBegin = _loopBegin;
 		LoopEnd = _loopEnd;
 	}
+	if _snd != mu_harryambiance
+		obj_music.levelmu = _snd;
 	return global.music;
 }
 function scr_soundloop(_snd, _loopBegin = 0, _loopEnd = undefined)

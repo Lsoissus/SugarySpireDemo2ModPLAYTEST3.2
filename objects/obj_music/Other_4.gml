@@ -28,7 +28,7 @@ if (!global.panic)
 			pausedmusic = mu_credits;
 		}
 	}
-	if (string_letters(roomname) == "hubworld" || string_letters(roomname) == "hubpublic" || room == outer_room1)
+	if (string_letters(roomname) == "hubworld" || string_letters(roomname) == "hubpublic" || roomname == "hub_worldstart")
 	{
 		if (!audio_is_playing(mu_hub))
 		{
@@ -88,7 +88,7 @@ if (!global.panic)
 	}
 	if (string_letters(roomname) == "molasses")
 	{
-		for (i = 0; i < 20; i++)
+		for (var i = 0; i < 20; i++)
 		{
 			if (roomname == ("molasses_" + string(i)) && i <= 6)
 			{
@@ -114,7 +114,7 @@ if (!global.panic)
 	}
 	if (string_letters(roomname) == "steamy")
 	{
-		for (i = 0; i < 20; i++)
+		for (var i = 0; i < 20; i++)
 		{
 			if (roomname == ("steamy_" + string(i)) && i < 8)
 			{

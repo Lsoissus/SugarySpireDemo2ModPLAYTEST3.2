@@ -1,4 +1,23 @@
 pausedmusic = global.music;
+if instance_exists(obj_gummyharry) {
+	if !audio_is_playing(mu_harryambiance) && obj_gummyharry.on_screen {
+		audio_stop_all_music();
+		scr_music(mu_harryambiance);
+		pausedmusic = mu_harryambiance;
+		audio_sound_set_track_position(global.music, fadeoff * audio_sound_length(global.music));
+	}
+	else if audio_is_playing(mu_harryambiance) && !obj_gummyharry.on_screen {
+		audio_stop_all_music();
+		scr_music(levelmu);
+		pausedmusic = levelmu;
+		audio_sound_set_track_position(global.music, fadeoff * audio_sound_length(global.music))
+	}
+} else if !audio_is_playing(levelmu) && audio_is_playing(mu_harryambiance) {
+	audio_stop_all_music();
+	scr_music(levelmu);
+	pausedmusic = levelmu;
+	audio_sound_set_track_position(global.music, fadeoff * audio_sound_length(global.music))
+}
 if (global.panic && !obj_pause.pause && room != timesuproom && !global.lap && obj_player.character == characters.pizzelle)
 {
 	if (!audio_is_playing(mu_escape))
