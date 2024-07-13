@@ -10,3 +10,11 @@ if (collectvanish && collectboxid.activated)
 }
 if (global.collectsound < 10)
 	global.collectsound += 1;
+if abs(distance_to_object(obj_player)) < 25 && !place_meeting(x, y, obj_destructibles) {
+    gotowardsplayer = true
+}
+if gotowardsplayer == true
+{
+    move_towards_point(obj_player.x, obj_player.y, movespeed)
+    movespeed++
+}
