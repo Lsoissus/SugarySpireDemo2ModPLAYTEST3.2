@@ -1,5 +1,6 @@
 targetRoom = steamy_1
 targetDoor = "A"
+// this "level" variable gets pushed to global.levelname! do not change!
 level = "steamy"
 sprite_index = spr_steamy_gate;
 parallax_array =

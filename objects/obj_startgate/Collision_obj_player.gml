@@ -12,6 +12,7 @@ if (sprite_index != spr_exitgateclosed)
 			state = states.victory;
 			targetDoor = other.targetDoor;
 			targetRoom = other.targetRoom;
+			global.levelname = other.level;
 			audio_stop_all();
 		}
 		if animation_end() && (!instance_exists(obj_titlecard)) && sprite_index = spr_entergate
