@@ -1,0 +1,1 @@
+text = "Hold down when mach running to ROLL. When rolling, you can go under solids. When rolling at mach 3, you can break metal blocks."

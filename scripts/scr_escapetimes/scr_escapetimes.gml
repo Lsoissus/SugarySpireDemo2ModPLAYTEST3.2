@@ -21,6 +21,10 @@ function scr_escapetimes(_room = room)
 			minutes = 2;
 			seconds = 50;
 			break;
+		case parlornew_5:
+			minutes = 1235;
+			seconds = 60;
+			break;
 		default:
 			minutes = 0;
 			seconds = 10;

@@ -1,0 +1,1 @@
+text = "If you're wondering how to go up this wall, get to mach 2/3 and jump onto it, you can also start climbing by running on a slope onto a wall."

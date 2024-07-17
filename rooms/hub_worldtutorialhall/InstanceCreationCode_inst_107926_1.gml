@@ -1,4 +1,4 @@
-//targetRoom = tutorial_1_OLD
+targetRoom = parlornew_1
 targetDoor = "A"
-level = "mines"
+level = "tutorial"
 

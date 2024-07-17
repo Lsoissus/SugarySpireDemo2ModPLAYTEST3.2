@@ -37,7 +37,7 @@ if (!global.panic)
 			pausedmusic = mu_hub;
 		}
 	}
-	if (string_letters(roomname) == "parlor")
+	if (string_letters(roomname) == "parlornew")
 	{
 		if (!audio_is_playing(mu_tutorial))
 		{

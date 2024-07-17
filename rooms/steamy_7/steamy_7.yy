@@ -65,6 +65,7 @@
     {"name":"inst_3274D4E4","path":"rooms/steamy_7/steamy_7.yy",},
     {"name":"inst_4953E84E","path":"rooms/steamy_7/steamy_7.yy",},
     {"name":"inst_40119D91","path":"rooms/steamy_7/steamy_7.yy",},
+    {"name":"inst_42DD5431","path":"rooms/steamy_7/steamy_7.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -130,6 +131,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_vertical_hallway","path":"objects/obj_vertical_hallway/obj_vertical_hallway.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_vertical_hallway/obj_vertical_hallway.yy",},"value":"steamy_7",},
           ],"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"x":1920.0,"y":1536.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40119D91","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorD","path":"objects/obj_doorD/obj_doorD.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1920.0,"y":1536.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42DD5431","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorC","path":"objects/obj_doorC/obj_doorC.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2528.0,"y":800.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":45,"SerialiseWidth":118,"TileCompressedData":[
 -5310,0,],"TileDataFormat":1,},"tilesetId":{"name":"tile_clock2","path":"tilesets/tile_clock2/tile_clock2.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},

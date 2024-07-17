@@ -1,0 +1,1 @@
+text = "When midair, press DOWN to ground pound, when high enough, you can break metal blocks! After this, when at mach 3, hold UP to SUPERJUMP! You can press X or LEFTSHIFT to cancel the superjump."

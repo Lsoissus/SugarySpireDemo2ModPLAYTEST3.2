@@ -1,6 +1,6 @@
 /// @description Initialize Discord.
 
-#macro DISCORD_APP_ID "1250317424604217478"
+#macro DISCORD_APP_ID "1263005402484838451"
 
 ready = false;
 
