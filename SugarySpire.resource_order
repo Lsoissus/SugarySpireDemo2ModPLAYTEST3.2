@@ -29,6 +29,7 @@
     {"name":"Rooms","order":17,"path":"folders/Rooms.yy",},
     {"name":"Hub","order":4,"path":"folders/Rooms/Hub.yy",},
     {"name":"Tutorial","order":4,"path":"folders/Rooms/Hub/Tutorial.yy",},
+    {"name":"New","order":11,"path":"folders/Rooms/Hub/Tutorial/New.yy",},
     {"name":"Old","order":10,"path":"folders/Rooms/Hub/Tutorial/Old.yy",},
     {"name":"Unused","order":2,"path":"folders/Rooms/Hub/Unused.yy",},
     {"name":"World 1","order":1,"path":"folders/Rooms/Hub/World 1.yy",},
@@ -90,7 +91,6 @@
     {"name":"TVbgs","order":558,"path":"folders/Sprites/TVbgs.yy",},
     {"name":"Tile Sets","order":10,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":24,"path":"folders/Timelines.yy",},
-    {"name":"New","order":11,"path":"folders/Rooms/Hub/Tutorial/New.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":598,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},

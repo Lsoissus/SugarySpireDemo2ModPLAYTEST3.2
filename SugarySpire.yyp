@@ -44,6 +44,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Hub","folderPath":"folders/Rooms/Hub.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Outer","folderPath":"folders/Rooms/Hub/Outer.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tutorial","folderPath":"folders/Rooms/Hub/Tutorial.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"New","folderPath":"folders/Rooms/Hub/Tutorial/New.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Old","folderPath":"folders/Rooms/Hub/Tutorial/Old.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Unused","folderPath":"folders/Rooms/Hub/Unused.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"World 1","folderPath":"folders/Rooms/Hub/World 1.yy",},
@@ -119,7 +120,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"New","folderPath":"folders/Rooms/Hub/Tutorial/New.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"credits.txt","CopyToMask":-1,"filePath":"datafiles",},
