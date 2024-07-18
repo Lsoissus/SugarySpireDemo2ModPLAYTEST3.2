@@ -44,6 +44,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Hub","folderPath":"folders/Rooms/Hub.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Outer","folderPath":"folders/Rooms/Hub/Outer.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tutorial","folderPath":"folders/Rooms/Hub/Tutorial.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"New","folderPath":"folders/Rooms/Hub/Tutorial/New.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Old","folderPath":"folders/Rooms/Hub/Tutorial/Old.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Unused","folderPath":"folders/Rooms/Hub/Unused.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"World 1","folderPath":"folders/Rooms/Hub/World 1.yy",},
@@ -119,7 +120,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"New","folderPath":"folders/Rooms/Hub/Tutorial/New.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"credits.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -135,7 +135,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"obj_talisman","path":"objects/obj_talisman/obj_talisman.yy",},},
@@ -1116,6 +1116,7 @@
     {"id":{"name":"spr_player_grabkick","path":"sprites/spr_player_grabkick/spr_player_grabkick.yy",},},
     {"id":{"name":"spr_player_land","path":"sprites/spr_player_land/spr_player_land.yy",},},
     {"id":{"name":"obj_minecartRailswitch2","path":"objects/obj_minecartRailswitch2/obj_minecartRailswitch2.yy",},},
+    {"id":{"name":"spr_cotton_land2","path":"sprites/spr_cotton_land2/spr_cotton_land2.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"spr_player_freefall2","path":"sprites/spr_player_freefall2/spr_player_freefall2.yy",},},
     {"id":{"name":"spr_player_machsliding","path":"sprites/spr_player_machsliding/spr_player_machsliding.yy",},},
@@ -2016,6 +2017,7 @@
     {"id":{"name":"spr_juicepuddledone","path":"sprites/spr_juicepuddledone/spr_juicepuddledone.yy",},},
     {"id":{"name":"spr_player_minecartland","path":"sprites/spr_player_minecartland/spr_player_minecartland.yy",},},
     {"id":{"name":"spr_minizelle_bump","path":"sprites/spr_minizelle_bump/spr_minizelle_bump.yy",},},
+    {"id":{"name":"obj_cotton_aftereffect","path":"objects/obj_cotton_aftereffect/obj_cotton_aftereffect.yy",},},
     {"id":{"name":"spr_rank_cakescores","path":"sprites/spr_rank_cakescores/spr_rank_cakescores.yy",},},
     {"id":{"name":"font_console","path":"fonts/font_console/font_console.yy",},},
     {"id":{"name":"spr_sprayfall","path":"sprites/spr_sprayfall/spr_sprayfall.yy",},},
@@ -2414,7 +2416,6 @@
     {"roomId":{"name":"parlornew_4","path":"rooms/parlornew_4/parlornew_4.yy",},},
     {"roomId":{"name":"parlornew_5","path":"rooms/parlornew_5/parlornew_5.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"pizzelletext","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
