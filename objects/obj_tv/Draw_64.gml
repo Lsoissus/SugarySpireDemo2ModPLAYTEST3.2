@@ -14,7 +14,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 			BarSurface = surface_create(sprite_get_width(spr_barpop), sprite_get_height(spr_barpop));
 		else
 		{
-			var ComboFill = (global.combodropped ? spr_barpop2long : spr_barpop2Plong);
+			var ComboFill = (global.combodropped ? spr_barpop2 : spr_barpop2P);
 
 			surface_set_target(BarSurface);
 			draw_clear_alpha(c_white, 0);
