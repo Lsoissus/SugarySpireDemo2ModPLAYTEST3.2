@@ -4,6 +4,7 @@ function scr_player_cottonroll()
         sprite_index = spr_cotton_maxroll
     else
         sprite_index = spr_cotton_roll
+	image_speed = 0.35;
     hsp = (xscale * movespeed)
     dir = xscale
     momemtum = 1
