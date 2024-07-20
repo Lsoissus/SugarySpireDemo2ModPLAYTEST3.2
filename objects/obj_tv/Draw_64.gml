@@ -1,3 +1,4 @@
+live_auto_call;
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen && room != rm_initializer)
 {
 	draw_set_font(global.tvfont);
@@ -23,13 +24,10 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 			meter_image_index += 0.35;
 			goo_index += 0.35;
 			combo_posX = wave(-5, 5, 2, 20);
-			
-			draw_sprite_tiled(ComboFill, goo_index, 230 * (global.combotime / 60) + 40, 180);
-
+			comboGooPosition = approach(comboGooPosition, 150 * (global.combotime / 60) + 45, 5)
+			draw_sprite(ComboFill, goo_index, comboGooPosition, 200);
+			// apply mask
 			gpu_set_blendmode(bm_subtract);
-			draw_set_color(c_black);
-			draw_rectangle(230 * (global.combotime / 60) + 40, 180, 200, 230, false);
-			draw_set_color(c_white);
 			draw_sprite_ext(spr_combomask, 0, 0, 0, 1, 1, 0, c_white, 1);
 			gpu_set_blendmode(bm_normal);
 

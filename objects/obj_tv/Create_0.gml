@@ -16,6 +16,7 @@ ComboShake = false;
 comboendImage = 0;
 comboendSprite = spr_badcombo_boil;
 combocanFade = true;
+comboGooPosition = 230 * (global.combotime / 60) - 32;
 once = 0;
 global.hurtcounter = 0;
 global.hurtmilestone = 10;
