@@ -24,6 +24,9 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 			meter_image_index += 0.35;
 			goo_index += 0.35;
 			combo_posX = wave(-5, 5, 2, 20);
+
+			
+
 			comboGooPosition = approach(comboGooPosition, 150 * (global.combotime / 60) + 45, 5)
 			draw_sprite(ComboFill, goo_index, comboGooPosition, 200);
 			// apply mask
@@ -32,11 +35,12 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 			gpu_set_blendmode(bm_normal);
 
 			surface_reset_target();
-
+			draw_sprite_ext(spr_barpopback, meter_image_index, 699 + combo_posX, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 			draw_surface_ext(BarSurface, 699 + combo_posX, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
+			draw_sprite_ext(spr_barpop, meter_image_index, 699 + combo_posX, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 		}
 	}
-	draw_sprite_ext(spr_barpop, meter_image_index, 699 + combo_posX, -18 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
+	
 	if combo {
 		draw_sprite_ext(spr_tvcombo, image_index, 827 + (combo_posX * 0.6), 112 + DrawY + ComboY, 1, 1, 0, c_white, alpha);
 		draw_set_font(global.combofont);
