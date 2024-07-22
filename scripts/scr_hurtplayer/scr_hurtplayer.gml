@@ -41,6 +41,9 @@ function scr_hurtplayer(_player_index = obj_player)
 			}
 			else if (state != states.hurt && state != states.backbreaker && !hurted && !cutscene && state != states.bump && state != states.tumble)
 			{
+				var _old_xscale = xscale
+				if x != other.x
+					xscale = sign(other.x - x)
 				global.combotime -= 20
 				scr_sound(sound_touchspike);
 				global.hurtcounter += 1;
@@ -51,7 +54,7 @@ function scr_hurtplayer(_player_index = obj_player)
 				if (xscale == other.image_xscale)
 					sprite_index = spr_hurtjump;
 				else
-					sprite_index = spr_hurt;
+					sprite_index = choose(spr_hurt, spr_hurtjump);
 				movespeed = 8;
 				vsp = -5;
 				timeuntilhpback = 300;

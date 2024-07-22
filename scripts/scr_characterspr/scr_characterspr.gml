@@ -11,7 +11,7 @@ function scr_characterspr()
 		spr_idle = spr_player_idle;
 		spr_move = spr_player_walk;
 		spr_crawl = spr_player_crawl;
-		spr_hurt = spr_player_hurt;
+		spr_hurt = spr_player_stun;
 		spr_jump = spr_player_jump;
 		spr_jump2 = spr_player_jump;
 		spr_fall = spr_player_fall;
@@ -50,7 +50,7 @@ function scr_characterspr()
 		spr_crouch = spr_player_crouch;
 		spr_bump = spr_player_bump;
 		spr_victory = spr_player_entergate;
-		spr_hurt = spr_player_hurt;
+		spr_hurt = spr_player_stun;
 		spr_climbwall = spr_player_climbwall;
 		spr_grab = spr_player_grab;
 		spr_mach2jump = spr_player_mach2jump;
@@ -104,7 +104,7 @@ function scr_characterspr()
 		spr_move = spr_pizzano_walk;
 		spr_crawl = spr_player_crawl;
 		spr_idle = spr_pizzano_idle;
-		spr_hurt = spr_player_hurt;
+		spr_hurt = spr_player_stun;
 		spr_jump = spr_player_jump;
 		spr_jump2 = spr_player_jump;
 		spr_fall = spr_pizzano_fall;
@@ -143,7 +143,7 @@ function scr_characterspr()
 		spr_crouch = spr_player_crouch;
 		spr_bump = spr_player_bump;
 		spr_victory = spr_player_entergate;
-		spr_hurt = spr_player_hurt;
+		spr_hurt = spr_player_stun;
 		spr_climbwall = spr_player_climbwall;
 		spr_grab = spr_player_grab;
 		spr_mach2jump = spr_player_mach2jump;

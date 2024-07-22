@@ -41,7 +41,7 @@ if (state == baddiestates.applejimbash)
 			if (xscale == other.image_xscale)
 				sprite_index = spr_hurtjump;
 			else
-				sprite_index = spr_hurt;
+				sprite_index = choose(spr_hurt, spr_hurtjump);
 			movespeed = 8;
 			vsp = -5;
 			timeuntilhpback = 300;

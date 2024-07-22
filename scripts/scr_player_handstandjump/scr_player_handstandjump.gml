@@ -61,11 +61,10 @@ function scr_player_handstandjump()
 			}
 			if (key_jump && grounded)
 			{
-				movespeed = 14;
 				sprite_index = spr_player_longjump;
 				instance_create(x, y, obj_jumpdust);
 				state = states.mach2;
-				vsp = -9;
+				vsp = -11;
 				if (audio_is_playing(sound_suplex1))
 					audio_stop_sound(sound_suplex1);
 			}

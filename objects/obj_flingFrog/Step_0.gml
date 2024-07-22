@@ -72,7 +72,7 @@ if (grabbedPlayer != -4)
 		with (grabbedPlayer)
 		{
 			scr_sound(sfx_bloop2);
-			state = states.jump;
+			state = states.fling;
 			jumpstop = true;
 			hsp = other.hsp;
 			movespeed = abs(hsp);
@@ -88,7 +88,7 @@ if (grabbedPlayer != -4)
 	{
 		with (grabbedPlayer)
 		{
-			state = states.jump;
+			state = states.fling;
 			jumpstop = true;
 			hsp = other.hsp;
 			movespeed = abs(hsp);
