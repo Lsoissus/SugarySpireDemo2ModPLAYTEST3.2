@@ -28,5 +28,6 @@ function scr_tvsprites()
 		cottontvspr = spr_pizzytvcotton;
 		machtvspr = spr_pizzanotvmach;
 		maxspeedtvspr = spr_pizzanotvmachmax;
+		topspeedtvspr = spr_pizzanotvcrazyrun;
 	}
 }
