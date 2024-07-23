@@ -1,7 +1,7 @@
 scr_getinput();
 if (!pause && !instance_exists(obj_fadeout))
 {
-	if (!global.shellactivate && key_start2 && room != rank_room && room != realtitlescreen && canmove)
+	if (!global.shellactivate && key_start2 && room != rank_room && room != realtitlescreen && canmove && !instance_exists(obj_titlecard))
 	{
 		selected = 0;
 		if (!instance_exists(obj_pausefadeout))

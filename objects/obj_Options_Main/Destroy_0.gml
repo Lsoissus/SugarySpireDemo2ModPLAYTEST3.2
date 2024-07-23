@@ -10,3 +10,4 @@ if (instance_exists(obj_pause))
 	obj_pause.alarm[0] = 3;
 	obj_pause.key_jump = false;
 }
+audio_resume_sound(mu_pause)

@@ -9,3 +9,7 @@ depth = -600;
 titlecard_index = 0;
 title_index = 0;
 move = 0;
+titlecardx = -1930
+titlecardtitley = -1090
+titlecardtitlex = -1930
+bobbingtitle = 0
