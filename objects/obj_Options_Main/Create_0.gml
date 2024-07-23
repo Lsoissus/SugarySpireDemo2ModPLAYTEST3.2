@@ -21,3 +21,4 @@ if (room != realtitlescreen)
 subtitle = "GO BACK TO MAIN SCREEN";
 optionselected = option_selected.back;
 selected = false;
+audio_pause_sound(mu_pause)

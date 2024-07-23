@@ -4,7 +4,7 @@
   "name": "spr_crunchytitlecard",
   "bbox_bottom": 539,
   "bbox_left": 0,
-  "bbox_right": 959,
+  "bbox_right": 1919,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e8fffced-6a95-4192-9232-416e233ea58c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"68bdca3e-4baa-4238-b887-4dfeab9e6c1d",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f3daa49e-f49b-47af-8cd3-b73a6ace38a5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1cb2cca4-39d4-42d2-8417-2a168a5885b5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "SugarySpire",
-    "path": "SugarySpire.yyp",
+    "name": "Titlecards",
+    "path": "folders/Sprites/Titlecards.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e8fffced-6a95-4192-9232-416e233ea58c","path":"sprites/spr_crunchytitlecard/spr_crunchytitlecard.yy",},},},"Disabled":false,"id":"34cd5080-3296-4030-aa9e-afcb69c96c18","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"68bdca3e-4baa-4238-b887-4dfeab9e6c1d","path":"sprites/spr_crunchytitlecard/spr_crunchytitlecard.yy",},},},"Disabled":false,"id":"9e89f203-fbcc-44ca-9702-19e9431cf133","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 960,
+  "width": 1920,
 }

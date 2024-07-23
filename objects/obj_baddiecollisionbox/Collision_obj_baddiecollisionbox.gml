@@ -1,4 +1,4 @@
-if instance_exists(baddieID)
+if instance_exists(baddieID) && instance_exists(other.baddieID)
 {
 if (baddieID.thrown != 1 && other.baddieID.thrown && baddieID.state != baddiestates.grabbed)
 {

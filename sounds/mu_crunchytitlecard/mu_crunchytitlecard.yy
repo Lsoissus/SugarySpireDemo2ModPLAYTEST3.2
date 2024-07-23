@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 4.048938,
   "parent": {
-    "name": "SugarySpire",
-    "path": "SugarySpire.yyp",
+    "name": "Titlecards",
+    "path": "folders/Sounds/Titlecards.yy",
   },
   "preload": false,
   "sampleRate": 44100,
