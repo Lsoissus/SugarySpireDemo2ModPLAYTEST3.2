@@ -24,7 +24,8 @@ function scr_player_crouchslide()
     {
 		vsp = 10
 		sprite_index = spr_dive
-    }
+    state = states.machroll
+	}
 	if (!scr_slope() && sprite_index == spr_tumblestart && floor(image_index) < 11)
 		image_index = 11;
 	if (sprite_index == spr_tumblestart && floor(image_index) == (image_number - 1))

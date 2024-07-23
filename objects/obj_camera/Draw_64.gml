@@ -6,6 +6,7 @@ if string_starts_with(roomname, "hub") || string_starts_with(room_get_name(room)
 
 if (room != scootercutsceneidk && room != rm_credits && room != devroom && room != palroom && room != rank_room && room != realtitlescreen)
 {
+	clock_index += 0.35
 	if global.heatmeter
 	{
 	pal_swap_set(spr_heatpal, heatpal, 0);
@@ -183,6 +184,7 @@ if global.panic
 	if global.minutes < 1
 		_offset = random_range(2, -2)
 	draw_text(timer_x + 200 + _offset, timer_y + 18 + _offset - (sprite_get_yoffset(spr_font) / 2), concat(global.minutes, ":", seconds))
+    draw_sprite(spr_coneball_bartimer_clock, clock_index, timer_x + 152 + _offset, timer_y + 30 + _offset - (sprite_get_yoffset(spr_font) / 2))
 }
 else if surface_exists(bar_surface)
     surface_free(bar_surface)

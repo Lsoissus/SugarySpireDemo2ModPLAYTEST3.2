@@ -6,6 +6,8 @@ if (!pause && !instance_exists(obj_fadeout))
 		selected = 0;
 		if (!instance_exists(obj_pausefadeout))
 			instance_create(x, y, obj_pausefadeout);
+	scr_delete_pause_image()
+	scr_create_pause_image()
 	}
 }
 if (instance_exists(obj_pausefadeout) && instance_exists(obj_fadeout))

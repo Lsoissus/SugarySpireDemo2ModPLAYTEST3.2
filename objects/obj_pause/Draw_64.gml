@@ -1,5 +1,7 @@
 if (pause)
 {
+	draw_set_alpha(1)
+	scr_draw_pause_image()
 	draw_sprite_tiled(bg_paused, 0, x++, y++);
 	draw_rectangle_color(-5000, 0, 0, 1080, 2752517, 2752517, 2752517, 2752517, false);
 	draw_rectangle_color(960, 0, 5960, 1080, 2752517, 2752517, 2752517, 2752517, false);

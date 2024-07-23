@@ -12,8 +12,9 @@ if (sprite_index != spr_confectiboxopen)
 		global.collect += 1000;
 		global.combofreeze = 30;
 		global.combotime = 60;
+	  if ((global.toppintotal < 5))
+            global.toppintotal += 1
 	}
-	scr_queue_tvanim(spr_pizzytvhappy, 200);
-	ds_list_add(global.saveroom, id);
+	image_index = 0
 	instance_destroy()
 }

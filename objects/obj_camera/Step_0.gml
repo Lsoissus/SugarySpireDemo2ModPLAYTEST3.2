@@ -77,12 +77,12 @@ if (instance_exists(obj_player) && (obj_player.state != states.timesup && obj_pl
 			chargecamera += 2;
 	}
 	_cam_x += chargecamera;
-	_cam_x += irandom_range(-panicshake, panicshake);
-	_cam_y += irandom_range(-panicshake, panicshake);
 	_cam_x = clamp(_cam_x, Camera_xorigin, (Camera_xorigin + Camera_width) - vw);
 	_cam_y = clamp(_cam_y, Camera_yorigin, (Camera_yorigin + Camera_height) - vh);
 	_cam_x = clamp(_cam_x, 0, room_width - vw);
 	_cam_y = clamp(_cam_y, 0, room_height - vh);
+	_shake_x += irandom_range(-panicshake, panicshake);
+	_shake_y += irandom_range(-panicshake, panicshake);
 	if (shake_mag != 0)
 	{
 		_shake_x += irandom_range(-shake_mag, shake_mag);
