@@ -1852,6 +1852,7 @@
     {"name":"spr_secret_bigbreak_debug","order":376,"path":"sprites/spr_secret_bigbreak_debug/spr_secret_bigbreak_debug.yy",},
     {"name":"spr_bombblockdebris","order":377,"path":"sprites/spr_bombblockdebris/spr_bombblockdebris.yy",},
     {"name":"GMLive_thread","order":4,"path":"scripts/GMLive_thread/GMLive_thread.yy",},
+    {"name":"screenreference","order":664,"path":"sprites/screenreference/screenreference.yy",},
     {"name":"obj_technicaldifficulties","order":321,"path":"objects/obj_technicaldifficulties/obj_technicaldifficulties.yy",},
     {"name":"spr_crazyrunothereffect","order":378,"path":"sprites/spr_crazyrunothereffect/spr_crazyrunothereffect.yy",},
     {"name":"spr_doorE","order":5,"path":"sprites/spr_doorE/spr_doorE.yy",},

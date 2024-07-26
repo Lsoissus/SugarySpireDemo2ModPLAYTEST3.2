@@ -1955,6 +1955,7 @@
     {"id":{"name":"spr_secret_bigbreak_debug","path":"sprites/spr_secret_bigbreak_debug/spr_secret_bigbreak_debug.yy",},},
     {"id":{"name":"spr_bombblockdebris","path":"sprites/spr_bombblockdebris/spr_bombblockdebris.yy",},},
     {"id":{"name":"GMLive_thread","path":"scripts/GMLive_thread/GMLive_thread.yy",},},
+    {"id":{"name":"screenreference","path":"sprites/screenreference/screenreference.yy",},},
     {"id":{"name":"obj_technicaldifficulties","path":"objects/obj_technicaldifficulties/obj_technicaldifficulties.yy",},},
     {"id":{"name":"spr_crazyrunothereffect","path":"sprites/spr_crazyrunothereffect/spr_crazyrunothereffect.yy",},},
     {"id":{"name":"GMLive_action","path":"scripts/GMLive_action/GMLive_action.yy",},},
