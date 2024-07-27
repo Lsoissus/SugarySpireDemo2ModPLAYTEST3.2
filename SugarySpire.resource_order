@@ -1029,6 +1029,7 @@
     {"name":"spr_tvbg_hub","order":11,"path":"sprites/spr_tvbg_hub/spr_tvbg_hub.yy",},
     {"name":"entryway_endroomescape2","order":33,"path":"sprites/entryway_endroomescape2/entryway_endroomescape2.yy",},
     {"name":"spr_player_walkfront","order":172,"path":"sprites/spr_player_walkfront/spr_player_walkfront.yy",},
+    {"name":"bg_swampbgforeground","order":37,"path":"sprites/bg_swampbgforeground/bg_swampbgforeground.yy",},
     {"name":"spr_hithere","order":11,"path":"sprites/spr_hithere/spr_hithere.yy",},
     {"name":"GMLive","order":4,"path":"scripts/GMLive/GMLive.yy",},
     {"name":"spr_player_uppercutbegin","order":165,"path":"sprites/spr_player_uppercutbegin/spr_player_uppercutbegin.yy",},

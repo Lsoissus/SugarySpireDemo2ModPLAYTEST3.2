@@ -1111,6 +1111,7 @@
     {"id":{"name":"spr_tvbg_hub","path":"sprites/spr_tvbg_hub/spr_tvbg_hub.yy",},},
     {"id":{"name":"entryway_endroomescape2","path":"sprites/entryway_endroomescape2/entryway_endroomescape2.yy",},},
     {"id":{"name":"spr_player_walkfront","path":"sprites/spr_player_walkfront/spr_player_walkfront.yy",},},
+    {"id":{"name":"bg_swampbgforeground","path":"sprites/bg_swampbgforeground/bg_swampbgforeground.yy",},},
     {"id":{"name":"spr_hithere","path":"sprites/spr_hithere/spr_hithere.yy",},},
     {"id":{"name":"GMLive","path":"scripts/GMLive/GMLive.yy",},},
     {"id":{"name":"spr_player_uppercutbegin","path":"sprites/spr_player_uppercutbegin/spr_player_uppercutbegin.yy",},},
