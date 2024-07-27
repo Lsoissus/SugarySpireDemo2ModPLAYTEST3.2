@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_hubminessign",
   "bbox_bottom": 190,
-  "bbox_left": 7,
+  "bbox_left": 6,
   "bbox_right": 254,
   "bbox_top": 6,
   "bboxMode": 0,
