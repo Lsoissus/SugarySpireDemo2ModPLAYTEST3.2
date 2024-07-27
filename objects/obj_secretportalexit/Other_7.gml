@@ -1,5 +1,5 @@
 if sprite_index == spr_secretportal_exit
 {
-	sprite_index = spr_secretportal_idk
+	sprite_index = spr_secretportal_spawnidle
 	alarm[3] = 90	
 }

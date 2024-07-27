@@ -893,7 +893,7 @@
     {"id":{"name":"GMLive_seekSetOp","path":"scripts/GMLive_seekSetOp/GMLive_seekSetOp.yy",},},
     {"id":{"name":"scr_enemy_cherrywait","path":"scripts/scr_enemy_cherrywait/scr_enemy_cherrywait.yy",},},
     {"id":{"name":"scr_enemy_charcherry","path":"scripts/scr_enemy_charcherry/scr_enemy_charcherry.yy",},},
-    {"id":{"name":"spr_secretportal_idk","path":"sprites/spr_secretportal_idk/spr_secretportal_idk.yy",},},
+    {"id":{"name":"spr_secretportal_spawnidle","path":"sprites/spr_secretportal_spawnidle/spr_secretportal_spawnidle.yy",},},
     {"id":{"name":"scr_achievement","path":"scripts/scr_achievement/scr_achievement.yy",},},
     {"id":{"name":"scr_playerinit","path":"scripts/scr_playerinit/scr_playerinit.yy",},},
     {"id":{"name":"scr_player_squished","path":"scripts/scr_player_squished/scr_player_squished.yy",},},
