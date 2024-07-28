@@ -1,4 +1,5 @@
 scr_tvsprites();
+var roomname = room_get_name(room)
 if (room == steamy_1)
 {
 	global.srank = 10000;
@@ -134,8 +135,6 @@ if (tvsprite != spr_tvturnon && ds_queue_size(global.newhudtvanim) < 1 && tvleng
 			STOREDtvsprite = orbtvspr;
 			break;
 		default:
-		if (!instance_exists(obj_secretfound))
-        {
 			if (!obj_player.angry)
 			{
 				ChannelState = 7;
@@ -143,6 +142,8 @@ if (tvsprite != spr_tvturnon && ds_queue_size(global.newhudtvanim) < 1 && tvleng
 				{
 					if global.panic
 						STOREDtvsprite = escapetvidle;
+					else if (string_letters(roomname) == "entrywaysecret") // i am sorry for this lazy fix
+					STOREDtvsprite = secrettvspr;
 					else
 					{
 						tvcount = choose(500, 450, 400, 550);
@@ -172,9 +173,7 @@ if (tvsprite != spr_tvturnon && ds_queue_size(global.newhudtvanim) < 1 && tvleng
 				ChannelState = 8;
 				STOREDtvsprite = angrytvspr;
 			}
-		}
-		else
-			STOREDtvsprite = secrettvspr;		
+		
 			break;
 	}
 	if (OLDChannelState != ChannelState)

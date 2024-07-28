@@ -139,36 +139,42 @@ timer_ystart = cam_h + timer_yplus
 timer_x = timer_xstart
 coneball_index += 0.35
 roll_index += 0.35
+var time = floor((target_fill / 60))
+var secs = max((time % 60), 0)
 if global.panic
 {
-	if global.minutes > 0 || global.seconds > 0
-	{
-	    showtime_buffer = 10
-	    timer_y = approach(timer_y, timer_ystart, 1)
-	}
-	else
-	{
-	    if coneball_sprite == spr_coneball_bartimer
-	    {
-	        coneball_sprite = spr_coneball_bartimesup
-	        coneball_index = 0
-	    }
-	    else if coneball_sprite == spr_coneball_bartimesup
-	    {
-	        if floor(coneball_index) == sprite_get_number(coneball_sprite) - 1
-	            coneball_index = 57
-	    }
-	    else if showtime_buffer > 0
-	        showtime_buffer--
-	    else
-	        timer_y = approach(timer_y, timer_ystart + 212, 1)
-	}
+    if (((((global.minutes * 60) + global.seconds) * 60) > 0))
+    {
+        var _spd = ((1 - (target_fill / global.maxwave)) * (sprite_get_number(spr_coneball_bartimer_roll) * 10))
+        roll_index = (_spd % sprite_get_number(spr_coneball_bartimer_roll))
+        coneball_index += 0.35
+        tongue_index += 0.35
+        if ((coneball_index >= sprite_get_number(coneball_sprite)))
+            coneball_index = frac(coneball_index)
+        if ((tongue_index >= sprite_get_number(spr_coneball_bartimertonguesup)))
+            tongue_index = 0
+        timer_y = approach(timer_y, -176, 1)
+    }
+    else
+    {
+        if ((coneball_sprite == spr_coneball_bartimer))
+        {
+            coneball_sprite = spr_coneball_bartimesup
+            coneball_index = 0
+            timer_buffer = 200
+        }
+        if ((coneball_index < (sprite_get_number(coneball_sprite) - 1)))
+            coneball_index += 0.35
+        if ((timer_buffer > 0))
+            timer_buffer--
+        if ((timer_buffer == 0))
+            timer_y = approach(timer_y, 300, 0.8)
+    }
 }
 else
 {
+    timer_y = 0
     coneball_sprite = spr_coneball_bartimer
-    //coneball_pal = 0
-    timer_y = approach(timer_y, timer_ystart + 212, 1)
 }
 /*if global.panic && global.fill < (chunkmax / 5)
     coneball_pal = 1*/

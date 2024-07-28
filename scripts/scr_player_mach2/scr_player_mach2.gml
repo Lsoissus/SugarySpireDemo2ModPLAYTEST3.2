@@ -118,12 +118,22 @@ function scr_player_mach2()
 					input_buffer_jump = 0;
 				if (!key_attack && grounded)
 				{
-					alarm[0] = 240;
+				 if ((sprite_index != spr_mach1))
+                    {
+				alarm[0] = 240;
 					scr_sound(sound_break);
 					sprite_index = spr_machslidestart;
 					state = states.machslide;
 					image_index = 0;
 					mach2 = 0;
+				}
+				else
+                    {
+                        sprite_index = spr_idle
+                        image_index = 0
+                        state = states.normal
+                        mach2 = 0
+                    }
 				}
 			}
 if movespeed >= 9

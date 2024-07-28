@@ -23,6 +23,17 @@ if (instance_exists(_door))
 }
 else
 	show_debug_message("Door Trigger Instance not found");
+    with (obj_coneball)
+    {
+        x = other.x
+        y = other.y
+        if other.hallway
+            x += ((-other.hallwaydirection) * 200)
+        else if other.vertical
+            y += ((-other.hallwaydirection) * 200)
+        else
+            image_alpha = 0
+    }
 hallway = false;
 box = false;
 vertical = false;

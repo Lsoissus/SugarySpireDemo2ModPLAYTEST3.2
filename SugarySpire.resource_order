@@ -947,6 +947,7 @@
     {"name":"sfx_flip","order":12,"path":"sounds/sfx_flip/sfx_flip.yy",},
     {"name":"obj_entrywaydestructible8","order":317,"path":"objects/obj_entrywaydestructible8/obj_entrywaydestructible8.yy",},
     {"name":"sfx_glassbreak","order":14,"path":"sounds/sfx_glassbreak/sfx_glassbreak.yy",},
+    {"name":"spr_coneball_bartimerfront","order":7,"path":"sprites/spr_coneball_bartimerfront/spr_coneball_bartimerfront.yy",},
     {"name":"sfx_bloop","order":2,"path":"sounds/sfx_bloop/sfx_bloop.yy",},
     {"name":"GMLive_vm","order":5,"path":"scripts/GMLive_vm/GMLive_vm.yy",},
     {"name":"sound_door","order":50,"path":"sounds/sound_door/sound_door.yy",},

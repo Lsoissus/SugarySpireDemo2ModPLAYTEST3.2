@@ -7,6 +7,7 @@ if string_starts_with(roomname, "hub") || string_starts_with(room_get_name(room)
 if (room != scootercutsceneidk && room != rm_credits && room != devroom && room != palroom && room != rank_room && room != realtitlescreen)
 {
 	clock_index += 0.35
+	timer_coneballindex += 0.35
 	if global.heatmeter
 	{
 	pal_swap_set(spr_heatpal, heatpal, 0);
@@ -149,31 +150,26 @@ if (global.debugmode)
 
 #region BAR TIMER
 
-if global.panic
-{
-    var _fill = (global.minutes * 60 + global.seconds) * 60
-    var _currentbarpos = chunkmax - _fill
-    var _perc = _currentbarpos / chunkmax
-    var _max_x = cam_w / 2 - 200
-    var _barpos = _max_x * _perc
-    var timerspr = coneball_sprite
-    draw_sprite(timerspr, coneball_index, timer_x + 280, timer_y + 10)
-	draw_sprite(spr_coneball_bartimertongue, -1, timer_x, timer_y)
-    if !surface_exists(bar_surface)
-        bar_surface = surface_create(cam_w / 2, 30)
-    var _barfillpos = floor(_barpos) + 13
-    if _barfillpos > 0
+  var timerx = 480
+    var timery = (605 + timer_y)
+    var perc = clamp((1 - (target_fill / global.maxwave)), 0, 1)
+    var harry_ypos = (-12 * perc)
+    var dist = clamp((perc * 268), 0, 268)
+    if global.panic
     {
-        surface_resize(bar_surface, _barfillpos, 30)
-        surface_set_target(bar_surface)
-        draw_clear_alpha(c_black, 0)
-        var clip_x = timer_x + 3
-        var clip_y = timer_y + 5
-        draw_sprite(spr_coneball_bartimer_rolltrail, 0, timer_x, 0)
-        surface_reset_target()
-        draw_surface(bar_surface, timer_x, timer_y)
-    }
-    draw_sprite(roll_sprite, roll_index, timer_x + 13 + _barpos, timer_y + 20)
+        target_fill = lerp(target_fill, (((global.minutes * 60) + global.seconds) * 60), 0.03)
+        if ((coneball_sprite != spr_coneball_bartimesup))
+        {
+            draw_sprite_ext(spr_coneball_bartimer, timer_coneballindex, (timerx + 135), (timery - 20), 1, 1, 0, c_white, 1)
+            draw_sprite_ext(spr_coneball_bartimertongue, coneball_index, timerx, timery, 1, 1, 0, c_white, 1)
+            draw_sprite_part(spr_coneball_bartimer_rolltrail, 0, 0, 0, (dist + 45), 113, (timerx - 184), (timery - 50))
+            draw_sprite_ext(spr_coneball_bartimer_roll, roll_index, ((timerx - 147) + dist), ((timery + harry_ypos) + 31), 1, 1, 0, c_white, 1)
+            draw_sprite_ext(spr_coneball_bartimerfront, timer_coneballindex, (timerx + 135), (timery - 20), 1, 1, 0, c_white, 1)
+        }
+        else if ((coneball_sprite == spr_coneball_bartimesup))
+            draw_sprite_ext(spr_coneball_bartimertonguesup, floor(coneball_index), timerx, timery, 1, 1, 0, c_white, 1)
+        if ((coneball_sprite == spr_coneball_bartimesup))
+            draw_sprite_ext(coneball_sprite, floor(coneball_index), (timerx + 135), (timery - 20), 1, 1, 0, c_white, 1)
 	var seconds
     if global.seconds < 10
         seconds = concat("0", global.seconds)
@@ -183,10 +179,8 @@ if global.panic
 	var _offset = 0
 	if global.minutes < 1
 		_offset = random_range(2, -2)
-	draw_text(timer_x + 200 + _offset, timer_y + 18 + _offset - (sprite_get_yoffset(spr_font) / 2), concat(global.minutes, ":", seconds))
-    draw_sprite(spr_coneball_bartimer_clock, clock_index, timer_x + 152 + _offset, timer_y + 30 + _offset - (sprite_get_yoffset(spr_font) / 2))
+	draw_text(timer_x + 200 + _offset, 585 + timer_y + _offset - (sprite_get_yoffset(spr_font) / 2), concat(global.minutes, ":", seconds))
+    draw_sprite(spr_coneball_bartimer_clock, clock_index, timer_x + 152 + _offset, 600 + timer_y + _offset - (sprite_get_yoffset(spr_font) / 2))
 }
-else if surface_exists(bar_surface)
-    surface_free(bar_surface)
 	
 #endregion
