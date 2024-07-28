@@ -165,7 +165,6 @@
     {"id":{"name":"obj_sugarrush","path":"objects/obj_sugarrush/obj_sugarrush.yy",},},
     {"id":{"name":"obj_ridetest2","path":"objects/obj_ridetest2/obj_ridetest2.yy",},},
     {"id":{"name":"obj_geyser","path":"objects/obj_geyser/obj_geyser.yy",},},
-    {"id":{"name":"molasses_6old","path":"rooms/molasses_6old/molasses_6old.yy",},},
     {"id":{"name":"spr_player_idlehuh","path":"sprites/spr_player_idlehuh/spr_player_idlehuh.yy",},},
     {"id":{"name":"obj_traingo","path":"objects/obj_traingo/obj_traingo.yy",},},
     {"id":{"name":"obj_mini","path":"objects/obj_mini/obj_mini.yy",},},
@@ -2442,7 +2441,6 @@
     {"roomId":{"name":"parlornew_4","path":"rooms/parlornew_4/parlornew_4.yy",},},
     {"roomId":{"name":"parlornew_5","path":"rooms/parlornew_5/parlornew_5.yy",},},
     {"roomId":{"name":"entryway_7","path":"rooms/entryway_7/entryway_7.yy",},},
-    {"roomId":{"name":"molasses_6old","path":"rooms/molasses_6old/molasses_6old.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
