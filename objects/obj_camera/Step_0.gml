@@ -147,24 +147,10 @@ if global.panic
     {
         var _spd = ((1 - (target_fill / global.maxwave)) * (sprite_get_number(spr_coneball_bartimer_roll) * 10))
         roll_index = (_spd % sprite_get_number(spr_coneball_bartimer_roll))
-        coneball_index += 0.35
-        tongue_index += 0.35
-        if ((coneball_index >= sprite_get_number(coneball_sprite)))
-            coneball_index = frac(coneball_index)
-        if ((tongue_index >= sprite_get_number(spr_coneball_bartimertonguesup)))
-            tongue_index = 0
-        timer_y = approach(timer_y, -176, 1)
+        timer_y = approach(timer_y, -136, 1)
     }
     else
     {
-        if ((coneball_sprite == spr_coneball_bartimer))
-        {
-            coneball_sprite = spr_coneball_bartimesup
-            coneball_index = 0
-            timer_buffer = 200
-        }
-        if ((coneball_index < (sprite_get_number(coneball_sprite) - 1)))
-            coneball_index += 0.35
         if ((timer_buffer > 0))
             timer_buffer--
         if ((timer_buffer == 0))
