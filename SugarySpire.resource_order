@@ -2031,7 +2031,7 @@
     {"name":"spr_pizzano_fall","order":700,"path":"sprites/spr_pizzano_fall/spr_pizzano_fall.yy",},
     {"name":"spr_molassesbgpara3_escape","order":590,"path":"sprites/spr_molassesbgpara3_escape/spr_molassesbgpara3_escape.yy",},
     {"name":"spr_tvbg_mlass_panic","order":8,"path":"sprites/spr_tvbg_mlass_panic/spr_tvbg_mlass_panic.yy",},
-    {"name":"spr_rank_image","order":653,"path":"sprites/spr_rank_image/spr_rank_image.yy",},
+    {"name":"spr_rank_image","order":7,"path":"sprites/spr_rank_image/spr_rank_image.yy",},
     {"name":"spr_pizzano_bomb","order":456,"path":"sprites/spr_pizzano_bomb/spr_pizzano_bomb.yy",},
     {"name":"spr_alrightcombo_intro","order":457,"path":"sprites/spr_alrightcombo_intro/spr_alrightcombo_intro.yy",},
     {"name":"molasses_8b","order":20,"path":"rooms/molasses_8b/molasses_8b.yy",},
