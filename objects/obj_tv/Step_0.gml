@@ -2,14 +2,14 @@ scr_tvsprites();
 var roomname = room_get_name(room)
 if (room == steamy_1)
 {
-	global.srank = 10000;
+	global.srank = 23000;
 	global.arank = global.srank - (global.srank / 4);
 	global.brank = global.srank - ((global.srank / 4) * 2);
 	global.crank = global.srank - ((global.srank / 4) * 3);
 }
 if (room == entryway_1)
 {
-	global.srank = 15000;
+	global.srank = 18000;
 	global.arank = global.srank - (global.srank / 4);
 	global.brank = global.srank - ((global.srank / 4) * 2);
 	global.crank = global.srank - ((global.srank / 4) * 3);

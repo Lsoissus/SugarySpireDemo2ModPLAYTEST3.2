@@ -61,6 +61,8 @@ function scr_confecti_init()
 			spr_appear = spr_rudejanitor_appear;
 			spr_taunt = spr_rudejanitor_taunt;
 			global.janitor = true;
+		   scr_queue_tvanim(spr_collectrudejanitor_tv, 100)
+			break;
 			break;
 	}
 }
