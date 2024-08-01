@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Ranks",
-    "path": "folders/Sprites/Ranks.yy",
+    "name": "group1",
+    "path": "folders/Sprites/Ranks/group1.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

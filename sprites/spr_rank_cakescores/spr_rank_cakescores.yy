@@ -55,8 +55,8 @@
   },
   "origin": 4,
   "parent": {
-    "name": "Ranks",
-    "path": "folders/Sprites/Ranks.yy",
+    "name": "Main",
+    "path": "folders/Sprites/Ranks/Main.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
