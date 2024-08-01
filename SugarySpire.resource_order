@@ -85,6 +85,8 @@
     {"name":"Minecart","order":6,"path":"folders/Sprites/Player Sprites/Pizzelle/Minecart.yy",},
     {"name":"Ranks","order":607,"path":"folders/Sprites/Ranks.yy",},
     {"name":"Bgs","order":1,"path":"folders/Sprites/Ranks/Bgs.yy",},
+    {"name":"group1","order":9,"path":"folders/Sprites/Ranks/group1.yy",},
+    {"name":"Main","order":8,"path":"folders/Sprites/Ranks/Main.yy",},
     {"name":"Numbers","order":6,"path":"folders/Sprites/Ranks/Numbers.yy",},
     {"name":"Secrets","order":5,"path":"folders/Sprites/Ranks/Secrets.yy",},
     {"name":"SecretPortal","order":561,"path":"folders/Sprites/SecretPortal.yy",},
@@ -93,8 +95,6 @@
     {"name":"TVbgs","order":557,"path":"folders/Sprites/TVbgs.yy",},
     {"name":"Tile Sets","order":10,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":24,"path":"folders/Timelines.yy",},
-    {"name":"Main","order":8,"path":"folders/Sprites/Ranks/Main.yy",},
-    {"name":"group1","order":9,"path":"folders/Sprites/Ranks/group1.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":597,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},

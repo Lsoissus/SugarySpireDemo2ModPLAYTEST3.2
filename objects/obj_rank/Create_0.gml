@@ -18,3 +18,6 @@ for (var i = 0; i < _string_length; i++)
 freezecol = { dark: [93/255, 93/255, 93/255],light: [155/255, 155/255, 155/255]}
 confectiArray = ["mallow", "choco", "crack", "worm", "candy"]
 targetx = 480;
+playerresetbuffer = 0
+palettechoose = 0
+card_index = 0

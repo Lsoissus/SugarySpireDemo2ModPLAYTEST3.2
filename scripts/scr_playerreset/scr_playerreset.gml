@@ -34,14 +34,39 @@ function scr_playerreset()
 	instance_destroy(obj_confecticandy);
 	instance_destroy(obj_rudejanitor);
 	ds_list_clear(global.FollowerList);
+	if instance_exists(obj_rank)
+		{
+		with (obj_rank)
+		{
+		if playerresetbuffer = 0
+	{
 	global.mallowfollow = false;
 	global.crackfollow = false;
 	global.chocofollow = false;
 	global.wormfollow = false;
 	global.candyfollow = false;
 	global.janitor = false;
-	global.secretsfound = 0;
+		global.secretfound1 = false;
+	global.secretfound2 = false;
+	global.secretfound3 = false;
 	global.treasurefound = false;
+	}
+		}
+		}
+	else
+	{
+		global.mallowfollow = false;
+	global.crackfollow = false;
+	global.chocofollow = false;
+	global.wormfollow = false;
+	global.candyfollow = false;
+	global.janitor = false;
+		global.secretfound1 = false;
+	global.secretfound2 = false;
+	global.secretfound3 = false;
+	global.treasurefound = false;
+	}
+global.secretsfound = 0;
 	with (obj_camera)
 	{
 		DrawY = 0;
@@ -121,11 +146,29 @@ function scr_playerreset()
 		flash = false;
 		global.key_inv = false;
 		global.keyget = false;
+		if instance_exists(obj_rank)
+		{
+		with (obj_rank)
+		{
+		if playerresetbuffer = 0
 		global.collect = 0;
+		}
+		}
+		else 
+		global.collect = 0
 		global.ammo = 0;
 		global.treasure = false;
 		global.combo = 0;
+		if instance_exists(obj_rank)
+		{
+		with (obj_rank)
+		{
+		if playerresetbuffer = 0
 		global.maxcombo = 0;
+		}
+		}
+		else
+		global.maxcombo = 0
 		global.combotime = 0;
 		global.pizzacoin = 0;
 		global.roomsave = false;
@@ -199,7 +242,4 @@ function scr_playerreset()
 	}
 	scale_xs = 1;
 	scale_ys = 1;
-	global.secretfound1 = false;
-	global.secretfound2 = false;
-	global.secretfound3 = false;
 }

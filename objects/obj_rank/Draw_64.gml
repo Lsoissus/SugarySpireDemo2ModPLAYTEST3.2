@@ -1,23 +1,26 @@
+card_index += 0.35
 if !rankreview
 {
 var _bgIndex = 1;
 switch global.rank {
-	case "p": _bgIndex = 0;
+	case "p": _bgIndex = 0; palettechoose = 0;
 	break;
-	case "s": _bgIndex = 5;
+	case "s": _bgIndex = 5; palettechoose = 5;
 	break;
-	case "a": _bgIndex = 4;
+	case "a": _bgIndex = 4; palettechoose = 4;
 	break;
-	case "b": _bgIndex = 3;
+	case "b": _bgIndex = 3; palettechoose = 3;
 	break;
-	case "c": _bgIndex = 2;
+	case "c": _bgIndex = 2; palettechoose = 2;
 	break;
-	case "d": _bgIndex = 1;
+	case "d": _bgIndex = 1; palettechoose = 1;
 	break;
 }
 draw_set_color(c_white);
 draw_set_alpha(bgalpha)
+pal_swap_set(spr_bg_rankspal, palettechoose, 0);
 draw_sprite_tiled(spr_bg_ranks, _bgIndex, 0 - val, 0 + val)
+shader_reset()
 draw_set_alpha(1)
 pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, 0);
 draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
@@ -54,7 +57,7 @@ draw_rectangle(-64, -64, camera_get_view_width(view_camera[0]) + 64, camera_get_
 draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 shader_reset();	
 draw_sprite(spr_clipboardrank, 0, 455, clipboardPos)
-draw_sprite(spr_rank_cakescores, _cakeIndex, 455 + 245, clipboardPos + 475)
+draw_sprite(spr_rank_cakescores, _cakeIndex, 455 + 245, clipboardPos + 476)
 draw_set_font(global.resultsfont);
 draw_set_halign(fa_center);
 draw_set_color(c_white);
@@ -76,9 +79,9 @@ for (l = 0; l < 3; l++)
 {
 	var _xx = 455 + 170 + (75 * l)
 	if !variable_global_get("secretfound" + string(l + 1))
-	draw_sprite(spr_rankcard, 0, _xx, clipboardPos + 325)
+	draw_sprite(spr_rankcard, card_index, _xx, clipboardPos + 325)
 	else
-	draw_sprite(spr_rankcardflipped, 0, _xx, clipboardPos + 325)
+	draw_sprite(spr_rankcardflipped, card_index, _xx, clipboardPos + 325)
 	
 }
 for (l = 0; l < 5; l++)
