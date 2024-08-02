@@ -20,7 +20,16 @@ if (global.panic)
 			else
 				global.rank = "d";
 			if (global.rank != "e")
-				scr_sound(mu_rankstuffs)
+				{
+				if global.rank = "p"
+				scr_sound(mu_rankpnew)
+				else if global.rank = "s"
+				scr_sound(mu_ranknew)
+				else if global.rank = "d"
+				scr_sound(mu_rankdnew)
+				else
+				scr_sound(mu_rankanew)
+				}
 			else
 				scr_sound(mu_rankd);
 			audio_stop_sound(mu_escape);
