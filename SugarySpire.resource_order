@@ -536,6 +536,7 @@
     {"name":"steamy_lap","order":19,"path":"rooms/steamy_lap/steamy_lap.yy",},
     {"name":"timesuproom","order":3,"path":"rooms/timesuproom/timesuproom.yy",},
     {"name":"obj_treasure","order":336,"path":"objects/obj_treasure/obj_treasure.yy",},
+    {"name":"spr_endscreenpal","order":3,"path":"sprites/spr_endscreenpal/spr_endscreenpal.yy",},
     {"name":"mines_2","order":6,"path":"rooms/mines_2/mines_2.yy",},
     {"name":"rm_initializer","order":4,"path":"rooms/rm_initializer/rm_initializer.yy",},
     {"name":"mines_4","order":8,"path":"rooms/mines_4/mines_4.yy",},
