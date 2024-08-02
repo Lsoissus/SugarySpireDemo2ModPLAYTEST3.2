@@ -13,38 +13,38 @@ if (obj_player.character == characters.pizzelle)
 		freezecol = { dark: [102/255, 44/255, 60/255],light: [170/255, 73/255, 146/255]}
 		break;
 		case "s": sprite_index = spr_rankS;
-		freezecol = { dark: [184/255, 122/255, 38/255],light: [212/255, 212/255, 156/255]}
+		freezecol = { dark: [141/255, 83/255, 4/255],light: [180/255, 116/255, 27/255]}
 		break;
 		case "a": sprite_index = spr_rankA; 
-		freezecol = freezecol = { dark: [105/255, 38/255, 38/255],light: [167/255, 77/255, 71/255]}
+		freezecol = { dark: [104/255, 37/255, 37/255],light: [166/255, 76/255, 70/255]}
 		break;
 		case "b": sprite_index = spr_rankB; 
-		freezecol = { dark: [60/255, 100/255, 195/255],light: [137/255, 157/255, 201/255]}
+		freezecol = { dark: [86/255, 114/255, 180/255],light: [125/255, 152/255, 194/255]}
 		break;
 		case "c": sprite_index = spr_rankC; 
-		freezecol = { dark: [43/255, 107/255, 46/255],light: [116/255, 212/255, 66/255]}
+		freezecol = { dark: [67/255, 123/255, 44/255],light: [176/255, 222/255, 75/255]}
 		break;
 		case "d": sprite_index = spr_rankD; 
 		break;
 		case "e": sprite_index = spr_rankP;
 		break;
 		default: sprite_index = spr_rankD;
-		freezecol = { dark: [38/255, 38/255, 38/255],light: [94/255, 100/255, 105/255]}
+		freezecol = { dark: [80/255, 89/255, 97/255],light: [107/255, 120/255, 128/255]}
 		break;
 	}
 }
 switch global.rank {
 	case "p": freezecol = { dark: [102/255, 44/255, 60/255],light: [170/255, 73/255, 146/255]}
 	break;
-	case "s": freezecol = { dark: [184/255, 122/255, 38/255],light: [212/255, 212/255, 156/255]}
+	case "s": freezecol = { dark: [141/255, 83/255, 4/255],light: [180/255, 116/255, 27/255]}
 	break;
-	case "a": freezecol = { dark: [105/255, 38/255, 38/255],light: [167/255, 77/255, 71/255]}
+	case "a": freezecol = { dark: [104/255, 37/255, 37/255],light: [166/255, 76/255, 70/255]}
 	break;
-	case "b": freezecol = { dark: [60/255, 100/255, 195/255],light: [137/255, 157/255, 201/255]}
+	case "b": freezecol = { dark: [86/255, 114/255, 180/255],light: [125/255, 152/255, 194/255]}
 	break;
-	case "c": freezecol = { dark: [43/255, 107/255, 46/255],light: [116/255, 212/255, 66/255]}
+	case "c": freezecol = { dark: [67/255, 123/255, 44/255],light: [176/255, 222/255, 75/255]}
 	break;
-	case "d": freezecol = { dark: [38/255, 38/255, 38/255],light: [94/255, 100/255, 105/255]}
+	case "d": freezecol = { dark: [80/255, 89/255, 97/255],light: [107/255, 120/255, 128/255]}
 	break;
 }
 if global.rank == "p"

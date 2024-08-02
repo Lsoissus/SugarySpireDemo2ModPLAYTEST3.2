@@ -6,3 +6,5 @@ bgalpha = 0;
 bgfadein = false;
 alarm[1] = 67;
 val = 0
+flashbuffer = 15
+whiteflashAlpha = 1

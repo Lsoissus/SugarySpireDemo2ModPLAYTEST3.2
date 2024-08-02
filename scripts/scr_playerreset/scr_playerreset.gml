@@ -159,15 +159,6 @@ global.secretsfound = 0;
 		global.ammo = 0;
 		global.treasure = false;
 		global.combo = 0;
-		if instance_exists(obj_rank)
-		{
-		with (obj_rank)
-		{
-		if playerresetbuffer = 0
-		global.maxcombo = 0;
-		}
-		}
-		else
 		global.maxcombo = 0
 		global.combotime = 0;
 		global.pizzacoin = 0;
