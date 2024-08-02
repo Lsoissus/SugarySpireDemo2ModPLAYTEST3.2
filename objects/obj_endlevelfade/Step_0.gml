@@ -2,8 +2,8 @@ with (obj_player)
 {
 	if (room == rank_room)
 	{
-		obj_player.x = 480;
-		obj_player.y = 270;
+		obj_player.x = lerp(obj_player.x, 480, 0.1);
+		obj_player.y = lerp(obj_player.y, 270, 0.1)
 	}
 }
 obj_camera.visible = false;
@@ -20,3 +20,5 @@ else if (fadein == 1)
 if (bgfadein)
 	bgalpha += 0.1;
 val++
+if flashbuffer > 0
+flashbuffer--
