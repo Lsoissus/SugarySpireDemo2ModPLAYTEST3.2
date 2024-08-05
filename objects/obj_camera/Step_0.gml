@@ -40,7 +40,7 @@ if (shake_mag > 0)
 	if (shake_mag < 0)
 		shake_mag = 0;
 }
-var lspd = 0.25;
+var lspd = 0.05;
 cam_angle = lerp(cam_angle, cam_langle, lspd);
 cam_zoom = lerp(cam_zoom, cam_lzoom, lspd);
 camera_set_view_angle(view_camera[0], cam_angle);
