@@ -43,7 +43,7 @@ function scr_player_machslide()
 		xscale *= -1;
 		instance_create(x, y, obj_jumpdust);
 	}
-	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_machturnfall && mach2 != 0 && grounded)
+	if sprite_index == spr_player_machturnfall && mach2 != 0 && grounded
 	{
 		movespeed = 10;
 		momemtum = true;
@@ -52,7 +52,7 @@ function scr_player_machslide()
 		xscale *= -1;
 		instance_create(x, y, obj_jumpdust);
 	}
-		if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_mach3turnfall && mach2 != 0 && grounded)
+	if sprite_index == spr_player_mach3turnfall && mach2 != 0 && grounded
 	{
 		movespeed = 12;
 		sprite_index = spr_player_mach3;

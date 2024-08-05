@@ -11,8 +11,8 @@ function scr_player_handstandjump()
 			grav = (character == characters.pizzano ? 0.5 : 0);
 			momemtum = true;
 			dir = xscale;
-			if movespeed <= 12
-				movespeed = 12
+			if movespeed <= 10
+				movespeed = 10
 			if (sprite_index == spr_player_suplexdash && !instance_exists(obj_crazyrunothereffect))
 				instance_create(x, y, obj_crazyrunothereffect);
 			if (image_index > 7)
@@ -65,6 +65,7 @@ function scr_player_handstandjump()
 				instance_create(x, y, obj_jumpdust);
 				state = states.mach2;
 				vsp = -11;
+				jumpstop = false;
 				if (audio_is_playing(sound_suplex1))
 					audio_stop_sound(sound_suplex1);
 			}

@@ -7,3 +7,5 @@ stomped = false;
 if (x != obj_player.x)
 	image_xscale = -sign(x - obj_player.x);
 deadrot = choose(4, 5, 8, 10, -4, -5, -8, -10);
+spr_palette = spr_null;
+paletteselect = 0;

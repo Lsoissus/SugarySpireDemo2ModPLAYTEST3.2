@@ -15,22 +15,22 @@ function scr_player_mach2()
 			move2 = key_right2 + key_left2;
 			move = key_right + key_left;
 			crouchslideAnim = true;
-			if character = characters.pizzelle
+			if character = characters.pizzelle && grounded
 			{
-			if sprite_index = spr_mach1
-			{
-			if (movespeed <= 8)
-				movespeed += 0.5;
-				else if movespeed >= 8 && floor(image_index) == (image_number - 1)
-			sprite_index = spr_mach
-			}
-			if sprite_index = spr_mach
-			{
-			   if movespeed < 8
-			   movespeed = 8
-			   else if ((movespeed >= 8))
-                movespeed += 0.1
-			}
+				if sprite_index = spr_mach1
+				{
+					if movespeed <= 8
+						movespeed += 0.5;
+					else if movespeed >= 8 && floor(image_index) == (image_number - 1)
+						sprite_index = spr_mach;
+				}
+				else
+				{
+					if movespeed < 8
+						movespeed = 8
+					else if movespeed >= 8
+						movespeed += 0.1
+				}
 			}
 			if (sprite_index != spr_null)
 			{

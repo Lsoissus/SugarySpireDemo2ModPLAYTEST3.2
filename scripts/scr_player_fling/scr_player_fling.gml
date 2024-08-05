@@ -52,29 +52,7 @@ function scr_player_fling()
 			movespeed -= 0.1;
 		if (scr_solid(x + 1, y) && move == 1) || (scr_solid(x - 1, y) && move == -1)
 			movespeed = 0;
-		if (dir != xscale)
-		{
-			mach2 = 0;
-			dir = xscale;
-			movespeed = 0;
-		}
-		if (move == -xscale)
-		{
-			mach2 = 0;
-			movespeed = 0;
-			momemtum = false;
-		}
 		landAnim = true;
-		if (key_attack && grounded && fallinganimation < 40 && !charged && !(sprite_index == spr_player_wallkick || sprite_index == spr_player_wallkickloop))
-		{
-			mach2 = 0;
-			if (movespeed < 6)
-				movespeed = 6;
-			sprite_index = spr_mach1;
-			jumpAnim = true;
-			state = states.mach2;
-			image_index = 0;
-		}
 		if (grounded && vsp > 0 && !key_attack)
 		{
 			if (key_attack)

@@ -4,8 +4,8 @@ with (obj_player)
 	{
 		global.combofreeze = 30;
 		state = states.cotton;
-		instance_create(x, y, obj_poofeffect);
-		instance_create(x, y, obj_poofeffectcotton);
+		with instance_create(x, y, obj_poofeffect)
+			paletteselect = 1;
 		sprite_index = spr_cottonidle;
 	}
 }

@@ -3,8 +3,8 @@ grav = 0.5;
 hsp = 0;
 vsp = 0;
 movespeed = 1;
-state = baddiestates.stun;
-stunned = false;
+state = 6;
+stunned = 0;
 alarm[0] = 150;
 roaming = true;
 collectdrop = 5;
@@ -15,7 +15,7 @@ cigarcreate = false;
 stomped = false;
 shot = false;
 thrown = false;
-reset = false;
+reset = 0;
 flash = false;
 landspr = spr_juicewalk;
 idlespr = spr_juicestun;
@@ -32,3 +32,13 @@ slapped = false;
 grounded = true;
 birdcreated = false;
 boundbox = false;
+spr_palette = spr_juicePalette;
+paletteselect = 2;
+var roomname = room_get_name(room);
+switch string_letters(roomname)
+{
+	case "entryway": case "entrywaysecret": paletteselect = 1; break;
+	case "molasses": case "molassesb": case "molassesc": case "molassesd": case "molassessecret": paletteselect = 3; break;
+	case "mines": case "minessecret": paletteselect = 4; break;
+	default: paletteselect = 2; break;
+}
