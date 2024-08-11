@@ -29,7 +29,7 @@ function scr_player_machtumble()
 		}
 		flash = false;
 		combo = 0;
-		sprite_index = spr_player_mach3hitwall;
+		sprite_index = spr_mach3hitwall;
 		state = states.bump;
 		hsp = -2.5 * xscale;
 		vsp = -3;
@@ -57,12 +57,12 @@ function scr_player_machtumble()
 			if (mach2 < 100)
 			{
 				state = states.mach2;
-				sprite_index = spr_player_mach2;
+				sprite_index = spr_mach;
 			}
 			if (mach2 >= 100)
 			{
 				state = states.mach3;
-				sprite_index = spr_player_mach3;
+				sprite_index = spr_mach3;
 			}
 		}
 		else if (!key_attack && bufferslap >= 8)

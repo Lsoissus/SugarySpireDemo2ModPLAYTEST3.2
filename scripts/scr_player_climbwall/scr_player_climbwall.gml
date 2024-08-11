@@ -59,7 +59,7 @@ if windingAnim < 200
 		else if wallspeed >= 12
 		{
 			state = states.mach3
-			sprite_index = spr_player_mach3
+			sprite_index = spr_mach3
 			movespeed = wallspeed
 		}
 		else

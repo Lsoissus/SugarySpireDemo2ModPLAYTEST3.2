@@ -55,7 +55,7 @@ function scr_player_machslide()
 	if sprite_index == spr_player_mach3turnfall && mach2 != 0 && grounded
 	{
 		movespeed = 12;
-		sprite_index = spr_player_mach3;
+		sprite_index = spr_mach3;
 		scr_sound(sound_dash2);
 		momemtum = true;
 		state = states.mach3;
@@ -66,7 +66,7 @@ function scr_player_machslide()
 	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_machslideboost3 && mach2 != 0 && grounded)
 	{
 		movespeed = 12;
-		sprite_index = spr_player_mach3;
+		sprite_index = spr_mach3;
 		scr_sound(sound_dash2);
 		momemtum = true;
 		state = states.mach3;

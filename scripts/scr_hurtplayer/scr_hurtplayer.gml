@@ -12,7 +12,7 @@ function scr_hurtplayer(_player_index = obj_player)
 			}
 			else if (state == states.minecart)
 			{
-				sprite_index = spr_player_mach3hitwall;
+				sprite_index = spr_mach3hitwall;
 				state = states.bump;
 				hsp = 2.5 * xscale;
 				vsp = -3;

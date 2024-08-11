@@ -52,16 +52,30 @@ function scr_player_facestomp()
 	image_speed = 0.35;
 	if (grounded && input_buffer_jump < 8 && vsp > 0)
 	{
-		sprite_index = spr_player_hanstandjump;
-		stompAnim = false;
-		hsp = 0;
-		state = states.handstandjump;
-		jumpAnim = true;
-		jumpstop = false;
-		image_index = 0;
-		if (!place_meeting(x, y, obj_water2))
-			instance_create(x, y, obj_landcloud);
-		freefallstart = false;
+		if character == characters.pizzano {
+			scr_sound(sound_suplex1);
+			instance_create(x, y, obj_slaphitbox);
+			suplexmove = true;
+			vsp = 0;
+			instance_create(x, y, obj_jumpdust);
+			image_index = 0;
+			sprite_index = choose(spr_pizzano_kungfu1, spr_pizzano_kungfu2);
+			state = states.kungfuCookie;
+			movespeed = 10;
+			instance_create(x, y, obj_crazyrunothereffect);
+		}
+		else {
+			sprite_index = spr_player_hanstandjump;
+			stompAnim = false;
+			hsp = 0;
+			state = states.handstandjump;
+			jumpAnim = true;
+			jumpstop = false;
+			image_index = 0;
+			if (!place_meeting(x, y, obj_water2))
+				instance_create(x, y, obj_landcloud);
+			freefallstart = false;
+		}
 	}
 	if (key_jump)
 		input_buffer_jump = 0;

@@ -26,25 +26,25 @@ function scr_rocketfist_pizzano()
 			movespeed -= 0.05;
 		if ((move != 0 && move == xscale) && movespeed < 24)
 			movespeed += 0.1;
-		if (key_jump && grounded)
+		if (key_jump)
 		{
 			state = states.pizzanotwirl;
 			vsp = -12;
 		}
 		if (key_up)
-			vsp = -5;
+			vsp = -7;
 		if (key_down)
-			vsp = 5;
+			vsp = 7;
 		if (scr_solid(x + xscale, y, true) && !place_meeting(x + xscale, y, obj_destructibles))
 		{
 			vsp = -6;
 			movespeed = -6;
-			sprite_index = spr_player_mach3hitwall;
+			sprite_index = spr_pizzano_fisthitwall;
 			state = states.bump;
 		}
 		if (!grounded && hsp != 0 && sprite_index != spr_pizzano_sjumpside)
 			sprite_index = spr_pizzano_sjumpside;
-		if (key_slap2 && key_up && charged)
+		if (key_slap2 && key_up)
 		{
 			flash = true;
 			alarm[0] = 240;
@@ -58,4 +58,6 @@ function scr_rocketfist_pizzano()
 			sprite_index = spr_pizzano_mach3old;
 	}
 	image_speed = 0.35;
+	if (!instance_exists(obj_chargeeffect) && sprite_index != spr_pizzano_sjumpprepside && sprite_index != spr_pizzano_crouchslide)
+		instance_create(x + (70 * obj_player.xscale), y, obj_chargeeffect);
 }

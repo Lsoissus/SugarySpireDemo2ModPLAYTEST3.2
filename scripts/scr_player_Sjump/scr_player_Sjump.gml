@@ -68,10 +68,9 @@ function scr_player_Sjump()
         state = states.mach3
         sprite_index = spr_player_superjump_cancel
     }
-	if (key_slap2 && !grounded && vsp < -10 && character == characters.pizzano)
+	if ((key_attack2 || key_slap2) && !grounded && vsp < -10 && character == characters.pizzano)
 	{
 		flash = true;
-		charged = false;
 		sprite_index = spr_pizzano_sjumpprepside;
 		image_index = 0;
 		movespeed = 0;

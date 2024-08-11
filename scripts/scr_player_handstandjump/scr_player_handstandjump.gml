@@ -12,9 +12,7 @@ function scr_player_handstandjump()
 			momemtum = true;
 			dir = xscale;
 			if movespeed <= 10
-				movespeed = 10
-			if (sprite_index == spr_player_suplexdash && !instance_exists(obj_crazyrunothereffect))
-				instance_create(x, y, obj_crazyrunothereffect);
+				movespeed = 10;
 			if (image_index > 7)
 				movespeed -= 1;
 			if move != xscale && move != 0
@@ -101,7 +99,7 @@ function scr_player_handstandjump()
 				instance_create(x, y, obj_slidecloud);
 			break;
 	}
-	if (key_attack && floor(image_index) == (image_number - 1) && sprite_index != spr_player_bump)
+	if (key_attack && floor(image_index) == (image_number - 1) && sprite_index != spr_bump)
 	{
 		state = states.mach2;
 		sprite_index = spr_mach;
@@ -116,12 +114,12 @@ function scr_player_handstandjump()
 			with (instance_create(x, y, obj_jumpdust))
 				image_xscale = other.xscale;
 		}
-		if character == characters.pizzano {
-			sprite_index = spr_pizzano_shoulderbash;
-			image_index = 0;
-			movespeed = 10;
-			state = states.pizzanokungfu;
-			instance_create(x, y, obj_jumpdust);
-		}
+		//if character == characters.pizzano {
+			//sprite_index = spr_pizzano_shoulderbash;
+			//image_index = 0;
+			//movespeed = 10;
+			//state = states.pizzanokungfu;
+			//instance_create(x, y, obj_jumpdust);
+		//}
 	}
 }

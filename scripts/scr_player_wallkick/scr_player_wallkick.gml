@@ -56,7 +56,7 @@ function scr_player_wallkick(){
 					xscale = move;
 				instance_create(x, y, obj_jumpdust);
 				audio_stop_sound(sfx_flip)
-				sprite_index = spr_player_mach3;
+				sprite_index = spr_mach3;
 				state = states.mach3
 				movespeed = 12;
 				mach2 = 100;

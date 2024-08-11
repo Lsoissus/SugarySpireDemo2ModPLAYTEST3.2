@@ -11,9 +11,9 @@ function scr_player_machroll()
 	move = key_right + key_left;
 	if movespeed < 8
 	movespeed = 8
-	if (((!key_down && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16)) && grounded) && character == characters.pizzelle)
+	if (((!key_down && !scr_solid(x + 27, y - 32) && !scr_solid(x - 27, y - 32) && !scr_solid(x, y - 32) && !scr_solid(x, y - 16)) && grounded))
 	{
-  scr_sound(sound_rollgetup)
+		scr_sound(sound_rollgetup)
         sprite_index = spr_player_rollgetup
         image_index = 0
         mach2 = 35
@@ -62,24 +62,22 @@ function scr_player_machroll()
         sprite_index = spr_player_mach3roll
 	else if (sprite_index != spr_dive && (!grounded))
     {
-        sprite_index = spr_dive
-        vsp = 10
+		if character == characters.pizzelle {
+			sprite_index = spr_dive
+			vsp = 10
+		}
+		else if character == characters.pizzano
+			state = states.pizzanotwirl;
     }
-   else if (key_jump2 && (!grounded))
+    else if (key_jump2 && (!grounded))
     {
         sprite_index = spr_player_bodyslamstart
         vsp = -7
         state = states.freefallprep
     }
-  if (scr_solid((x + xscale), y) && (sprite_index == spr_dive) && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))))
+	if (scr_solid((x + xscale), y) && (sprite_index == spr_dive) && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))))
     {
         sprite_index = spr_player_wallsplat
         state = states.bump
     }
-	if (key_jump2 && character == characters.pizzano)
-	{
-		sprite_index = spr_pizzano_twirl;
-		state = states.pizzanotwirl;
-		vsp = -12;
-	}
 }

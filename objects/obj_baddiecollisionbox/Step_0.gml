@@ -129,7 +129,7 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && !obj_player.
 					vsp = -5;
 				}
 			}
-			if (instance_exists(other.baddieID) && (state == states.mach2 || state == states.rocketfistpizzano || state == states.pizzanokungfu) && other.baddieID.grounded)
+			if (instance_exists(other.baddieID) && (state == states.mach2 || state == states.rocketfistpizzano || state == states.pizzanokungfu || state = states.kungfuCookie) && other.baddieID.grounded)
 			{
 				if (other.baddieID.object_index == obj_pizzaball)
 					global.golfhit += 1;

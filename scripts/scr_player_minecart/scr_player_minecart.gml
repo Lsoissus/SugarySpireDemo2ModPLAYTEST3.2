@@ -31,7 +31,7 @@ function scr_player_minecart()
 		instance_create(x + (32 * xscale), y, obj_chargeeffect);
 	if (scr_solid(x + xscale, y) && !place_meeting(x, y + 1, obj_minecartRail_Slope) && !place_meeting(x + xscale, y, obj_destructibles) && !place_meeting(x + xscale, y, obj_metalblock))
 	{
-		sprite_index = spr_player_mach3hitwall;
+		sprite_index = spr_mach3hitwall;
 		state = states.bump;
 		hsp = 2.5 * -xscale;
 		vsp = -3;

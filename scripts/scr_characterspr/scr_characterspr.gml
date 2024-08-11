@@ -33,6 +33,9 @@ function scr_characterspr()
 		spr_crouchslip = spr_player_machslide;
 		spr_mach1 = spr_player_mach1;
 		spr_mach = spr_player_mach2;
+		spr_mach3 = spr_player_mach3;
+		spr_crazyrun = spr_player_crazyrun;
+		spr_mach3hitwall = spr_player_mach3hitwall;
 		spr_secondjump1 = spr_player_secondjump1;
 		spr_secondjump2 = spr_player_secondjump2;
 		spr_machslidestart = spr_player_machslidestart;
@@ -126,6 +129,9 @@ function scr_characterspr()
 		spr_crouchslip = spr_player_machslide;
 		spr_mach1 = spr_pizzano_mach1;
 		spr_mach = spr_pizzano_mach2;
+		spr_mach3 = spr_pizzano_mach3;
+		spr_crazyrun = spr_pizzano_crazyrun;
+		spr_mach3hitwall = spr_pizzano_mach3hitwall;
 		spr_secondjump1 = spr_player_secondjump1;
 		spr_secondjump2 = spr_player_secondjump2;
 		spr_machslidestart = spr_player_machslidestart;

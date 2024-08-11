@@ -114,14 +114,28 @@ function scr_player_mach1()
 			}
 			if (key_slap2 && !key_down && !suplexmove && !shotgunAnim && global.cane != true)
 			{
-				scr_sound(sound_suplex1);
-				instance_create(x, y, obj_slaphitbox);
-				suplexmove = true;
-				vsp = 0;
-				instance_create(x, y, obj_jumpdust);
-				image_index = 0;
-				sprite_index = spr_suplexdash;
-				state = states.handstandjump;
+				if character == characters.pizzano {
+					scr_sound(sound_suplex1);
+					instance_create(x, y, obj_slaphitbox);
+					suplexmove = true;
+					vsp = 0;
+					instance_create(x, y, obj_jumpdust);
+					image_index = 0;
+					sprite_index = choose(spr_pizzano_kungfu1, spr_pizzano_kungfu2);
+					state = states.kungfuCookie;
+					movespeed = 10;
+					instance_create(x, y, obj_crazyrunothereffect);
+				}
+				else {
+					scr_sound(sound_suplex1);
+					instance_create(x, y, obj_slaphitbox);
+					suplexmove = true;
+					vsp = 0;
+					instance_create(x, y, obj_jumpdust);
+					image_index = 0;
+					sprite_index = spr_suplexdash;
+					state = states.handstandjump;
+				}
 			}
 			break;
 	}

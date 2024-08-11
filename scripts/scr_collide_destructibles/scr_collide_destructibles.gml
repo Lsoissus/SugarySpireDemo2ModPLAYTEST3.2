@@ -1,6 +1,6 @@
 function scr_collide_destructibles()
 {
-	if (state == states.mach2 || state == states.mach3 || state == states.machroll || (state == states.cotton && sprite_index == spr_cotton_attack) || state == states.machtumble || state == states.hookshot || state == states.knightpep || state == states.crouchslide || state == states.uppercut || state == states.parry || state == states.puddle || state == states.tumble || state == states.machpizzano || state == states.door || state == states.comingoutdoor || state == states.rocketfistpizzano || state == states.pizzanokungfu || state == states.minecart || state == states.cottonroll)
+	if (state == states.mach2 || state == states.mach3 || state == states.machroll || (state == states.cotton && sprite_index == spr_cotton_attack) || state == states.machtumble || state == states.hookshot || state == states.knightpep || state == states.crouchslide || state == states.uppercut || state == states.parry || state == states.puddle || state == states.tumble || state == states.machpizzano || state == states.door || state == states.comingoutdoor || state == states.rocketfistpizzano || state == states.pizzanokungfu || state == states.kungfuCookie || state == states.minecart || state == states.cottonroll)
 	{
 		if (place_meeting(x + hsp, y, obj_destructibles))
 		{

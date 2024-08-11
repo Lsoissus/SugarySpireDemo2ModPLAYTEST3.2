@@ -305,7 +305,7 @@ state == states.cottonroll ||
 state == states.minecart ||
 (state == states.rocketfistpizzano &&
 sprite_index != spr_pizzano_sjumpprepside) ||
-state == states.pizzanokungfu ||
+state == states.pizzanokungfu || state = states.kungfuCookie ||
 (state == states.chainsaw &&
 mach2 >= 100)))
 {

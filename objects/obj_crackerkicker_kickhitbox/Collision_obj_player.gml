@@ -1,6 +1,6 @@
 with (other.id)
 {
-	if (instance_exists(other.baddieID) && (state != states.tumble && (state != states.cotton && state != states.pizzanokungfu)))
+	if (instance_exists(other.baddieID) && (state != states.tumble && (state != states.cotton && state != states.pizzanokungfu && state != states.kungfuCookie)))
 	{
 		state = states.tumble;
 		xscale = other.baddieID.image_xscale;
