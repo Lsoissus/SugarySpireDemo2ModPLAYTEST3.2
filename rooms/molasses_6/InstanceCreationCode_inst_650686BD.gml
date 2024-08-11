@@ -5,8 +5,8 @@ condition = function()
 
 output = function()
 {
-    inst_61588644.alarm[1] = 5
-    inst_32550AD4.alarm[1] = 10
-    inst_4523D294.alarm[1] = 1
+    inst_43C1AAD7.alarm[1] = 5
+    inst_76F4DFEA.alarm[1] = 10
+    inst_5B1E185C.alarm[1] = 1
+	inst_367DAFC.alarm[1] = 1
 }
-

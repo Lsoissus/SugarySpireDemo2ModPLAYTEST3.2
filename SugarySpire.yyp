@@ -1782,6 +1782,7 @@
     {"id":{"name":"spr_bigbreak2","path":"sprites/spr_bigbreak2/spr_bigbreak2.yy",},},
     {"id":{"name":"spr_collect2","path":"sprites/spr_collect2/spr_collect2.yy",},},
     {"id":{"name":"obj_candysona","path":"objects/obj_candysona/obj_candysona.yy",},},
+    {"id":{"name":"molassessecret_frenzy","path":"rooms/molassessecret_frenzy/molassessecret_frenzy.yy",},},
     {"id":{"name":"ts_tutorialsigns","path":"tilesets/ts_tutorialsigns/ts_tutorialsigns.yy",},},
     {"id":{"name":"spr_pizzacutter","path":"sprites/spr_pizzacutter/spr_pizzacutter.yy",},},
     {"id":{"name":"spr_chocofrogbig","path":"sprites/spr_chocofrogbig/spr_chocofrogbig.yy",},},
@@ -2456,6 +2457,7 @@
     {"roomId":{"name":"parlornew_5","path":"rooms/parlornew_5/parlornew_5.yy",},},
     {"roomId":{"name":"entryway_7","path":"rooms/entryway_7/entryway_7.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"roomId":{"name":"molassessecret_frenzy","path":"rooms/molassessecret_frenzy/molassessecret_frenzy.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

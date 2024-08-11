@@ -1681,6 +1681,7 @@
     {"name":"spr_bigbreak2","order":291,"path":"sprites/spr_bigbreak2/spr_bigbreak2.yy",},
     {"name":"spr_collect2","order":292,"path":"sprites/spr_collect2/spr_collect2.yy",},
     {"name":"obj_candysona","order":346,"path":"objects/obj_candysona/obj_candysona.yy",},
+    {"name":"molassessecret_frenzy","order":27,"path":"rooms/molassessecret_frenzy/molassessecret_frenzy.yy",},
     {"name":"ts_tutorialsigns","order":24,"path":"tilesets/ts_tutorialsigns/ts_tutorialsigns.yy",},
     {"name":"spr_pizzacutter","order":293,"path":"sprites/spr_pizzacutter/spr_pizzacutter.yy",},
     {"name":"spr_keydoor","order":294,"path":"sprites/spr_keydoor/spr_keydoor.yy",},
