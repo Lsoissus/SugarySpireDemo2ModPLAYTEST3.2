@@ -139,7 +139,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"obj_talisman","path":"objects/obj_talisman/obj_talisman.yy",},},
@@ -1617,6 +1617,7 @@
     {"id":{"name":"scr_pause_Functions","path":"scripts/scr_pause_Functions/scr_pause_Functions.yy",},},
     {"id":{"name":"obj_spookeymove","path":"objects/obj_spookeymove/obj_spookeymove.yy",},},
     {"id":{"name":"spr_barpop2P","path":"sprites/spr_barpop2P/spr_barpop2P.yy",},},
+    {"id":{"name":"mu_hub2","path":"sounds/mu_hub2/mu_hub2.yy",},},
     {"id":{"name":"spr_tvbg_mines","path":"sprites/spr_tvbg_mines/spr_tvbg_mines.yy",},},
     {"id":{"name":"spr_ruthlesscombo_boil","path":"sprites/spr_ruthlesscombo_boil/spr_ruthlesscombo_boil.yy",},},
     {"id":{"name":"spr_ket","path":"sprites/spr_ket/spr_ket.yy",},},
@@ -2465,6 +2466,7 @@
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"molassessecret_frenzy","path":"rooms/molassessecret_frenzy/molassessecret_frenzy.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"pizzelletext","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

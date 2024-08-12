@@ -1520,6 +1520,7 @@
     {"name":"scr_pause_Functions","order":703,"path":"scripts/scr_pause_Functions/scr_pause_Functions.yy",},
     {"name":"obj_spookeymove","order":341,"path":"objects/obj_spookeymove/obj_spookeymove.yy",},
     {"name":"spr_barpop2P","order":650,"path":"sprites/spr_barpop2P/spr_barpop2P.yy",},
+    {"name":"mu_hub2","order":41,"path":"sounds/mu_hub2/mu_hub2.yy",},
     {"name":"spr_tvbg_mines","order":10,"path":"sprites/spr_tvbg_mines/spr_tvbg_mines.yy",},
     {"name":"spr_ruthlesscombo_boil","order":179,"path":"sprites/spr_ruthlesscombo_boil/spr_ruthlesscombo_boil.yy",},
     {"name":"spr_ket","order":180,"path":"sprites/spr_ket/spr_ket.yy",},
