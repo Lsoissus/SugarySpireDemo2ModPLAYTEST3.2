@@ -34,27 +34,6 @@ function scr_playerreset()
 	instance_destroy(obj_confecticandy);
 	instance_destroy(obj_rudejanitor);
 	ds_list_clear(global.FollowerList);
-	if instance_exists(obj_rank)
-		{
-		with (obj_rank)
-		{
-		if playerresetbuffer = 0
-	{
-	global.mallowfollow = false;
-	global.crackfollow = false;
-	global.chocofollow = false;
-	global.wormfollow = false;
-	global.candyfollow = false;
-	global.janitor = false;
-		global.secretfound1 = false;
-	global.secretfound2 = false;
-	global.secretfound3 = false;
-	global.treasurefound = false;
-	}
-		}
-		}
-	else
-	{
 		global.mallowfollow = false;
 	global.crackfollow = false;
 	global.chocofollow = false;
@@ -65,7 +44,6 @@ function scr_playerreset()
 	global.secretfound2 = false;
 	global.secretfound3 = false;
 	global.treasurefound = false;
-	}
 global.secretsfound = 0;
 	with (obj_camera)
 	{
@@ -146,7 +124,7 @@ global.secretsfound = 0;
 		flash = false;
 		global.key_inv = false;
 		global.keyget = false;
-		if instance_exists(obj_rank)
+		if instance_exists(obj_rank) // I have no idea why tf it only works with collects and not with other things
 		{
 		with (obj_rank)
 		{

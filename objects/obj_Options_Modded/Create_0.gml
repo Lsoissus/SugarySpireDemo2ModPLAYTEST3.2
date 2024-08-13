@@ -1,7 +1,7 @@
 enum modded_selected {
 	back,
-	invtv,
 	inflap,
+	invtv,
     heatmeter,
 }
 optionselected = modded_selected.back;

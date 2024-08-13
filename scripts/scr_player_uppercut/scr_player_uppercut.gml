@@ -43,20 +43,6 @@ function scr_player_uppercut()
 		freefallstart = false;
 		instance_create_depth(x, y, 0, obj_landcloud);
 	}
-	if (key_slap2 && !grounded)
-	{
-		if (move != 0)
-			xscale = move;
-		movespeed = 10;
-		machhitAnim = false;
-		state = states.mach2;
-		flash = true;
-		vsp = -7;
-		sprite_index = spr_mach2jump;
-		with (instance_create(x, y, obj_jumpdust))
-			image_xscale = other.xscale;
-		freefallsmash = false;
-	}
 	if (attack_afterimagetimer > 0)
 		attack_afterimagetimer--;
 	if (attack_afterimagetimer <= 0 && vsp <= 0)
