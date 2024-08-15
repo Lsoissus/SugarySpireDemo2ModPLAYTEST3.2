@@ -9,6 +9,18 @@ if (sprite_index != spr_confectiboxopen)
 			depth = -2;
 		}
 		scr_sound(sound_toppingot);
+		  if ((global.toppintotal < 5))
+        {
+            obj_tv.msg = (("You are missing " + string((5 - global.toppintotal))) + " confecti!")
+            obj_tv.showtext = 1
+            obj_tv.alarm[0] = 150
+        }
+        if ((global.toppintotal == 5))
+        {
+            obj_tv.msg = "You got all confecti!"
+            obj_tv.showtext = 1
+            obj_tv.alarm[0] = 150
+        }
 		global.collect += 1000;
 		global.combofreeze = 30;
 		global.combotime = 60;

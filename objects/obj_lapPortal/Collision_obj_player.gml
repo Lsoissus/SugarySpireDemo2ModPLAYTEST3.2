@@ -1,4 +1,4 @@
-if (other.state != states.actor && sprite_index == spr_lapportal && global.panic) {
+if (other.state != states.actor && sprite_index == spr_lapportal && global.panic && image_alpha = 1) {
 	with (other) {
 		x = other.x;
 		y = other.y;

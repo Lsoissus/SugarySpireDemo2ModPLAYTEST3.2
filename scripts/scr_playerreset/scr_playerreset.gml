@@ -33,6 +33,7 @@ function scr_playerreset()
 	instance_destroy(obj_confectiworm);
 	instance_destroy(obj_confecticandy);
 	instance_destroy(obj_rudejanitor);
+	instance_destroy(obj_lapjanitor);
 	ds_list_clear(global.FollowerList);
 		global.mallowfollow = false;
 	global.crackfollow = false;
@@ -40,7 +41,9 @@ function scr_playerreset()
 	global.wormfollow = false;
 	global.candyfollow = false;
 	global.janitor = false;
-		global.secretfound1 = false;
+	global.lapjanitor = false;
+	global.lapcutscenedone = false;
+	global.secretfound1 = false;
 	global.secretfound2 = false;
 	global.secretfound3 = false;
 	global.treasurefound = false;

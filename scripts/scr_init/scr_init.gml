@@ -35,6 +35,8 @@ global.chocofollow = false;
 global.wormfollow = false;
 global.candyfollow = false;
 global.janitor = false;
+global.lapjanitor = false;
+global.lapcutscenedone = false;
 global.switchblock = true;
 
 ini_open("optionData.ini");

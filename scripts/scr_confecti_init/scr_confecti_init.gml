@@ -63,6 +63,15 @@ function scr_confecti_init()
 			global.janitor = true;
 		   scr_queue_tvanim(spr_collectrudejanitor_tv, 100)
 			break;
+			case obj_lapjanitor:
+			spr_idle = spr_lapjanitoridle;
+			spr_run = spr_lapjanitorwalk;
+			spr_panic = spr_lapjanitoridle;
+			spr_panicrun = spr_lapjanitorwalk;
+			spr_appear = spr_lapjanitor_appear
+			spr_taunt = spr_lapjanitortaunt;
+			global.janitor = true;
+		   scr_queue_tvanim(spr_collectlapjanitor_tv, 100)
 			break;
 	}
 }

@@ -48,27 +48,6 @@ else
 	DrawY = lerp(DrawY, 0, 0.15);
 	alpha = 1;
 }
-if (global.collect > global.arank && !shownranka)
-{
-	msg = "YOU GOT ENOUGH FOR RANK A";
-	showtext = true;
-	alarm[0] = 200;
-	shownranka = true;
-}
-else if (global.collect > global.brank && !shownrankb)
-{
-	msg = "YOU GOT ENOUGH FOR RANK B";
-	showtext = true;
-	alarm[0] = 200;
-	shownrankb = true;
-}
-else if (global.collect > global.crank && !shownrankc)
-{
-	msg = "YOU GOT ENOUGH FOR RANK C";
-	showtext = true;
-	alarm[0] = 200;
-	shownrankc = true;
-}
 if (global.hurtcounter >= global.hurtmilestone)
 {
 	var _pChar = "Pizzelle"

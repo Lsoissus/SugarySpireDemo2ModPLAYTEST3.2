@@ -67,3 +67,6 @@ if global.panic
 		}
 	}
 }
+*/
+if sprite_index = spr_lapportalempty && animation_end()
+sprite_index = spr_lapportal
