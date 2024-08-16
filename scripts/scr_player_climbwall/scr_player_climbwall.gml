@@ -87,7 +87,7 @@ if windingAnim < 200
 	{
 		wallrunBuffer = 0
 		instance_create(x, y, obj_jumpdust);
-		vsp = -14;
+		vsp = -12;
 		sprite_index = spr_player_wallkick;
 		image_index = 0;
 		state = states.wallkick
