@@ -168,7 +168,7 @@ function scr_player_normal()
 	}
 	if (character == characters.pizzelle)
 	{
-		if (key_attack && grounded && !(scr_solid(x + 1, y) && xscale == 1 && !place_meeting(x + xscale, y, obj_slope)) && !(scr_solid(x - 1, y) && xscale == -1 && !place_meeting(x + xscale, y, obj_slope)))
+		if (key_attack && grounded && (!place_meeting(x + xscale, y, obj_solid) || place_meeting(x + xscale, y, obj_destructibles) || place_meeting(x + xscale, y, obj_bigdestructibles)))
 		{
 			mach2 = 0;
 			if (movespeed < 6)

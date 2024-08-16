@@ -35,7 +35,13 @@ function scr_player_crouchslide()
         machhitAnim = false;
         instance_create(x + (xscale * 10), y + (xscale * 10), obj_bumpeffect);
     }
-    if !instance_exists(obj_slidecloud) && grounded && movespeed > 5
+     if ((sprite_index != spr_dive) && (!grounded))
+    {
+        sprite_index = spr_dive
+        state = states.machroll
+        vsp = 10
+    }
+   if !instance_exists(obj_slidecloud) && grounded && movespeed > 5
         instance_create(x, y, obj_slidecloud);
     image_speed = 0.35;
 }

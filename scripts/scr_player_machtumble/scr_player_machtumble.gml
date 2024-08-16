@@ -49,17 +49,18 @@ function scr_player_machtumble()
 		state = states.crouchslide;
 		if (audio_is_playing(sound_suplex1))
 			audio_stop_sound(sound_suplex1);
+	crouchslipbuffer = 16
 	}
 	if (animation_end())
 	{
 		if (key_attack)
 		{
-			if (mach2 < 100)
+			if (movespeed < 12)
 			{
 				state = states.mach2;
 				sprite_index = spr_mach;
 			}
-			if (mach2 >= 100)
+			if (movespeed >= 12)
 			{
 				state = states.mach3;
 				sprite_index = spr_mach3;

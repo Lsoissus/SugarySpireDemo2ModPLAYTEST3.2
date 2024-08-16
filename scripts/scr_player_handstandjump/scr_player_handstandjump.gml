@@ -11,10 +11,16 @@ function scr_player_handstandjump()
 			grav = (character == characters.pizzano ? 0.5 : 0);
 			momemtum = true;
 			dir = xscale;
-			if movespeed <= 10
-				movespeed = 10;
-			if (image_index > 7)
-				movespeed -= 1;
+		 if ((movespeed < 12))
+            {
+                if ((image_index < 2))
+                    movespeed = 12
+            }
+            if ((movespeed <= 12))
+            {
+                if ((image_index > 7))
+                    movespeed -= 0.025
+            }
 			if move != xscale && move != 0
 			{
 				state = states.jump;
@@ -40,7 +46,7 @@ function scr_player_handstandjump()
 					with instance_create(x, y, obj_jumpdust)
 						image_xscale = other.xscale
 					movespeed = 12
-					crouchslipbuffer = 25
+					crouchslipbuffer = 16
 					grav = 0.5;
 					sprite_index = spr_crouchslip;
 					machhitAnim = false;
@@ -59,7 +65,10 @@ function scr_player_handstandjump()
 			}
 			if (key_jump && grounded)
 			{
+				if ((movespeed < 10))
+                    movespeed = 10
 				sprite_index = spr_player_longjump;
+				image_index = 0
 				instance_create(x, y, obj_jumpdust);
 				state = states.mach2;
 				vsp = -11;
@@ -90,7 +99,14 @@ function scr_player_handstandjump()
 			}
 			if ((scr_solid(x + xscale, y) && !scr_slope_ext(x + xscale, y)) && !place_meeting(x + xscale, y, obj_destructibles) && !grounded)
 			{
-				wallspeed = 6
+			 if ((movespeed <= 0))
+                        wallspeed = 9
+                    else
+                    {
+                        wallspeed = movespeed
+                        if ((movespeed <= 12))
+                            wallspeed = 9
+                    }
 				grabclimbbuffer = 10
 				state = states.climbwall;
 			}
@@ -101,7 +117,9 @@ function scr_player_handstandjump()
 	}
 	if (key_attack && floor(image_index) == (image_number - 1) && sprite_index != spr_bump)
 	{
-		state = states.mach2;
+		    if ((movespeed < 10))
+            movespeed = 10
+			state = states.mach2;
 		sprite_index = spr_mach;
 	}
 	if (key_slap2 && !key_down)

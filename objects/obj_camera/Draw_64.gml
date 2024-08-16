@@ -203,3 +203,19 @@ if (global.debugmode)
     draw_sprite(spr_coneball_bartimer_clock, clock_index, timer_x + 142 + _offset, 620 + timer_y + _offset - (sprite_get_yoffset(spr_font) / 2))
 }
 #endregion
+if ((room != realtitlescreen) && room != rm_initializer && (room != hub_room1) && room != hub_world1 && room != hub_world2 && room != hub_worldstart && room != hub_worldtutorialhall && (room != scootercutsceneidk) && (room != outer_room1) && (room != outer_room2) && (room != parlor_1) && (room != parlor_2) && (room != palroom) && (room != parlor_3) && (room != parlor_4) && (room != parlor_5) && (room != parlor_6) && (room != parlor_7) && (room != parlor_8) && (room != parlor_9) && (room != parlor_10) && sprite_index != parlornew_1 && sprite_index != parlornew_2 && sprite_index != parlornew_3 && sprite_index != parlornew_4 && sprite_index != parlornew_5 && (room != secrets_await) && (room != devroom))
+{
+    var tiny = ":"
+    var tinier = ":"
+    var tinyish = ":"
+    if ((global.playtimerseconds < 10))
+        tiny = ":0"
+    if ((global.playtimermiliseconds < 10))
+        tinier = ":0"
+    if ((global.playtimerminutes < 10))
+        tinyish = ":0"
+    draw_set_color(c_white)
+    draw_set_halign(fa_left)
+    draw_set_font(global.timerfont)
+    draw_text(823, 512, string_hash_to_newline(((((((string(global.playtimerhour) + string(tinyish)) + string(global.playtimerminutes)) + string(tiny)) + string(global.playtimerseconds)) + string(tinier)) + string(global.playtimermiliseconds))))
+}

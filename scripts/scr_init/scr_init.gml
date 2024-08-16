@@ -12,6 +12,7 @@ global.secretpanic = false;
 global.combomode = false;
 global.font = font_add_sprite_ext(spr_font, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!.0123456789:", 1, 0);
 global.smallfont = font_add_sprite_ext(spr_smallfont, "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-", 1, 0);
+global.timerfont = font_add_sprite_ext(spr_timerfont, "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-:", 1, 0)
 global.creditsfont = font_add_sprite_ext(spr_creditsfont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", 1, 0);
 global.combofont = font_add_sprite_ext(spr_fontcombo, "1234567890", 1, 0);
 global.collectfont = font_add_sprite_ext(spr_fontcollect, "0123456789", 1, 0);
@@ -37,6 +38,10 @@ global.candyfollow = false;
 global.janitor = false;
 global.lapjanitor = false;
 global.lapcutscenedone = false;
+global.playtimermiliseconds = 0
+global.playtimerseconds = 0
+global.playtimerminutes = 0
+global.playtimerhour = 0
 global.switchblock = true;
 
 ini_open("optionData.ini");

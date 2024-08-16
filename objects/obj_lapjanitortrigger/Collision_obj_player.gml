@@ -1,10 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-if !instance_exists(obj_lapjanitor) || global.panic = 0 || global.lapcutscenedone = 1
+if !instance_exists(obj_lapjanitor) || (instance_exists(obj_lapjanitor) && visible = false && global.lapcutscenedone = 1) || global.panic = 0 || global.lapcutscenedone = 1
 return;
 if instance_exists(obj_lapjanitor)
 {
-instance_destroy(obj_lapjanitor)
+if obj_lapjanitor.visible = true
+{
+obj_lapjanitor.visible = false
 with (obj_lapjanitorcutscene)
 {
 visible = true
@@ -32,7 +34,7 @@ image_alpha = 1
 global.lapjanitor = false;
 instance_destroy()
 }
-
+}
 
 
 

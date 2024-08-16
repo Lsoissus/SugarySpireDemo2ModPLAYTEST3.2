@@ -1,3 +1,4 @@
+/*
 var _roomname = room_get_name(room);
 switch (global.levelname)
 {

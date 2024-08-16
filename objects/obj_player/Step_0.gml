@@ -368,20 +368,11 @@ if ((state == states.mach2 || state == states.mach3) && !instance_exists(obj_spe
 // if not in taunting state
 if (state != states.backbreaker)
 {
-	// tick up the supertaunt buffer
-	if (global.combo >= 3 && supertauntbuffer < 500 && !supertauntcharged)
-		supertauntbuffer++;
 	// if buffer is high enough
-	if (supertauntbuffer >= 500 && !supertauntcharged)
+	if (supertauntbuffer >= 10 && !supertauntcharged)
 	{
-		supertauntbuffer = 500;
+		supertauntbuffer = 0;
 		supertauntcharged = true; // give player ability to supertaunt
-	}
-	// if buffer is less than 0 and can supertaunt and combo is below minimum needed
-	if ((supertauntbuffer <= 0 && supertauntcharged) || global.combo < 3)
-	{
-		supertauntbuffer = 0; // reset buffer
-		supertauntcharged = false; // remove ability to supertaunt
 	}
 	if (supertauntcharged && room != rank_room)
 	{

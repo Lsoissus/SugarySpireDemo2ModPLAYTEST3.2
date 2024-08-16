@@ -18,6 +18,7 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && !obj_player.
 				instance_destroy(other.id);
 				global.hit += 1;
 				global.combotime = 60;
+				 supertauntbuffer += 1
 				if (!grounded && state != states.freefall && key_jump2)
 				{
 					suplexmove = false;
@@ -99,6 +100,7 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && !obj_player.
 					global.golfhit += 1;
 				global.hit += 1;
 				global.combotime = 60;
+				supertauntbuffer += 1
 				instance_create(other.baddieID.x, other.baddieID.y, obj_slapstar);
 				instance_create(other.baddieID.x, other.baddieID.y, obj_baddiegibs);
 				other.baddieID.flash = true;
@@ -135,6 +137,7 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && !obj_player.
 					global.golfhit += 1;
 				global.hit += 1;
 				global.combotime = 60;
+				supertauntbuffer += 1
 				instance_create(other.baddieID.x, other.baddieID.y, obj_slapstar);
 				instance_create(other.baddieID.x, other.baddieID.y, obj_baddiegibs);
 				other.baddieID.flash = true;

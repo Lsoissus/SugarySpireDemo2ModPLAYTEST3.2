@@ -9,7 +9,7 @@ if (room == steamy_1)
 }
 if (room == entryway_1)
 {
-	global.srank = 18000;
+	global.srank = 15000;
 	global.arank = global.srank - (global.srank / 4);
 	global.brank = global.srank - ((global.srank / 4) * 2);
 	global.crank = global.srank - ((global.srank / 4) * 3);
@@ -184,4 +184,31 @@ invsprite = (global.key_inv ? spr_invkey : (global.treat ? spr_invdonut : spr_in
 if (tvsprite == spr_tvturnon && floor(image_index) == (image_number - 1))
 	tvsprite = idletvspr;
 sprite_index = tvsprite;
+switch (global.levelname)
+{
+	case "steamy":
+		tvbgsprite = global.panic ? spr_tvbg_steamy_panic : spr_tvbg_steamy;
+		break;
+	case "entryway":
+		tvbgsprite = global.panic ? spr_tvbg_wafer_panic : spr_tvbg_wafer;
+		break;
+	case "mines":
+		tvbgsprite = global.panic ? spr_tvbg_mines_panic : spr_tvbg_mines;
+		break;
+	case "molasses":
+		tvbgsprite = global.panic ? spr_tvbg_mlass_panic : spr_tvbg_mlass;
+		break;
+	case "hub":
+		tvbgsprite = global.panic ? spr_tvbg_hub : spr_tvbg_hub;
+		break;
+	default:
+		tvbgsprite = global.panic ? spr_tvbg_hub : spr_tvbg_hub;
+		break;
+}
+// secret detection
+var _letters = string_letters(roomname);
 
+if string_ends_with(_letters, "secret")
+{
+	tvbgsprite = spr_tvbg_secret;
+}

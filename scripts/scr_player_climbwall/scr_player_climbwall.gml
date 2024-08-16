@@ -87,11 +87,12 @@ if windingAnim < 200
 	{
 		wallrunBuffer = 0
 		instance_create(x, y, obj_jumpdust);
-		vsp = -12;
+		vsp = -14;
 		sprite_index = spr_player_wallkick;
 		image_index = 0;
-		xscale *= -1;
 		state = states.wallkick
+	     movespeed = hsp
+		kickclimbbuffer = 7
 	}
 	image_speed = 0.6;
 	if !instance_exists(obj_cloudeffect)

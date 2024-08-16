@@ -11,5 +11,10 @@ if global.panic
         global.combotime += 4
         global.combofreeze += 2
     }
-    instance_destroy()
+   with (instance_create(x, y, obj_collectEffect))
+{
+    sprite_index = other.sprite_index
+    choosed = true
+}
+   instance_destroy()
 }

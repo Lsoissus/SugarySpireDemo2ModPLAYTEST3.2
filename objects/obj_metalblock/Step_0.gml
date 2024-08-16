@@ -1,6 +1,6 @@
 with (instance_nearest(x, y, obj_player))
 {
-	if ((place_meeting(x + hsp, y, other.id) || place_meeting(x + xscale, y, other.id)) && (state == states.mach3 || state == states.knightpep || state == states.puddle || state == states.rocketfistpizzano || state == states.knightpepslopes || state == states.hookshot || state == states.machroll || state == states.machpizzano || state == states.minecart || (state == states.knightpep && momemtum)))
+	if ((place_meeting(x + hsp, y, other.id) || place_meeting(x + xscale, y, other.id)) && (state == states.mach3 || state == states.knightpep || state == states.puddle || state == states.rocketfistpizzano || state == states.knightpepslopes || state == states.hookshot || state == states.machroll || state == states.machpizzano || state == states.minecart || state = states.machtumble || (state == states.knightpep && momemtum)))
 	{
 		with (other.id)
 			event_user(0);

@@ -153,3 +153,5 @@ crouchslipbuffer = 0
 scale_xs = 1;
 scale_ys = 1;
 ctndrlspd = 0;
+smashbodyslam = 0
+kickclimbbuffer = 0

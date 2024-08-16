@@ -180,7 +180,7 @@ function scr_player_jump()
 		scr_sound(sound_rollgetup);
 		scr_sound(sound_suplex1);
 	}
-	if (!key_up && key_slap2 && !key_down && !suplexmove && !shotgunAnim && global.cane != true && obj_player.character != "G" && !key_attack && sprite_index != spr_player_wallkick && sprite_index != spr_player_wallkickloop)
+	if (!key_up && key_slap2 && !key_down && !suplexmove && !shotgunAnim && global.cane != true && obj_player.character != "G" && sprite_index != spr_player_wallkick && sprite_index != spr_player_wallkickloop)
 	{
 		if character == characters.pizzano {
 			scr_sound(sound_suplex1);
@@ -234,7 +234,7 @@ function scr_player_jump()
 		tauntstoredsprite = sprite_index;
 		tauntstoredstate = state;
 		state = states.backbreaker;
-		if (supertauntcharged)
+		if (supertauntcharged) && key_up
 		{
 			image_index = 0;
 			sprite_index = choose(spr_player_supertaunt1, spr_player_supertaunt2, spr_player_supertaunt3);

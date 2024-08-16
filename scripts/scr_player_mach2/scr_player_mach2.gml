@@ -210,7 +210,7 @@ if movespeed >= 9
 				tauntstoredsprite = sprite_index;
 				tauntstoredstate = state;
 				state = states.backbreaker;
-				if (supertauntcharged)
+				if (supertauntcharged) && key_up
 				{
 					image_index = 0;
 					sprite_index = choose(spr_player_supertaunt1, spr_player_supertaunt2, spr_player_supertaunt3);
@@ -243,7 +243,8 @@ if movespeed >= 9
 			}
 			if (key_slap2 && !key_down && !suplexmove && !shotgunAnim && global.cane != true)
 			{
-				if character == characters.pizzano {
+				if character == characters.pizzano 
+				{
 					scr_sound(sound_suplex1);
 					instance_create(x, y, obj_slaphitbox);
 					suplexmove = true;
@@ -255,7 +256,8 @@ if movespeed >= 9
 					movespeed = 10;
 					instance_create(x, y, obj_crazyrunothereffect);
 				}
-				else {
+				else 
+				{
 					scr_sound(sound_suplex1);
 					instance_create(x, y, obj_slaphitbox);
 					suplexmove = true;

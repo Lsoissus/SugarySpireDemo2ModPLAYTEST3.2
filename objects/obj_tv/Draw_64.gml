@@ -19,7 +19,6 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
 
 			surface_set_target(BarSurface);
 			draw_clear_alpha(c_white, 0);
-			
 			ComboY = approach(ComboY, 0, 10);
 			meter_image_index += 0.35;
 			goo_index += 0.35;

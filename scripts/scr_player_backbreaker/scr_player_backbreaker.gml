@@ -78,4 +78,6 @@ function scr_player_backbreaker()
 		image_speed = 0.35;
 	else if (sprite_index == spr_player_supertaunt1 || sprite_index == spr_player_supertaunt2 || sprite_index == spr_player_supertaunt3)
 		image_speed = 0.5;
+if (supertauntcharged && key_up && (sprite_index == spr_player_taunt))
+		sprite_index = choose(spr_player_supertaunt1, spr_player_supertaunt2, spr_player_supertaunt3)
 }
