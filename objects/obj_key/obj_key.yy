@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_spookey_idle",
-    "path": "sprites/spr_spookey_idle/spr_spookey_idle.yy",
+    "name": "spr_spookey_idlewaiting",
+    "path": "sprites/spr_spookey_idlewaiting/spr_spookey_idlewaiting.yy",
   },
   "spriteMaskId": null,
   "visible": true,

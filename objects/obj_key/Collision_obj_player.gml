@@ -14,6 +14,6 @@ if (obj_player.grounded)
 			sprite_index = spr_taunteffect
 		obj_player.image_index = 0;
 		global.keyget = true;
-		scr_queue_tvanim(spr_collectspookey_tv, 200);
+		scr_queue_tvanim(spr_spookeytv, 200);
 	}
 }

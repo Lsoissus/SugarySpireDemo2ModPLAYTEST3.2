@@ -25,7 +25,7 @@
   "nineSlice": {
     "resourceType": "GMNineSliceData",
     "resourceVersion": "1.0",
-    "bottom": 33,
+    "bottom": 9,
     "enabled": false,
     "guideColour": [
       4294902015,
@@ -44,7 +44,7 @@
       0,
       1,
     ],
-    "top": 26,
+    "top": 9,
   },
   "origin": 0,
   "parent": {
