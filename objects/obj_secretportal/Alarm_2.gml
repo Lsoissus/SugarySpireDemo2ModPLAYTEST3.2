@@ -4,5 +4,5 @@ if obj_player.sprite_index != spr_cotton_fall && obj_player.sprite_index != spr_
 else
 	obj_player.state = states.cottondrill
 die = false
-sprite_index = spr_secretportal_exit
+sprite_index = spr_secretportal_spawnopennew
 image_index = 0;

@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_secretportal_exit",
-    "path": "sprites/spr_secretportal_exit/spr_secretportal_exit.yy",
+    "name": "spr_secretportal_spawnopennew",
+    "path": "sprites/spr_secretportal_spawnopennew/spr_secretportal_spawnopennew.yy",
   },
   "spriteMaskId": null,
   "visible": true,
