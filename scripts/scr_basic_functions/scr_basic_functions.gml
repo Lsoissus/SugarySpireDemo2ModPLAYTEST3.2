@@ -11,6 +11,57 @@ function wave(_val1, _val2, _val3, _val4)
 	var a4 = (_val2 - _val1) * 0.5;
 	return _val1 + a4 + (sin((((current_time * 0.001) + (_val3 * _val4)) / _val3) * 6.283185307179586) * a4);
 }
+function distance_to_pos(argument0, argument1, argument2, argument3, argument4, argument5)
+{
+    return ((abs((argument0 - argument2)) <= argument4) && (abs((argument1 - argument3)) <= argument5));
+}
+function try_solid(argument0, argument1, argument2, argument3)
+{
+    var old_x = x
+    var old_y = y
+    var n = -1
+    var cam_speed = 4
+    var i = 0
+    while ((i < argument3))
+    {
+        x += argument0
+        y += argument1
+        if (!(scr_solid(x, y)))
+        {
+            n = (i + 1)
+            break
+        }
+        else
+            i++
+    }
+    x = old_x
+    y = old_y
+    return n;
+}
+
+function ledge_bump(argument0, argument1)
+{
+    if ((argument1 == undefined))
+        argument1 = 4
+    var old_x = x
+    var old_y = y
+    x += (xscale * argument1)
+    var ty = try_solid(0, -1, obj_solid, argument0)
+    x = old_x
+    if ((ty != -1))
+    {
+        y -= ty
+        x += xscale
+        if scr_solid(x, y)
+        {
+            x = old_x
+            y = old_y
+            return true;
+        }
+        return false;
+    }
+    return true;
+}
 function wrap(_value, _val1, _val2)
 {
 	var value = floor(_value);

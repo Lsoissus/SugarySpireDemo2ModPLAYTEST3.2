@@ -11,14 +11,27 @@ if (abletomove)
 		scr_sound(sound_step);
 		selected--;
 	}
-	if (key_jump && selected == 0 && obj_file1.sprite_index != spr_file1confirm)
+	if (key_jump && obj_file1.sprite_index != spr_file1confirm && obj_file2.sprite_index != spr_file2confirm && obj_file3.sprite_index != spr_file3confirm)
 	{
 		scr_sound(sound_toppingot);
 		abletomove = false;
+		if selected = 0
+		{
 		obj_file1.image_index = 0;
 		obj_file1.sprite_index = spr_file1confirm;
-	}
-	if (key_jump && selected == 1 && !instance_exists(obj_Options_Main))
+		}
+		if selected = 1
+		{
+		obj_file2.image_index = 0
+        obj_file2.sprite_index = spr_file2confirm
+		}
+		if selected = 2
+		{
+		obj_file3.image_index = 0
+        obj_file3.sprite_index = spr_file3confirm
+		}
+	 }
+	/*if (key_jump && selected == 1 && !instance_exists(obj_Options_Main))
 	{
 		scr_sound(sound_toppingot);
 		abletomove = false;
@@ -30,7 +43,8 @@ if (abletomove)
 		abletomove = false;
 		instance_create(0, 0, obj_erasefile);
 	}
-}
+ */
+ }
 var justfarded = 0;
 switch (selected)
 {

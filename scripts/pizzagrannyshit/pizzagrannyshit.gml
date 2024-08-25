@@ -154,10 +154,10 @@ function scr_draw_text_fx(x, y, text, color = c_white, alpha = 1, effect = 0, op
 						var o = 1;
 						if option_struct != noone
 							o = option_struct.offset;
-						var d = ((i % 2) == 0) ? -1 : 1;
-						var _dir = floor(Wave(-1, 1, 0.1, 0));
-						s += (_dir * d * o);
-						draw_text_color(cx, cy + s, b, color, color, color, color, alpha);
+						var jinglex = irandom_range(1, -1)
+                        var jingley = irandom_range(-1, 1)
+						// s += (_dir * d * o);
+						draw_text_color(cx + jinglex, cy + jingley, b, color, color, color, color, alpha);
 					break;
 			}
 		}

@@ -88,3 +88,5 @@ if (y > (room_height + 64))
 	instance_destroy();
 if (state != baddiestates.scared)
 	ScareBuffer = 0;
+if ((shake == 8) && (obj_player.state != states.backbreaker))
+    instance_destroy()

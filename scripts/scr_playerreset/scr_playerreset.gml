@@ -35,20 +35,24 @@ function scr_playerreset()
 	instance_destroy(obj_rudejanitor);
 	instance_destroy(obj_lapjanitor);
 	ds_list_clear(global.FollowerList);
-		global.mallowfollow = false;
+	if room != rank_room
+	{
+	global.mallowfollow = false;
 	global.crackfollow = false;
 	global.chocofollow = false;
 	global.wormfollow = false;
 	global.candyfollow = false;
 	global.janitor = false;
 	global.lapjanitor = false;
-	global.lapcutscenedone = false;
 	global.secretfound1 = false;
 	global.secretfound2 = false;
 	global.secretfound3 = false;
 	global.treasurefound = false;
 global.secretsfound = 0;
-	with (obj_camera)
+	}
+	global.lapcutscenedone = false;
+	global.rankreset = 0
+with (obj_camera)
 	{
 		DrawY = 0;
 		global.targetCamX = obj_player.x;
@@ -140,6 +144,7 @@ global.secretsfound = 0;
 		global.ammo = 0;
 		global.treasure = false;
 		global.combo = 0;
+		if room != rank_room
 		global.maxcombo = 0
 		global.combotime = 0;
 		global.pizzacoin = 0;

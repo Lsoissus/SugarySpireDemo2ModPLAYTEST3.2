@@ -1,4 +1,4 @@
-with (instance_create(x, y, obj_tauntafterimage))
+/*with (instance_create(x, y, obj_tauntafterimage))
 {
 	hsp = 20;
 	playerid = other.playerid;
@@ -50,4 +50,6 @@ with (instance_create(x, y, obj_tauntafterimage))
 	hsp = -20;
 	vsp = -20;
 }
+*/
 instance_destroy();
+

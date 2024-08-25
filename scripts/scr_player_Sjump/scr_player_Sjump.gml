@@ -1,7 +1,7 @@
 function scr_player_Sjump()
 {
-	if (character == characters.pizzelle || sprite_index != spr_pizzano_sjump)
-		hsp = 0;
+	if ((character == characters.pizzelle))
+        hsp = (move * 2)
 	else if (character == characters.pizzano && sprite_index == spr_pizzano_sjump)
 		hsp = move * 3;
 	Sjumpcan_doublejump = false;
@@ -57,11 +57,15 @@ function scr_player_Sjump()
 	if ((key_attack2 || key_slap2) && !grounded && vsp < -10 && character == characters.pizzelle)
 	{
         sprite_index = spr_player_superjump_cancelprep
-        vsp = 0
+        hsp = 0
+		vsp = 0
         scr_sound(sound_superjumpcancel)
 	}
 	if sprite_index == spr_player_superjump_cancelprep
+{
+hsp = 0
 		vsp = 0
+}
 	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_superjump_cancelprep)
     {
         movespeed = 14

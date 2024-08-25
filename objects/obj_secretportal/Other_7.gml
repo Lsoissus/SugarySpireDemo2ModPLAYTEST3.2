@@ -10,3 +10,5 @@ if sprite_index == spr_secretportal_spawnopennew
 	    ds_list_add(global.saveroom, id)
 	alarm[4] = 90
 }
+if sprite_index = spr_secretportal_spawnclosenew
+instance_destroy()

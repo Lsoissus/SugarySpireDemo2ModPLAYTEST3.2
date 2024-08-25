@@ -244,6 +244,12 @@ function scr_player_jump()
 			image_index = irandom_range(0, sprite_get_number(spr_player_taunt));
 			sprite_index = spr_player_taunt;
 		}
+				 if ((sprite_index == spr_player_supertaunt1) || (sprite_index == spr_player_supertaunt2) || (sprite_index == spr_player_supertaunt3))
+        {
+            with (instance_create(x, y, obj_taunteffect))
+                scr_sound(sfx_supertaunt)
+        }
+        else
 		instance_create(x, y, obj_taunteffect);
 	}
 	if (key_down2 && !global.cane)

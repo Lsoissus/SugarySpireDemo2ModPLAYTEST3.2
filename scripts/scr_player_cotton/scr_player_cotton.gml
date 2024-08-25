@@ -1,5 +1,19 @@
 function scr_player_cotton()
 {
+	 if ((sprite_index == spr_player_cottontransfo))
+    {
+        hsp = 0
+        if animation_end()
+        {
+            xscale *= -1
+            sprite_index = spr_cotton_land
+            with (obj_cottoncreator)
+                visible = true
+            image_speed = 0.35
+        }
+    }
+	else
+	{
 	var dreaming = false;
 	if (dir != xscale)
 	{
@@ -235,5 +249,6 @@ function scr_player_cotton()
 		with instance_create(x, y, obj_cotton_aftereffect)
 			playerID = other.id;
 		cotton_afterimagetimer = 6;
+	}
 	}
 }

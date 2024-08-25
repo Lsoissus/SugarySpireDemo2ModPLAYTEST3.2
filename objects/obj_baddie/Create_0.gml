@@ -30,3 +30,7 @@ deadspr = spr_gumball_dead;
 important = false;
 alarm[1] = 3;
 cottoned = false;
+shakebuffer = 0
+angryindex = 0
+flyup = 0
+shake = 2
