@@ -346,6 +346,7 @@
     {"name":"obj_stompeffect","order":190,"path":"objects/obj_stompeffect/obj_stompeffect.yy",},
     {"name":"obj_taunteffect","order":191,"path":"objects/obj_taunteffect/obj_taunteffect.yy",},
     {"name":"spr_player_pound","order":179,"path":"sprites/spr_player_pound/spr_player_pound.yy",},
+    {"name":"spr_titlewihtoutpreview","order":685,"path":"sprites/spr_titlewihtoutpreview/spr_titlewihtoutpreview.yy",},
     {"name":"obj_machalleffect","order":192,"path":"objects/obj_machalleffect/obj_machalleffect.yy",},
     {"name":"obj_gmliveblank","order":193,"path":"objects/obj_gmliveblank/obj_gmliveblank.yy",},
     {"name":"spr_numbers","order":619,"path":"sprites/spr_numbers/spr_numbers.yy",},
