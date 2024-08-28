@@ -1,2 +1,2 @@
-targetRoom = steamy_11_1
+targetRoom = steamy_11
 visible = false
