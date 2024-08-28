@@ -1389,6 +1389,7 @@
     {"name":"spr_bg_rankspal","order":2,"path":"sprites/spr_bg_rankspal/spr_bg_rankspal.yy",},
     {"name":"spr_smallpoof","order":104,"path":"sprites/spr_smallpoof/spr_smallpoof.yy",},
     {"name":"spr_bumpeffect","order":105,"path":"sprites/spr_bumpeffect/spr_bumpeffect.yy",},
+    {"name":"spr_doorunvisited","order":686,"path":"sprites/spr_doorunvisited/spr_doorunvisited.yy",},
     {"name":"spr_tutorialbg2_OLD","order":5,"path":"sprites/spr_tutorialbg2_OLD/spr_tutorialbg2_OLD.yy",},
     {"name":"spr_player_crouchslide","order":35,"path":"sprites/spr_player_crouchslide/spr_player_crouchslide.yy",},
     {"name":"spr_grabbiehand_hifive","order":106,"path":"sprites/spr_grabbiehand_hifive/spr_grabbiehand_hifive.yy",},
