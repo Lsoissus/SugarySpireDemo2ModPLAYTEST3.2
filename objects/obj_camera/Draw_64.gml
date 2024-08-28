@@ -70,7 +70,7 @@ draw_sprite_ext(spr_cakehud, obj_stylebar.image_index, 128 + shakeX, 96 + shakeY
     }
     rank_scale = approach(rank_scale, 1, 0.2)
 		var rank_xpos = 217 // 190
-		var rank_ypos = 23 // 29
+		var rank_ypos = 22 // 29
 		draw_sprite_ext(spr_ranks_hud, rank_ix, rank_xpos, rank_ypos + DrawY, rank_scale, rank_scale, 0, c_white, 1)
 		var spr_w = sprite_get_width(spr_ranks_hudfill)
 		var spr_h = sprite_get_height(spr_ranks_hudfill)
