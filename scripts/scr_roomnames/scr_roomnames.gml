@@ -108,7 +108,7 @@ function scr_roomnames(_room = room)
         case steamy_10:
             room_name = "Race Around The Clock";
             break;
-        case steamy_11:
+        case steamy_11_1:
             room_name = "Top Of The Clock";
             break;
         case steamy_12:
