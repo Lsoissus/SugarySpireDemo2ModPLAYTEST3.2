@@ -1840,7 +1840,7 @@
     {"name":"spr_pauseconfecti3","order":355,"path":"sprites/spr_pauseconfecti3/spr_pauseconfecti3.yy",},
     {"name":"spr_pauseconfecti4","order":356,"path":"sprites/spr_pauseconfecti4/spr_pauseconfecti4.yy",},
     {"name":"spr_coneball","order":562,"path":"sprites/spr_coneball/spr_coneball.yy",},
-    {"name":"spr_dartfrog_dead","order":688,"path":"sprites/spr_dartfrog_dead/spr_dartfrog_dead.yy",},
+    {"name":"spr_dartfrog1258","order":688,"path":"sprites/spr_dartfrog1258/spr_dartfrog1258.yy",},
     {"name":"entryway_endroombg1","order":27,"path":"sprites/entryway_endroombg1/entryway_endroombg1.yy",},
     {"name":"spr_player_idlehairshrug","order":76,"path":"sprites/spr_player_idlehairshrug/spr_player_idlehairshrug.yy",},
     {"name":"spr_minizelle_land","order":357,"path":"sprites/spr_minizelle_land/spr_minizelle_land.yy",},
