@@ -9,18 +9,21 @@
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
+  "ConfigValues": {
+    "Debug": {"textureGroupId":"{\"name\":\"Default\",\"path\":\"texturegroups/Default\"}",},
+  },
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2127d0d2-1fdd-4655-9073-ffe751c35099",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"600577ce-ec8a-406d-87d8-988596bf5339",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 1500,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"25063eb8-9311-4e79-b9e7-dd629a3083db","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"075cec54-76b9-4d38-8260-52a205c619c1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +57,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2127d0d2-1fdd-4655-9073-ffe751c35099","path":"sprites/ts_steamynew_sprite/ts_steamynew_sprite.yy",},},},"Disabled":false,"id":"e794f776-b69e-41eb-bc68-cefef6dcceea","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"600577ce-ec8a-406d-87d8-988596bf5339","path":"sprites/ts_steamynew_sprite/ts_steamynew_sprite.yy",},},},"Disabled":false,"id":"58ef970a-11d5-4c90-91f1-4cc93910871d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
