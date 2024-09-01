@@ -2188,6 +2188,7 @@
     {"name":"spr_bg","order":593,"path":"sprites/spr_bg/spr_bg.yy",},
     {"name":"spr_pickaxeprojectile","order":512,"path":"sprites/spr_pickaxeprojectile/spr_pickaxeprojectile.yy",},
     {"name":"spr_traingo","order":513,"path":"sprites/spr_traingo/spr_traingo.yy",},
+    {"name":"spr_parkparallaxearly","order":689,"path":"sprites/spr_parkparallaxearly/spr_parkparallaxearly.yy",},
     {"name":"spr_pizzano_mach3old","order":22,"path":"sprites/spr_pizzano_mach3old/spr_pizzano_mach3old.yy",},
     {"name":"spr_molasses2","order":514,"path":"sprites/spr_molasses2/spr_molasses2.yy",},
     {"name":"bg_molassestemple2","order":6,"path":"sprites/bg_molassestemple2/bg_molassestemple2.yy",},
