@@ -72,7 +72,7 @@
       ],"spriteId":{"name":"bg_clockparallaxescape","path":"sprites/bg_clockparallaxescape/bg_clockparallaxescape.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":1.0,"vtiled":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_still","animationFPS":15.0,"animationSpeedType":0,"colour":4294967295,"depth":700,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_TintCol","type":1,"value":"#FF191919",},
-      ],"spriteId":{"name":"bg_clock1","path":"sprites/bg_clock1/bg_clock1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":false,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
+      ],"spriteId":{"name":"bg_clock1","path":"sprites/bg_clock1/bg_clock1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Cottontown",
