@@ -140,7 +140,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"obj_talisman","path":"objects/obj_talisman/obj_talisman.yy",},},
@@ -1001,6 +1001,7 @@
     {"id":{"name":"sound_maxspeed","path":"sounds/sound_maxspeed/sound_maxspeed.yy",},},
     {"id":{"name":"mu_pizzanoescape","path":"sounds/mu_pizzanoescape/mu_pizzanoescape.yy",},},
     {"id":{"name":"mu_void","path":"sounds/mu_void/mu_void.yy",},},
+    {"id":{"name":"frontpara","path":"sprites/frontpara/frontpara.yy",},},
     {"id":{"name":"sound_comboend","path":"sounds/sound_comboend/sound_comboend.yy",},},
     {"id":{"name":"sound_pizzacoin","path":"sounds/sound_pizzacoin/sound_pizzacoin.yy",},},
     {"id":{"name":"bg_entryway2_skyold","path":"sprites/bg_entryway2_skyold/bg_entryway2_skyold.yy",},},
@@ -1514,7 +1515,7 @@
     {"id":{"name":"spr_flingfrogmadTire","path":"sprites/spr_flingfrogmadTire/spr_flingfrogmadTire.yy",},},
     {"id":{"name":"bg_snowhub3","path":"sprites/bg_snowhub3/bg_snowhub3.yy",},},
     {"id":{"name":"spr_introdebris","path":"sprites/spr_introdebris/spr_introdebris.yy",},},
-    {"id":{"name":"frontpara","path":"sprites/frontpara/frontpara.yy",},},
+    {"id":{"name":"frontpara2","path":"sprites/frontpara2/frontpara2.yy",},},
     {"id":{"name":"spr_spray","path":"sprites/spr_spray/spr_spray.yy",},},
     {"id":{"name":"spr_cotton_attack","path":"sprites/spr_cotton_attack/spr_cotton_attack.yy",},},
     {"id":{"name":"bg_mines1para1_escape","path":"sprites/bg_mines1para1_escape/bg_mines1para1_escape.yy",},},
