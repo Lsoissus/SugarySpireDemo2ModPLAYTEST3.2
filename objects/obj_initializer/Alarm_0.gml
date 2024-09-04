@@ -9,6 +9,6 @@ if len > 0
 else
 {
 	obj_player.state = states.titlescreen;
-	room_goto(realtitlescreen);
+	room_goto(IS_DEBUG ? devroom : realtitlescreen);
 }
 alarm[0] = 1;

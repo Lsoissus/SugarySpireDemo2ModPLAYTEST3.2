@@ -1,70 +1,46 @@
 function scr_player_cotton()
 {
-	 if ((sprite_index == spr_player_cottontransfo))
+	// cotton transition
+	if ((sprite_index == spr_player_cottontransfo))
     {
-        hsp = 0
-        if animation_end()
+        hsp = 0;
+        if (animation_end())
         {
-            xscale *= -1
-            sprite_index = spr_cotton_land
-            with (obj_cottoncreator)
-                visible = true
-            image_speed = 0.35
+            xscale *= -1;
+            sprite_index = spr_cotton_land;
+            image_speed = 0.35;
         }
+		
+		return;
     }
-	else
-	{
-	var dreaming = false;
+	move = key_left + key_right;
+	// if your direction does not equal your xscale, kill all speed
 	if (dir != xscale)
 	{
 		dir = xscale;
 		movespeed = 0;
 	}
-	move = key_left + key_right;
+	
 	if (sprite_index != spr_cotton_attack)
 	{
 		if (move != 0)
 			xscale = move;
 	}
-	if ((move != 0 && move != xscale) || grounded) && momemtum
-		momemtum = false;
-	if !momemtum
-		hsp = move * movespeed;
-	else
-		hsp = xscale * movespeed;
-    if move != 0
+	hsp = xscale * movespeed;
+    if (move != 0)
     {
-		if key_attack && move == xscale && grounded
-		{
-			if movespeed < 8
-				movespeed += 0.25;
-		}
-		else
-		{
-			if movespeed < 6
-		        movespeed += 0.5;
-			if movespeed > 6 && sprite_index != spr_cotton_attack && grounded && !momemtum
-				movespeed -= 0.5;
-		}
+		// if movespeed is under 6, go faster
+		if movespeed < 6
+	        movespeed += 0.5;
+	    // if youre going a bit too fast and arent attacking, slow down
+		if (movespeed > 6 && sprite_index != spr_cotton_attack && grounded)
+			movespeed -= 0.5;
     }
-	else if movespeed > 0 && sprite_index != spr_cotton_attack && !momemtum
+	else if (movespeed > 0 && sprite_index != spr_cotton_attack)
 		movespeed -= 0.5;
-	if scr_solid(x + xscale, y, true) && !scr_slope_ext(x + xscale, y)
-	{
-		if movespeed < 8 && (place_meeting(x + xscale, y, obj_destructibles) || place_meeting(x + xscale, y, obj_chocofrogbig))
-			movespeed = 0;
-		else if !place_meeting(x + xscale, y, obj_destructibles) && !place_meeting(x + xscale, y, obj_chocofrogbig)
-		{
-			if movespeed >= 8 && grounded && sprite_index != spr_cotton_slam && sprite_index != spr_cotton_attack
-			{
-				sprite_index = spr_cotton_slam;
-				image_index = 0;
-			}
-			movespeed = 0;
-		}
-	}
-	if (vsp > 5)
-		vsp = 5;
+	// clamp vsp
+	vsp = clamp(vsp, -infinity, 7)
+	// jumping
 	if (key_jump && grounded)
 	{
 		vsp = -14;
@@ -87,36 +63,11 @@ function scr_player_cotton()
 	}
 	if (sprite_index == spr_cotton_attack)
 	{
-		if (place_meeting(x + sign(hsp), y, obj_dreamblock))
-			dreaming = true;
-		if (!dreaming)
-		{	
-			hsp = 8 * xscale;
-			if movespeed < 8
-				movespeed = 8;
-			instance_create(x, y, obj_swordhitbox);
-			move = xscale;
-			if (-key_left2 && xscale == 1) || (key_right2 && xscale == -1)
-			{
-				movespeed = 0;
-				vsp = 0;
-				hsp = 0;
-				sprite_index = spr_cotton_fall;
-			}
-		}
-		else
-		{
-			hsp = 14 * xscale;
-			movespeed = 0;
-			instance_create(x, y, obj_swordhitbox);
-			move = xscale;
-			vsp = 0;
-		}
-	}
-	if (dreaming && !place_meeting(x + sign(hsp), y, obj_dreamblock))
-	{
-		dreaming = false;
-		sprite_index = spr_cotton_fall;
+		hsp = 14 * xscale;
+		movespeed = 0;
+		instance_create(x, y, obj_swordhitbox);
+		move = xscale;
+		vsp = 0;
 	}
     if animation_end() && (sprite_index == spr_cotton_attack || sprite_index == spr_cotton_slam)
     {
@@ -249,6 +200,5 @@ function scr_player_cotton()
 		with instance_create(x, y, obj_cotton_aftereffect)
 			playerID = other.id;
 		cotton_afterimagetimer = 6;
-	}
 	}
 }
