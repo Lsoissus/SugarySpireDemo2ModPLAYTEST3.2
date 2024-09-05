@@ -1286,6 +1286,7 @@
     {"name":"spr_jumpdust","order":74,"path":"sprites/spr_jumpdust/spr_jumpdust.yy",},
     {"name":"ship","order":75,"path":"sprites/ship/ship.yy",},
     {"name":"dragon_4","order":6,"path":"rooms/dragon_4/dragon_4.yy",},
+    {"name":"spr_clocktowerentrance","order":23,"path":"sprites/spr_clocktowerentrance/spr_clocktowerentrance.yy",},
     {"name":"clock","order":19,"path":"sprites/clock/clock.yy",},
     {"name":"spr_juicePalette","order":625,"path":"sprites/spr_juicePalette/spr_juicePalette.yy",},
     {"name":"spr_uparrow","order":76,"path":"sprites/spr_uparrow/spr_uparrow.yy",},

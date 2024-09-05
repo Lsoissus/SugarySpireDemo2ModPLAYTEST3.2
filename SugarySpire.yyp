@@ -1373,6 +1373,7 @@
     {"id":{"name":"spr_jumpdust","path":"sprites/spr_jumpdust/spr_jumpdust.yy",},},
     {"id":{"name":"ship","path":"sprites/ship/ship.yy",},},
     {"id":{"name":"dragon_4","path":"rooms/dragon_4/dragon_4.yy",},},
+    {"id":{"name":"spr_clocktowerentrance","path":"sprites/spr_clocktowerentrance/spr_clocktowerentrance.yy",},},
     {"id":{"name":"clock","path":"sprites/clock/clock.yy",},},
     {"id":{"name":"spr_juicePalette","path":"sprites/spr_juicePalette/spr_juicePalette.yy",},},
     {"id":{"name":"spr_uparrow","path":"sprites/spr_uparrow/spr_uparrow.yy",},},
