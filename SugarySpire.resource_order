@@ -2020,7 +2020,7 @@
     {"name":"spr_molassestitle","order":5,"path":"sprites/spr_molassestitle/spr_molassestitle.yy",},
     {"name":"Sprite901","order":424,"path":"sprites/Sprite901/Sprite901.yy",},
     {"name":"entryway_endroomescape1","order":32,"path":"sprites/entryway_endroomescape1/entryway_endroomescape1.yy",},
-    {"name":"obj_dartfrog","order":353,"path":"objects/obj_dartfrog/obj_dartfrog.yy",},
+    {"name":"obj_dartfrog","order":2,"path":"objects/obj_dartfrog/obj_dartfrog.yy",},
     {"name":"spr_caramel_dead","order":425,"path":"sprites/spr_caramel_dead/spr_caramel_dead.yy",},
     {"name":"spr_player_minecartjump","order":125,"path":"sprites/spr_player_minecartjump/spr_player_minecartjump.yy",},
     {"name":"bg_entryway2_buildings2","order":1,"path":"sprites/bg_entryway2_buildings2/bg_entryway2_buildings2.yy",},
