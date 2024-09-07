@@ -58,5 +58,11 @@ function scr_escapebgs()
 		layer_change_background(bg_swampbg5, bg_swampbg5escape);
 		layer_change_background(bg_swampbg6, bg_swampbg6escape);
 		layer_change_background(bg_swampbgmain, bg_swampbgmainescape);
+		layer_change_background(bg_steamynew1, bg_steamynew1_escape);
+		layer_change_background(bg_steamynew2, bg_steamynew2_escape);
+		layer_change_background(bg_steamynew3, bg_steamynew3_escape);
+		layer_change_background(bg_steamynew4, bg_steamynew4_escape);
+		layer_change_background(bg_steamynew5, bg_steamynew5_escape);
+		
 	}
 }
