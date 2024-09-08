@@ -849,6 +849,7 @@
     {"name":"scr_confecti_taunt","order":676,"path":"scripts/scr_confecti_taunt/scr_confecti_taunt.yy",},
     {"name":"scr_escapebgs","order":680,"path":"scripts/scr_escapebgs/scr_escapebgs.yy",},
     {"name":"scr_soundFunctions","order":681,"path":"scripts/scr_soundFunctions/scr_soundFunctions.yy",},
+    {"name":"obj_dartfrogvertical","order":3,"path":"objects/obj_dartfrogvertical/obj_dartfrogvertical.yy",},
     {"name":"obj_entrywaydestructible4","order":315,"path":"objects/obj_entrywaydestructible4/obj_entrywaydestructible4.yy",},
     {"name":"spr_spookey_idlewaiting","order":642,"path":"sprites/spr_spookey_idlewaiting/spr_spookey_idlewaiting.yy",},
     {"name":"NekoPresence","order":423,"path":"extensions/NekoPresence/NekoPresence.yy",},

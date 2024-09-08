@@ -924,6 +924,7 @@
     {"id":{"name":"scr_confecti_taunt","path":"scripts/scr_confecti_taunt/scr_confecti_taunt.yy",},},
     {"id":{"name":"scr_escapebgs","path":"scripts/scr_escapebgs/scr_escapebgs.yy",},},
     {"id":{"name":"scr_soundFunctions","path":"scripts/scr_soundFunctions/scr_soundFunctions.yy",},},
+    {"id":{"name":"obj_dartfrogvertical","path":"objects/obj_dartfrogvertical/obj_dartfrogvertical.yy",},},
     {"id":{"name":"obj_entrywaydestructible4","path":"objects/obj_entrywaydestructible4/obj_entrywaydestructible4.yy",},},
     {"id":{"name":"spr_spookey_idlewaiting","path":"sprites/spr_spookey_idlewaiting/spr_spookey_idlewaiting.yy",},},
     {"id":{"name":"NekoPresence","path":"extensions/NekoPresence/NekoPresence.yy",},},
