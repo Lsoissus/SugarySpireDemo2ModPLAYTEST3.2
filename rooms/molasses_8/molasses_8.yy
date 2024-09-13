@@ -58,6 +58,7 @@
     {"name":"inst_2A3E9BC6","path":"rooms/molasses_8/molasses_8.yy",},
     {"name":"inst_4AA45BDA","path":"rooms/molasses_8/molasses_8.yy",},
     {"name":"inst_24D19E78","path":"rooms/molasses_8/molasses_8.yy",},
+    {"name":"inst_53ED8510","path":"rooms/molasses_8/molasses_8.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -119,6 +120,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_vertical_hallway","path":"objects/obj_vertical_hallway/obj_vertical_hallway.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_vertical_hallway/obj_vertical_hallway.yy",},"value":"molasses_7",},
           ],"rotation":0.0,"scaleX":5.0,"scaleY":-1.0,"x":608.0,"y":1664.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_24D19E78","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":9.0,"x":512.0,"y":1376.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53ED8510","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorB","path":"objects/obj_doorB/obj_doorB.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":1632.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":50,"SerialiseWidth":91,"TileCompressedData":[
 -57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,-2147483648,-57,0,-34,
