@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_banana_dead",
   "bbox_bottom": 113,
-  "bbox_left": 20,
-  "bbox_right": 83,
-  "bbox_top": 3,
+  "bbox_left": 14,
+  "bbox_right": 89,
+  "bbox_top": 11,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4c4b66b6-1fef-4b64-acaf-59e393cdd26c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"483dc092-37f8-4d8d-bb13-1e720daa0711",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 115,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"14378f35-2c59-449b-8313-d048ae8d80e1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3b0b8f32-3793-48c8-af61-89ce4b5d94dd","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4c4b66b6-1fef-4b64-acaf-59e393cdd26c","path":"sprites/spr_banana_dead/spr_banana_dead.yy",},},},"Disabled":false,"id":"6e731225-b2cc-4fcb-b36a-e6c818b7681c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"483dc092-37f8-4d8d-bb13-1e720daa0711","path":"sprites/spr_banana_dead/spr_banana_dead.yy",},},},"Disabled":false,"id":"74d078c1-d424-4f83-98cb-523b06e98531","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
