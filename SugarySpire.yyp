@@ -125,6 +125,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entryway","folderPath":"folders/Objects/Entryway.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"credits.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -1037,6 +1038,7 @@
     {"id":{"name":"sfx_alright","path":"sounds/sfx_alright/sfx_alright.yy",},},
     {"id":{"name":"sound_tumble","path":"sounds/sound_tumble/sound_tumble.yy",},},
     {"id":{"name":"sound_tumbleend","path":"sounds/sound_tumbleend/sound_tumbleend.yy",},},
+    {"id":{"name":"obj_entrywaybear","path":"objects/obj_entrywaybear/obj_entrywaybear.yy",},},
     {"id":{"name":"sound_tumblestart","path":"sounds/sound_tumblestart/sound_tumblestart.yy",},},
     {"id":{"name":"mu_hub","path":"sounds/mu_hub/mu_hub.yy",},},
     {"id":{"name":"mu_waffle","path":"sounds/mu_waffle/mu_waffle.yy",},},

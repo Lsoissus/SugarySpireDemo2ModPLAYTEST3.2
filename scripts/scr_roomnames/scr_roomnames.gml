@@ -182,9 +182,11 @@ function scr_roomnames(_room = room)
 		case molasses_13:
             room_name = "The Last Frog for";
             break;
+		/*
 		case molasses_15:
             room_name = "What if I Told You Theres A Lake Somewhere?";
             break;
+		*/
         case mines_1:
             room_name = "Sugary Spire Underground";
             break;
