@@ -25,6 +25,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Effects and Particles","folderPath":"folders/Objects/Effects and Particles.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entryway","folderPath":"folders/Objects/Entryway.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"level","folderPath":"folders/Objects/level.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"collect","folderPath":"folders/Objects/level/collect.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"conveyors","folderPath":"folders/Objects/level/conveyors.yy",},
@@ -125,7 +126,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entryway","folderPath":"folders/Objects/Entryway.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"credits.txt","CopyToMask":-1,"filePath":"datafiles",},
