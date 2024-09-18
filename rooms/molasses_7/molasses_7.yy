@@ -7,7 +7,6 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_27CBF3E9","path":"rooms/molasses_7/molasses_7.yy",},
     {"name":"inst_6FD0FDF9","path":"rooms/molasses_7/molasses_7.yy",},
     {"name":"inst_40932AB4","path":"rooms/molasses_7/molasses_7.yy",},
     {"name":"inst_1BBE4AC6","path":"rooms/molasses_7/molasses_7.yy",},
@@ -79,15 +78,11 @@
     {"name":"inst_243BABB7","path":"rooms/molasses_7/molasses_7.yy",},
     {"name":"inst_40F234F0","path":"rooms/molasses_7/molasses_7.yy",},
     {"name":"inst_75ED31A1","path":"rooms/molasses_7/molasses_7.yy",},
+    {"name":"inst_6CCD1476","path":"rooms/molasses_7/molasses_7.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27CBF3E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_boxofpizza","path":"objects/obj_boxofpizza/obj_boxofpizza.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":null,"propertyId":null,"value":"molasses_14",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_door","path":"objects/par_door/par_door.yy",},"propertyId":{"name":"targetRoom","path":"objects/par_door/par_door.yy",},"value":"molasses_14",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_boxofpizza","path":"objects/obj_boxofpizza/obj_boxofpizza.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_boxofpizza/obj_boxofpizza.yy",},"value":"molasses_6",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3552.0,"y":992.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6FD0FDF9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorB","path":"objects/obj_doorB/obj_doorB.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3520.0,"y":928.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40932AB4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":6.0,"x":2272.0,"y":704.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1BBE4AC6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_slope","path":"objects/obj_slope/obj_slope.yy",},"properties":[],"rotation":0.0,"scaleX":-2.0,"scaleY":2.0,"x":2656.0,"y":1088.0,},
@@ -163,6 +158,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_243BABB7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1472.0,"y":1152.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40F234F0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":17.000004,"x":1952.0,"y":-96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_75ED31A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":17.000004,"x":1728.0,"y":-96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6CCD1476","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_boxofpizza","path":"objects/obj_boxofpizza/obj_boxofpizza.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_boxofpizza","path":"objects/obj_boxofpizza/obj_boxofpizza.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_boxofpizza/obj_boxofpizza.yy",},"value":"molasses_6",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3552.0,"y":992.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":79,"SerialiseWidth":141,"TileCompressedData":[
 -15,99,-126,-2147483648,-15,99,-126,-2147483648,-15,99,-126,-2147483648,-15,99,-126,-2147483648,-15,99,-126,-2147483648,-15,99,-126,-2147483648,-15,99,-126,-2147483648,-15,99,-126,-2147483648,-15,99,-126,-2147483648,15,162,163,164,162,163,164,162,163,164,162,163,164,162,163,164,-126,-2147483648,-10,0,2,65,69,-3,0,-126,-2147483648,-10,0,2,97,101,-3,0,-126,-2147483648,-10,0,2,129,133,-3,0,-126,-2147483648,-10,0,2,97,101,-3,0,-126,-2147483648,-4,0,2,33,37,-4,0,2,129,133,-3,0,-126,-2147483648,-4,0,11,65,69,0,0,33,34,169,101,0,0,33,-126,-2147483648,-4,0,11,97,101,0,0,161,72,73,133,0,0,65,-126,-2147483648,-4,0,2,129,101,
