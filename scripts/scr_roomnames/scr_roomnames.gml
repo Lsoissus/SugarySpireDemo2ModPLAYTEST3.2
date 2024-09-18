@@ -190,7 +190,7 @@ function scr_roomnames(_room = room)
         case mines_1:
             room_name = "Sugary Spire Underground";
             break;
-        case mines_2:
+        case mines_1b:
             room_name = "Excavation Site";
             break;
         case mines_3:
