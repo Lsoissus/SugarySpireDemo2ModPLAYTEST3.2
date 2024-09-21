@@ -88,6 +88,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bar Timer","folderPath":"folders/Sprites/Bar Timer.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Candysonas","folderPath":"folders/Sprites/Candysonas.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CollectHUDS","folderPath":"folders/Sprites/CollectHUDS.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EntrywayNpcs","folderPath":"folders/Sprites/EntrywayNpcs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Sprites/Fonts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Lapping","folderPath":"folders/Sprites/Lapping.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Level Gates","folderPath":"folders/Sprites/Level Gates.yy",},
@@ -126,7 +127,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EntrywayNpcs","folderPath":"folders/Sprites/EntrywayNpcs.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"credits.txt","CopyToMask":-1,"filePath":"datafiles",},

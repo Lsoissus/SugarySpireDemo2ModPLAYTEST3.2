@@ -64,6 +64,7 @@
     {"name":"Bar Timer","order":603,"path":"folders/Sprites/Bar Timer.yy",},
     {"name":"Candysonas","order":645,"path":"folders/Sprites/Candysonas.yy",},
     {"name":"CollectHUDS","order":558,"path":"folders/Sprites/CollectHUDS.yy",},
+    {"name":"EntrywayNpcs","order":697,"path":"folders/Sprites/EntrywayNpcs.yy",},
     {"name":"Fonts","order":640,"path":"folders/Sprites/Fonts.yy",},
     {"name":"Lapping","order":604,"path":"folders/Sprites/Lapping.yy",},
     {"name":"Level Gates","order":563,"path":"folders/Sprites/Level Gates.yy",},
@@ -97,7 +98,6 @@
     {"name":"TVbgs","order":557,"path":"folders/Sprites/TVbgs.yy",},
     {"name":"Tile Sets","order":10,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":24,"path":"folders/Timelines.yy",},
-    {"name":"EntrywayNpcs","order":697,"path":"folders/Sprites/EntrywayNpcs.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":596,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},
