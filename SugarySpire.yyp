@@ -1968,6 +1968,7 @@
     {"id":{"name":"spr_pause","path":"sprites/spr_pause/spr_pause.yy",},},
     {"id":{"name":"spr_pizzelle_pause","path":"sprites/spr_pizzelle_pause/spr_pizzelle_pause.yy",},},
     {"id":{"name":"dragon_8","path":"rooms/dragon_8/dragon_8.yy",},},
+    {"id":{"name":"spr_crackerkicker_scared","path":"sprites/spr_crackerkicker_scared/spr_crackerkicker_scared.yy",},},
     {"id":{"name":"bg_entryway2_buildingsold","path":"sprites/bg_entryway2_buildingsold/bg_entryway2_buildingsold.yy",},},
     {"id":{"name":"spr_pauseconfecti1","path":"sprites/spr_pauseconfecti1/spr_pauseconfecti1.yy",},},
     {"id":{"name":"spr_playerhatsMENU","path":"sprites/spr_playerhatsMENU/spr_playerhatsMENU.yy",},},

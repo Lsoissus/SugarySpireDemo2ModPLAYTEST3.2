@@ -1860,6 +1860,7 @@
     {"name":"spr_pause","order":350,"path":"sprites/spr_pause/spr_pause.yy",},
     {"name":"spr_pizzelle_pause","order":351,"path":"sprites/spr_pizzelle_pause/spr_pizzelle_pause.yy",},
     {"name":"dragon_8","order":10,"path":"rooms/dragon_8/dragon_8.yy",},
+    {"name":"spr_crackerkicker_scared","order":698,"path":"sprites/spr_crackerkicker_scared/spr_crackerkicker_scared.yy",},
     {"name":"bg_entryway2_buildingsold","order":3,"path":"sprites/bg_entryway2_buildingsold/bg_entryway2_buildingsold.yy",},
     {"name":"spr_pauseconfecti1","order":352,"path":"sprites/spr_pauseconfecti1/spr_pauseconfecti1.yy",},
     {"name":"spr_playerhatsMENU","order":4,"path":"sprites/spr_playerhatsMENU/spr_playerhatsMENU.yy",},
