@@ -1,2 +1,2 @@
-targetRoom = dragon_4
+targetRoom = dragon_5
 visible = true
