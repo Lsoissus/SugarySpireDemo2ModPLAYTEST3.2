@@ -17,7 +17,7 @@ function scr_escapetimes(_room = room)
 			minutes = 5;
 			seconds = 50;
 			break;
-		case mines_11:
+		case mines_10:
 			minutes = 2;
 			seconds = 50;
 			break;
