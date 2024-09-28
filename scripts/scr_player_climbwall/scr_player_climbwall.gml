@@ -91,7 +91,7 @@ if windingAnim < 200
 		sprite_index = spr_player_wallkick;
 		image_index = 0;
 		state = states.wallkick
-	     movespeed = hsp
+		movespeed = hsp
 		kickclimbbuffer = 7
 	}
 	image_speed = 0.6;

@@ -187,8 +187,6 @@ with (obj_camera)
 		suplexmove = false;
 		suplexhavetomash = 0;
 		timeuntilhpback = 300;
-		anger = 0;
-		angry = false;
 	}
 	with (obj_tv)
 	{

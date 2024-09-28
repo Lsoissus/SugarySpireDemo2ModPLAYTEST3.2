@@ -67,7 +67,7 @@ if (grabbedPlayer != -4)
 		farBuffer++;
 	else
 		farBuffer = 0;
-	if (grabbedPlayer.y <= ystart && vsp < 0)
+	if (grabbedPlayer.y <= ystart && vsp < 0) || grabbedPlayer.key_jump
 	{
 		with (grabbedPlayer)
 		{
@@ -84,7 +84,7 @@ if (grabbedPlayer != -4)
 		grabbedPlayer = -4;
 		waitTimer = 25;
 	}
-	if (obj_player.key_jump || farBuffer >= 100)
+	if (farBuffer >= 100)
 	{
 		with (grabbedPlayer)
 		{
@@ -92,7 +92,7 @@ if (grabbedPlayer != -4)
 			jumpstop = true;
 			hsp = other.hsp;
 			movespeed = abs(hsp);
-			vsp = -5;
+			vsp = other.max_vsp;
 			sprite_index = spr_player_candytransitionup;
 			if (sign(hsp) != 0)
 				xscale = sign(hsp);

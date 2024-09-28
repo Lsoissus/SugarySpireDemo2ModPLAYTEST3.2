@@ -8,19 +8,13 @@ function scr_player_handstandjump()
 			if mach2 <= 35
 				mach2 = 35;
 			hsp = xscale * movespeed;
-			grav = (character == characters.pizzano ? 0.5 : 0);
+			grav = character == characters.pizzano ? 0.5 : 0;
 			momemtum = true;
 			dir = xscale;
-		 if ((movespeed < 12))
-            {
-                if ((image_index < 2))
-                    movespeed = 12
-            }
-            if ((movespeed <= 12))
-            {
-                if ((image_index > 7))
-                    movespeed -= 0.025
-            }
+			if image_index < 2 && movespeed < 10
+				movespeed = 10;
+            if (image_index > 7 && movespeed <= 10)
+				movespeed -= 0.025;
 			if move != xscale && move != 0
 			{
 				state = states.jump;
@@ -33,7 +27,7 @@ function scr_player_handstandjump()
 				if (audio_is_playing(sound_suplex1))
 					audio_stop_sound(sound_suplex1);
 			}
-			if (floor(image_index) == (image_number - 1))
+			if animation_end()
 			{
 				state = states.normal;
 				grav = 0.5;
@@ -54,19 +48,19 @@ function scr_player_handstandjump()
 					if (audio_is_playing(sound_suplex1))
 						audio_stop_sound(sound_suplex1);
 				}
-				else
+				/*else
 				{
 
 					image_index = 0
 					state = states.machroll
 					sprite_index = spr_dive
 					vsp = 10
-				}
+				}*/
 			}
 			if (key_jump && grounded)
 			{
-				if ((movespeed < 10))
-                    movespeed = 10
+				if (movespeed < 10)
+					movespeed = 10;
 				sprite_index = spr_player_longjump;
 				image_index = 0
 				instance_create(x, y, obj_jumpdust);
@@ -99,14 +93,14 @@ function scr_player_handstandjump()
 			}
 			if ((scr_solid(x + xscale, y) && !scr_slope_ext(x + xscale, y)) && !place_meeting(x + xscale, y, obj_destructibles) && !grounded)
 			{
-			 if ((movespeed <= 0))
-                        wallspeed = 9
-                    else
-                    {
-                        wallspeed = movespeed
-                        if ((movespeed <= 12))
-                            wallspeed = 9
-                    }
+				if (movespeed <= 0)
+					wallspeed = 9
+				else
+				{
+					wallspeed = movespeed
+					if movespeed <= 12
+					wallspeed = 9
+				}
 				grabclimbbuffer = 10
 				state = states.climbwall;
 			}

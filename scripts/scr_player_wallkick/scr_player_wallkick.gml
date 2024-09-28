@@ -4,8 +4,8 @@ function scr_player_wallkick(){
 	hsp = movespeed
 	
 	// movespeed control
-	 if ((move != 0))
-            movespeed = approach(movespeed, (move * 12), 1.5)
+	 if (move != 0)
+            movespeed = approach(movespeed, move * 12, 1.5)
         else
             movespeed = approach(movespeed, 0, 0.6)
 	
@@ -71,8 +71,13 @@ function scr_player_wallkick(){
 				mach2 = 0;
 			}
 		}
+		
+		// Why did you do this this is UNNECCESSARY and SCREWS UP gameplay
+		
+		// Just press x for gods sake
+		/*
         // wall climb check
-		 if (((!grounded) && (move != 0) && (!(place_meeting((x + move), y, obj_metalblock))) && scr_solid((x + move), y, true) && (!(place_meeting((x + move), y, obj_destructibles))) && (!(scr_slope_ext((x + sign(move)), y)))) || (grounded && scr_solid((x + sign(move)), (y - 2), true) && (!(scr_slope_ext((x + sign(move)), (y - 1)))) && (!(place_meeting((x + move), y, obj_metalblock))) && (!(place_meeting((x + move), y, obj_destructibles))) && scr_slope() && (kickclimbbuffer == 0)))
+		if ((!grounded && (move != 0) && (!(place_meeting((x + move), y, obj_metalblock))) && scr_solid((x + move), y, true) && (!(place_meeting((x + move), y, obj_destructibles))) && (!(scr_slope_ext((x + sign(move)), y)))) || (grounded && scr_solid((x + sign(move)), (y - 2), true) && (!(scr_slope_ext((x + sign(move)), (y - 1)))) && (!(place_meeting((x + move), y, obj_metalblock))) && (!(place_meeting((x + move), y, obj_destructibles))) && scr_slope() && (kickclimbbuffer == 0)))
         {
             wallspeed = clamp(abs(movespeed), 12, 24)
             mach2 = 100
@@ -83,7 +88,8 @@ function scr_player_wallkick(){
                 movespeed -= 0.1
             image_speed = 0.35
             grabclimbbuffer = 5
-        }
+        }*/
+		
 		// enemy stomp check
 		var stompfoe = instance_place(x, (y + vsp), obj_baddie)
 	    if stompfoe
@@ -92,8 +98,8 @@ function scr_player_wallkick(){
 	        vsp = -10
 	    }
 	}
-if sprite_index = spr_player_wallkickloop
-image_speed = 0.35
-else if sprite_index = spr_player_wallkick
-image_speed = 0.5
+	if sprite_index = spr_player_wallkickloop
+	image_speed = 0.35
+	else if sprite_index = spr_player_wallkick
+	image_speed = 0.5
 }

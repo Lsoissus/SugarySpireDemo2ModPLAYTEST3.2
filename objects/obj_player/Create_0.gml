@@ -108,8 +108,6 @@ bombpeptimer = 100;
 suplexmove = false;
 suplexhavetomash = 0;
 breakdanceammo = 0;
-anger = 0;
-angry = false;
 character = characters.pizzelle;
 baddiegrabbedID = -4;
 scr_characterspr();

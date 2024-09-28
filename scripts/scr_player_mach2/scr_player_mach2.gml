@@ -19,9 +19,9 @@ function scr_player_mach2()
 			{
 				if sprite_index = spr_mach1
 				{
-					if movespeed <= 8
-						movespeed += 0.5;
-					else if movespeed >= 8 && floor(image_index) == (image_number - 1)
+					if movespeed < 8
+						movespeed += 0.1;
+					else if movespeed >= 8
 						sprite_index = spr_mach;
 				}
 				else
@@ -93,8 +93,6 @@ function scr_player_mach2()
 			}
 			if (!grounded)
 				machpunchAnim = false;
-			if (mach2 < 100)
-				mach2 += 1.5;
 			if (movespeed >= 12 && grounded)
 			{
 				machhitAnim = false;
@@ -105,74 +103,66 @@ function scr_player_mach2()
 				if (movespeed < 12)
 					movespeed = 12;
 			}
-			/*if (movespeed >= 10 && grounded && character == characters.pizzano)
-			{
-				if (!charged)
-				{
-					charged = true;
-					flash = true;
-				}
-			}*/
 			if (sprite_index != spr_null)
 			{
 				if (key_jump)
 					input_buffer_jump = 0;
 				if (!key_attack && grounded)
 				{
-				 if ((sprite_index != spr_mach1))
-                    {
-				alarm[0] = 240;
-					scr_sound(sound_break);
-					sprite_index = spr_machslidestart;
+					if (sprite_index != spr_mach1)
+					{
+						alarm[0] = 240;
+						scr_sound(sound_break);
+						sprite_index = spr_machslidestart;
+						state = states.machslide;
+						image_index = 0;
+						mach2 = 0;
+					}
+					else
+					{
+						sprite_index = spr_idle
+						image_index = 0
+						state = states.normal
+						mach2 = 0
+					}
+				}
+			}
+			if movespeed >= 9
+			{
+				if (move == -1 && xscale == 1 && grounded)
+				{
+					scr_sound(sound_maximumspeedstop);
+					sprite_index = spr_machslideboost;
 					state = states.machslide;
 					image_index = 0;
-					mach2 = 0;
+					mach2 = 35;
 				}
-				else
-                    {
-                        sprite_index = spr_idle
-                        image_index = 0
-                        state = states.normal
-                        mach2 = 0
-                    }
+				if (move == 1 && xscale == -1 && grounded)
+				{
+					scr_sound(sound_maximumspeedstop);
+					sprite_index = spr_machslideboost;
+					state = states.machslide;
+					image_index = 0;
+					mach2 = 35;
 				}
 			}
-if movespeed >= 9
-{
-		if (move == -1 && xscale == 1 && grounded)
+			else if movespeed < 9
 			{
-				scr_sound(sound_maximumspeedstop);
-				sprite_index = spr_machslideboost;
-				state = states.machslide;
-				image_index = 0;
-				mach2 = 35;
+				if move != 0
+				{
+					if move != xscale
+					xscale *= -1
+				}
 			}
-			if (move == 1 && xscale == -1 && grounded)
-			{
-				scr_sound(sound_maximumspeedstop);
-				sprite_index = spr_machslideboost;
-				state = states.machslide;
-				image_index = 0;
-				mach2 = 35;
-			}
-	}
-	else if movespeed < 9
-	{
-	  if ((move != 0))
-                {
-                    if ((move != xscale))
-                        xscale *= -1
-                }
-	}
-
-	if (key_down2 && grounded)
+			
+			if (key_down2 && grounded)
 			{
 				sprite_index = spr_player_machroll;
 				if (character == characters.pizzelle)
 					machhitAnim = false;
 				state = states.machroll;
 			}
-			 if (key_down && (!grounded) && (sprite_index != spr_dive))
+			if (key_down && !grounded && sprite_index != spr_dive)
             {
                 sprite_index = spr_dive
                 vsp = 10
@@ -186,7 +176,7 @@ if movespeed >= 9
 			}
 			if (grounded && !scr_slope() && place_meeting(x + hsp, y, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + sign(hsp), y, obj_slope))
 			{
-				         sprite_index = spr_player_wallsplat
+				sprite_index = spr_player_wallsplat
 				movespeed = 0;
 				state = states.bump
 			}
@@ -220,19 +210,19 @@ if movespeed >= 9
 					image_index = irandom_range(0, sprite_get_number(spr_player_taunt));
 					sprite_index = spr_player_taunt;
 				}
-						 if ((sprite_index == spr_player_supertaunt1) || (sprite_index == spr_player_supertaunt2) || (sprite_index == spr_player_supertaunt3))
-        {
-            with (instance_create(x, y, obj_taunteffect))
-                scr_sound(sfx_supertaunt)
-        }
-        else
-				instance_create(x, y, obj_taunteffect);
+				if (sprite_index == spr_player_supertaunt1 || sprite_index == spr_player_supertaunt2 || sprite_index == spr_player_supertaunt3)
+				{
+					with (instance_create(x, y, obj_taunteffect))
+						scr_sound(sfx_supertaunt)
+				}
+				else
+					instance_create(x, y, obj_taunteffect);
 			}
 			if (sprite_index == spr_player_rollgetup)
 				image_speed = 0.4;
-		else if sprite_index = spr_mach1
+			else if sprite_index = spr_mach1
 				image_speed = 0.45;
-		else
+			else
 				image_speed = 0.65;
 			if (character == characters.pizzano && key_down2)
 			{

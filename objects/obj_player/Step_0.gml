@@ -129,17 +129,10 @@ if (!(state == states.grab || state == states.charge || state == states.supersla
 // if pizzelle do angry related things
 if (character == characters.pizzelle)
 {
-	angry = sign(anger);
-	// if anger above 0 then tick it down
-	if (anger > 0)
-		anger--;
-	// create the angry cloud when angry
-	if (angry && !instance_exists(obj_angrycloud) && obj_player.state == states.normal)
+	// create the angry cloud when the combo is greater than 3
+	if (global.combo >= 3 && !instance_exists(obj_angrycloud) && obj_player.state == states.normal)
 		instance_create(x, y, obj_angrycloud);
 }
-// set angry sprite
-if (angry && sprite_index == spr_idle)
-	sprite_index = spr_player_3hpidle;
 // initalize player sound control down here for some reason
 scr_playersounds();
 // if sprite is set to the winding idle sprite and state is changed, set the animation counter to 0

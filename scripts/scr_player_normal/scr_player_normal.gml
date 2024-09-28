@@ -33,19 +33,21 @@ function scr_player_normal()
 				{
 					randomise();
 					idleanim = random_range(0, 100);
-					if (idleanim <= 33)
+					if (idleanim <= 25)
 						sprite_index = spr_idle1;
-					else if (idleanim > 33 && idleanim < 66)
+					else if (idleanim > 25 && idleanim < 50)
 						sprite_index = spr_idle2;
-					else if (idleanim > 66)
+					else if (idleanim > 50 && idleanim < 75)
 						sprite_index = spr_idle3;
+					else if (idleanim > 75)
+						sprite_index = spr_idle4;
 					image_index = 0;
 				}
 				if (idle < 300)
 				{
 					if (!facehurt)
 					{
-						if (windingAnim < 1800 || angry)
+						if (windingAnim < 1800)
 						{
 							start_running = true;
 							movespeed = 0;
@@ -53,6 +55,10 @@ function scr_player_normal()
 							{
 								if (global.cane)
 									sprite_index = spr_caneidle;
+			                    else if (global.combo >= 25 && global.combo < 50)
+			                        sprite_index = spr_3hpidle;
+			                    else if (global.combo >= 50)
+			                        sprite_index = spr_rageidle;
 								else
 									sprite_index = spr_idle;
 							}
@@ -91,10 +97,12 @@ function scr_player_normal()
 			machslideAnim = false;
 			idle = 0;
 			facehurt = false;
-			if (angry)
-				sprite_index = spr_player_3hpwalk;
-			else if (global.cane)
+			if (global.cane)
 				sprite_index = spr_canewalk;
+			else if (global.combo >= 25 && global.combo < 50)
+				sprite_index = spr_3hpmove;
+			else if (global.combo >= 50)
+				sprite_index = spr_ragemove;
 			else
 				sprite_index = spr_move;
 		}
@@ -118,10 +126,14 @@ function scr_player_normal()
 				if (floor(image_index) == (image_number - 1))
 				{
 					landAnim = false;
-					if (!global.cane)
-						sprite_index = spr_move;
-					else
+					if (global.cane)
 						sprite_index = spr_canewalk;
+					else if (global.combo >= 25 && global.combo < 50)
+						sprite_index = spr_3hpmove;
+					else if (global.combo >= 50)
+						sprite_index = spr_ragemove;
+					else
+						sprite_index = spr_move;
 					image_index = 0;
 				}
 			}
@@ -132,10 +144,14 @@ function scr_player_normal()
 			if (floor(image_index) == (image_number - 1))
 			{
 				landAnim = false;
-				if (!global.cane)
-					sprite_index = spr_move;
-				else
+				if (global.cane)
 					sprite_index = spr_canewalk;
+				else if (global.combo >= 25 && global.combo < 50)
+					sprite_index = spr_3hpmove;
+				else if (global.combo >= 50)
+					sprite_index = spr_ragemove;
+				else
+					sprite_index = spr_move;
 				image_index = 0;
 			}
 		}

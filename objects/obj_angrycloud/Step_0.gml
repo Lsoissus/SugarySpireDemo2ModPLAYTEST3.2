@@ -2,6 +2,6 @@
 image_xscale = playerid.xscale;
 x = playerid.x;
 y = playerid.y;
-// if not angry anymore then destroy
-if (!playerid.angry || playerid.state != states.normal)
+// if combo is less than 3 then destroy
+if (global.combo < 3 || playerid.state != states.normal)
 	instance_destroy();

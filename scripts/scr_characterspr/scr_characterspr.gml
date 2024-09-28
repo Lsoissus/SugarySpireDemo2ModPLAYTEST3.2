@@ -76,9 +76,10 @@ function scr_characterspr()
 		spr_airdash1 = spr_player_airdash1;
 		spr_airdash2 = spr_player_airdash2;
 		spr_keyget = spr_player_keyget;
-		spr_idle1 = spr_player_idle;
-		spr_idle2 = spr_player_idle;
-		spr_idle3 = spr_player_idle;
+		spr_idle1 = spr_player_idlehair;
+		spr_idle2 = spr_player_idlehairshrug;
+		spr_idle3 = spr_player_idlepizza;
+		spr_idle4 = spr_player_idlehuh;
 		spr_suplexdash = spr_player_suplexdash;
 		spr_piledriver = spr_player_piledriver;
 		spr_piledriverland = spr_player_piledriverland;
@@ -100,6 +101,10 @@ function scr_characterspr()
 		spr_cottonidle = spr_cotton_idle;
 		spr_escapeidle = spr_player_escapeidle;
 		spr_timesupidle = spr_player_timesupidle;
+		spr_3hpidle = spr_player_3hpidle;
+		spr_3hpmove = spr_player_3hpwalk;
+		spr_rageidle = spr_player_rageidle;
+		spr_ragemove = spr_player_ragemove;
 	}
 	if (character == characters.pizzano)
 	{

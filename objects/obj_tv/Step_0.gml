@@ -114,45 +114,42 @@ if (tvsprite != spr_tvturnon && ds_queue_size(global.newhudtvanim) < 1 && tvleng
 			STOREDtvsprite = orbtvspr;
 			break;
 		default:
-			if (!obj_player.angry)
+			ChannelState = 7;
+			if (tvsprite != idletvspr && !(tvsprite == tvchange1 || tvsprite == tvchange2))
 			{
-				ChannelState = 7;
-				if (tvsprite != idletvspr && !(tvsprite == tvchange1 || tvsprite == tvchange2))
-				{
-					if global.panic
-						STOREDtvsprite = escapetvidle;
-					else if (string_letters(roomname) == "entrywaysecret") // i am sorry for this lazy fix
+				if string_pos("secret", string_letters(roomname)) != 0
 					STOREDtvsprite = secrettvspr;
-					else
-					{
-						tvcount = choose(500, 450, 400, 550);
-						STOREDtvsprite = idletvspr;
-						if tvsprite == STOREDtvsprite
-							image_index = 0;
-					}
-				}
-				if (tvsprite == idletvspr && tvcount < 1)
+				else if global.panic
+					STOREDtvsprite = escapetvidle;
+				else if global.combo >= 3
 				{
-					STOREDtvsprite = choose(tvchange1, tvchange2, tvchange2, tvchange1);
-					if tvsprite == STOREDtvsprite
-						image_index = 0;
+					ChannelState = 8;
+					STOREDtvsprite = angrytvspr;
 				}
-				if ((tvsprite == tvchange1 || tvsprite == tvchange2) && animation_end())
+				else
 				{
 					tvcount = choose(500, 450, 400, 550);
 					STOREDtvsprite = idletvspr;
 					if tvsprite == STOREDtvsprite
 						image_index = 0;
 				}
-				if (tvsprite == idletvspr)
-					tvcount--;
 			}
-			else
+			if (tvsprite == idletvspr && tvcount < 1)
 			{
-				ChannelState = 8;
-				STOREDtvsprite = angrytvspr;
+				STOREDtvsprite = choose(tvchange1, tvchange2, tvchange2, tvchange1);
+				if tvsprite == STOREDtvsprite
+					image_index = 0;
 			}
-		
+			if ((tvsprite == tvchange1 || tvsprite == tvchange2) && animation_end())
+			{
+				tvcount = choose(500, 450, 400, 550);
+				STOREDtvsprite = idletvspr;
+				if tvsprite == STOREDtvsprite
+					image_index = 0;
+			}
+			if (tvsprite == idletvspr)
+				tvcount--;
+			
 			break;
 	}
 	if (OLDChannelState != ChannelState)
