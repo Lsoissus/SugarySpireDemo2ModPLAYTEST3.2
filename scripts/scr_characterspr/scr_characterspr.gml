@@ -76,9 +76,9 @@ function scr_characterspr()
 		spr_airdash1 = spr_player_airdash1;
 		spr_airdash2 = spr_player_airdash2;
 		spr_keyget = spr_player_keyget;
-		spr_idle1 = spr_player_idlehair;
-		spr_idle2 = spr_player_idlehairshrug;
-		spr_idle3 = spr_player_idlepizza;
+		spr_idle1 = spr_player_idlepizza;
+		spr_idle2 = spr_player_idlehair;
+		spr_idle3 = spr_player_idleshrug;
 		spr_idle4 = spr_player_idlehuh;
 		spr_suplexdash = spr_player_suplexdash;
 		spr_piledriver = spr_player_piledriver;
