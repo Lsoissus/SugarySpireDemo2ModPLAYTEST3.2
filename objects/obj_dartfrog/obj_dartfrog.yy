@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_dartfrog",
-    "path": "sprites/spr_dartfrog/spr_dartfrog.yy",
+    "name": "spr_dartfrog_idle",
+    "path": "sprites/spr_dartfrog_idle/spr_dartfrog_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

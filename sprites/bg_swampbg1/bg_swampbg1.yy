@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "bg_swampbg1",
-  "bbox_bottom": 596,
-  "bbox_left": 96,
-  "bbox_right": 971,
-  "bbox_top": 0,
+  "bbox_bottom": 276,
+  "bbox_left": 36,
+  "bbox_right": 267,
+  "bbox_top": 6,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -16,14 +16,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"20bfdbf5-e27d-4a03-86a4-0dc481a87bfa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8d1fce6e-fde9-42f0-89c4-162ec9be2225",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 600,
+  "height": 300,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a7635f6d-9b6b-4680-8618-fb5fd9df850f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7fe49ce1-0277-4528-a446-7fc4e45f9b99","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -57,7 +57,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"20bfdbf5-e27d-4a03-86a4-0dc481a87bfa","path":"sprites/bg_swampbg1/bg_swampbg1.yy",},},},"Disabled":false,"id":"ffd68f27-a915-4307-b5b9-38913c9a2c5a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8d1fce6e-fde9-42f0-89c4-162ec9be2225","path":"sprites/bg_swampbg1/bg_swampbg1.yy",},},},"Disabled":false,"id":"0976d17c-65b1-4ba2-a976-dbd356ec84e9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -73,5 +73,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1000,
+  "width": 300,
 }

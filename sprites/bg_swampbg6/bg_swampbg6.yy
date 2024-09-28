@@ -5,7 +5,7 @@
   "bbox_bottom": 599,
   "bbox_left": 0,
   "bbox_right": 999,
-  "bbox_top": 257,
+  "bbox_top": 353,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -16,14 +16,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d0f2f7a-0abc-41fa-808e-2cb6d3f06ea8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fdbd75a5-98a5-4601-b2c8-9a107423b90a",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 600,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"31f1e3f7-e165-420f-9ee2-0a138817038e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b04f8230-9b88-4f17-8e5f-9d30ba237da2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -57,7 +57,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9d0f2f7a-0abc-41fa-808e-2cb6d3f06ea8","path":"sprites/bg_swampbg6/bg_swampbg6.yy",},},},"Disabled":false,"id":"7f337440-3c11-4716-9b59-57262c3ce77b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fdbd75a5-98a5-4601-b2c8-9a107423b90a","path":"sprites/bg_swampbg6/bg_swampbg6.yy",},},},"Disabled":false,"id":"165b5134-a235-405a-bbc4-21973690d1ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
