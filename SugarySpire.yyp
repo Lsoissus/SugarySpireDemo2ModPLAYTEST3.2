@@ -67,6 +67,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"music","folderPath":"folders/Sounds/music.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sounds","folderPath":"folders/Sounds/sounds.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"pizzelle sfx","folderPath":"folders/Sounds/sounds/pizzelle sfx.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Titlecards","folderPath":"folders/Sounds/Titlecards.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Background","folderPath":"folders/Sprites/Background.yy",},
@@ -127,7 +128,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"pizzelle sfx","folderPath":"folders/Sounds/sounds/pizzelle sfx.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"credits.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -1721,6 +1721,7 @@
     {"id":{"name":"spr_pizzytvmach","path":"sprites/spr_pizzytvmach/spr_pizzytvmach.yy",},},
     {"id":{"name":"parlor_10","path":"rooms/parlor_10/parlor_10.yy",},},
     {"id":{"name":"spr_gumslime_walk","path":"sprites/spr_gumslime_walk/spr_gumslime_walk.yy",},},
+    {"id":{"name":"spr_player_mach3hit","path":"sprites/spr_player_mach3hit/spr_player_mach3hit.yy",},},
     {"id":{"name":"bg_hub3","path":"sprites/bg_hub3/bg_hub3.yy",},},
     {"id":{"name":"spr_minizelle_idle","path":"sprites/spr_minizelle_idle/spr_minizelle_idle.yy",},},
     {"id":{"name":"spr_gumslime_scared","path":"sprites/spr_gumslime_scared/spr_gumslime_scared.yy",},},

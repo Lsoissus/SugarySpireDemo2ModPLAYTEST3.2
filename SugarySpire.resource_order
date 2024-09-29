@@ -49,6 +49,7 @@
     {"name":"Shaders","order":14,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":11,"path":"folders/Sounds.yy",},
     {"name":"music","order":1,"path":"folders/Sounds/music.yy",},
+    {"name":"pizzelle sfx","order":111,"path":"folders/Sounds/sounds/pizzelle sfx.yy",},
     {"name":"Titlecards","order":2,"path":"folders/Sounds/Titlecards.yy",},
     {"name":"Tutorial","order":5,"path":"folders/Sprites/Background/Hub/Tutorial.yy",},
     {"name":"OLD","order":1,"path":"folders/Sprites/Background/Hub/Tutorial/OLD.yy",},
@@ -98,7 +99,6 @@
     {"name":"TVbgs","order":557,"path":"folders/Sprites/TVbgs.yy",},
     {"name":"Tile Sets","order":10,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":24,"path":"folders/Timelines.yy",},
-    {"name":"pizzelle sfx","order":111,"path":"folders/Sounds/sounds/pizzelle sfx.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":596,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},
@@ -1621,6 +1621,7 @@
     {"name":"spr_pizzytvmach","order":200,"path":"sprites/spr_pizzytvmach/spr_pizzytvmach.yy",},
     {"name":"parlor_10","order":1,"path":"rooms/parlor_10/parlor_10.yy",},
     {"name":"spr_gumslime_walk","order":201,"path":"sprites/spr_gumslime_walk/spr_gumslime_walk.yy",},
+    {"name":"spr_player_mach3hit","order":194,"path":"sprites/spr_player_mach3hit/spr_player_mach3hit.yy",},
     {"name":"bg_hub3","order":1,"path":"sprites/bg_hub3/bg_hub3.yy",},
     {"name":"spr_minizelle_idle","order":202,"path":"sprites/spr_minizelle_idle/spr_minizelle_idle.yy",},
     {"name":"spr_gumslime_scared","order":203,"path":"sprites/spr_gumslime_scared/spr_gumslime_scared.yy",},
