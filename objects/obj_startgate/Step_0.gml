@@ -68,7 +68,7 @@ if (near_gate)
 				alarm[0] = 2;
 			}
 			break;
-		case "fudgetop":
+		case "mountain":
 			with (obj_tv)
 			{
 				msg = "Mt. Fudgetop";
@@ -92,10 +92,10 @@ if (near_gate)
 				alarm[0] = 2;
 			}
 			break;
-		case "martian":
+		case "bee":
 			with (obj_tv)
 			{
-				msg = "Martian Freezer";
+				msg = "Sting Operation";
 				showtext = true;
 				alarm[0] = 2;
 			}
