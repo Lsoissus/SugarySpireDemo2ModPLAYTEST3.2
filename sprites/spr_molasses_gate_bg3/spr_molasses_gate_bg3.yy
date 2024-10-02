@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Molasses Swamp",
-    "path": "folders/Sprites/Level Gates/World 2/Molasses Swamp.yy",
+    "name": "World 2",
+    "path": "folders/Sprites/Level Gates/World 2.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
