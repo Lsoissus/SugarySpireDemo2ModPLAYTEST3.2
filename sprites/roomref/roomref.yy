@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "roomref",
-  "bbox_bottom": 686,
+  "bbox_bottom": 776,
   "bbox_left": 0,
-  "bbox_right": 1186,
+  "bbox_right": 1278,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -16,14 +16,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9ed0f82a-442e-4945-bb4c-48e662fdad46",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8d026691-deaf-4d17-9153-06729fb6e987",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 687,
+  "height": 777,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"880d7832-b2cf-4083-bf29-6435a875fac7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d306a91-6dce-46b7-8bea-be3e0d14b4c4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -57,7 +57,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9ed0f82a-442e-4945-bb4c-48e662fdad46","path":"sprites/roomref/roomref.yy",},},},"Disabled":false,"id":"58df4f81-2224-453d-97d5-14f444573c55","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8d026691-deaf-4d17-9153-06729fb6e987","path":"sprites/roomref/roomref.yy",},},},"Disabled":false,"id":"c3b99677-b8e6-4796-85ce-91d8a5e93374","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -73,5 +73,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1187,
+  "width": 1279,
 }
