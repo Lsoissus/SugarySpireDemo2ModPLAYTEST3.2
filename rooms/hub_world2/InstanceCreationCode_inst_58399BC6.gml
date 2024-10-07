@@ -1,6 +1,6 @@
 targetRoom = molasses_1
 targetDoor = "A"
-level = "fudgetop"
+level = "mountain"
 sprite_index = spr_fudgetop_gate;
 parallax_array =
 [

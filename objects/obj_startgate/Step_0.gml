@@ -36,10 +36,10 @@ if (near_gate)
 				alarm[0] = 2;
 			}
 			break;
-		case "unownsteamy":
+		case "cafe":
 			with (obj_tv)
 			{
-				msg = "Unown-town";
+				msg = "Chocoa Cafe";
 				showtext = true;
 				alarm[0] = 2;
 			}
