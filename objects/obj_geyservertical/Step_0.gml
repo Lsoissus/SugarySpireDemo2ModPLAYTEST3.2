@@ -7,9 +7,30 @@ with (instance_place(x, y, obj_player))
 {
 	if (state != states.geyser && other.geysertimer > 0)
 	{
-		state = states.geyser;
-		vsp = -8;
-		movespeed = 8;
+		if state != states.mach2 && state != states.mach3 && state != states.climbwall
+		{
+			state = states.geyser;
+			vsp = -8;
+			movespeed = 8;
+		}
+		else
+		{
+			if state != states.climbwall && !grounded
+			{
+				vsp -= 0.5;
+			}
+			else if state == states.climbwall
+			{
+				vsp = -wallspeed + 5;
+			}
+			else if grounded
+			{
+				if movespeed > 12
+				{
+					movespeed -= 0.075;
+				}
+			}
+		}
 	}
 }
 if (geyserGoDown)
