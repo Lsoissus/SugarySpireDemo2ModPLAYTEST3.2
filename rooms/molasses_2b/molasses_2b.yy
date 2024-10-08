@@ -99,9 +99,9 @@
     {"name":"inst_6496C44F","path":"rooms/molasses_2b/molasses_2b.yy",},
     {"name":"inst_18191FA8","path":"rooms/molasses_2b/molasses_2b.yy",},
     {"name":"inst_552E53CC","path":"rooms/molasses_2b/molasses_2b.yy",},
-    {"name":"inst_101720","path":"rooms/molasses_2b/molasses_2b.yy",},
     {"name":"inst_2EA21954","path":"rooms/molasses_2b/molasses_2b.yy",},
     {"name":"inst_409C2EA5","path":"rooms/molasses_2b/molasses_2b.yy",},
+    {"name":"inst_101720","path":"rooms/molasses_2b/molasses_2b.yy",},
   ],
   "isDnd": false,
   "layers": [
