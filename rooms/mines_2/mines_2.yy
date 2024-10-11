@@ -48,10 +48,11 @@
     {"name":"inst_5FCAFEB7","path":"rooms/mines_2/mines_2.yy",},
     {"name":"inst_678E5EF5","path":"rooms/mines_2/mines_2.yy",},
     {"name":"inst_3FF3676C","path":"rooms/mines_2/mines_2.yy",},
-    {"name":"inst_501BBBB3","path":"rooms/mines_2/mines_2.yy",},
     {"name":"inst_6AE0359D","path":"rooms/mines_2/mines_2.yy",},
     {"name":"inst_474D59A4","path":"rooms/mines_2/mines_2.yy",},
     {"name":"inst_55578DC8","path":"rooms/mines_2/mines_2.yy",},
+    {"name":"inst_C5DD099","path":"rooms/mines_2/mines_2.yy",},
+    {"name":"inst_42E55881","path":"rooms/mines_2/mines_2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -109,12 +110,13 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5FCAFEB7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_swedishfish","path":"objects/obj_swedishfish/obj_swedishfish.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":1984.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_678E5EF5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_knight","path":"objects/obj_knight/obj_knight.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1408.0,"y":2080.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3FF3676C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_knight","path":"objects/obj_knight/obj_knight.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1504.0,"y":2080.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_501BBBB3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wormbump","path":"objects/obj_wormbump/obj_wormbump.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.5,"x":1264.0,"y":1199.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6AE0359D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hallway","path":"objects/obj_hallway/obj_hallway.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_hallway","path":"objects/obj_hallway/obj_hallway.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_hallway/obj_hallway.yy",},"value":"mines_1b",},
           ],"rotation":0.0,"scaleX":-2.0,"scaleY":1.5,"x":0.0,"y":576.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_474D59A4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorC","path":"objects/obj_doorC/obj_doorC.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":640.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_55578DC8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":12.0,"x":-96.0,"y":416.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C5DD099","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tumor","path":"objects/obj_tumor/obj_tumor.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":1296.0,"y":1242.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42E55881","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wormbump","path":"objects/obj_wormbump/obj_wormbump.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.5,"x":1264.0,"y":1199.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_Dark","depth":600,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_TintCol","type":1,"value":"#FFE5CED3",},
