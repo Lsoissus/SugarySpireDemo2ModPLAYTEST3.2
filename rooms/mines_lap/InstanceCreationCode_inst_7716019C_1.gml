@@ -1,1 +1,1 @@
-targetRoom = mines_11
+targetRoom = mines_10
