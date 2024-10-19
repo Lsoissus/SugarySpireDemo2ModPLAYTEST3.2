@@ -23,7 +23,7 @@ if (global.playseconds > 59)
 	global.playminutes += 1;
 	global.playseconds -= 59;
 }
-if ((room != realtitlescreen) && room != rm_initializer && (room != hub_room1) && room != hub_world1 && room != hub_world2 && room != hub_worldstart && room != hub_worldtutorialhall && (room != scootercutsceneidk) && (room != outer_room1) && (room != outer_room2) && (room != parlor_1) && (room != parlor_2) && (room != palroom) && (room != parlor_3) && (room != parlor_4) && (room != parlor_5) && (room != parlor_6) && (room != parlor_7) && (room != parlor_8) && (room != parlor_9) && (room != parlor_10) && sprite_index != parlornew_1 && sprite_index != parlornew_2 && sprite_index != parlornew_3 && sprite_index != parlornew_4 && sprite_index != parlornew_5 && (room != secrets_await) && (room != devroom))
+if ((room != realtitlescreen) && room != rm_initializer && (room != hub_room1) && room != hub_world1 && room != hub_world2new && room != hub_worldstart && room != hub_worldtutorialhall && (room != scootercutsceneidk) && (room != outer_room1) && (room != outer_room2) && (room != parlor_1) && (room != parlor_2) && (room != palroom) && (room != parlor_3) && (room != parlor_4) && (room != parlor_5) && (room != parlor_6) && (room != parlor_7) && (room != parlor_8) && (room != parlor_9) && (room != parlor_10) && sprite_index != parlornew_1 && sprite_index != parlornew_2 && sprite_index != parlornew_3 && sprite_index != parlornew_4 && sprite_index != parlornew_5 && (room != secrets_await) && (room != devroom))
 {
     if (((obj_player.state == states.backbreaker) && ((obj_player.sprite_index == obj_player.spr_Timesup) || (obj_player.sprite_index == spr_player_walkfront))) || (room == hub_room1))
     {
