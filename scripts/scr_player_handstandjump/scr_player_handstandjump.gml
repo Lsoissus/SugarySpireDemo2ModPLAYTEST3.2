@@ -14,7 +14,10 @@ function scr_player_handstandjump()
 			if image_index < 2 && movespeed < 10
 				movespeed = 10;
             if (image_index > 7 && movespeed <= 10)
+			{
 				movespeed -= 0.025;
+				grav = 0.5;
+			}
 			if move != xscale && move != 0
 			{
 				state = states.jump;

@@ -56,6 +56,7 @@
     {"name":"Unused","order":2,"path":"folders/Sprites/Background/Hub/Unused.yy",},
     {"name":"World 1","order":3,"path":"folders/Sprites/Background/Hub/World 1.yy",},
     {"name":"World 2","order":4,"path":"folders/Sprites/Background/Hub/World 2.yy",},
+    {"name":"Old","order":4,"path":"folders/Sprites/Background/Hub/World 2/Old.yy",},
     {"name":"Levels","order":7,"path":"folders/Sprites/Background/Levels.yy",},
     {"name":"Cottontown","order":5,"path":"folders/Sprites/Background/Levels/Cottontown.yy",},
     {"name":"Dragon's Lair","order":4,"path":"folders/Sprites/Background/Levels/Dragon's Lair.yy",},
@@ -100,7 +101,6 @@
     {"name":"TVbgs","order":557,"path":"folders/Sprites/TVbgs.yy",},
     {"name":"Tile Sets","order":10,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":24,"path":"folders/Timelines.yy",},
-    {"name":"Old","order":4,"path":"folders/Sprites/Background/Hub/World 2/Old.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bg_tole_tole","order":596,"path":"sprites/bg_tole_tole/bg_tole_tole.yy",},

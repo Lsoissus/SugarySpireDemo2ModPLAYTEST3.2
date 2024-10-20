@@ -79,6 +79,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Unused","folderPath":"folders/Sprites/Background/Hub/Unused.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"World 1","folderPath":"folders/Sprites/Background/Hub/World 1.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"World 2","folderPath":"folders/Sprites/Background/Hub/World 2.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Old","folderPath":"folders/Sprites/Background/Hub/World 2/Old.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Levels","folderPath":"folders/Sprites/Background/Levels.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cottontown","folderPath":"folders/Sprites/Background/Levels/Cottontown.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Dragon's Lair","folderPath":"folders/Sprites/Background/Levels/Dragon's Lair.yy",},
@@ -129,7 +130,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TVbgs","folderPath":"folders/Sprites/TVbgs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Old","folderPath":"folders/Sprites/Background/Hub/World 2/Old.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"credits.txt","CopyToMask":-1,"filePath":"datafiles",},
