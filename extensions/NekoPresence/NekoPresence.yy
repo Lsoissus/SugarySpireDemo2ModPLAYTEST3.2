@@ -16,7 +16,7 @@
     "Debug": {"androidcodeinjection":"","copyToTargets":"194","HTML5CodeInjection":"","ioscodeinjection":"","tvoscodeinjection":"",},
   },
   "copyToTargets": 194,
-  "date": "2020-11-11T10:13:31.2571444+00:00",
+  "date": "2020-11-11T12:13:31.2571444+02:00",
   "description": "",
   "exportToGame": true,
   "extensionVersion": "1.3.2",

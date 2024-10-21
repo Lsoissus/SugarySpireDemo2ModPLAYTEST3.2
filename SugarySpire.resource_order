@@ -270,7 +270,7 @@
     {"name":"obj_trainSpeedUpTrigger","order":119,"path":"objects/obj_trainSpeedUpTrigger/obj_trainSpeedUpTrigger.yy",},
     {"name":"obj_creditsdoor","order":4,"path":"objects/obj_creditsdoor/obj_creditsdoor.yy",},
     {"name":"obj_molassesGround","order":121,"path":"objects/obj_molassesGround/obj_molassesGround.yy",},
-    {"name":"hub_world2","order":1,"path":"rooms/hub_world2/hub_world2.yy",},
+    {"name":"hub_world2old","order":1,"path":"rooms/hub_world2old/hub_world2old.yy",},
     {"name":"obj_secretdestroyable","order":122,"path":"objects/obj_secretdestroyable/obj_secretdestroyable.yy",},
     {"name":"obj_pizzanodebris","order":123,"path":"objects/obj_pizzanodebris/obj_pizzanodebris.yy",},
     {"name":"obj_camera","order":124,"path":"objects/obj_camera/obj_camera.yy",},
