@@ -1,1 +1,0 @@
-text = "When pressing X, you dash foward and destroy weak blocks, you can also pick up enemies. Hold LEFTSHIFT to initiate a MACH RUN. When holding the run button, you pick up speed and you can go up to mach 4. On mach 3 and over, you can break metal blocks. Try it out!"

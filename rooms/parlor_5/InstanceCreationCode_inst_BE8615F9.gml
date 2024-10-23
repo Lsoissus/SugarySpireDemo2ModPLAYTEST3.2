@@ -1,1 +1,0 @@
-targetRoom = parlor_6

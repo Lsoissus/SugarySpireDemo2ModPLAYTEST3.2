@@ -1,1 +1,0 @@
-text = "Press X to dash forward with a grab!"

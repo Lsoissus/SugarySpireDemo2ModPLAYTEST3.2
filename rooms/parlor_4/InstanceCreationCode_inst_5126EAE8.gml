@@ -1,1 +1,0 @@
-text = "Hold Down to crawl! Here, you need to jump while crawling."

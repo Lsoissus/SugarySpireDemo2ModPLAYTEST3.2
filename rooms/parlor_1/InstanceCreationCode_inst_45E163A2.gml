@@ -1,1 +1,0 @@
-text = "Welcome to the Spire! As your legally mandated tour guide, I have to show you how to get around or I'll \"get terminated\"! Whatever that means."

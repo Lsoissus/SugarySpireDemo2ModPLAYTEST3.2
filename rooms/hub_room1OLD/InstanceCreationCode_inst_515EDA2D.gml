@@ -1,2 +1,0 @@
-targetDoor = "A"
-visible = false

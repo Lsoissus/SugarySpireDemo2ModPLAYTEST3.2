@@ -1,1 +1,0 @@
-geysertimer = 300

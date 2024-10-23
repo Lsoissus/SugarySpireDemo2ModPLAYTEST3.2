@@ -1,1 +1,0 @@
-targetsecret = rm_testcookie;

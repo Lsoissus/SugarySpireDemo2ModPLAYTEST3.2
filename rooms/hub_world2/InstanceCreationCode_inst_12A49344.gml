@@ -1,1 +1,0 @@
-text = "You ever heard of M'lass? Me neither. I've never been exposed to the outside world in 27 years."

@@ -1,2 +1,0 @@
-targetRoom = palroom
-visible = false

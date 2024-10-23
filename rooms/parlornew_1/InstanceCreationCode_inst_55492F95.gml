@@ -1,1 +1,0 @@
-text = "Welcome to the Spire! As your legally mandated tour guide, I have to show you how to get around or I'll \"get terminated\"! Whatever that means. Press DOWN to crawl and JUMP to.. jump, obviously. You can change these keybinds in the settings, but they default to DOWN ARROW and Z."

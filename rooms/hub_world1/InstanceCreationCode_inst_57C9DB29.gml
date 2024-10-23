@@ -1,1 +1,0 @@
-text = "Well Steamy then!"
