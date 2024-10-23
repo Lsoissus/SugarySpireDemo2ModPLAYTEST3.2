@@ -1,2 +1,0 @@
-msg = "";
-selected = 0;
