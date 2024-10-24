@@ -37,7 +37,7 @@
   ],
   "parent": {
     "name": "Misc.",
-    "path": "folders/Rooms/Misc..yy",
+    "path": "folders/Objects/Unused/Gameplay/Rooms/Misc..yy",
   },
   "parentRoom": null,
   "physicsSettings": {

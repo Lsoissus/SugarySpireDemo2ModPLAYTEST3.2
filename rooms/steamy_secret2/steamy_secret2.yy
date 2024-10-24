@@ -133,7 +133,7 @@
   ],
   "parent": {
     "name": "Cottontown",
-    "path": "folders/Rooms/Levels/Cottontown.yy",
+    "path": "folders/Objects/Unused/Gameplay/Rooms/Levels/Cottontown.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

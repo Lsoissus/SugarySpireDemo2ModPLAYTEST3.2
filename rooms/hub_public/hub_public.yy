@@ -62,7 +62,7 @@
   ],
   "parent": {
     "name": "Hub",
-    "path": "folders/Rooms/Hub.yy",
+    "path": "folders/Objects/Unused/Gameplay/Rooms/Hub.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

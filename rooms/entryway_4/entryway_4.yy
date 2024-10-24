@@ -215,7 +215,7 @@
   ],
   "parent": {
     "name": "Entryway",
-    "path": "folders/Rooms/Levels/Entryway.yy",
+    "path": "folders/Objects/Unused/Gameplay/Rooms/Levels/Entryway.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

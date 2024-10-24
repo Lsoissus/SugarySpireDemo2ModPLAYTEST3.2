@@ -481,7 +481,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D1E90C84","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_siren","path":"objects/obj_siren/obj_siren.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3552.0,"y":1440.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_559C7AFC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_siren","path":"objects/obj_siren/obj_siren.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":1088.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_DA40E864","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_siren","path":"objects/obj_siren/obj_siren.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":864.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
+      ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":false,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_Secret","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":94,"SerialiseWidth":125,"TileCompressedData":[
 -7001,0,-7,68,1,70,-117,0,-7,68,1,69,-117,0,-7,68,1,101,-117,0,-7,68,1,133,-117,0,-7,68,1,101,-117,0,-7,68,1,133,-117,0,-7,68,1,101,-117,0,-7,68,1,133,-3866,0,],"TileDataFormat":1,},"tilesetId":{"name":"ts_molasses3","path":"tilesets/ts_molasses3/ts_molasses3.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":94,"SerialiseWidth":125,"TileCompressedData":[
@@ -536,7 +536,7 @@
   ],
   "parent": {
     "name": "Molasses Swamp",
-    "path": "folders/Rooms/Levels/Molasses Swamp.yy",
+    "path": "folders/Objects/Unused/Gameplay/Rooms/Levels/Molasses Swamp.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
