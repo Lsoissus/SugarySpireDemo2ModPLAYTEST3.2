@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "bg_w2hub1",
-  "bbox_bottom": 576,
+  "bbox_bottom": 511,
   "bbox_left": 0,
-  "bbox_right": 718,
+  "bbox_right": 511,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"094552b3-43c0-42ce-b726-cb975575da25",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0dd579c1-565f-4ca7-b7ca-d0a93b95e19a",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 577,
+  "height": 512,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1c33b79a-5e6f-416f-ae6e-8c3ca412bff7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"28e695cf-ee63-4eb4-817b-8af33def8afb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"094552b3-43c0-42ce-b726-cb975575da25","path":"sprites/bg_w2hub1/bg_w2hub1.yy",},},},"Disabled":false,"id":"5c6d9863-6137-438f-af5d-209012fd9c40","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0dd579c1-565f-4ca7-b7ca-d0a93b95e19a","path":"sprites/bg_w2hub1/bg_w2hub1.yy",},},},"Disabled":false,"id":"cb1d3bf5-45d3-419e-9580-1bc6cadda7f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 719,
+  "width": 512,
 }
