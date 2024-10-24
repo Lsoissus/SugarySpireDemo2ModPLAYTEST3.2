@@ -1,1 +1,0 @@
-targetRoom = secrets_await

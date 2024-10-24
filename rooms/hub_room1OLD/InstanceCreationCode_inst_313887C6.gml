@@ -1,2 +1,0 @@
-targetRoom = devroom
-targetDoor = "A"
