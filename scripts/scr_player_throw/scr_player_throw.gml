@@ -12,7 +12,7 @@ function scr_player_throw()
 	crouchslideAnim = true;
 	crouchAnim = true;
 	sprite_index = spr_punch;
-	if (floor(image_index) == (image_number - 1))
+	if (animation_end())
 		state = states.normal;
 	image_speed = 0.35;
 }

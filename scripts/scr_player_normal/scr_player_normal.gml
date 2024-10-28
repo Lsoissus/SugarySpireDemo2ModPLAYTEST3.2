@@ -14,13 +14,24 @@ function scr_player_normal()
 		hsp = (move * movespeed) - 5;
 	else if (place_meeting(x, y + 1, obj_railh2))
 		hsp = (move * movespeed) + 5;
+	if (move != 0)
+	{
+		if (movespeed < 7)
+			movespeed += 0.5;
+		else if (floor(movespeed) == 7)
+			movespeed = 7;
+	}
+	else
+		movespeed = 0;
+	if (movespeed > 7)
+		movespeed -= 0.1;
 	if (!machslideAnim && !landAnim && !shotgunAnim)
 	{
 		if (move == 0)
 		{
 			if (idle < 400)
 				idle++;
-			if (idle >= 300 && floor(image_index) == (image_number - 1))
+			if (idle >= 300 && animation_end())
 			{
 				shotgunAnim = false;
 				facehurt = false;
@@ -76,7 +87,7 @@ function scr_player_normal()
 						windingAnim = false;
 						if (sprite_index != spr_player_facehurtup && sprite_index != spr_player_facehurt)
 							sprite_index = spr_player_facehurtup;
-						if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_facehurtup)
+						if (animation_end() && sprite_index == spr_player_facehurtup)
 							sprite_index = spr_player_facehurt;
 					}
 				}
@@ -109,13 +120,13 @@ function scr_player_normal()
 			{
 				movespeed = 0;
 				sprite_index = spr_land;
-				if (floor(image_index) == (image_number - 1))
+				if (animation_end())
 					landAnim = false;
 			}
 			if (move != 0)
 			{
 				sprite_index = spr_land2;
-				if (floor(image_index) == (image_number - 1))
+				if (animation_end())
 				{
 					landAnim = false;
 					if (!global.cane)
@@ -129,7 +140,7 @@ function scr_player_normal()
 		if (shotgunAnim)
 		{
 			sprite_index = spr_shotgun_land;
-			if (floor(image_index) == (image_number - 1))
+			if (animation_end())
 			{
 				landAnim = false;
 				if (!global.cane)
@@ -143,10 +154,10 @@ function scr_player_normal()
 	if (machslideAnim)
 	{
 		sprite_index = spr_machslideend;
-		if (floor(image_index) == (image_number - 1) && sprite_index == spr_machslideend)
+		if (animation_end() && sprite_index == spr_machslideend)
 			machslideAnim = false;
 	}
-	if (sprite_index == spr_player_shotgun && floor(image_index) == (image_number - 1))
+	if (sprite_index == spr_player_shotgun && animation_end())
 		sprite_index = spr_shotgun_idle;
 	if (!landAnim)
 	{
@@ -172,14 +183,14 @@ function scr_player_normal()
 	}
 	if (character == "P")
 	{
-		if (key_attack && grounded && !(scr_solid(x + 1, y) && xscale == 1 && !place_meeting(x + xscale, y, obj_slope)) && !(scr_solid(x - 1, y) && xscale == -1 && !place_meeting(x + xscale, y, obj_slope)))
+		if (key_attack && grounded && !(scr_solid(x + xscale, y) && !place_meeting(x + xscale, y, obj_slope)))
 		{
 			mach2 = 0;
 			if (movespeed < 6)
 				movespeed = 6;
 			sprite_index = spr_mach1;
 			jumpAnim = true;
-			state = states.mach1;
+			state = states.mach2;
 			image_index = 0;
 		}
 	}
@@ -192,7 +203,7 @@ function scr_player_normal()
 				movespeed = 6;
 			sprite_index = spr_mach1;
 			jumpAnim = true;
-			state = states.mach1;
+			state = states.mach2;
 			image_index = 0;
 		}
 		else
@@ -210,7 +221,8 @@ function scr_player_normal()
 		state = states.coneboyinhale3;
 	if (key_jump && grounded && !key_down)
 	{
-		scr_sound(sound_jump);
+		if !audio_is_playing(sound_jump)
+			scr_sound(sound_jump);
 		sprite_index = spr_jump;
 		if (shotgunAnim)
 			sprite_index = spr_shotgun_jump;
@@ -222,7 +234,8 @@ function scr_player_normal()
 	}
 	if (grounded && input_buffer_jump < 8 && !key_down && !key_attack && vsp > 0)
 	{
-		scr_sound(sound_jump);
+		if !audio_is_playing(sound_jump)
+			scr_sound(sound_jump);
 		sprite_index = spr_jump;
 		if (shotgunAnim)
 			sprite_index = spr_shotgun_jump;
@@ -243,17 +256,6 @@ function scr_player_normal()
 		image_index = 0;
 		idle = 0;
 	}
-	if (move != 0)
-	{
-		if (movespeed < 7)
-			movespeed += 0.5;
-		else if (floor(movespeed) == 7)
-			movespeed = 7;
-	}
-	else
-		movespeed = 0;
-	if (movespeed > 7)
-		movespeed -= 0.1;
 	if (key_slap2 && shotgunAnim && !instance_exists(obj_cutscene_upstairs))
 	{
 		global.ammo -= 1;
@@ -328,6 +330,7 @@ function scr_player_normal()
 		suplexmove = true;
 		sprite_index = spr_player_uppercutbegin;
 		image_index = 0;
+		audio_stop_sound(sound_jump)
 		scr_sound(sound_jump);
 		scr_sound(sound_rollgetup);
 		scr_sound(sound_suplex1);

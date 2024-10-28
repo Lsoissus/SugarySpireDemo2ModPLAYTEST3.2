@@ -40,17 +40,21 @@ function scr_player_freefall()
 		sprite_index = spr_player_bodyslamfall;
 	if (global.cane)
 		sprite_index = spr_caneslam;
-	if ((grounded && !input_buffer_jump < 8) && !place_meeting(x, y + 1, obj_destructibles))
+	if (grounded && vsp > 0 && (freefallsmash < 10 || !place_meeting(x, y + vsp, obj_metalblock)) && !place_meeting(x, y + 1, obj_destructibles) && !place_meeting(x, y + vsp, obj_destructibles) && !place_meeting(x, y + vsp + 6, obj_destructibles))
 	{
-		if (scr_slope() && !place_meeting(x, y, obj_dashpad) && key_down && freefallsmash > 10)
+		if scr_slope()
 		{
-			flash = false;
-			state = states.machroll;
-			movespeed = 12;
-			if (place_meeting(x, y + 1, obj_slope))
+			with (instance_place(x, y + 1, obj_slope))
 			{
-				with (instance_place(x, y + 1, obj_slope))
-					other.xscale = -sign(image_xscale);
+				other.xscale = -sign(image_xscale);
+				other.state = states.machroll;
+				other.sprite_index = other.spr_crouchslip;
+				if other.freefallsmash > 20
+					other.movespeed = 12;
+				else
+					other.movespeed = 8;
+				with (instance_create(other.x, other.y, obj_jumpdust))
+					image_xscale = -sign(other.image_xscale);
 			}
 		}
 		else

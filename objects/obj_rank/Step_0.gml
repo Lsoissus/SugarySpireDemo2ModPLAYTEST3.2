@@ -1,5 +1,5 @@
 scr_getinput();
-if (floor(image_index) == (image_number - 1))
+if (animation_end())
 	image_speed = 0;
 if (obj_player.character == "P")
 {

@@ -1148,6 +1148,7 @@
     {"id":{"name":"spr_babybear_walk","path":"sprites/spr_babybear_walk/spr_babybear_walk.yy",},},
     {"id":{"name":"spr_player_superjumpprep","path":"sprites/spr_player_superjumpprep/spr_player_superjumpprep.yy",},},
     {"id":{"name":"spr_player_bump","path":"sprites/spr_player_bump/spr_player_bump.yy",},},
+    {"id":{"name":"spr_player_wallsplat","path":"sprites/spr_player_wallsplat/spr_player_wallsplat.yy",},},
     {"id":{"name":"spr_player_hang","path":"sprites/spr_player_hang/spr_player_hang.yy",},},
     {"id":{"name":"spr_player_canewalk","path":"sprites/spr_player_canewalk/spr_player_canewalk.yy",},},
     {"id":{"name":"spr_player_ladderup","path":"sprites/spr_player_ladderup/spr_player_ladderup.yy",},},

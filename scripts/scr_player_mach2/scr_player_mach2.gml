@@ -4,6 +4,7 @@ function scr_player_mach2()
 	{
 		case "P":
 		case "N":
+			var mach2_spr = movespeed < 8 ? spr_mach1 : spr_mach;
 			if (windingAnim < 2000)
 				windingAnim++;
 			if (!place_meeting(x, y + 1, obj_railh) && !place_meeting(x, y + 1, obj_railh2))
@@ -33,7 +34,8 @@ function scr_player_mach2()
 					{
 						image_index = 0;
 						sprite_index = spr_secondjump1;
-						scr_sound(sound_jump);
+						if !audio_is_playing(sound_jump)
+							scr_sound(sound_jump);
 						vsp = -9;
 					}
 				}
@@ -49,10 +51,10 @@ function scr_player_mach2()
 			}
 			if (grounded && sprite_index != spr_null)
 			{
-				if (!machpunchAnim && sprite_index != spr_mach && sprite_index != spr_player_mach3 && sprite_index != spr_player_machhit)
+				if (!machpunchAnim && sprite_index != mach2_spr && sprite_index != spr_player_mach3 && sprite_index != spr_player_machhit)
 				{
 					if (sprite_index != spr_player_machhit && sprite_index != spr_player_rollgetup)
-						sprite_index = spr_mach;
+						sprite_index = mach2_spr;
 				}
 				if (machpunchAnim)
 				{
@@ -75,72 +77,93 @@ function scr_player_mach2()
 			}
 			if (!grounded)
 				machpunchAnim = false;
-			if (mach2 < 100)
-				mach2 += 1.5;
-			if (mach2 >= 100 && grounded && character == "P")
+			if grounded
 			{
-				machhitAnim = false;
-				state = states.mach3;
-				flash = true;
-				sprite_index = spr_player_mach4;
-				instance_create(x, y, obj_jumpdust);
-				if (movespeed < 12)
-					movespeed = 12;
-			}
-			if (movespeed >= 10 && grounded && character == "N")
-			{
-				if (!charged)
+				if movespeed < 12
+					movespeed += 0.1;
+				if (mach2 < 100)
+					mach2 += 1.5;
+				if (movespeed >= 12 && character == "P")
 				{
-					charged = true;
+					machhitAnim = false;
+					state = states.mach3;
 					flash = true;
+					if (sprite_index != spr_player_rollgetup)
+						sprite_index = spr_player_mach4;
+					instance_create(x, y, obj_jumpdust);
+					if (movespeed < 12)
+						movespeed = 12;
+				}
+				if (movespeed >= 10 && grounded && character == "N")
+				{
+					if (!charged)
+					{
+						charged = true;
+						flash = true;
+					}
 				}
 			}
 			if (sprite_index != spr_null)
 			{
 				if (key_jump)
 					input_buffer_jump = 0;
-				if (!key_attack && grounded)
+				if movespeed < 8
 				{
-					alarm[0] = 240;
-					scr_sound(sound_break);
-					sprite_index = spr_machslidestart;
-					state = states.machslide;
-					image_index = 0;
-					mach2 = 0;
+					if (!key_attack && grounded)
+						state = states.normal;
+					if (move == -xscale && grounded)
+					{
+						movespeed = 6;
+						xscale *= -1;
+					}
 				}
-			}
-			if (move == -1 && xscale == 1 && grounded)
-			{
-				scr_sound(sound_maximumspeedstop);
-				sprite_index = spr_machslideboost;
-				state = states.machslide;
-				image_index = 0;
-				mach2 = 35;
-			}
-			if (move == 1 && xscale == -1 && grounded)
-			{
-				scr_sound(sound_maximumspeedstop);
-				sprite_index = spr_machslideboost;
-				state = states.machslide;
-				image_index = 0;
-				mach2 = 35;
+				else
+				{
+					if (!key_attack && grounded)
+					{
+						alarm[0] = 240;
+						scr_sound(sound_break);
+						sprite_index = spr_machslidestart;
+						state = states.machslide;
+						image_index = 0;
+						mach2 = 0;
+					}
+					if (move == -xscale && grounded)
+					{
+						scr_sound(sound_maximumspeedstop);
+						sprite_index = spr_machslideboost;
+						state = states.machslide;
+						image_index = 0;
+						mach2 = 35;
+					}
+				}
 			}
 			if (key_down2 && grounded)
 			{
-				sprite_index = spr_crouchslip;
-				if (character == "P")
-					machhitAnim = false;
-				state = states.crouchslide;
+				flash = false;
+				state = states.machroll;
+				if !grounded && sprite_index != spr_player_dive
+					vsp = 15;
 			}
-			if (((!grounded && place_meeting(x + hsp, y, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + sign(hsp), y, obj_slope)) || (grounded && place_meeting(x + hsp, y - 32, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + hsp, y, obj_metalblock) && place_meeting(x, y + 1, obj_slope))) && character == "P")
+			if ((!grounded && place_meeting(x + hsp, y, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + sign(hsp), y, obj_slope)) || (grounded && place_meeting(x + hsp, y - 32, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + hsp, y, obj_metalblock) && place_meeting(x, y + 1, obj_slope)))
 			{
 				wallspeed = movespeed;
+				grabclimbbuffer = 0;
 				state = states.climbwall;
 			}
-			if (grounded && !scr_slope() && place_meeting(x + hsp, y, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles) && !place_meeting(x + sign(hsp), y, obj_slope))
+			else if (place_meeting(x + xscale, y, obj_solid) && !place_meeting(x + xscale, y, obj_destructibles))
 			{
-				movespeed = 0;
-				state = states.normal;
+				if movespeed < 8
+				{
+					movespeed = 0;
+					state = states.normal;
+				}
+				else
+				{
+					state = states.bump;
+					sprite_index = spr_player_wallsplat;
+					image_index = 0;
+				}
 			}
 			if (!instance_exists(obj_dashcloud) && grounded)
 			{
@@ -149,10 +172,10 @@ function scr_player_mach2()
 			}
 			if ((!grounded && sprite_index != spr_secondjump2 && sprite_index != spr_mach2jump) && sprite_index != spr_null && sprite_index != spr_player_bump)
 				sprite_index = spr_secondjump1;
-			if (floor(image_index) == (image_number - 1) && sprite_index == spr_secondjump1)
+			if (animation_end() && sprite_index == spr_secondjump1)
 				sprite_index = spr_secondjump2;
-			if (grounded && (floor(image_index) == (image_number - 1) && sprite_index == spr_player_rollgetup))
-				sprite_index = spr_mach;
+			if (grounded && (animation_end() && sprite_index == spr_player_rollgetup))
+				sprite_index = mach2_spr;
 			if (key_taunt2)
 			{
 				taunttimer = 20;
@@ -175,7 +198,7 @@ function scr_player_mach2()
 			if (sprite_index == spr_player_rollgetup)
 				image_speed = 0.4;
 			else
-				image_speed = 0.65;
+				image_speed = movespeed / 15;
 			if (character == "N" && key_down2)
 			{
 				sprite_index = spr_pizzano_crouchslide;

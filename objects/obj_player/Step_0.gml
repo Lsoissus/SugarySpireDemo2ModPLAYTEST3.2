@@ -1,6 +1,10 @@
 scr_getinput();
 scr_characterspr();
 scr_playerstate();
+if (state != states.mach3 && (state != states.chainsaw || tauntstoredstate != states.mach3))
+	mach4mode = false;
+if state != states.handstandjump && state != states.machroll
+	crouchslipbuffer = 0;
 if (state != states.comingoutdoor)
 	image_blend = make_color_hsv(0, 0, 255);
 if (firetrailbuffer > 0)
@@ -22,8 +26,8 @@ if (global.playerrotate)
 		}
 		else
 		{
-			targetangle = 360;
-			RotationStep = ((abs(hsp) / 16) - 2) * -1;
+			var targetangle = 360;
+			var RotationStep = ((abs(hsp) / 16) - 2) * -1;
 		}
 		draw_angle = darctan2(dsin(targetangle) + (dsin(draw_angle) * RotationStep), dcos(targetangle) + (dcos(draw_angle) * RotationStep));
 	}
@@ -272,7 +276,7 @@ if (global.starrmode)
 }
 if (state == states.door || place_meeting(x, y, obj_hallway) || state == states.victory)
 	global.roomsave = false;
-if (state == states.finishingblow && !floor(image_index) == (image_number - 1))
+if (state == states.finishingblow && !animation_end())
 {
 	with (instance_place(x, y, obj_baddie))
 		vsp = 0;
@@ -290,9 +294,9 @@ else if (!place_meeting(x, y, obj_molasseswater))
 	grav = 0.5;
 if (Dashpad_buffer > 0)
 	Dashpad_buffer = max(Dashpad_buffer - 1, 0);
-if (sprite_index == spr_player_machpunch1 && floor(image_index) == (image_number - 1))
+if (sprite_index == spr_player_machpunch1 && animation_end())
 	sprite_index = spr_mach;
-if (sprite_index == spr_player_machpunch2 && floor(image_index) == (image_number - 1))
+if (sprite_index == spr_player_machpunch2 && animation_end())
 	sprite_index = spr_mach;
 if (sprite_index == spr_mach2jump)
 {

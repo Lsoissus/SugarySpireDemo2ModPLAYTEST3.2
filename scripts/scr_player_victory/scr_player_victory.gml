@@ -39,7 +39,7 @@ function scr_player_victory()
 			other.y = approach(other.y, bbox_bottom - (other.bbox_bottom - other.y), 5);
 		}
 	}
-	if (floor(image_index) == (image_number - 1))
+	if (animation_end())
 		image_speed = 0;
 	else
 		image_speed = 0.35;

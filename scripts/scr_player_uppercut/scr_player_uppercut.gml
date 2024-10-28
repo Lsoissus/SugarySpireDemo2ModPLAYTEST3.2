@@ -2,7 +2,7 @@ function scr_player_uppercut()
 {
 	static attack_afterimagetimer = 6;
 	image_speed = 0.35;
-	if (sprite_index == spr_player_uppercutbegin && floor(image_index) == (image_number - 1))
+	if (sprite_index == spr_player_uppercutbegin && animation_end())
 	{
 		sprite_index = spr_player_uppercutend;
 		image_index = 0;

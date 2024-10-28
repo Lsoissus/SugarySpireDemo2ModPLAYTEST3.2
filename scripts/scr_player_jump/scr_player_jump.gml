@@ -47,7 +47,8 @@ function scr_player_jump()
 	}
 	if (grounded && input_buffer_jump < 8 && !key_down && !key_attack && vsp > 0 && !(sprite_index == spr_player_facestomp || sprite_index == spr_player_freefall))
 	{
-		scr_sound(sound_jump);
+		if !audio_is_playing(sound_jump)
+			scr_sound(sound_jump);
 		sprite_index = spr_jump;
 		if (shotgunAnim)
 			sprite_index = spr_shotgun_jump;
@@ -68,7 +69,7 @@ function scr_player_jump()
 			movespeed = 6;
 		sprite_index = spr_mach1;
 		jumpAnim = true;
-		state = states.mach1;
+		state = states.mach2;
 		image_index = 0;
 	}
 	if (key_attack && character == "N" && charged)
@@ -133,7 +134,7 @@ function scr_player_jump()
 	{
 		if (jumpAnim)
 		{
-			if (floor(image_index) == (image_number - 1))
+			if (animation_end())
 				jumpAnim = false;
 		}
 		if (!jumpAnim)
@@ -148,7 +149,7 @@ function scr_player_jump()
 	}
 	if (stompAnim)
 	{
-		if (sprite_index == spr_stompprep && floor(image_index) == (image_number - 1))
+		if (sprite_index == spr_stompprep && animation_end())
 			sprite_index = spr_stomp;
 	}
 	if (key_attack && sprite_index != spr_airdash2 && sprite_index != spr_airdash1 && fallinganimation < 40 && sprite_index != spr_playerN_glide && character == "P")
@@ -305,6 +306,6 @@ function scr_player_jump()
 		state = states.pizzanowallcling;
 		sprite_index = spr_pizzano_wallcling;
 	}
-	if (floor(image_index) == (image_number - 1) && sprite_index == spr_player_candytransitionup)
+	if (animation_end() && sprite_index == spr_player_candytransitionup)
 		sprite_index = spr_player_candyup;
 }

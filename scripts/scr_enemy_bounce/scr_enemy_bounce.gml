@@ -4,7 +4,7 @@ function scr_enemy_bounce()
 		hsp = image_xscale * movespeed;
 	else
 		hsp = 0;
-	if (sprite_index == jumpprepspr && floor(image_index) == (image_number - 1))
+	if (sprite_index == jumpprepspr && animation_end())
 	{
 		if (global.bosshealth == 8)
 		{
@@ -69,7 +69,7 @@ function scr_enemy_bounce()
 		}
 		sprite_index = landspr;
 	}
-	if (sprite_index == landspr && floor(image_index) == (image_number - 1))
+	if (sprite_index == landspr && animation_end())
 	{
 		if (global.bosshealth == 8 && !instance_exists(obj_noisey))
 			instance_create(room_width - (room_width / 4), 60, obj_noisey);

@@ -7,7 +7,7 @@ if (room == tutorial_10 && ((obj_player.x > (x - 400) && obj_player.x < (x + 400
 		sprite_index = spr_cardcherry_getup;
 	}
 }
-if (floor(image_index) == (image_number - 1) && sprite_index == spr_cardcherry_getup)
+if (animation_end() && sprite_index == spr_cardcherry_getup)
 {
 	sprite_index = spr_cardcherry_idle;
 	didthingflag = true;

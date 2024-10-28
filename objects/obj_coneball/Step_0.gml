@@ -25,7 +25,7 @@ else if (attacking)
 		dis = lerp(x, obj_player.x - (150 * obj_player.xscale), 0.025);
 		var py = lerp(y, obj_player.y - 150, 0.025);
 		image_xscale = 1;
-		if (sprite_index == spr_coneballraintrans && floor(image_index) == (image_number - 1))
+		if (sprite_index == spr_coneballraintrans && animation_end())
 			sprite_index = spr_coneballrain;
 		x = dis;
 		y = py;
@@ -40,7 +40,7 @@ else if (attacking)
 		x += obj_player.hsp;
 		y += obj_player.vsp;
 		sprite_index = spr_coneballspike;
-		if (sprite_index == spr_coneballspike && floor(image_index) == (image_number - 1))
+		if (sprite_index == spr_coneballspike && animation_end())
 		{
 			attack = 1;
 			fading = false;

@@ -23,7 +23,7 @@ function scr_player_fireass()
 		hsp = xscale * movespeed;
 		if (movespeed > 0)
 			movespeed -= 0.25;
-		if (floor(image_index) == (image_number - 1))
+		if (animation_end())
 		{
 			state = states.normal;
 			hsp = 0;

@@ -44,6 +44,7 @@ function scr_player_cottondrill()
 			image_xscale = other.xscale;
 			sprite_index = spr_cottonpoof;
 		}
-		scr_sound(sound_jump);
+		if !audio_is_playing(sound_jump)
+			scr_sound(sound_jump);
 	}
 }

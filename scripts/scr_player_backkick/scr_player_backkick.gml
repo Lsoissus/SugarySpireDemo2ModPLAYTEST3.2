@@ -9,7 +9,7 @@ function scr_player_backkick()
 	stopAnim = true;
 	crouchslideAnim = true;
 	crouchAnim = true;
-	if (floor(image_index) == (image_number - 1))
+	if (animation_end())
 		state = states.normal;
 	sprite_index = spr_backkick;
 	image_speed = 0.35;

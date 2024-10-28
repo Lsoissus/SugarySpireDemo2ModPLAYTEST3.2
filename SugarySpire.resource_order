@@ -986,6 +986,7 @@
     {"name":"spr_babybear_walk","order":3,"path":"sprites/spr_babybear_walk/spr_babybear_walk.yy",},
     {"name":"spr_player_superjumpprep","order":133,"path":"sprites/spr_player_superjumpprep/spr_player_superjumpprep.yy",},
     {"name":"spr_player_bump","order":26,"path":"sprites/spr_player_bump/spr_player_bump.yy",},
+    {"name":"spr_player_wallsplat","order":163,"path":"sprites/spr_player_wallsplat/spr_player_wallsplat.yy",},
     {"name":"spr_player_hang","order":68,"path":"sprites/spr_player_hang/spr_player_hang.yy",},
     {"name":"spr_player_canewalk","order":6,"path":"sprites/spr_player_canewalk/spr_player_canewalk.yy",},
     {"name":"spr_player_ladderup","order":83,"path":"sprites/spr_player_ladderup/spr_player_ladderup.yy",},

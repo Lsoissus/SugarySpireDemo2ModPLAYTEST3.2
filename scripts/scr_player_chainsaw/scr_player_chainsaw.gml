@@ -4,7 +4,7 @@ function scr_player_chainsaw()
 	hsp = xscale * movespeed;
 	if (movespeed > 0)
 		movespeed -= 0.2;
-	if (floor(image_index) == (image_number - 1) && 315)
+	if (animation_end() && 315)
 		sprite_index = spr_player_chainsawend;
 	if ((sprite_index == spr_player_chainsawend || sprite_index == spr_player_chainsawend) && !key_shoot)
 	{

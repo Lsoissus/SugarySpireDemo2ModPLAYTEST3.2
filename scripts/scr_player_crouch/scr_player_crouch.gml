@@ -20,7 +20,8 @@ function scr_player_crouch()
 	}
 	if (key_jump && grounded && !scr_solid(x, y - 16) && !scr_solid(x, y - 32))
 	{
-		scr_sound(sound_jump);
+		if !audio_is_playing(sound_jump)
+			scr_sound(sound_jump);
 		vsp = -8;
 		state = states.crouchjump;
 		movespeed = 4;
@@ -57,7 +58,7 @@ function scr_player_crouch()
 				sprite_index = spr_couchstart;
 			else
 				sprite_index = spr_shotgun_goduck;
-			if (floor(image_index) == (image_number - 1))
+			if (animation_end())
 				crouchAnim = false;
 		}
 	}

@@ -50,7 +50,7 @@ function scr_player_boxxedpep()
 		movespeed = 0;
 	if (movespeed > 8)
 		movespeed -= 0.1;
-	if (sprite_index == spr_boxxedpep_intro && floor(image_index) == (image_number - 1))
+	if (sprite_index == spr_boxxedpep_intro && animation_end())
 		sprite_index = spr_boxxedpep_idle;
 	if (sprite_index != spr_boxxedpep_intro)
 	{

@@ -1,6 +1,5 @@
-if (global.collectsound == 10)
-	scr_sound(sound_points);
-global.collectsound = 0;
+audio_stop_sound(sound_points);
+audio_sound_pitch(scr_sound(sound_points), random_range(.95, 1.1));
 global.collect += 100;
 global.pizzameter += 5;
 scr_queue_tvanim(spr_pizzytvhappy, 50);

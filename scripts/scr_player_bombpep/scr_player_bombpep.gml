@@ -19,7 +19,7 @@ function scr_player_bombpep()
 	landAnim = false;
 	scr_getinput();
 	alarm[5] = 2;
-	if (sprite_index == spr_bombpep_intro && floor(image_index) == (image_number - 1))
+	if (sprite_index == spr_bombpep_intro && animation_end())
 		sprite_index = spr_bombpep_run;
 	if (sprite_index == spr_bombpep_run || sprite_index == spr_bombpep_runabouttoexplode)
 	{
@@ -34,7 +34,7 @@ function scr_player_bombpep()
 	}
 	if (bombpeptimer < 20 && bombpeptimer != 0)
 		sprite_index = spr_bombpep_runabouttoexplode;
-	if (sprite_index == spr_bombpep_end && floor(image_index) == (image_number - 1))
+	if (sprite_index == spr_bombpep_end && animation_end())
 	{
 		alarm[5] = 2;
 		alarm[7] = 60;

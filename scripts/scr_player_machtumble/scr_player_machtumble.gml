@@ -41,14 +41,14 @@ function scr_player_machtumble()
 		bufferslap = 0;
 	else if (bufferslap < 10)
 		bufferslap++;
-	if (key_down)
+	/*if (key_down)
 	{
 		sprite_index = spr_crouchslip;
 		machhitAnim = false;
 		state = states.crouchslide;
 		if (audio_is_playing(sound_suplex1))
 			audio_stop_sound(sound_suplex1);
-	}
+	}*/
 	if (animation_end())
 	{
 		if (key_attack)

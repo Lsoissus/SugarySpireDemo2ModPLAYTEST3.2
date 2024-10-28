@@ -24,7 +24,7 @@ function scr_player_Sjump()
 	}
 	if (sprite_index == spr_pizzano_sjumpprep)
 		vsp = 0;
-	if (sprite_index == spr_pizzano_sjumpprep && floor(image_index) == (image_number - 1))
+	if (sprite_index == spr_pizzano_sjumpprep && animation_end())
 	{
 		sprite_index = spr_pizzano_sjump;
 		vsp = -10;

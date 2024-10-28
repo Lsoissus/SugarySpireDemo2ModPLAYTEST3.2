@@ -21,7 +21,7 @@ function scr_player_shotgunjump()
 		vsp = grav;
 		jumpstop = true;
 	}
-	if (sprite_index == spr_player_shotgunjump2 && floor(image_index) == (image_number - 1))
+	if (sprite_index == spr_player_shotgunjump2 && animation_end())
 	{
 		mach2 = 50;
 		state = states.mach2;
