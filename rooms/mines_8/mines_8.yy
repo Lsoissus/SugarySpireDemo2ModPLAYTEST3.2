@@ -274,7 +274,7 @@
   ],
   "parent": {
     "name": "Mines",
-    "path": "folders/Objects/Unused/Gameplay/Rooms/Levels/Mines.yy",
+    "path": "folders/Rooms/Levels/Mines.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

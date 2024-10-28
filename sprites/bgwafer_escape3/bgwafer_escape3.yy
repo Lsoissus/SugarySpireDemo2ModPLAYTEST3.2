@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7afbe2cb-d87a-4ce4-bd18-f41051a740c6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9bd4bad8-80f0-4a7e-8c60-ef7d0c44c6b0",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5ba70292-f8d4-4240-aefa-523e590d0669","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4336f7cd-5889-42bf-aef0-1d257d68a38b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Backgrounds",
-    "path": "folders/Sprites/Level Specific/Entryway/Backgrounds.yy",
+    "name": "Entryway",
+    "path": "folders/Sprites/Background/Levels/Entryway.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7afbe2cb-d87a-4ce4-bd18-f41051a740c6","path":"sprites/bgwafer_escape3/bgwafer_escape3.yy",},},},"Disabled":false,"id":"a2f2370f-f6ea-48eb-9914-7ee172998925","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9bd4bad8-80f0-4a7e-8c60-ef7d0c44c6b0","path":"sprites/bgwafer_escape3/bgwafer_escape3.yy",},},},"Disabled":false,"id":"74b38c9c-861e-4bcd-bf9d-9a10bdb4b9d0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

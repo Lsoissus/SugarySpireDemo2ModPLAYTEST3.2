@@ -11,7 +11,7 @@
   "layers": [],
   "parent": {
     "name": "Misc.",
-    "path": "folders/Objects/Unused/Gameplay/Rooms/Misc..yy",
+    "path": "folders/Rooms/Misc..yy",
   },
   "parentRoom": null,
   "physicsSettings": {

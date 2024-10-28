@@ -4,7 +4,7 @@
   "name": "bg_entryway2_sky",
   "bbox_bottom": 599,
   "bbox_left": 0,
-  "bbox_right": 1099,
+  "bbox_right": 999,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fb17bd7d-1576-4510-a3c5-baa8a02d5afd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2c6590de-ebf6-4b5e-81b1-43fd6ed0cc27",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 600,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9e1227dc-8b23-49bc-ba6c-edeeeb87646f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"99ab4097-b45e-402f-837b-ce53354bb72d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Backgrounds",
-    "path": "folders/Sprites/Level Specific/Entryway/Backgrounds.yy",
+    "name": "Entryway",
+    "path": "folders/Sprites/Background/Levels/Entryway.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fb17bd7d-1576-4510-a3c5-baa8a02d5afd","path":"sprites/bg_entryway2_sky/bg_entryway2_sky.yy",},},},"Disabled":false,"id":"a2849cdd-cff2-4e91-b375-201a199f7dc6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2c6590de-ebf6-4b5e-81b1-43fd6ed0cc27","path":"sprites/bg_entryway2_sky/bg_entryway2_sky.yy",},},},"Disabled":false,"id":"2b881386-022a-43da-a933-2cb93b4b82f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1100,
+  "width": 1000,
 }

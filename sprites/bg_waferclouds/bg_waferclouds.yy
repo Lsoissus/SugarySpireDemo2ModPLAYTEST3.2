@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Backgrounds",
-    "path": "folders/Sprites/Level Specific/Entryway/Backgrounds.yy",
+    "name": "Entryway",
+    "path": "folders/Sprites/Background/Levels/Entryway.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

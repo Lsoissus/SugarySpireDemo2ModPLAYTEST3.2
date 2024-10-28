@@ -1,6 +1,6 @@
 with (obj_tv)
 {
-	message = "YOU HAVE FOUND A SECRET!";
+	msg = $"You have found {string(global.secretsfound)} secret{(global.secretsfound > 1) ? "s" : ""} out of 3!";
 	showtext = true;
 	alarm[0] = 150;
 }

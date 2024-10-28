@@ -96,7 +96,7 @@
   ],
   "parent": {
     "name": "Tutorial",
-    "path": "folders/Objects/Unused/Gameplay/Rooms/Levels/Tutorial.yy",
+    "path": "folders/Rooms/Levels/Tutorial.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

@@ -37,7 +37,7 @@
   ],
   "parent": {
     "name": "Technical",
-    "path": "folders/Objects/Unused/Gameplay/Rooms/Technical.yy",
+    "path": "folders/Rooms/Technical.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
