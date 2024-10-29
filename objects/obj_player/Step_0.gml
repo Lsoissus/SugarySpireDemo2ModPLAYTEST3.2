@@ -79,6 +79,8 @@ if (!instance_exists(baddiegrabbedID) && (state == states.grab || (state == stat
 	state = states.normal;
 if (!(state == states.grab || state == states.charge || state == states.superslam || state == states.finishingblow))
 	baddiegrabbedID = -4;
+if sprite_index != spr_player_bodyslamfall && audio_is_playing(sfx_groundpoundloop)
+	audio_stop_sound(sfx_groundpoundloop)
 if (character == "P")
 {
 	if (anger == 0)

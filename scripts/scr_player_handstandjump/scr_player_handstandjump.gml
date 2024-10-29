@@ -56,7 +56,7 @@ function scr_player_handstandjump()
 			}
 			if (key_jump && grounded)
 			{
-				sprite_index = spr_mach2jump;
+				sprite_index = spr_player_longjump;
 				instance_create(x, y, obj_jumpdust);
 				state = states.mach2;
 				vsp = -11;

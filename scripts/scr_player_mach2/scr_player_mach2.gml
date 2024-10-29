@@ -174,7 +174,7 @@ function scr_player_mach2()
 				with (instance_create(x, y, obj_dashcloud))
 					sprite_index = spr_dashcloud2;
 			}
-			if ((!grounded && sprite_index != spr_secondjump2 && (sprite_index != spr_player_longjump || sprite_index != spr_player_longjumploop) && sprite_index != spr_mach2jump) && sprite_index != spr_null && sprite_index != spr_player_bump)
+			if ((!grounded && sprite_index != spr_secondjump2 && sprite_index != spr_player_longjump && sprite_index != spr_player_longjumploop && sprite_index != spr_mach2jump) && sprite_index != spr_null && sprite_index != spr_player_bump)
 				sprite_index = spr_secondjump1;
 			if (animation_end() && sprite_index == spr_secondjump1)
 				sprite_index = spr_secondjump2;

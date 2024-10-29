@@ -10,6 +10,8 @@ function scr_player_freefallprep()
 	landAnim = false;
 	machslideAnim = true;
 	moveAnim = true;
+	if !audio_is_playing(sfx_groundpoundstart)
+		scr_sound(sfx_groundpoundstart)
 	stopAnim = true;
 	crouchslideAnim = true;
 	crouchAnim = true;

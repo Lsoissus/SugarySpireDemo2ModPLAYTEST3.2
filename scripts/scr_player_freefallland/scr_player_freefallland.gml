@@ -8,6 +8,7 @@ function scr_player_freefallland()
 	stopAnim = true;
 	crouchslideAnim = true;
 	crouchAnim = false;
+	audio_stop_sound(sfx_groundpoundloop)
 	machhitAnim = false;
 	movespeed = 0;
 	facehurt = true;

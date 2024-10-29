@@ -1,3 +1,4 @@
+audio_stop_sound(sfx_groundpoundloop)
 if (pos_x == "POO")
 	pos_x = other.x;
 with (other.id)

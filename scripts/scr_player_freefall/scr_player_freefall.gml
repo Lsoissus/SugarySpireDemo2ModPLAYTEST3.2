@@ -4,6 +4,8 @@ function scr_player_freefall()
 	landAnim = true;
 	move = key_left + key_right;
 	vsp += 0.6
+	if !audio_is_playing(sfx_groundpoundloop)
+		scr_sound(sfx_groundpoundloop)
 	if (!grounded)
 	{
 		hsp = move * movespeed;
@@ -46,6 +48,7 @@ function scr_player_freefall()
 			with (instance_place(x, y + 1, obj_slope))
 			{
 				other.xscale = -sign(image_xscale);
+				audio_stop_sound(sfx_groundpoundloop)
 				other.state = states.machroll;
 				other.sprite_index = other.spr_crouchslip;
 				if other.freefallsmash > 20
@@ -89,8 +92,9 @@ function scr_player_freefall()
 	freefallsmash++;
 	if (freefallsmash > 10 && !instance_exists(obj_groundpoundeffect))
 		instance_create_depth(x, y, -6, obj_groundpoundeffect);
-	if (key_attack2 && !grounded && vsp > 10 && instance_exists(obj_groundpoundeffect))
+	if (key_attack2 || key_slap2 && !grounded && vsp > 10 && instance_exists(obj_groundpoundeffect))
 	{
+		audio_stop_sound(sfx_groundpoundloop)
 		if (move != 0)
 			xscale = move;
 		movespeed = 10;

@@ -6,6 +6,7 @@ with (obj_player)
 		{
 			other.depth = -10;
 			scr_sound(sound_box);
+			audio_stop_sound(sfx_groundpoundloop)
 			obj_player.box = 1;
 			mach2 = 0;
 			obj_camera.chargecamera = 0;
