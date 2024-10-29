@@ -54,3 +54,5 @@ switch (global.selectedResolution)
 		break;
 }
 window_set_fullscreen(global.fullscreen);
+global.secretsfound = 0
+global.secretpanic = false

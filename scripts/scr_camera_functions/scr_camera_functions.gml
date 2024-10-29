@@ -6,6 +6,14 @@ function point_in_camera(_px, _py, _cam)
 	var cam_h = camera_get_view_height(_cam);
 	return point_in_rectangle(_px, _py, cam_x, cam_y, cam_x + cam_w, cam_y + cam_h);
 }
+function bbox_in_camera(argument0) //gml_Script_bbox_in_camera
+{
+    var cam_x = camera_get_view_x(argument0)
+    var cam_y = camera_get_view_y(argument0)
+    var cam_w = camera_get_view_width(argument0)
+    var cam_h = camera_get_view_height(argument0)
+    return rectangle_in_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, cam_x, cam_y, (cam_x + cam_w), (cam_y + cam_h));
+}
 function camera_shake(_shake_mag, _shake_mag_acc)
 {
 	with (obj_camera)

@@ -38,5 +38,5 @@
     "path": "sprites/spr_secret_bigbreak_debug/spr_secret_bigbreak_debug.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

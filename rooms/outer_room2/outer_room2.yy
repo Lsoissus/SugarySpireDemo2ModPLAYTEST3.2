@@ -38,7 +38,6 @@
     {"name":"inst_C752E6E9","path":"rooms/outer_room2/outer_room2.yy",},
     {"name":"inst_4B065451","path":"rooms/outer_room2/outer_room2.yy",},
     {"name":"inst_D0B9C2C9","path":"rooms/outer_room2/outer_room2.yy",},
-    {"name":"inst_557D4041","path":"rooms/outer_room2/outer_room2.yy",},
     {"name":"inst_D920BEB9","path":"rooms/outer_room2/outer_room2.yy",},
     {"name":"inst_6ED32C21","path":"rooms/outer_room2/outer_room2.yy",},
   ],
@@ -76,7 +75,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C752E6E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tutorialtrap","path":"objects/obj_tutorialtrap/obj_tutorialtrap.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4B065451","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tutorialtrap","path":"objects/obj_tutorialtrap/obj_tutorialtrap.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":448.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D0B9C2C9","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hallway","path":"objects/obj_hallway/obj_hallway.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":992.0,"y":320.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_557D4041","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorB","path":"objects/obj_doorB/obj_doorB.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D920BEB9","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_vertical_hallway","path":"objects/obj_vertical_hallway/obj_vertical_hallway.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_vertical_hallway","path":"objects/obj_vertical_hallway/obj_vertical_hallway.yy",},"propertyId":{"name":"hallwayxscale","path":"objects/obj_vertical_hallway/obj_vertical_hallway.yy",},"value":"7",},
           ],"rotation":0.0,"scaleX":8.0,"scaleY":1.0,"x":416.0,"y":576.0,},

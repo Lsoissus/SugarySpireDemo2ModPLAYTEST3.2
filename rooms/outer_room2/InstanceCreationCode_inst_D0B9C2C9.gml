@@ -1,2 +1,1 @@
-targetRoom = hub_room1
-targetDoor = "B"
+targetRoom = hub_public

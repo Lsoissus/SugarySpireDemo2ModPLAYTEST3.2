@@ -3,11 +3,10 @@ function scr_player_freefall()
 	hsp = 0;
 	landAnim = true;
 	move = key_left + key_right;
+	vsp += 0.6
 	if (!grounded)
 	{
 		hsp = move * movespeed;
-		if (move != xscale && momemtum && movespeed != 0)
-			movespeed -= 0.05;
 		if (movespeed == 0)
 			momemtum = false;
 		if ((move == 0 && !momemtum) || scr_solid(x + hsp, y))

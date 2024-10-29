@@ -14,6 +14,7 @@ function scr_player_freefallprep()
 	crouchslideAnim = true;
 	crouchAnim = true;
 	sprite_index = spr_player_bodyslamstart;
+	vsp = -4
 	move = key_left + key_right;
 	if (!grounded)
 	{
@@ -51,7 +52,6 @@ function scr_player_freefallprep()
 	image_speed = 0.5;
 	if (animation_end())
 	{
-		vsp += 14;
 		state = states.freefall;
 		freefallsmash = false;
 	}

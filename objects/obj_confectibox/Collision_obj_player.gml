@@ -14,7 +14,7 @@ if (sprite_index != spr_confectiboxopen)
 		global.combotime = 60;
 	}
 	scr_queue_tvanim(spr_pizzytvhappy, 200);
-	sprite_index = spr_confectiboxopen;
+	instance_destroy()
 	image_index = 0;
 	ds_list_add(global.saveroom, id);
 }

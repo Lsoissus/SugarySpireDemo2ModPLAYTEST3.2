@@ -26,7 +26,7 @@ function scr_player_machslide()
 		state = states.normal;
 		movespeed = 4;
 	}
-	if (animation_end() && sprite_index == spr_machslideboost && mach2 != 0)
+	if (animation_end() && sprite_index == spr_machslideboost && mach2 != 0 && grounded)
 	{
 		movespeed = 10;
 		momemtum = true;
@@ -35,7 +35,31 @@ function scr_player_machslide()
 		xscale *= -1;
 		instance_create(x, y, obj_jumpdust);
 	}
-	if (animation_end() && sprite_index == spr_player_machslideboost3 && mach2 != 0)
+	if (animation_end() && sprite_index == spr_machslideboost && mach2 != 0 && !grounded)
+		sprite_index = spr_player_machslideboostfall
+	if (sprite_index == spr_player_machslideboostfall && mach2 != 0 && grounded)
+	{
+		movespeed = 10;
+		momemtum = true;
+		state = states.mach2;
+		image_index = 0;
+		xscale *= -1;
+		instance_create(x, y, obj_jumpdust);
+	}
+	if (animation_end() && sprite_index == spr_player_machslideboost3 && mach2 != 0 && !grounded)
+		sprite_index = spr_player_machslideboost3fall
+	if (sprite_index == spr_player_machslideboost3fall && mach2 != 0 && grounded)
+	{
+		movespeed = 12;
+		sprite_index = spr_player_mach4;
+		scr_sound(sound_dash2);
+		momemtum = true;
+		state = states.mach3;
+		image_index = 0;
+		xscale *= -1;
+		instance_create(x, y, obj_jumpdust);
+	}
+	if (animation_end() && sprite_index == spr_player_machslideboost3 && mach2 != 0 && grounded)
 	{
 		movespeed = 12;
 		sprite_index = spr_player_mach4;

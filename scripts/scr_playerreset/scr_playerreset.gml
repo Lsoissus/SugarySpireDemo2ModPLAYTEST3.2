@@ -17,6 +17,7 @@ function scr_playerreset()
 	global.style = 0;
 	global.stylethreshold = 0;
 	global.minesProgress = false;
+	global.secretsfound = 0
 	obj_tv.image_index = 0;
 	obj_tv.tvsprite = spr_tvturnon;
 	obj_player.visible = true;
