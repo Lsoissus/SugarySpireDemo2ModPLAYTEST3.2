@@ -40,7 +40,7 @@ if (shake_mag > 0)
 	if (shake_mag < 0)
 		shake_mag = 0;
 }
-var lspd = 0.25;
+var lspd = 1;
 cam_angle = lerp(cam_angle, cam_langle, lspd);
 cam_zoom = lerp(cam_zoom, cam_lzoom, lspd);
 camera_set_view_angle(view_camera[0], cam_angle);
@@ -88,7 +88,7 @@ if (instance_exists(obj_player) && (obj_player.state != states.timesup && obj_pl
 		_shake_x += irandom_range(-shake_mag, shake_mag);
 		_shake_y += irandom_range(-shake_mag, shake_mag);
 	}
-	lspd = 0.25;
+	lspd = 1;
 	if (global.smoothcam)
 	{
 		Cam_x = lerp(Cam_x, _cam_x, lspd);

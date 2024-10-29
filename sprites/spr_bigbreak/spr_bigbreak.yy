@@ -13,19 +13,19 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3bba43c6-0c2a-4643-a5db-9e97d46a3c0f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8d5c7813-524d-49ff-b408-3a4e02410586",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8542b5fb-2f25-4583-88fb-f04b2daef0cf","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2fc05740-3354-4fe4-a6ee-c72b73dd6c42","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
     "resourceVersion": "1.0",
-    "bottom": 33,
+    "bottom": 9,
     "enabled": false,
     "guideColour": [
       4294902015,
@@ -44,7 +44,7 @@
       0,
       1,
     ],
-    "top": 26,
+    "top": 9,
   },
   "origin": 0,
   "parent": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3bba43c6-0c2a-4643-a5db-9e97d46a3c0f","path":"sprites/spr_bigbreak/spr_bigbreak.yy",},},},"Disabled":false,"id":"d34bc5be-31aa-4a37-a8a0-c3fd6dc77e49","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8d5c7813-524d-49ff-b408-3a4e02410586","path":"sprites/spr_bigbreak/spr_bigbreak.yy",},},},"Disabled":false,"id":"ef356634-c300-4eec-a071-dbb811812ce4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

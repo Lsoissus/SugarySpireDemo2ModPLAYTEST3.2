@@ -1,10 +1,14 @@
 if (ds_list_find_index(global.saveroom, id) == -1)
 {
-	instance_create(x + 16, y, obj_debris2);
-	instance_create(x + 16, y, obj_debris2);
-	instance_create(x + 16, y, obj_debris2);
-	instance_create(x + 16, y, obj_debris2);
-	instance_create(x, y, obj_collect);
+	with (instance_create((x + 32), (y + 32), obj_cloudeffect))
+    {
+        image_speed = 0.35
+        sprite_index = spr_smallbreak2_dead
+    }
+    global.combotime += 10
+    global.collect += 10
+    create_small_number(x, (y + 16), "10")
+    scr_sound(sound_points)
 	if (audio_is_playing(sound_destroyblock1) || audio_is_playing(sound_destroyblock2))
 	{
 		audio_stop_sound(sound_destroyblock1);

@@ -28,7 +28,7 @@
   "origin": 4,
   "parent": {
     "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "path": "folders/Sprites/Player Sprites/Pizzelle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -69,8 +69,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "pizzelletext",
+    "path": "texturegroups/pizzelletext",
   },
   "type": 0,
   "VTile": false,

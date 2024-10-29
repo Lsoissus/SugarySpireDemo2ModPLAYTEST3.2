@@ -26,7 +26,7 @@
     "resourceType": "GMNineSliceData",
     "resourceVersion": "1.0",
     "bottom": 16,
-    "enabled": true,
+    "enabled": false,
     "guideColour": [
       4294902015,
       4294902015,
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Hallways",
-    "path": "folders/Sprites/Gameplay/Room Transitions/Hallways.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

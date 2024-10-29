@@ -30,8 +30,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Particles",
-    "path": "folders/Sprites/Gameplay/Destructibles/Particles.yy",
+    "name": "Small",
+    "path": "folders/Sprites/Gameplay/Destructibles/Small.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

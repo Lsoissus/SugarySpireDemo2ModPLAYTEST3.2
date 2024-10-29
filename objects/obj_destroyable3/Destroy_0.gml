@@ -1,10 +1,12 @@
 if (ds_list_find_index(global.saveroom, id) == -1)
 {
-	repeat (7)
-	{
-		with (instance_create(x + 32, y + 32, obj_debris))
-			sprite_index = spr_bigdebris;
-	}
+	 repeat (7)
+    {
+        with (instance_create((x + 32), (y + 32), obj_debris))
+            sprite_index = spr_breakable_debris
+    }
+    repeat (7)
+        instance_create((x + 32), (y + 32), obj_debris)
 	if (audio_is_playing(sound_destroyblock1) || audio_is_playing(sound_destroyblock2))
 	{
 		audio_stop_sound(sound_destroyblock1);

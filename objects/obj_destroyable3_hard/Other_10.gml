@@ -10,11 +10,7 @@ if (DestroyedBy.object_index == obj_player)
 			ShakeBuffer = 5;
 			hp -= 1;
 			scr_sound(choose(sound_destroyblock1, sound_destroyblock2));
-			sprite_index = spr_bigbreak;
-			with (instance_create(x + (image_xscale * 32), y + 32, obj_debris))
-				sprite_index = spr_bigdebrisBandage;
-			repeat (3)
-				instance_create(x + 32, y + 32, obj_debris);
+		    instance_destroy()
 		}
 	}
 	else if (place_meeting(x - DestroyedBy.hsp, y, DestroyedBy) && (DestroyedBy.state == states.handstandjump || DestroyedBy.state == states.mach1 || DestroyedBy.state == states.mach2))
@@ -29,20 +25,10 @@ if (DestroyedBy.object_index == obj_player)
 				{
 					ShakeBuffer = 5;
 					hp -= 1;
-					scr_sound(choose(sound_destroyblock1, sound_destroyblock2));
-					sprite_index = spr_bigbreak;
-					with (instance_create(x + (image_xscale * 32), y + 32, obj_debris))
-						sprite_index = spr_bigdebrisBandage;
-					repeat (3)
-						instance_create(x + 32, y + 32, obj_debris);
+					 scr_sound(choose(sound_destroyblock1, sound_destroyblock2))
+            instance_destroy()
 				}
 			}
-			hsp = -xscale * 4;
-			vsp = -4;
-			mach2 = 0;
-			image_index = 0;
-			sprite_index = choose(spr_player_blockbreak1, spr_player_blockbreak2, spr_player_blockbreak3, spr_player_blockbreak4, spr_player_blockbreak5, spr_player_blockbreak6, spr_player_blockbreak7);
-			state = states.tackle;
 		}
 	}
 	else
@@ -57,11 +43,8 @@ else if (DestroyedBy.object_index == obj_baddie)
 		ShakeBuffer = 5;
 		hp -= 1;
 		scr_sound(choose(sound_destroyblock1, sound_destroyblock2));
-		sprite_index = spr_bigbreak;
-		with (instance_create(x + (image_xscale * 32), y + 32, obj_debris))
-			sprite_index = spr_bigdebrisBandage;
-		repeat (3)
-			instance_create(x + 32, y + 32, obj_debris);
+		instance_destroy()
+
 	}
 }
 else
