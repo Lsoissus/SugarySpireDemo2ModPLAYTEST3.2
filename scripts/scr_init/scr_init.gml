@@ -27,6 +27,7 @@ global.crackfollow = false;
 global.chocofollow = false;
 global.wormfollow = false;
 global.candyfollow = false;
+global.levelname = "hub"
 ini_open("optionData.ini");
 global.fullscreen = ini_read_real("Settings", "fullscrn", 0);
 global.selectedResolution = ini_read_real("Settings", "resolution", 1);

@@ -15,6 +15,7 @@
     {"name":"inst_74516C22","path":"rooms/entryway_lap/entryway_lap.yy",},
     {"name":"inst_58E2645F","path":"rooms/entryway_lap/entryway_lap.yy",},
     {"name":"inst_45418328","path":"rooms/entryway_lap/entryway_lap.yy",},
+    {"name":"inst_4BAF96CF","path":"rooms/entryway_lap/entryway_lap.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -30,6 +31,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74516C22","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":11.0,"scaleY":3.0,"x":544.0,"y":352.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_58E2645F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorP","path":"objects/obj_doorP/obj_doorP.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":288.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_45418328","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorC","path":"objects/obj_doorC/obj_doorC.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-96.0,"y":416.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4BAF96CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lapPortal","path":"objects/obj_lapPortal/obj_lapPortal.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_lapPortal","path":"objects/obj_lapPortal/obj_lapPortal.yy",},"propertyId":{"name":"targetDoor","path":"objects/obj_lapPortal/obj_lapPortal.yy",},"value":"\"P\"",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":256.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_5","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":17,"SerialiseWidth":46,"TileCompressedData":[
 -53,0,1,772,-132,0,1,675,-181,0,2,706,707,-44,0,2,738,739,-40,0,4,651,652,653,654,-42,0,4,683,684,685,686,-65,0,1,906,-4,0,1,773,-40,0,1,938,-27,0,

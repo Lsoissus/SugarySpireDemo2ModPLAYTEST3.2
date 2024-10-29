@@ -8,6 +8,7 @@ if (sprite_index != spr_exitgateclosed)
 			obj_camera.chargecamera = 0;
 			image_index = 0;
 			sprite_index = spr_entergate;
+			global.levelname = other.level
 			state = states.victory;
 			targetDoor = other.targetDoor;
 			targetRoom = other.targetRoom;
