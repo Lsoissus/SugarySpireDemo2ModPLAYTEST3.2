@@ -60,40 +60,14 @@ function scr_player_climbwall()
 			shake_mag_acc = 30 / room_speed;
 		}
 	}
-	if (key_jump && key_attack)
+	if key_jump && key_attack
 	{
-		if !audio_is_playing(sound_jump)
-			scr_sound(sound_jump);
-		if (wallspeed >= 12)
-		{
-			mach2 = 100;
-			instance_create(x, y, obj_jumpdust);
-			vsp = -9;
-			sprite_index = spr_player_mach3jump;
-			state = states.mach3;
-			xscale *= -1;
-			jumpstop = false;
-		}
-		else if !place_meeting(x + xscale, y, obj_molassesWall)
-		{
-			sprite_index = spr_player_secondjump1;
-			mach2 = 35;
-			instance_create(x, y, obj_jumpdust);
-			vsp = -9;
-			state = states.mach2;
-			xscale *= -1;
-			jumpstop = false;
-		}
-		else
-		{
-			sprite_index = spr_player_mach2jump;
-			mach2 = 35;
-			instance_create(x, y, obj_jumpdust);
-			vsp = -9;
-			state = states.mach2;
-			xscale *= -1;
-			jumpstop = false;
-		}
+		instance_create(x, y, obj_jumpdust);
+		vsp = -12;
+		sprite_index = spr_player_wallkickStart;
+		image_index = 0;
+		state = states.wallkick;
+		movespeed = hsp;
 	}
 	image_speed = 0.6;
 	if (!instance_exists(obj_cloudeffect))

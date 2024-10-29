@@ -44,6 +44,10 @@ function scr_player_mach3()
 				sprite_index = spr_player_mach3jump;
 				vsp = -9;
 			}
+			if (sprite_index == spr_player_machcancelStart && animation_end())
+				sprite_index = spr_player_machcancel;
+			if ((sprite_index == spr_player_machcancelStart || sprite_index = spr_player_machcancel) && grounded)
+				sprite_index = spr_player_mach4;
 			if (sprite_index == spr_player_mach3jump && animation_end())
 				sprite_index = spr_player_mach4;
 			if (animation_end() && (sprite_index == spr_player_rollgetup || sprite_index == spr_player_dashpad))
@@ -57,7 +61,7 @@ function scr_player_mach3()
 			else if movespeed <= 16 && sprite_index == spr_player_crazyrun
 			{
 				mach4mode = false;
-				sprite_index = spr_player_mach4
+				sprite_index = spr_player_mach4;
 			}
 			if (sprite_index == spr_player_crazyrun && !instance_exists(obj_crazyrunothereffect))
 				instance_create(x, y, obj_crazyrunothereffect);
