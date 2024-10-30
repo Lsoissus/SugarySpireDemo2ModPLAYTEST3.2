@@ -39,8 +39,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Escape Collects",
+    "path": "folders/Sprites/Gameplay/Collectables/Escape Collects.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

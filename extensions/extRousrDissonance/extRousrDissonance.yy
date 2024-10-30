@@ -13,7 +13,6 @@
   "author": "",
   "classname": "",
   "copyToTargets": -1,
-  "date": "2024-05-03T01:58:57.1558288+07:00",
   "date": "2024-05-02T21:58:57.1558288+03:00",
   "description": "",
   "exportToGame": true,

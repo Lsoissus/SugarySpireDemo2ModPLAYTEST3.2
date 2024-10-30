@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_parkparallax2",
-  "bbox_bottom": 351,
-  "bbox_left": 49,
-  "bbox_right": 832,
-  "bbox_top": 37,
+  "bbox_bottom": 221,
+  "bbox_left": 36,
+  "bbox_right": 984,
+  "bbox_top": 26,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"03fbbd20-81db-4aeb-ab98-10f8b64e303a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f8291bf8-8fbb-431d-abcd-70a8cd21fd1d",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 540,
+  "height": 600,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"138338d4-834d-4a07-8112-1d05c6bb24ad","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"44c3bc6e-b734-4ae4-8b60-1088d2e7a0f3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"03fbbd20-81db-4aeb-ab98-10f8b64e303a","path":"sprites/spr_parkparallax2/spr_parkparallax2.yy",},},},"Disabled":false,"id":"83a3d795-0a7b-456c-8ba4-5965e01c2e8c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f8291bf8-8fbb-431d-abcd-70a8cd21fd1d","path":"sprites/spr_parkparallax2/spr_parkparallax2.yy",},},},"Disabled":false,"id":"83c2e540-6c5e-4a13-a0c8-5ac65334a6e3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 960,
+  "width": 1000,
 }
