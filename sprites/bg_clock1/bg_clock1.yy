@@ -9,24 +9,27 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
+  "ConfigValues": {
+    "Debug": {"textureGroupId":"{\"name\":\"Default\",\"path\":\"texturegroups/Default\"}",},
+  },
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ecd16ad5-caad-4ea7-b97b-7dc45e938ae7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"848ced89-7e3d-4c3e-b7ff-44c07fbfb6ea",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 573,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"136221d2-2856-434d-bb0a-8f7177ae83c6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a626924b-8afb-4e14-bfd7-e979ff7d8b2d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Backgrounds",
-    "path": "folders/Sprites/Level Specific/Cottontown/Backgrounds.yy",
+    "name": "Cottontown",
+    "path": "folders/Sprites/Background/Levels/Cottontown.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +57,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ecd16ad5-caad-4ea7-b97b-7dc45e938ae7","path":"sprites/bg_clock1/bg_clock1.yy",},},},"Disabled":false,"id":"27999b42-ded7-4078-a7ef-0ada6bfbd408","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"848ced89-7e3d-4c3e-b7ff-44c07fbfb6ea","path":"sprites/bg_clock1/bg_clock1.yy",},},},"Disabled":false,"id":"defeba3c-34ff-4ae2-b5b0-ed975001f5c4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
