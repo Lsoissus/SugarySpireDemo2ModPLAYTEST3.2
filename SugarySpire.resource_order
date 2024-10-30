@@ -1381,6 +1381,7 @@
     {"name":"spr_tasershockwavehitbox","order":9,"path":"sprites/spr_tasershockwavehitbox/spr_tasershockwavehitbox.yy",},
     {"name":"spr_metalblockEscape","order":1,"path":"sprites/spr_metalblockEscape/spr_metalblockEscape.yy",},
     {"name":"spr_40","order":3,"path":"sprites/spr_40/spr_40.yy",},
+    {"name":"spr_player_airkick","order":42,"path":"sprites/spr_player_airkick/spr_player_airkick.yy",},
     {"name":"spr_rosettegivetreat","order":3,"path":"sprites/spr_rosettegivetreat/spr_rosettegivetreat.yy",},
     {"name":"spr_player_supersidejump","order":136,"path":"sprites/spr_player_supersidejump/spr_player_supersidejump.yy",},
     {"name":"spr_tvstatic","order":35,"path":"sprites/spr_tvstatic/spr_tvstatic.yy",},

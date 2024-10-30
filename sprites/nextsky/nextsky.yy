@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "nextsky",
-  "bbox_bottom": 539,
+  "bbox_bottom": 680,
   "bbox_left": 0,
-  "bbox_right": 959,
+  "bbox_right": 1343,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8ad667c3-890e-4c0e-9d59-551bd499cdd8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ddc0377b-338e-410e-93be-f1236cb964a3",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 540,
+  "height": 681,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a1ca1a81-2ece-429a-8cfc-3c050ec722c4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e1984a6b-40d6-419b-95b3-dc687fc3bdd7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8ad667c3-890e-4c0e-9d59-551bd499cdd8","path":"sprites/nextsky/nextsky.yy",},},},"Disabled":false,"id":"139bcb4f-6e91-4f24-ba82-34a174f96089","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ddc0377b-338e-410e-93be-f1236cb964a3","path":"sprites/nextsky/nextsky.yy",},},},"Disabled":false,"id":"857eaceb-e8b5-4395-8bf0-c4335384c782","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 960,
+  "width": 1344,
 }
