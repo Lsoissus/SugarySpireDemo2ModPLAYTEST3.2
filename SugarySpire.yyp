@@ -2194,6 +2194,7 @@
     {"id":{"name":"bg_tutorial2_4","path":"sprites/bg_tutorial2_4/bg_tutorial2_4.yy",},},
     {"id":{"name":"bg_templebgnew3","path":"sprites/bg_templebgnew3/bg_templebgnew3.yy",},},
     {"id":{"name":"spr_tvbg_mlass_panic","path":"sprites/spr_tvbg_mlass_panic/spr_tvbg_mlass_panic.yy",},},
+    {"id":{"name":"spr_bigbreak2_dead","path":"sprites/spr_bigbreak2_dead/spr_bigbreak2_dead.yy",},},
     {"id":{"name":"Sprite418","path":"sprites/Sprite418/Sprite418.yy",},},
     {"id":{"name":"bg_mines1","path":"sprites/bg_mines1/bg_mines1.yy",},},
     {"id":{"name":"bg_cavebg2","path":"sprites/bg_cavebg2/bg_cavebg2.yy",},},

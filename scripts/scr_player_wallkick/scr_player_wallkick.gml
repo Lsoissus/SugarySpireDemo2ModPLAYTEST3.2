@@ -14,9 +14,9 @@ function scr_player_wallkick(){
 	
 	// sprite check
 	if sprite_index == spr_player_wallkickStart && animation_end()
-		sprite_index = spr_player_wallkick
+		sprite_index = spr_player_wallkickloop
 	
-	if sprite_index == spr_player_wallkick {
+	if sprite_index == spr_player_wallkickloop {
 		if !audio_is_playing(sfx_flip)
 			scr_sound(sfx_flip)
 		// cancel wallkick
@@ -82,7 +82,7 @@ function scr_player_wallkick(){
 	        vsp = -10
 	    }
 	}
-	if sprite_index = spr_player_wallkick
+	if sprite_index = spr_player_wallkickloop
 	image_speed = 0.35
 	else if sprite_index = spr_player_wallkickStart
 	image_speed = 0.5

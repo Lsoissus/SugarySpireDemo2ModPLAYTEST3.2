@@ -26,16 +26,16 @@ function scr_player_cottondrill()
 		image_index = 0;
 		sprite_index = spr_cotton_attack;
 		grounded = false;
-		vsp = -5;
-		grav = 0.2;
+		vsp = -6;
 		scr_sound(sound_suplex1);
 		groundedcot = false;
 	}
 	if (key_jump)
 	{
 		state = states.cotton;
-		vsp = -10;
+		vsp = -12;
 		grav = 0.1;
+		movespeed = 10;
 		image_index = 0;
 		sprite_index = spr_cotton_doublejump;
 		instance_create(x, y, obj_highjumpcloud2);

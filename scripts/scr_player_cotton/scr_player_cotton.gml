@@ -17,18 +17,21 @@ function scr_player_cotton()
 	{
 		if (movespeed < 6)
 			movespeed += 0.5;
-		else if (floor(movespeed) >= 6)
-			movespeed = 6;
+		if movespeed < 8
+			movespeed += 0.05
+		else
+			movespeed -= 0.1
 	}
 	else
-		movespeed = 0;
-	if (movespeed > 6)
-		movespeed -= 0.1;
+	{
+		if movespeed > 0
+			movespeed -= 0.5;
+	}
 	if (vsp > 5)
-		vsp = 5;
+		vsp -= 0.25;
 	if (key_jump && grounded)
 	{
-		vsp = -14;
+		vsp = -10;
 		grav = 0.025;
 		image_index = 0;
 		sprite_index = spr_cotton_jump;
@@ -41,22 +44,21 @@ function scr_player_cotton()
 		image_index = 0;
 		sprite_index = spr_cotton_attack;
 		grounded = false;
-		vsp = -5;
-		grav = 0.2;
+		vsp = -7
 		scr_sound(sfx_cottonattack);
 		groundedcot = false;
 	}
 	if (sprite_index == spr_cotton_attack)
 	{
-		hsp = 8 * xscale;
-		movespeed = 0;
+		hsp = 11 * xscale;
+		movespeed = 11;
 		instance_create(x, y, obj_swordhitbox);
 		move = xscale;
 		if ((-key_left2 && xscale == 1) || (key_right2 && xscale == -1))
 		{
-			movespeed = 0;
-			vsp = 0;
-			hsp = 0;
+			movespeed = 5;
+			vsp = -2;
+			hsp = 3 * xscale;
 			sprite_index = spr_cotton_fall;
 		}
 	}
@@ -92,10 +94,11 @@ function scr_player_cotton()
 		instance_create(x, y, obj_landcloud);
 		scr_sound(sound_land);
 	}
-	if (sprite_index == spr_cotton_fall && key_jump)
+	if (!grounded && key_jump && sprite_index != spr_cotton_doublejump && sprite_index != spr_cotton_doublefall)
 	{
 		vsp = -10;
 		grav = 0.1;
+		movespeed = 9
 		image_index = 0;
 		sprite_index = spr_cotton_doublejump;
 		with (instance_create(x, y, obj_highjumpcloud2))
@@ -116,14 +119,6 @@ function scr_player_cotton()
 		scr_sound(sound_suplex1);
 		flash = true;
 		drill = false;
-		with (instance_create(x, y, obj_afterimageoutward))
-			hspeed = 7;
-		with (instance_create(x, y, obj_afterimageoutward))
-			hspeed = -7;
-		with (instance_create(x, y, obj_afterimageoutward))
-			vspeed = 7;
-		with (instance_create(x, y, obj_afterimageoutward))
-			vspeed = -7;
 	}
 	if (!grounded && sprite_index != spr_cotton_jump && sprite_index != spr_cotton_attack && sprite_index != spr_cotton_doublejump && sprite_index != spr_cotton_doublefall && sprite_index != spr_cotton_drill && sprite_index != spr_cotton_slam && sprite_index != spr_cotton_slam2 && sprite_index != spr_cotton_slam3)
 		sprite_index = spr_cotton_fall;
