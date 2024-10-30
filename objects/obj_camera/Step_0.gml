@@ -41,11 +41,8 @@ if (shake_mag > 0)
 		shake_mag = 0;
 }
 
-// Gappers istg CHANGE THE SETTING IN THE GAME
-
-// Enter pause menu -> Options -> Video settings -> Scroll down to SMOOTH CAM -> Use LEFT + RIGHT arrow keys
-// to change to OFF -> press JUMP -> NO MORE SMOOTH CAM
-var lspd = 0.25;
+// it got fucked dude up sob for now keep it how it is
+var lspd = 1;
 cam_angle = lerp(cam_angle, cam_langle, lspd);
 cam_zoom = lerp(cam_zoom, cam_lzoom, lspd);
 camera_set_view_angle(view_camera[0], cam_angle);
