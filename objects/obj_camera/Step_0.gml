@@ -90,7 +90,7 @@ if (instance_exists(obj_player) && (obj_player.state != states.timesup && obj_pl
 		_shake_x += irandom_range(-shake_mag, shake_mag);
 		_shake_y += irandom_range(-shake_mag, shake_mag);
 	}
-	lspd = 1;
+	lspd = 0.25;
 	if (global.smoothcam)
 	{
 		Cam_x = lerp(Cam_x, _cam_x, lspd);
