@@ -9,27 +9,24 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
-  "ConfigValues": {
-    "Debug": {"textureGroupId":"{\"name\":\"Default\",\"path\":\"texturegroups/Default\"}",},
-  },
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fa6876dd-fdf0-4ae6-8c88-15dc2bd24444",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c86f14e0-d97c-4157-a72c-63394284dde9",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b83b426b-0505-47ce-ae13-3891a500eb5a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dd38d33a-ff3c-49f0-8a7b-01db28b5c388","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Cottontown",
-    "path": "folders/Sprites/Background/Levels/Cottontown.yy",
+    "name": "Backgrounds",
+    "path": "folders/Sprites/Level Specific/Cottontown/Backgrounds.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -57,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fa6876dd-fdf0-4ae6-8c88-15dc2bd24444","path":"sprites/bg_clockend_2escape/bg_clockend_2escape.yy",},},},"Disabled":false,"id":"5ea7ee53-082a-49d2-9a6c-08973d7efd77","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c86f14e0-d97c-4157-a72c-63394284dde9","path":"sprites/bg_clockend_2escape/bg_clockend_2escape.yy",},},},"Disabled":false,"id":"5d6e3cba-4f80-48f4-ab74-bf9f26de74da","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

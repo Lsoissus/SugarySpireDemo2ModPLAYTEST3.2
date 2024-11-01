@@ -1,2 +1,2 @@
-targetRoom = steamy_6b
+targetRoom = steamy_9
 hallwayxscale = 4
