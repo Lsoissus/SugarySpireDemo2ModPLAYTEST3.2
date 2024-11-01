@@ -73,7 +73,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mines","folderPath":"folders/Objects/Level Specific/Mines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tutorial","folderPath":"folders/Objects/Level Specific/Tutorial.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"level","folderPath":"folders/Objects/level.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"collect","folderPath":"folders/Objects/level/collect.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Followers","folderPath":"folders/Objects/level/Followers.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Structure","folderPath":"folders/Objects/level/Structure.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transport","folderPath":"folders/Objects/level/Transport.yy",},
@@ -320,6 +319,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TV Thingamajigs","folderPath":"folders/Sprites/Unused/TV Thingamajigs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"collect","folderPath":"folders/Objects/level/collect.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"bg.yymps","CopyToMask":-1,"filePath":"datafiles",},

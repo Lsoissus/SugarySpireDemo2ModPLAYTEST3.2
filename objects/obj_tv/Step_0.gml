@@ -51,7 +51,7 @@ else
 if (global.hurtcounter >= global.hurtmilestone)
 {
 	var _pChar = "Pizzelle"
-	if (obj_player.character == "N")
+	if (obj_player.character == characters.pizzano)
 		_pChar = "The Pizzano"
 	msg = $"You have hurt {_pChar} {global.hurtmilestone} times...";
 	global.hurtmilestone += 10;
