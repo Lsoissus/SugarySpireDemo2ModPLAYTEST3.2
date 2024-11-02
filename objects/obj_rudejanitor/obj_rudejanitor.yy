@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Followers",
-    "path": "folders/Objects/Gameplay/Followers.yy",
+    "path": "folders/Objects/level/Followers.yy",
   },
   "parentObjectId": {
     "name": "par_confecti",

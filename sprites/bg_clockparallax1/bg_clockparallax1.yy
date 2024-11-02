@@ -38,8 +38,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Cottontown",
-    "path": "folders/Sprites/Background/Levels/Cottontown.yy",
+    "name": "Backgrounds",
+    "path": "folders/Sprites/Level Specific/Cottontown/Backgrounds.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

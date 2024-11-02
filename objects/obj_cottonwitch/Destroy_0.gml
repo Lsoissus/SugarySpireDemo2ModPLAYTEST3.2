@@ -1,10 +1,7 @@
 if (ds_list_find_index(global.baddieroom, id) == -1)
 {
 	obj_tv.image_index = random_range(0, 4);
-	if panicEscape
-		ds_list_add(global.escaperoom, id);
-	else
-		ds_list_add(global.baddieroom, id);
+	ds_list_add(global.baddieroom, id);
 	instance_create(x, y, obj_slapstar);
 	instance_create(x, y, obj_slapstar);
 	instance_create(x, y, obj_slapstar);
