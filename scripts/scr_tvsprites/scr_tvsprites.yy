@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "TV",
-    "path": "folders/Scripts/Functions/TV.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }

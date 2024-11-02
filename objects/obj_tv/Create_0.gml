@@ -1,21 +1,25 @@
 image_speed = 0.35;
 chose = 0;
-message = "";
+msg = "";
 comboAnim = false;
 showtext = 0;
 tvsprite = spr_tvoff;
+STOREDtvsprite = spr_tvoff;
 noisesprite = spr_player_keyget;
 xi = 500;
 yi = 600;
+goo_index = 0;
+combo_posX = 0;
 imageindexstore = 0;
 chooseOnecomboend = true;
 ComboShake = false;
 comboendImage = 0;
 comboendSprite = spr_badcombo_boil;
 combocanFade = true;
+comboGooPosition = 230 * (global.combotime / 60) - 32;
 once = 0;
 global.hurtcounter = 0;
-global.hurtmilestone = 3;
+global.hurtmilestone = 10;
 global.mallowfollow = false;
 global.crackfollow = false;
 alpha = 1;
@@ -27,8 +31,7 @@ global.srank = 0;
 global.arank = 0;
 global.brank = 0;
 global.crank = 0;
-character = "PIZZELLE";
-BarSurface = -4;
+BarSurface = noone;
 BarX = 0;
 tvcount = 500;
 draw_combo = false;
@@ -36,15 +39,17 @@ combofade = 0;
 invsprite = spr_invempty;
 scr_pal_swap_init_system(shd_pal_swapper);
 staticdraw = false;
-statictimer = 20;
+statictimer = 0;
 ChannelState = 0;
 OLDChannelState = 0;
 playerstate = obj_player.state;
-supermario = 0;
 tvlength = 0;
 global.newhudtvanim = ds_queue_create();
 alarm[1] = 1;
 DrawY = 0;
+ComboY = -300;
+meter_image_index = 0;
+panicline_index = 0 
 function scr_combotext(_combo = global.combo)
 {
 	var sprite = spr_badcombo_intro;
@@ -93,3 +98,4 @@ function scr_combotext(_combo = global.combo)
 	}
 	return sprite;
 }
+tvbgsprite = undefined

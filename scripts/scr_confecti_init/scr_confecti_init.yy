@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Confecti",
-    "path": "folders/Scripts/State Scripts/Confecti.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }
