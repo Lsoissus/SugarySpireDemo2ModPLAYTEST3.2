@@ -1,6 +1,6 @@
 // macros
 #macro IS_DEBUG (os_get_config() == "Debug")
-#macro live_auto_call if live_call() {return live_result}
+#macro auto_live_call if live_call() {return live_result}
 // create a seed
 randomize();
 global.PAUSEfadeoff = 0;
