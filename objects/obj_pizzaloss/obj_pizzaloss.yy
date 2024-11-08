@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_collect1",
-    "path": "sprites/spr_collect1/spr_collect1.yy",
+    "name": "spr_candy_pal",
+    "path": "sprites/spr_candy_pal/spr_candy_pal.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,11 +1,15 @@
-audio_stop_sound(sound_points);
-audio_sound_pitch(scr_sound(sound_points), random_range(.95, 1.1));
+if (global.collectsound == 10)
+	scr_sound(sound_points);
+global.collectsound = 0;
 global.collect += 100;
 global.pizzameter += 5;
 scr_queue_tvanim(spr_pizzytvhappy, 50);
 create_small_number(x, y, "100");
-global.combofreeze = 30;
 global.combotime = 60;
-repeat (5)
-	instance_create(x + random_range(-32, 32), y + random_range(-32, 32), obj_collecteffect);
+global.combofreeze = 30;
+ with (instance_create(x, y, obj_collectEffect))
+{
+    sprite_index = other.sprite_index
+    choosed = true
+}
 instance_destroy();
