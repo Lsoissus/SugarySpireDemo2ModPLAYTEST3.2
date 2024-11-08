@@ -4,8 +4,8 @@
   "name": "spr_candy_taunt",
   "bbox_bottom": 97,
   "bbox_left": 22,
-  "bbox_right": 74,
-  "bbox_top": 54,
+  "bbox_right": 79,
+  "bbox_top": 52,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,6 +14,7 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"468f2f80-45da-405d-b882-9eb43864d1d4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1362b6ef-f72f-49cd-8532-9ad71da053a0",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -25,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Candy",
-    "path": "folders/Sprites/Gameplay/Collectables/Confecti/Candy.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -43,7 +44,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -55,6 +56,7 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"468f2f80-45da-405d-b882-9eb43864d1d4","path":"sprites/spr_candy_taunt/spr_candy_taunt.yy",},},},"Disabled":false,"id":"21630927-5802-4dcf-8c2a-ea7ce7272aed","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1362b6ef-f72f-49cd-8532-9ad71da053a0","path":"sprites/spr_candy_taunt/spr_candy_taunt.yy",},},},"Disabled":false,"id":"2706a4ec-47a7-4524-a10d-48c5a9588260","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

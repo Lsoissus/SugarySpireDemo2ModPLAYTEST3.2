@@ -39,8 +39,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Box",
-    "path": "folders/Sprites/Gameplay/Collectables/Confecti/Box.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

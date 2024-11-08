@@ -1,6 +1,5 @@
 // macros
 #macro IS_DEBUG (os_get_config() == "Debug")
-#macro live_auto_call if live_call() {return live_result}
 // create a seed
 randomize();
 global.PAUSEfadeoff = 0;
@@ -43,7 +42,8 @@ global.playtimerseconds = 0
 global.playtimerminutes = 0
 global.playtimerhour = 0
 global.switchblock = true;
-
+global.levelname = "placeholder";
+global.combodropped = false;
 ini_open("optionData.ini");
 global.fullscreen = ini_read_real("Settings", "fullscrn", 0);
 global.selectedResolution = ini_read_real("Settings", "resolution", 1);

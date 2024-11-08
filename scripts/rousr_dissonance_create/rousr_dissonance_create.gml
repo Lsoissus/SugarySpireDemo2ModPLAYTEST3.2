@@ -2,7 +2,7 @@ function rousr_dissonance_create()
 {
 	var _application_id = string(argument[0]);
 	var _steam_id = (argument_count > 1) ? argument[1] : "";
-	if (!instance_exists(global.__rousr_dissonance))
+	if (!instance_exists(rousrDissonance))
 	{
 		with (instance_create_depth(0, 0, 0, rousrDissonance))
 			global.__rousr_dissonance = id;

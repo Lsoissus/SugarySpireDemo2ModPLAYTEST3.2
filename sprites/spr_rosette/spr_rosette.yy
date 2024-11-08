@@ -51,8 +51,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Rosette",
-    "path": "folders/Sprites/Gameplay/Level Specific/Mines/Rosette.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

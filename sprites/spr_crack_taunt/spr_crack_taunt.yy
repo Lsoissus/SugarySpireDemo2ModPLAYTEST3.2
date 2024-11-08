@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_crack_taunt",
-  "bbox_bottom": 94,
-  "bbox_left": 24,
-  "bbox_right": 67,
-  "bbox_top": 51,
+  "bbox_bottom": 95,
+  "bbox_left": 11,
+  "bbox_right": 69,
+  "bbox_top": 49,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,6 +13,7 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e26043c7-ecab-4cc0-8120-68a13bb44a18",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86f31d63-87a7-40e2-b979-91b9763b958c",},
   ],
   "gridX": 0,
@@ -25,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Crack",
-    "path": "folders/Sprites/Gameplay/Collectables/Confecti/Crack.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -43,7 +44,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -54,7 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"86f31d63-87a7-40e2-b979-91b9763b958c","path":"sprites/spr_crack_taunt/spr_crack_taunt.yy",},},},"Disabled":false,"id":"51f5108a-214e-4e6a-b0bd-04d9d8f744ce","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e26043c7-ecab-4cc0-8120-68a13bb44a18","path":"sprites/spr_crack_taunt/spr_crack_taunt.yy",},},},"Disabled":false,"id":"81e99fa5-ff02-4ce4-bdd1-da6c025e6739","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"86f31d63-87a7-40e2-b979-91b9763b958c","path":"sprites/spr_crack_taunt/spr_crack_taunt.yy",},},},"Disabled":false,"id":"51f5108a-214e-4e6a-b0bd-04d9d8f744ce","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

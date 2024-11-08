@@ -1,4 +1,4 @@
-live_auto_call;
+
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen && room != rm_initializer)
 {
 	draw_set_font(global.tvfont);
