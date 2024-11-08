@@ -44,7 +44,7 @@ function scr_player_climbwall()
 		{
 			state = states.mach3;
 			movespeed = wallspeed;
-			sprite_index = spr_player_mach4;
+			sprite_index = spr_player_mach3;
 		}
 	}
 	if (scr_solid(x, y - 1) && !place_meeting(x, y - 1, obj_destructibles) && !scr_slope_ext(x + sign(hsp), y) && !scr_slope_ext(x - sign(hsp), y))

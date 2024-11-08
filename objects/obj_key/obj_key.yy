@@ -13,8 +13,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Collectables",
-    "path": "folders/Objects/Gameplay/Collectables.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_key",
-    "path": "sprites/spr_key/spr_key.yy",
+    "name": "spr_spookey_idlewaiting",
+    "path": "sprites/spr_spookey_idlewaiting/spr_spookey_idlewaiting.yy",
   },
   "spriteMaskId": null,
   "visible": true,

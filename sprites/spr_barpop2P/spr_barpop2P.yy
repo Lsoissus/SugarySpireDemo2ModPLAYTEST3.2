@@ -40,8 +40,8 @@
   "nineSlice": null,
   "origin": 5,
   "parent": {
-    "name": "barpop",
-    "path": "folders/Sprites/barpop.yy",
+    "name": "Bar Pop",
+    "path": "folders/Sprites/UI Related/TV/Combo Meter/Bar Pop.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

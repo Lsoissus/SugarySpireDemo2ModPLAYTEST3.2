@@ -51,7 +51,7 @@ function scr_player_mach2()
 			}
 			if (grounded && sprite_index != spr_null)
 			{
-				if (!machpunchAnim && sprite_index != mach2_spr && sprite_index != spr_player_mach3 && sprite_index != spr_player_machhit)
+				if (!machpunchAnim && sprite_index != mach2_spr && sprite_index != spr_player_mach4 && sprite_index != spr_player_machhit)
 				{
 					if (sprite_index != spr_player_machhit && sprite_index != spr_player_rollgetup)
 						sprite_index = mach2_spr;

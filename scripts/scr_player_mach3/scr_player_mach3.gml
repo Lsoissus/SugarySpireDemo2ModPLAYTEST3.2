@@ -47,11 +47,11 @@ function scr_player_mach3()
 			if (sprite_index == spr_player_machcancelStart && animation_end())
 				sprite_index = spr_player_machcancel;
 			if ((sprite_index == spr_player_machcancelStart || sprite_index = spr_player_machcancel) && grounded)
-				sprite_index = spr_player_mach4;
+				sprite_index = spr_player_mach3;
 			if (sprite_index == spr_player_mach3jump && animation_end())
-				sprite_index = spr_player_mach4;
+				sprite_index = spr_player_mach3;
 			if (animation_end() && (sprite_index == spr_player_rollgetup || sprite_index == spr_player_dashpad))
-				sprite_index = spr_player_mach4;
+				sprite_index = spr_player_mach3;
 			if ((movespeed > 16 && sprite_index != spr_player_crazyrun) && sprite_index != spr_player_dive && sprite_index != spr_player_rollgetup)
 			{
 				mach4mode = true;
@@ -61,7 +61,7 @@ function scr_player_mach3()
 			else if movespeed <= 16 && sprite_index == spr_player_crazyrun
 			{
 				mach4mode = false;
-				sprite_index = spr_player_mach4;
+				sprite_index = spr_player_mach3;
 			}
 			if (sprite_index == spr_player_crazyrun && !instance_exists(obj_crazyrunothereffect))
 				instance_create(x, y, obj_crazyrunothereffect);
@@ -102,11 +102,11 @@ function scr_player_mach3()
 					vsp = 15;
 			}
 			if (sprite_index == spr_player_dive && grounded)
-				sprite_index = spr_player_mach4;
+				sprite_index = spr_player_mach3;
 			if (!key_down && sprite_index == spr_player_dive && !grounded)
 			{
 				vsp = 15;
-				sprite_index = spr_player_mach4;
+				sprite_index = spr_player_mach3;
 			}
 			if ((!grounded && !place_meeting(x + hsp, y, obj_metalblock) && scr_solid(x + hsp, y, 1) && !place_meeting(x + hsp, y, obj_destructibles) && !scr_slope_ext(x + sign(hsp), y)) || (grounded && scr_solid(x + sign(hsp), y - 2, 1) && !scr_slope_ext(x + sign(hsp), y - 1) && !place_meeting((x + hsp), y, obj_metalblock) && !place_meeting(x + hsp, y, obj_destructibles) && scr_slope()))
 			{
@@ -149,7 +149,7 @@ function scr_player_mach3()
 				instance_create(x, y, obj_chargeeffect);
 			if (!instance_exists(obj_superdashcloud) && grounded)
 				instance_create(x, y, obj_superdashcloud);
-			if (sprite_index == spr_player_mach4)
+			if (sprite_index == spr_player_mach3)
 				image_speed = 0.4;
 			if (sprite_index == spr_player_crazyrun)
 				image_speed = 0.55;
