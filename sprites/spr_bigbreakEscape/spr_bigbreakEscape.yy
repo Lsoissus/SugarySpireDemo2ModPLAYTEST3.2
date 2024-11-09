@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Big",
-    "path": "folders/Sprites/Gameplay/Destructibles/Big.yy",
+    "name": "Escape",
+    "path": "folders/Sprites/Gameplay/Escape.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
