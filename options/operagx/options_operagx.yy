@@ -2,6 +2,9 @@
   "resourceType": "GMOperaGXOptions",
   "resourceVersion": "1.1",
   "name": "operagx",
+  "ConfigValues": {
+    "Debug": {"option_operagx_game_name":"Sugary Spire Preview Mod",},
+  },
   "option_operagx_display_cursor": true,
   "option_operagx_editUrl": "",
   "option_operagx_game_name": "${project_name}",
