@@ -1,2 +1,2 @@
-targetRoom = molasses_6new
+targetRoom = molasses_6
 visible = false
