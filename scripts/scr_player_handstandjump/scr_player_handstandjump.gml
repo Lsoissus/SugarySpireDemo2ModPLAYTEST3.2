@@ -45,14 +45,14 @@ function scr_player_handstandjump()
 						audio_stop_sound(sound_suplex1);
 					movespeed = 12;
 				}
-				/*else
+				else
 				{
 					grav = 0.5;
 					image_index = 1;
-					state = states.freefallprep;
-					sprite_index = spr_player_bodyslamstart;
-					vsp = -5;
-				}*/
+					state = states.machroll;
+					sprite_index = spr_player_dive;
+					vsp = -10;
+				}
 			}
 			if (key_jump && grounded)
 			{
